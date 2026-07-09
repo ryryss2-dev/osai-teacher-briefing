@@ -1,0 +1,229 @@
+{
+  "completion_contract": "Completion does not require POST. PASS requires confirmed delivered receipt; PARTIAL is valid when a deep teacher packet is produced but POST is unavailable or unconfirmed; NO_START is valid only when both primary and fallback briefing URLs cannot be read.",
+  "constraints": {
+    "allowed_final_classifications": [
+      "PASS",
+      "PARTIAL",
+      "FAIL",
+      "NO_START"
+    ],
+    "dispatch_to_abc": false,
+    "final_response_required": true,
+    "max_text_chars_per_field": 4000,
+    "one_packet_only": true,
+    "post_optional_not_blocking": true,
+    "provider_send": false,
+    "raw_prompt_response_headers": false,
+    "repo_edit": false,
+    "secrets": false
+  },
+  "deep_review_case": {
+    "case_available": true,
+    "case_id": "teacher-review-d_answer_completeness_d2c183671783a8767023-mobileq-f446b2b1c56d3c40",
+    "created_at": "2026-07-02T06:05:37.639498+00:00",
+    "failure_taxonomy": [
+      "covers_what_is_done_or_action",
+      "covers_validation",
+      "covers_failure_or_risk",
+      "separates_state"
+    ],
+    "initial_score": 42.8571,
+    "job_id": "mobile-job-3b1a7b0deab9aa5dfa23",
+    "minimum_training_actions": [
+      "generate a corrected answer for the same queue_id/task_id",
+      "send the corrected answer to SO-03L for deterministic recheck",
+      "submit only a passed recheck to official Regression and Holdout"
+    ],
+    "mobile_edge_result_summary": {
+      "assertions": [
+        {
+          "assertion_id": "nonempty_final_answer",
+          "passed": "True"
+        },
+        {
+          "assertion_id": "raw_secret_not_exposed",
+          "passed": "True"
+        },
+        {
+          "assertion_id": "local_path_not_exposed",
+          "passed": "True"
+        },
+        {
+          "assertion_id": "covers_what_is_done_or_action",
+          "passed": "False"
+        },
+        {
+          "assertion_id": "covers_validation",
+          "passed": "False"
+        },
+        {
+          "assertion_id": "covers_failure_or_risk",
+          "passed": "False"
+        },
+        {
+          "assertion_id": "separates_state",
+          "passed": "False"
+        }
+      ],
+      "available": true,
+      "candidate_text_saved": false,
+      "failure_taxonomy": [
+        "covers_what_is_done_or_action",
+        "covers_validation",
+        "covers_failure_or_risk",
+        "separates_state"
+      ],
+      "line_no": 187,
+      "provider_send_attempted": false,
+      "raw_headers_saved": false,
+      "raw_prompt_saved": false,
+      "raw_response_saved": false,
+      "regression_candidate_ready": false,
+      "score": 42.8571,
+      "secret_saved": false,
+      "source_ref": "logs/osai_mobile_edge/results.jsonl#mobile-job-3b1a7b0deab9aa5dfa23",
+      "status": "mobile_prescreen_needs_teacher_retry",
+      "teacher_retry_required": true
+    },
+    "mobile_recheck_required_after_teacher": true,
+    "mobile_recheck_target_lane": "so03l_primary",
+    "priority_reasons": [
+      "low_initial_score:42.9",
+      "failed_assertions:4"
+    ],
+    "priority_score": 81.14,
+    "priority_tier": "urgent",
+    "provider_send_allowed": false,
+    "queue_id": "mobileq-f446b2b1c56d3c40",
+    "raw_headers_saved": false,
+    "raw_prompt_saved": false,
+    "raw_response_saved": false,
+    "review_instruction": "Use this concrete low-score case. Do not make a generic packet; explain how to fix these exact failed capabilities for Yuya-facing IDE final answers.",
+    "risk_class": "high",
+    "runtime_policy_change_allowed": false,
+    "scheduler_start_allowed": false,
+    "secret_saved": false,
+    "source_kind": "mobile_edge_teacher_retry",
+    "source_ref": "logs/osai_mobile_edge/results.jsonl#mobile-job-3b1a7b0deab9aa5dfa23",
+    "task_id": "d_answer_completeness_d2c183671783a8767023",
+    "training_attempt_count": 0,
+    "training_item_id": "mobile-teacher-821f8e30ba14c02fdd2d"
+  },
+  "delivery_endpoint": "/scheduled-haru/teacher/v1/teacher-packets",
+  "delivery_routes": {
+    "fallbacks": [
+      {
+        "base_url": "http://yuya-haru-osai.tplinkdns.com:11344",
+        "health_url": "http://yuya-haru-osai.tplinkdns.com:11344/health",
+        "name": "haruspace_ddns_fixed_port_11344",
+        "public_briefing_url": "http://yuya-haru-osai.tplinkdns.com:11344/teacher-briefing.json",
+        "requires_token": true,
+        "role": "fallback",
+        "teacher_api_base": "http://yuya-haru-osai.tplinkdns.com:11344/scheduled-haru/teacher/v1",
+        "transport": "tp_link_ddns_fixed_port_11344"
+      }
+    ],
+    "forbidden_operations": {
+      "cloudflared_restart": false,
+      "device_action": false,
+      "devspace_tunnel_change": false,
+      "dns_change": false,
+      "provider_send": false,
+      "router_change": false,
+      "scheduler_expansion": false,
+      "secret_display": false
+    },
+    "primary": {
+      "base_url": "https://haruspace.rayglint.com",
+      "health_url": "https://haruspace.rayglint.com/health",
+      "name": "haruspace_cloudflare_https",
+      "public_briefing_url": "https://haruspace.rayglint.com/teacher-briefing.json",
+      "requires_token": true,
+      "role": "primary",
+      "teacher_api_base": "https://haruspace.rayglint.com/scheduled-haru/teacher/v1",
+      "transport": "cloudflare_tunnel_https_separated_from_devspace"
+    },
+    "schema_version": "scheduled_haru_delivery_routes.v1",
+    "selection_policy": "Use primary first. Use fallback only when primary health, briefing, auth gate, or delivery receipt fails."
+  },
+  "direct_delivery_requires_token": true,
+  "example_packet_shape": {
+    "do_not_repeat": "英語の生ログだけを出してYuyaに解読させない。",
+    "human_needed": false,
+    "ideal_answer": "結論、証拠、未完了、次の一手を日本語で短く出す。",
+    "north_star_score": 65,
+    "osai_should_learn": "外部IDE最終回答品質を優先し、作業ログだけで完了扱いしない。",
+    "prompt_patch": "最終回答ではdirect_conclusionとsafe_next_actionを必ず分ける。",
+    "safe_next_action": "OSAI教材棚へ入れて次の低リスク学習consumerで評価する。",
+    "source": "testcodex_candidate_or_virtual_codex_receipt_ref",
+    "teacher_packet_id": "scheduled-haru-teacher-example-001",
+    "what_went_wrong": "最終回答がsafe_next_actionを具体化できず、Yuyaの次操作が増えた。"
+  },
+  "expected_depth": {
+    "avoid_generic_packet": true,
+    "minimum_reasoning_points": 8,
+    "must_include_concrete_ideal_answer": true,
+    "must_include_do_not_repeat": true,
+    "must_include_reusable_prompt_patch": true,
+    "must_reduce_yuya_burden": true
+  },
+  "inbox_root": "logs/api_usage/derived/scheduled_haru_teacher_delivery_inbox",
+  "mission": "Read this single work order like a price-check task: complete the review and final report even when direct POST is unavailable. Spend a serious 40-minute review on exactly one supplied failure case, create one GPT-5.5 teacher packet for OSAI training, and attempt direct delivery only if safely available.",
+  "north_star": "OSAIの最終評価基準は、Yuyaが受け取る外部IDE（Codex, Roo, Continue）の最終回答品質。",
+  "ok": true,
+  "osai_teacher_review_inbox": "logs/api_usage/derived/osai_teacher_review_inbox",
+  "public_safety": {
+    "candidate_text_saved_here": false,
+    "raw_headers_saved_here": false,
+    "raw_prompt_saved_here": false,
+    "raw_response_saved_here": false,
+    "sanitized_case_metadata_only": true,
+    "secret_value_saved_here": false
+  },
+  "public_static_read_only": true,
+  "public_static_url": "/teacher-briefing.json",
+  "recommended_source": {
+    "selection_policy": "HaruSpace preselects one urgent low-score, unconsumed training item so Scheduled Haru spends time judging, not searching.",
+    "type": "mobile_edge_teacher_retry"
+  },
+  "required_fields": [
+    "teacher_packet_id",
+    "source",
+    "north_star_score",
+    "what_went_wrong",
+    "ideal_answer",
+    "prompt_patch",
+    "osai_should_learn",
+    "do_not_repeat",
+    "safe_next_action",
+    "human_needed"
+  ],
+  "review_questions": [
+    "このcandidateはYuya-facing外部IDE最終回答として、なぜ弱いのか？",
+    "Yuyaの手間を増やした原因は何か？",
+    "North Star基準で欠けている能力は何か？",
+    "理想回答はどの形なら、そのままCodex/Roo/Continueの最終回答品質を上げるか？",
+    "次回promptへ入れるべき再利用可能なpatchは何か？",
+    "OSAIが覚えるべきルールと、二度と繰り返さないことは何か？"
+  ],
+  "run_ledger": {
+    "classifications": [
+      "PASS",
+      "PARTIAL",
+      "FAIL",
+      "STARTED_NO_FINISH",
+      "NO_START"
+    ],
+    "event_endpoint_template": "/scheduled-haru/teacher/v1/runs/{run_id}/events",
+    "first_required_action": "Read the public briefing and produce a final report no matter what. If safe POST is available, POST run_started before review; if not, continue the review and classify as PARTIAL/NO_START truthfully.",
+    "heartbeat_required_before_packet": false,
+    "resume_contract": "If run ledger POST is unavailable, do not abandon the task. Complete the review, include the full teacher packet in the final response, and classify PARTIAL unless the briefing itself could not be read.",
+    "resume_endpoint": "/scheduled-haru/teacher/v1/runs/resume",
+    "schema_version": "scheduled_haru_run_ledger.v1",
+    "start_endpoint": "/scheduled-haru/teacher/v1/runs",
+    "status_endpoint_template": "/scheduled-haru/teacher/v1/runs/{run_id}/status"
+  },
+  "schema_version": "scheduled_haru_teacher_briefing.v1",
+  "status_endpoint_template": "/scheduled-haru/teacher/v1/teacher-packets/{packet_id}/status",
+  "work_budget_minutes": 40
+}
