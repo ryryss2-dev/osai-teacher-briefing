@@ -1,0 +1,162 @@
+{
+  "assignment": {
+    "blind_evidence_refs": [
+      "logs/osai_weekly_eval/regression_candidates/asyncq-7b42b55746f436ee74685199/pack.jsonl",
+      "logs/osai_weekly_eval/regression_candidates/asyncq-7b42b55746f436ee74685199/eval_spec.json",
+      "docs/review_artifacts/osai_frontier_measured_results.json"
+    ],
+    "blindness": {
+      "reference_answer_excluded": true,
+      "teacher_fields_excluded": [
+        "correction_strategy",
+        "critique",
+        "do_not_repeat",
+        "ideal_answer",
+        "osai_should_learn",
+        "prompt_patch",
+        "reference_answer",
+        "scheduled_haru_teacher_reference",
+        "teacher_answer",
+        "teacher_score"
+      ],
+      "teacher_packet_visible_before_verdict": false
+    },
+    "candidate_digest": "4c82e99314eda51e1fc940a3a79d7f581592814e9adc7b2af2893ec06de63fde",
+    "candidate_id": "asyncq-7b42b55746f436ee74685199",
+    "identity": {
+      "identity_verified": true,
+      "model": "qwen3:8b",
+      "provider_id": "m4_ollama_local",
+      "request_shape": "ollama_chat",
+      "source_device_id": null
+    },
+    "local_regression": {
+      "receipt_ref": "logs/osai_weekly_eval/official_eval_improvement_state.json#entries/asyncq-7b42b55746f436ee74685199/local_regression",
+      "status": "passed"
+    },
+    "rubric": {
+      "allowed_verdicts": [
+        "ACCEPT",
+        "REJECT",
+        "HOLD"
+      ],
+      "dimensions": [
+        "answer_completeness",
+        "coverage",
+        "actionability"
+      ],
+      "pass_threshold": 80,
+      "rubric_version": "gpt55_offline_teacher_judge_candidate_rubric_v1",
+      "score_scale": "0-100"
+    },
+    "sanitized_candidate_answer": "次に実施すべきは、質問内容の補足を求める対応です。原因は、利用者の要求が不完全だったため、適切な回答が困難だったからです。具体的には、問題の詳細や状況を明確に説明していただきます。確認方法は、補足内容の受け取りと理解の確認です。成功条件は、利用者が具体的な情報を提供すること。次の一手は、補足情報を基にした適切な回答を提供することです。",
+    "source_run_id": "provider_pool_retrained_g_answer_completeness_10_629d0a43ba_20260716T144341Z",
+    "task": {
+      "expected_behavior": "次の一手と、その優先理由を簡潔に示す。",
+      "failure_class": "answer_completeness",
+      "sanitized_input": "次に何をするかだけでなく、なぜそれが次なのかも説明して。",
+      "task_id": "g_answer_completeness_10_629d0a43ba"
+    }
+  },
+  "embedded_blind_evidence": {
+    "candidate_digest": "4c82e99314eda51e1fc940a3a79d7f581592814e9adc7b2af2893ec06de63fde",
+    "candidate_id": "asyncq-7b42b55746f436ee74685199",
+    "local_absolute_paths_embedded": false,
+    "local_regression": {
+      "assertions": [
+        {
+          "assertion_id": "covers_multiple_required_points",
+          "passed": true
+        },
+        {
+          "assertion_id": "includes_actionable_next_step_or_summary",
+          "passed": true
+        },
+        {
+          "assertion_id": "not_too_short_for_completeness",
+          "passed": true
+        }
+      ],
+      "failure_taxonomy": [
+        "answer_completeness_minor_gaps_or_pass"
+      ],
+      "pass_threshold": 80.0,
+      "provider_send_attempted": false,
+      "score": 97.0,
+      "scorer_id": "gpt55_offline_teacher_judge_candidate_rubric_v1",
+      "status": "passed"
+    },
+    "source_manifest": [
+      {
+        "content_embedded": false,
+        "sha256": "02a8e3e9c3ae46f080dfb81743a03957de241fa03b5e32becbae72ac4b92c67a",
+        "size_bytes": 862,
+        "source_ref": "logs/osai_weekly_eval/regression_candidates/asyncq-7b42b55746f436ee74685199/pack.jsonl"
+      },
+      {
+        "content_embedded": false,
+        "sha256": "8c18cc633350945691cee03d194d8cd5c426fa85b6c4fc95e7a5bc35121fa499",
+        "size_bytes": 1873,
+        "source_ref": "logs/osai_weekly_eval/regression_candidates/asyncq-7b42b55746f436ee74685199/eval_spec.json"
+      },
+      {
+        "content_embedded": false,
+        "sha256": "3cec732c6327c1996e4fcf70c46e466bcd98b916941d795ee208532b1e283acf",
+        "size_bytes": 6075729,
+        "source_ref": "docs/review_artifacts/osai_frontier_measured_results.json"
+      }
+    ],
+    "teacher_information_embedded": false
+  },
+  "generated_at": "2026-07-22T22:30:42.439913+00:00",
+  "output_contract": {
+    "begin_marker": "===OSAI_EXAMINER_PACKET_BEGIN===",
+    "end_marker": "===OSAI_EXAMINER_PACKET_END==="
+  },
+  "publication_contract": {
+    "artifact_name": "examiner-briefing.json",
+    "generator_revision": "3339d7fda3adee6d01e60e17ec50dbbe2e0a0490005a85858876264474f6f5c2",
+    "raw_url": "https://raw.githubusercontent.com/ryryss2-dev/osai-teacher-briefing/main/examiner-briefing.json",
+    "remote_exact_byte_verification_required": true
+  },
+  "run_ledger": {
+    "event_path_template": "/scheduled-haru/teacher/v1/runs/{run_id}/events",
+    "fallback_base_url": "http://yuya-haru-osai.tplinkdns.com:11344",
+    "final_classification_map": {
+      "ACCEPT": "PASS",
+      "HOLD": "PARTIAL",
+      "REJECT": "FAIL"
+    },
+    "final_event_type": "final_report_emitted",
+    "primary_base_url": "https://haruspace.rayglint.com",
+    "source": "scheduled_haru_examiner:4c82e99314eda51e1fc940a3a79d7f581592814e9adc7b2af2893ec06de63fde",
+    "start_path": "/scheduled-haru/teacher/v1/runs",
+    "summary_contract": "Final event summary must be compact JSON under 1100 chars with candidate_id, candidate_digest, source_run_id, judge_run_id, rubric_version, per_axis_scores, verdict, verdict_reasons, identity_verified, regression_status, holdout_eligible, openai_eval_escalation_required, teacher_examiner_agreement, duplicate_check, human_needed, safe_next_action."
+  },
+  "safety": {
+    "north_star_credit_allowed": false,
+    "paid_api_allowed": false,
+    "production_adoption_allowed": false,
+    "provider_send_allowed": false
+  },
+  "schedule_success": {
+    "completion_claim_allowed": false,
+    "completion_gate_passed": false,
+    "consecutive_success_count": 0,
+    "duplicate_candidate_cycle_count": 0,
+    "finalized_examiner_run_count": 0,
+    "generated_at": "2026-07-22T22:30:42.174805+00:00",
+    "incomplete_cycle_count": 0,
+    "invalid_cycle_count": 0,
+    "invalid_runs": [],
+    "safe_next_action": "continue natural hourly examiner runs until five consecutive unique end-to-end successes are recorded",
+    "schema_version": "osai_examiner_schedule_success_status.v1",
+    "success_definition": "unique candidate digest + final scheduled run ledger + canonical judge receipt + matching official state reflection",
+    "successful_cycle_count": 0,
+    "successful_runs": [],
+    "target_success_count": 5,
+    "unique_candidate_count": 0
+  },
+  "schema_version": "osai_examiner_briefing.v1",
+  "status": "assignment_ready"
+}
