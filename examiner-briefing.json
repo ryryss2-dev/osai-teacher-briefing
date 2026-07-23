@@ -108,14 +108,14 @@
     ],
     "teacher_information_embedded": false
   },
-  "generated_at": "2026-07-23T13:48:05.550680+00:00",
+  "generated_at": "2026-07-23T14:06:13.997275+00:00",
   "output_contract": {
     "begin_marker": "===OSAI_EXAMINER_PACKET_BEGIN===",
     "end_marker": "===OSAI_EXAMINER_PACKET_END==="
   },
   "publication_contract": {
     "artifact_name": "examiner-briefing.json",
-    "generator_revision": "8a90432cdf0ca45aca8af11c89f8b0bb7bd32adf80bc3f8e319cd338d83c648b",
+    "generator_revision": "051b92d17153cf936411a414824f86480bf2473532e4d0072b6bd50d60ecb046",
     "raw_url": "https://raw.githubusercontent.com/ryryss2-dev/osai-teacher-briefing/main/examiner-briefing.json",
     "remote_exact_byte_verification_required": true
   },
@@ -145,7 +145,7 @@
     "consecutive_success_count": 0,
     "duplicate_candidate_cycle_count": 0,
     "finalized_examiner_run_count": 0,
-    "generated_at": "2026-07-23T13:47:58.911472+00:00",
+    "generated_at": "2026-07-23T14:06:13.808162+00:00",
     "incomplete_cycle_count": 0,
     "invalid_cycle_count": 0,
     "invalid_runs": [],
