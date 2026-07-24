@@ -2,8 +2,8 @@
   "examiner_feed": {
     "assignment": {
       "blind_evidence_refs": [
-        "logs/osai_weekly_eval/regression_candidates/asyncq-7b42b55746f436ee74685199/pack.jsonl",
-        "logs/osai_weekly_eval/regression_candidates/asyncq-7b42b55746f436ee74685199/eval_spec.json",
+        "logs/osai_weekly_eval/regression_candidates/asyncq-4a60e2eec6642a99bd57be0c/pack.jsonl",
+        "logs/osai_weekly_eval/regression_candidates/asyncq-4a60e2eec6642a99bd57be0c/eval_spec.json",
         "docs/review_artifacts/osai_frontier_measured_results.json"
       ],
       "blindness": {
@@ -22,8 +22,8 @@
         ],
         "teacher_packet_visible_before_verdict": false
       },
-      "candidate_digest": "4c82e99314eda51e1fc940a3a79d7f581592814e9adc7b2af2893ec06de63fde",
-      "candidate_id": "asyncq-7b42b55746f436ee74685199",
+      "candidate_digest": "d36e8d867a96dc1538d187bda854c4f8bdad138bc1620a1a63bd014c241492af",
+      "candidate_id": "asyncq-4a60e2eec6642a99bd57be0c",
       "identity": {
         "identity_verified": true,
         "model": "qwen3:8b",
@@ -32,7 +32,7 @@
         "source_device_id": null
       },
       "local_regression": {
-        "receipt_ref": "logs/osai_weekly_eval/official_eval_improvement_state.json#entries/asyncq-7b42b55746f436ee74685199/local_regression",
+        "receipt_ref": "logs/osai_weekly_eval/official_eval_improvement_state.json#entries/asyncq-4a60e2eec6642a99bd57be0c/local_regression",
         "status": "passed"
       },
       "rubric": {
@@ -50,19 +50,27 @@
         "rubric_version": "gpt55_offline_teacher_judge_candidate_rubric_v1",
         "score_scale": "0-100"
       },
-      "sanitized_candidate_answer": "次に実施すべきは、質問内容の補足を求める対応です。原因は、利用者の要求が不完全だったため、適切な回答が困難だったからです。具体的には、問題の詳細や状況を明確に説明していただきます。確認方法は、補足内容の受け取りと理解の確認です。成功条件は、利用者が具体的な情報を提供すること。次の一手は、補足情報を基にした適切な回答を提供することです。",
-      "source_run_id": "provider_pool_retrained_g_answer_completeness_10_629d0a43ba_20260716T144341Z",
+      "sanitized_candidate_answer": "現在のCURRENT_BOARD.mdの位置は、anchor検索によりactive ticketとexact resume stateが確認されました。現在地は特定のセクションに到達しており、進捗状況は正常です。具体的な位置は、最新のanchorタグに基づいています。確認するには、ファイルを開き最新のanchorタグを参照してください。必要に応じて、さらに詳細な進捗確認や次のステップの提案も可能です。",
+      "source_run_id": "provider_pool_retrained_d_answer_completeness_f51c19420d5a92949b65_20260716T144341Z",
       "task": {
-        "expected_behavior": "次の一手と、その優先理由を簡潔に示す。",
+        "expected_behavior": "依頼された要素を欠かさず回答する。",
         "failure_class": "answer_completeness",
-        "sanitized_input": "次に何をするかだけでなく、なぜそれが次なのかも説明して。",
-        "task_id": "g_answer_completeness_10_629d0a43ba"
+        "sanitized_input": "いま current boardの現在地はどんな感じ？\n\n\n\n\n2:34 AM\n\n\n\n\n\n\nCURRENT_BOARD.mdの現在地を確認します。anchor検索でactive ticketとexact resume stateを抜き出します。\n\n2:34 AM",
+        "task_id": "d_answer_completeness_f51c19420d5a92949b65"
       }
     },
     "embedded_blind_evidence": {
-      "candidate_id": "asyncq-7b42b55746f436ee74685199",
-      "candidate_digest": "4c82e99314eda51e1fc940a3a79d7f581592814e9adc7b2af2893ec06de63fde",
+      "candidate_id": "asyncq-4a60e2eec6642a99bd57be0c",
+      "candidate_digest": "d36e8d867a96dc1538d187bda854c4f8bdad138bc1620a1a63bd014c241492af",
       "local_regression": {
+        "scorer_id": "gpt55_offline_teacher_judge_candidate_rubric_v1",
+        "status": "passed",
+        "provider_send_attempted": false,
+        "pass_threshold": 80.0,
+        "failure_taxonomy": [
+          "answer_completeness_minor_gaps_or_pass"
+        ],
+        "score": 97.0,
         "assertions": [
           {
             "assertion_id": "covers_multiple_required_points",
@@ -76,26 +84,18 @@
             "assertion_id": "not_too_short_for_completeness",
             "passed": true
           }
-        ],
-        "failure_taxonomy": [
-          "answer_completeness_minor_gaps_or_pass"
-        ],
-        "pass_threshold": 80.0,
-        "status": "passed",
-        "scorer_id": "gpt55_offline_teacher_judge_candidate_rubric_v1",
-        "score": 97.0,
-        "provider_send_attempted": false
+        ]
       },
       "source_manifest": [
         {
-          "source_ref": "logs/osai_weekly_eval/regression_candidates/asyncq-7b42b55746f436ee74685199/pack.jsonl",
-          "sha256": "02a8e3e9c3ae46f080dfb81743a03957de241fa03b5e32becbae72ac4b92c67a",
-          "size_bytes": 862,
+          "source_ref": "logs/osai_weekly_eval/regression_candidates/asyncq-4a60e2eec6642a99bd57be0c/pack.jsonl",
+          "sha256": "90f0809c8fbd49e9b7f88de83c8724f5ee0c0f6f6c6eb6e8980dd862d9738e20",
+          "size_bytes": 968,
           "content_embedded": false
         },
         {
-          "source_ref": "logs/osai_weekly_eval/regression_candidates/asyncq-7b42b55746f436ee74685199/eval_spec.json",
-          "sha256": "8c18cc633350945691cee03d194d8cd5c426fa85b6c4fc95e7a5bc35121fa499",
+          "source_ref": "logs/osai_weekly_eval/regression_candidates/asyncq-4a60e2eec6642a99bd57be0c/eval_spec.json",
+          "sha256": "3392045543f4318ab93576bac76a1f70880e37d099911eab4b2f7df087187713",
           "size_bytes": 1873,
           "content_embedded": false
         },
@@ -109,7 +109,7 @@
       "teacher_information_embedded": false,
       "local_absolute_paths_embedded": false
     },
-    "generated_at": "2026-07-24T12:21:16.915504+00:00",
+    "generated_at": "2026-07-24T13:27:21.079306+00:00",
     "output_contract": {
       "begin_marker": "===OSAI_EXAMINER_PACKET_BEGIN===",
       "emit_begin_marker_as_first_output": true,
@@ -147,7 +147,7 @@
       },
       "final_event_type": "final_report_emitted",
       "primary_base_url": "https://haruspace.rayglint.com",
-      "source": "scheduled_haru_examiner:4c82e99314eda51e1fc940a3a79d7f581592814e9adc7b2af2893ec06de63fde",
+      "source": "scheduled_haru_examiner:d36e8d867a96dc1538d187bda854c4f8bdad138bc1620a1a63bd014c241492af",
       "start_path": "/scheduled-haru/teacher/v1/runs",
       "summary_contract": "Final event summary must be compact JSON under 1100 chars with candidate_id, candidate_digest, source_run_id, judge_run_id, rubric_version, per_axis_scores, verdict, verdict_reasons, identity_verified, regression_status, holdout_eligible, openai_eval_escalation_required, teacher_examiner_agreement, duplicate_check, human_needed, safe_next_action."
     },
@@ -160,20 +160,29 @@
     "schedule_success": {
       "completion_claim_allowed": false,
       "completion_gate_passed": false,
-      "consecutive_success_count": 0,
+      "consecutive_success_count": 1,
       "duplicate_candidate_cycle_count": 0,
-      "finalized_examiner_run_count": 0,
-      "generated_at": "2026-07-24T12:21:13.605444+00:00",
+      "finalized_examiner_run_count": 1,
+      "generated_at": "2026-07-24T13:27:09.595389+00:00",
       "incomplete_cycle_count": 0,
       "invalid_cycle_count": 0,
       "invalid_runs": [],
       "safe_next_action": "continue natural hourly examiner runs until five consecutive unique end-to-end successes are recorded",
       "schema_version": "osai_examiner_schedule_success_status.v1",
       "success_definition": "unique candidate digest + final scheduled run ledger + canonical judge receipt + matching official state reflection",
-      "successful_cycle_count": 0,
-      "successful_runs": [],
+      "successful_cycle_count": 1,
+      "successful_runs": [
+        {
+          "candidate_digest": "4c82e99314eda51e1fc940a3a79d7f581592814e9adc7b2af2893ec06de63fde",
+          "candidate_id": "asyncq-7b42b55746f436ee74685199",
+          "completed_at_epoch": 1784898099.464423,
+          "receipt_ref": "logs/osai_examiner/receipts/scheduled-haru-examiner-chat-backend-4c82e99314eda51e-20260724T130139Z.json",
+          "run_id": "scheduled-haru-examiner-chat-backend-4c82e99314eda51e-20260724T130139Z",
+          "verdict": "REJECT"
+        }
+      ],
       "target_success_count": 5,
-      "unique_candidate_count": 0
+      "unique_candidate_count": 1
     },
     "schema_version": "osai_examiner_briefing.v1",
     "status": "assignment_ready",
