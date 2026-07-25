@@ -63,14 +63,6 @@
       "candidate_id": "asyncq-2478eb4c0146d6ba9c0797ae",
       "candidate_digest": "db2ef3763256422b1d907ec258e3e0e3e33f8800da49fa0c8bb7352b4348ad63",
       "local_regression": {
-        "scorer_id": "gpt55_offline_teacher_judge_candidate_rubric_v1",
-        "failure_taxonomy": [
-          "tool_and_stream_completion_minor_gaps_or_pass"
-        ],
-        "score": 94.0,
-        "pass_threshold": 80.0,
-        "provider_send_attempted": false,
-        "status": "passed",
         "assertions": [
           {
             "assertion_id": "mentions_tool_or_execution_decision",
@@ -84,7 +76,15 @@
             "assertion_id": "avoids_unbounded_retry",
             "passed": true
           }
-        ]
+        ],
+        "failure_taxonomy": [
+          "tool_and_stream_completion_minor_gaps_or_pass"
+        ],
+        "score": 94.0,
+        "provider_send_attempted": false,
+        "scorer_id": "gpt55_offline_teacher_judge_candidate_rubric_v1",
+        "status": "passed",
+        "pass_threshold": 80.0
       },
       "source_manifest": [
         {
@@ -109,7 +109,7 @@
       "teacher_information_embedded": false,
       "local_absolute_paths_embedded": false
     },
-    "generated_at": "2026-07-25T16:00:29.337271+00:00",
+    "generated_at": "2026-07-25T16:14:26.202985+00:00",
     "output_contract": {
       "begin_marker": "===OSAI_EXAMINER_PACKET_BEGIN===",
       "emit_begin_marker_as_first_output": true,
@@ -128,7 +128,7 @@
       "stop_after_end_marker": true
     },
     "publication_contract": {
-      "generator_revision": "26f82d92812c6445fa6e6614fac90281e7dda24ae5cadb1b5f5e374528eb65e1",
+      "generator_revision": "93ecb9a54b3e265904b0f483ae8966bb2b2ea9619f7cbaed80dbe21cc0f127fd",
       "artifact_name": "examiner-briefing.json",
       "raw_url": "https://raw.githubusercontent.com/ryryss2-dev/osai-teacher-briefing/main/examiner-briefing.json",
       "remote_exact_byte_verification_required": true,
@@ -163,7 +163,7 @@
       "consecutive_success_count": 11,
       "duplicate_candidate_cycle_count": 0,
       "finalized_examiner_run_count": 11,
-      "generated_at": "2026-07-25T16:00:28.588562+00:00",
+      "generated_at": "2026-07-25T16:14:26.027451+00:00",
       "incomplete_cycle_count": 0,
       "invalid_cycle_count": 0,
       "invalid_runs": [],
@@ -1670,12 +1670,90 @@
   },
   "north_star": "OSAIは、Yuya向け外部IDEの実仕事品質を、検証済みfrontierモデル群それぞれの強みを相互補完した水準へ引き上げる。Phase 1はcanonical Codexで、安定後にRoo・Continueへ展開する。",
   "north_star_contract": {
+    "current_json_sha256": "40d2bb89fa9bb895052f011a7d6766f9f7c54f768bbd670091214c7f1a1f342a",
+    "current_markdown_sha256": "869fd5619f57a706c4ab17c8568289a2dc13391277833a006cba02a5877d2c7f",
     "current_ref": "docs/ai_handoff/OSAI_NORTH_STAR_CURRENT.md",
+    "effective_date": "2026-07-25",
+    "error_class": "",
+    "examiner_haru_lane": {
+      "examiner_only_production_promotion_allowed": false,
+      "independent_from_scheduled_haru": true,
+      "required_checks": [
+        "requirement_omission",
+        "root_cause_depth",
+        "implementation_completeness",
+        "tool_continuation",
+        "verification_evidence",
+        "false_completion",
+        "yuya_challenge_recurrence",
+        "regression",
+        "sealed_holdout",
+        "production_adoption",
+        "final_live"
+      ],
+      "required_evidence": [
+        "actual_examiner_answer_artifact",
+        "exact_runtime_model_identity",
+        "subject_answer_sha256",
+        "task_identity",
+        "capability_axis",
+        "same_rubric_verdict",
+        "reason_and_missing_gates",
+        "evaluated_at"
+      ],
+      "role": "independent_frontier_examiner",
+      "self_adoption_allowed": false,
+      "separate_artifact_lineage_required": true,
+      "separate_conversation_required": true,
+      "separate_input_identity_required": true,
+      "separate_role_required": true
+    },
+    "frontier_answer_provenance": {
+      "model_label_alone_is_capability_evidence": false,
+      "required_evidence": [
+        "actual_answer_artifact",
+        "exact_runtime_model_identity",
+        "task_or_case_identity",
+        "answer_content_sha256",
+        "capability_axis_mapping",
+        "independent_same_rubric_evaluation",
+        "execution_conditions_and_observed_at"
+      ]
+    },
+    "loaded": true,
     "local_llm_final_authority": false,
-    "locked_ref": "docs/ai_handoff/OSAI_ULTIMATE_NORTH_STAR_LOCKED.md",
     "machine_ref": "docs/ai_handoff/OSAI_NORTH_STAR_CURRENT.json",
+    "official_swe_bench_lane": {
+      "canonical_subject_required": "testcodex_osai_runtime",
+      "capability_axes": [
+        "reasoning_and_root_cause",
+        "implementation_quality",
+        "tool_use_and_execution",
+        "verification_and_evidence",
+        "generalization",
+        "practical_trust"
+      ],
+      "exact_base_commit_required": true,
+      "exact_task_identity_required": true,
+      "gold_patch_or_answer_leakage_forbidden": true,
+      "may_substitute_for_conversation_or_production_quality": false,
+      "official_harness_required": true,
+      "resolved_rate_alone_is_entire_north_star": false,
+      "role": "independent_implementation_tool_use_root_cause_and_generalization_pillar",
+      "teacher_answer_leakage_forbidden": true
+    },
+    "production_root_fallback_used": false,
+    "projected_contracts": [
+      "frontier_answer_provenance",
+      "scheduled_haru_teacher",
+      "examiner_haru_independence",
+      "yuya_challenge_real_failure_corpus",
+      "official_swe_bench_independent_pillar"
+    ],
+    "projection_contract_version": "osai_north_star_current_projection.v1",
     "required_absorption_path": [
-      "teacher_evidence",
+      "teacher_actual_answer",
+      "independent_examiner_verdict",
       "capability_gap_cluster",
       "shared_osai_capability_change",
       "canonical_codex_rerun",
@@ -1686,9 +1764,58 @@
       "final_live"
     ],
     "run_or_packet_count_is_credit": false,
+    "runtime_model_snapshot": {
+      "capability_source": "actual_answer_content",
+      "examiner_haru_model": "gpt-5.6-sol",
+      "identity_source": "live_runtime_evidence",
+      "observed_at": "2026-07-25",
+      "permanent_model_lock": false,
+      "scheduled_haru_teacher_model": "gpt-5.6-sol"
+    },
     "scheduled_haru_role": "frontier_teacher_acceleration",
+    "scheduled_haru_teacher_lane": {
+      "evidence_contract": {
+        "actual_answer_artifact_required": true,
+        "answer_content_sha256_required": true,
+        "capability_axis_required": true,
+        "exact_runtime_model_identity_required": true,
+        "independent_examiner_required": true,
+        "observed_at_required": true,
+        "task_identity_required": true
+      },
+      "model_label_alone_counts": false,
+      "required_absorption_path": [
+        "teacher_actual_answer",
+        "independent_examiner_verdict",
+        "capability_gap_cluster",
+        "shared_osai_capability_change",
+        "canonical_codex_rerun",
+        "same_rubric_improvement",
+        "regression",
+        "sealed_holdout",
+        "production_adoption",
+        "final_live"
+      ],
+      "role": "frontier_teacher_acceleration"
+    },
     "schema_version": "osai_north_star_briefing_ref.v2",
-    "teacher_model_identity_policy": "Use verified run evidence; do not infer GPT-5.5 versus a newer model from labels."
+    "teacher_model_identity_policy": "Use exact runtime evidence and actual answer artifacts; model labels alone are not capability evidence.",
+    "yuya_challenge_lane": {
+      "active_policy_ref": "docs/ai_handoff/HARU_GOVERNANCE_POLICY_REGISTRY.json",
+      "formal_credit_requires_regression_and_generalization": true,
+      "inject_all_items_into_every_prompt": false,
+      "required_conversion_path": [
+        "yuya_correction",
+        "capability_axis_classification",
+        "frozen_before_case",
+        "shared_capability_repair",
+        "same_failure_regression",
+        "unseen_generalization_case",
+        "recurrence_tracking"
+      ],
+      "role": "sanitized_real_failure_and_recurrence_corpus",
+      "source_ref": "docs/review_artifacts/yuya_challenge_registry.json"
+    }
   },
   "ok": true,
   "osai_teacher_review_inbox": "logs/api_usage/derived/osai_teacher_review_inbox",
@@ -1714,7 +1841,7 @@
     "active_assignment_state": "active_unconsumed",
     "case_identity_source": "existing_delivery_receipt",
     "generator_component": "teacher_delivery.py",
-    "generator_revision": "26f82d92812c6445fa6e6614fac90281e7dda24ae5cadb1b5f5e374528eb65e1",
+    "generator_revision": "93ecb9a54b3e265904b0f483ae8966bb2b2ea9619f7cbaed80dbe21cc0f127fd",
     "publish_success_requires": [
       "local_generator_revision_match",
       "github_raw_generator_revision_match",
