@@ -63,14 +63,11 @@
       "candidate_id": "asyncq-76c1f940872634f7ed0c3a67",
       "candidate_digest": "85ad20b104f2076c2e19d5230cf20492d6dbf98d18773ffa27dd0b642397a2d1",
       "local_regression": {
-        "status": "passed",
-        "pass_threshold": 80.0,
-        "scorer_id": "gpt55_offline_teacher_judge_candidate_rubric_v1",
-        "provider_send_attempted": false,
+        "score": 94.0,
         "failure_taxonomy": [
           "tool_and_stream_completion_minor_gaps_or_pass"
         ],
-        "score": 94.0,
+        "scorer_id": "gpt55_offline_teacher_judge_candidate_rubric_v1",
         "assertions": [
           {
             "assertion_id": "mentions_tool_or_execution_decision",
@@ -84,7 +81,10 @@
             "assertion_id": "avoids_unbounded_retry",
             "passed": true
           }
-        ]
+        ],
+        "status": "passed",
+        "provider_send_attempted": false,
+        "pass_threshold": 80.0
       },
       "source_manifest": [
         {
@@ -109,7 +109,7 @@
       "teacher_information_embedded": false,
       "local_absolute_paths_embedded": false
     },
-    "generated_at": "2026-07-25T17:02:37.280838+00:00",
+    "generated_at": "2026-07-25T20:10:26.732551+00:00",
     "output_contract": {
       "begin_marker": "===OSAI_EXAMINER_PACKET_BEGIN===",
       "emit_begin_marker_as_first_output": true,
@@ -163,7 +163,7 @@
       "consecutive_success_count": 12,
       "duplicate_candidate_cycle_count": 0,
       "finalized_examiner_run_count": 12,
-      "generated_at": "2026-07-25T17:02:35.584772+00:00",
+      "generated_at": "2026-07-25T20:10:25.319658+00:00",
       "incomplete_cycle_count": 0,
       "invalid_cycle_count": 0,
       "invalid_runs": [],
@@ -1046,7 +1046,7 @@
       "refill_required": false,
       "reviewable_complete_count": 360,
       "schema_version": "scheduled_haru_supply_buffer_status.v1",
-      "source_inventory_count": 2383,
+      "source_inventory_count": 2386,
       "source_policy": "real_failure_evidence_only_no_filler",
       "supply_state": "abundant",
       "target_buffer_cases": 360
@@ -1962,7 +1962,7 @@
     "refill_required": false,
     "reviewable_complete_count": 360,
     "schema_version": "scheduled_haru_supply_buffer_status.v1",
-    "source_inventory_count": 2383,
+    "source_inventory_count": 2386,
     "source_policy": "real_failure_evidence_only_no_filler",
     "supply_state": "abundant",
     "target_buffer_cases": 360
