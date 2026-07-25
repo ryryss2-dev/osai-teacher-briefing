@@ -63,12 +63,7 @@
       "candidate_id": "asyncq-07f9268a5e1144d0d2ecd8e0",
       "candidate_digest": "cb80aac77958dec0023738cd7878e8616ff5b42d8a457e57ce28b468e278c449",
       "local_regression": {
-        "scorer_id": "gpt55_offline_teacher_judge_candidate_rubric_v1",
-        "failure_taxonomy": [
-          "tool_and_stream_completion_minor_gaps_or_pass"
-        ],
-        "pass_threshold": 80.0,
-        "status": "passed",
+        "score": 94.0,
         "assertions": [
           {
             "assertion_id": "mentions_tool_or_execution_decision",
@@ -83,8 +78,13 @@
             "passed": true
           }
         ],
-        "score": 94.0,
-        "provider_send_attempted": false
+        "pass_threshold": 80.0,
+        "provider_send_attempted": false,
+        "failure_taxonomy": [
+          "tool_and_stream_completion_minor_gaps_or_pass"
+        ],
+        "status": "passed",
+        "scorer_id": "gpt55_offline_teacher_judge_candidate_rubric_v1"
       },
       "source_manifest": [
         {
@@ -109,7 +109,7 @@
       "teacher_information_embedded": false,
       "local_absolute_paths_embedded": false
     },
-    "generated_at": "2026-07-25T21:05:06.928399+00:00",
+    "generated_at": "2026-07-25T21:15:58.775228+00:00",
     "output_contract": {
       "begin_marker": "===OSAI_EXAMINER_PACKET_BEGIN===",
       "emit_begin_marker_as_first_output": true,
@@ -163,7 +163,7 @@
       "consecutive_success_count": 13,
       "duplicate_candidate_cycle_count": 0,
       "finalized_examiner_run_count": 13,
-      "generated_at": "2026-07-25T21:05:05.699721+00:00",
+      "generated_at": "2026-07-25T21:15:56.799851+00:00",
       "incomplete_cycle_count": 0,
       "invalid_cycle_count": 0,
       "invalid_runs": [],
