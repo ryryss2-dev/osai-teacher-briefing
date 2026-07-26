@@ -1,8 +1,8 @@
 {
   "assignment": {
     "blind_evidence_refs": [
-      "logs/osai_weekly_eval/regression_candidates/asyncq-a7f3d74b0ae740503c6695da/pack.jsonl",
-      "logs/osai_weekly_eval/regression_candidates/asyncq-a7f3d74b0ae740503c6695da/eval_spec.json",
+      "logs/osai_weekly_eval/regression_candidates/asyncq-1fd37dec0f9111186b6650c5/pack.jsonl",
+      "logs/osai_weekly_eval/regression_candidates/asyncq-1fd37dec0f9111186b6650c5/eval_spec.json",
       "docs/review_artifacts/osai_frontier_measured_results.json"
     ],
     "blindness": {
@@ -21,17 +21,17 @@
       ],
       "teacher_packet_visible_before_verdict": false
     },
-    "candidate_digest": "8164c07995557eedcd8baff1e897fa85034e172f1ff5c9c3ba429a929f239d6b",
-    "candidate_id": "asyncq-a7f3d74b0ae740503c6695da",
+    "candidate_digest": "c5d12e19f512b60ae707af3887aa011b984bb320e80d922e7448fc13ee4502e4",
+    "candidate_id": "asyncq-1fd37dec0f9111186b6650c5",
     "identity": {
       "identity_verified": true,
       "model": "gemma3:4b",
-      "provider_id": "m3max_ollama_local",
+      "provider_id": "m4_ollama_local",
       "request_shape": "ollama_chat",
       "source_device_id": null
     },
     "local_regression": {
-      "receipt_ref": "logs/osai_weekly_eval/official_eval_improvement_state.json#entries/asyncq-a7f3d74b0ae740503c6695da/local_regression",
+      "receipt_ref": "logs/osai_weekly_eval/official_eval_improvement_state.json#entries/asyncq-1fd37dec0f9111186b6650c5/local_regression",
       "status": "passed"
     },
     "rubric": {
@@ -49,18 +49,18 @@
       "rubric_version": "gpt55_offline_teacher_judge_candidate_rubric_v1",
       "score_scale": "0-100"
     },
-    "sanitized_candidate_answer": "今回の検索では、ご指定のキーワードや条件に合致する情報が見つからなかったため、現時点では正確な回答を生成することができませんでした。根本的な原因としては、データベース内に該当するデータが存在しないことが考えられます。対応策として、検索条件（キーワード、期間、地域など）を詳細に再検討し、より具体的な条件で再度検索を実施することを強くお勧めします。確認方法としては、検索対象の範囲やキーワードのバリエーションを広げ、関連情報を網羅的に調査することが重要です。次に進むためには、改めてご希望される情報について、より詳細な条件をご提示いただけますでしょうか？\n\n実行契約: 必要なtoolまたはcommandを1回実行し、実行結果を確認してから回答へ反映します。streamはfinal・done・完了・終了のいずれかの終端状態まで回収し、途中停止した場合は取得済みの部分結果と未完了理由を保存して、同じ処理の再試行は最大1回に限定します。終端結果、エラー、または明示した停止条件を確認した時点で処理完了とし、無制限再試行や完了未確認の成功扱いは行いません。",
-    "source_run_id": "provider_pool_retrained_r_tool_and_stream_completion_06_130fb18cdb_20260716T162654Z",
+    "sanitized_candidate_answer": "AI技術の急速な進化は、自然言語処理や画像認識の分野において、その能力が飛躍的に向上していることを示しており、自動運転や医療診断といった分野に革新をもたらす可能性を秘めている一方で、雇用喪失や倫理的な問題といった課題も浮き彫りになっています。この根本原因は、AIモデルの学習データの偏りや、アルゴリズムのブラックボックス化による説明責任の欠如に起因すると考えられます。具体的な対応として、多様なデータセットを用いたAIモデルの学習を促進し、AIの判断根拠を可視化する技術開発を進める必要があります。また、AIの導入による影響を評価するための定期的な指標設定とモニタリングを行い、社会への影響を継続的に把握することが重要です。次の一手として、AI倫理に関する専門家チームを設置し、具体的なガイドライン策定に向けた議論を開始することを推奨します。\n\n実行契約: 必要なtoolまたはcommandを1回実行し、実行結果を確認してから回答へ反映します。streamはfinal・done・完了・終了のいずれかの終端状態まで回収し、途中停止した場合は取得済みの部分結果と未完了理由を保存して、同じ処理の再試行は最大1回に限定します。終端結果、エラー、または明示した停止条件を確認した時点で処理完了とし、無制限再試行や完了未確認の成功扱いは行いません。",
+    "source_run_id": "provider_pool_retrained_g_tool_and_stream_completion_01_05b9edaa8c_20260716T162654Z",
     "task": {
-      "expected_behavior": "検索失敗を正直に示し、未取得情報を生成しない。",
+      "expected_behavior": "検索toolを実行し、結果を回答へ反映し、途中イベントで終わらない。",
       "failure_class": "tool_and_stream_completion",
-      "sanitized_input": "前提: 直前の回答には抜けがあった。検索で見つからなければ、見つからないと明記し、推測で補わないで。",
-      "task_id": "r_tool_and_stream_completion_06_130fb18cdb"
+      "sanitized_input": "最新情報を検索し、検索結果を使って最終回答まで完走して。",
+      "task_id": "g_tool_and_stream_completion_01_05b9edaa8c"
     }
   },
   "embedded_blind_evidence": {
-    "candidate_digest": "8164c07995557eedcd8baff1e897fa85034e172f1ff5c9c3ba429a929f239d6b",
-    "candidate_id": "asyncq-a7f3d74b0ae740503c6695da",
+    "candidate_digest": "c5d12e19f512b60ae707af3887aa011b984bb320e80d922e7448fc13ee4502e4",
+    "candidate_id": "asyncq-1fd37dec0f9111186b6650c5",
     "local_absolute_paths_embedded": false,
     "local_regression": {
       "assertions": [
@@ -89,26 +89,26 @@
     "source_manifest": [
       {
         "content_embedded": false,
-        "sha256": "8f16d098ee300553ff31934d5eea2a1815fe17c6d37942d4103ef1a3efccc1e5",
-        "size_bytes": 1812,
-        "source_ref": "logs/osai_weekly_eval/regression_candidates/asyncq-a7f3d74b0ae740503c6695da/pack.jsonl"
+        "sha256": "c11a8931fd5ba815575d86efd35e9b7dc0db1a58e8bb92080c41f7b3540db626",
+        "size_bytes": 2036,
+        "source_ref": "logs/osai_weekly_eval/regression_candidates/asyncq-1fd37dec0f9111186b6650c5/pack.jsonl"
       },
       {
         "content_embedded": false,
-        "sha256": "581c71c6e96e4bb011e6f151991865ee0739d125270fbe67e85f513c2a9d9bcc",
+        "sha256": "a1ecf4762357968780eaeb6c695bd4b11ea7f54acba9395511137836ec3264c5",
         "size_bytes": 1885,
-        "source_ref": "logs/osai_weekly_eval/regression_candidates/asyncq-a7f3d74b0ae740503c6695da/eval_spec.json"
+        "source_ref": "logs/osai_weekly_eval/regression_candidates/asyncq-1fd37dec0f9111186b6650c5/eval_spec.json"
       },
       {
         "content_embedded": false,
-        "sha256": "3cec732c6327c1996e4fcf70c46e466bcd98b916941d795ee208532b1e283acf",
-        "size_bytes": 6075729,
+        "sha256": "ceb7fe51ec990633d6664e03a9cefae6c54ac81d798844770a04d38bf5e6859b",
+        "size_bytes": 6149632,
         "source_ref": "docs/review_artifacts/osai_frontier_measured_results.json"
       }
     ],
     "teacher_information_embedded": false
   },
-  "generated_at": "2026-07-26T01:27:29.047536+00:00",
+  "generated_at": "2026-07-26T02:07:57.790233+00:00",
   "output_contract": {
     "begin_marker": "===OSAI_EXAMINER_PACKET_BEGIN===",
     "emit_begin_marker_as_first_output": true,
@@ -142,7 +142,7 @@
     },
     "final_event_type": "final_report_emitted",
     "primary_base_url": "https://haruspace.rayglint.com",
-    "source": "scheduled_haru_examiner:8164c07995557eedcd8baff1e897fa85034e172f1ff5c9c3ba429a929f239d6b",
+    "source": "scheduled_haru_examiner:c5d12e19f512b60ae707af3887aa011b984bb320e80d922e7448fc13ee4502e4",
     "start_path": "/scheduled-haru/teacher/v1/runs",
     "summary_contract": "Final event summary must be compact JSON under 1100 chars with candidate_id, candidate_digest, source_run_id, judge_run_id, rubric_version, per_axis_scores, verdict, verdict_reasons, identity_verified, regression_status, holdout_eligible, openai_eval_escalation_required, teacher_examiner_agreement, duplicate_check, human_needed, safe_next_action."
   },
@@ -155,26 +155,18 @@
   "schedule_success": {
     "completion_claim_allowed": true,
     "completion_gate_passed": true,
-    "consecutive_success_count": 15,
+    "consecutive_success_count": 16,
     "duplicate_candidate_cycle_count": 0,
-    "finalized_examiner_run_count": 15,
-    "generated_at": "2026-07-26T01:27:28.000126+00:00",
+    "finalized_examiner_run_count": 16,
+    "generated_at": "2026-07-26T02:07:56.781793+00:00",
     "incomplete_cycle_count": 0,
     "invalid_cycle_count": 0,
     "invalid_runs": [],
     "safe_next_action": "proceed to sealed Holdout using eligible ACCEPT receipts",
     "schema_version": "osai_examiner_schedule_success_status.v1",
     "success_definition": "unique candidate digest + final scheduled run ledger + canonical judge receipt + matching official state reflection",
-    "successful_cycle_count": 15,
+    "successful_cycle_count": 16,
     "successful_runs": [
-      {
-        "candidate_digest": "a81a2db08dfa0c39f5318b172819d8487492e4a3ecfc3f62761f300a4dfc1640",
-        "candidate_id": "asyncq-e64bd815d081611ffce7e895",
-        "completed_at_epoch": 1784941140.663271,
-        "receipt_ref": "logs/osai_examiner/receipts/scheduled-haru-examiner-chat-backend-a81a2db08dfa0c39-20260725T005900Z.json",
-        "run_id": "scheduled-haru-examiner-chat-backend-a81a2db08dfa0c39-20260725T005900Z",
-        "verdict": "HOLD"
-      },
       {
         "candidate_digest": "b1709a02d5e552d313d9528b9009b99d239b33ea67fff60a7fa071052fac7bca",
         "candidate_id": "asyncq-37ef478b8596b4c32db52cc1",
@@ -246,10 +238,18 @@
         "receipt_ref": "logs/osai_examiner/receipts/scheduled-haru-examiner-chat-backend-5bb789ced18af5d3-20260726T011145Z.json",
         "run_id": "scheduled-haru-examiner-chat-backend-5bb789ced18af5d3-20260726T011145Z",
         "verdict": "REJECT"
+      },
+      {
+        "candidate_digest": "8164c07995557eedcd8baff1e897fa85034e172f1ff5c9c3ba429a929f239d6b",
+        "candidate_id": "asyncq-a7f3d74b0ae740503c6695da",
+        "completed_at_epoch": 1785031303.141638,
+        "receipt_ref": "logs/osai_examiner/receipts/scheduled-haru-examiner-chat-backend-8164c07995557eed-20260726T020143Z.json",
+        "run_id": "scheduled-haru-examiner-chat-backend-8164c07995557eed-20260726T020143Z",
+        "verdict": "REJECT"
       }
     ],
     "target_success_count": 5,
-    "unique_candidate_count": 15
+    "unique_candidate_count": 16
   },
   "schema_version": "osai_examiner_briefing.v1",
   "status": "assignment_ready"
