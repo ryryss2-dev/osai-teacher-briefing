@@ -63,10 +63,13 @@
       "candidate_id": "asyncq-1fd37dec0f9111186b6650c5",
       "candidate_digest": "c5d12e19f512b60ae707af3887aa011b984bb320e80d922e7448fc13ee4502e4",
       "local_regression": {
-        "scorer_id": "gpt55_offline_teacher_judge_candidate_rubric_v1",
         "failure_taxonomy": [
           "tool_and_stream_completion_minor_gaps_or_pass"
         ],
+        "provider_send_attempted": false,
+        "scorer_id": "gpt55_offline_teacher_judge_candidate_rubric_v1",
+        "status": "passed",
+        "pass_threshold": 80.0,
         "assertions": [
           {
             "assertion_id": "mentions_tool_or_execution_decision",
@@ -81,9 +84,6 @@
             "passed": true
           }
         ],
-        "pass_threshold": 80.0,
-        "provider_send_attempted": false,
-        "status": "passed",
         "score": 94.0
       },
       "source_manifest": [
@@ -101,15 +101,15 @@
         },
         {
           "source_ref": "docs/review_artifacts/osai_frontier_measured_results.json",
-          "sha256": "06a5e12fb562ab685d46d0c8bbeab4b0b0fdf46668f63b3d30424fff2ec6c720",
-          "size_bytes": 6154864,
+          "sha256": "b1a273120f4cdfdd382929c5581e1f7a495e44b80ac688f1e987773ac99dd041",
+          "size_bytes": 6174989,
           "content_embedded": false
         }
       ],
       "teacher_information_embedded": false,
       "local_absolute_paths_embedded": false
     },
-    "generated_at": "2026-07-26T02:07:57.790233+00:00",
+    "generated_at": "2026-07-26T02:29:41.869653+00:00",
     "output_contract": {
       "begin_marker": "===OSAI_EXAMINER_PACKET_BEGIN===",
       "emit_begin_marker_as_first_output": true,
@@ -163,7 +163,7 @@
       "consecutive_success_count": 16,
       "duplicate_candidate_cycle_count": 0,
       "finalized_examiner_run_count": 16,
-      "generated_at": "2026-07-26T02:07:56.781793+00:00",
+      "generated_at": "2026-07-26T02:29:40.772626+00:00",
       "incomplete_cycle_count": 0,
       "invalid_cycle_count": 0,
       "invalid_runs": [],
