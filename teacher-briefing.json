@@ -63,7 +63,6 @@
       "candidate_id": "asyncq-1fd37dec0f9111186b6650c5",
       "candidate_digest": "c5d12e19f512b60ae707af3887aa011b984bb320e80d922e7448fc13ee4502e4",
       "local_regression": {
-        "pass_threshold": 80.0,
         "assertions": [
           {
             "assertion_id": "mentions_tool_or_execution_decision",
@@ -78,13 +77,14 @@
             "passed": true
           }
         ],
-        "provider_send_attempted": false,
+        "score": 94.0,
+        "status": "passed",
+        "pass_threshold": 80.0,
         "failure_taxonomy": [
           "tool_and_stream_completion_minor_gaps_or_pass"
         ],
-        "status": "passed",
-        "score": 94.0,
-        "scorer_id": "gpt55_offline_teacher_judge_candidate_rubric_v1"
+        "scorer_id": "gpt55_offline_teacher_judge_candidate_rubric_v1",
+        "provider_send_attempted": false
       },
       "source_manifest": [
         {
@@ -101,15 +101,15 @@
         },
         {
           "source_ref": "docs/review_artifacts/osai_frontier_measured_results.json",
-          "sha256": "e52b465b4b15fb0c4fd88040fcc4023b7affbb87ee27a99051f2a1157289c25d",
-          "size_bytes": 6332695,
+          "sha256": "9184cfa6cd17f848d48561f8da6032e0ac43c93ad26ebe90b7607ee6203bfcc4",
+          "size_bytes": 6430377,
           "content_embedded": false
         }
       ],
       "teacher_information_embedded": false,
       "local_absolute_paths_embedded": false
     },
-    "generated_at": "2026-07-26T04:35:39.318679+00:00",
+    "generated_at": "2026-07-26T05:38:23.500504+00:00",
     "output_contract": {
       "begin_marker": "===OSAI_EXAMINER_PACKET_BEGIN===",
       "emit_begin_marker_as_first_output": true,
@@ -163,7 +163,7 @@
       "consecutive_success_count": 16,
       "duplicate_candidate_cycle_count": 0,
       "finalized_examiner_run_count": 16,
-      "generated_at": "2026-07-26T04:35:38.540539+00:00",
+      "generated_at": "2026-07-26T05:38:21.851238+00:00",
       "incomplete_cycle_count": 0,
       "invalid_cycle_count": 0,
       "invalid_runs": [],
