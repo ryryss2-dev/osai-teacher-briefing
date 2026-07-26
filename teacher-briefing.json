@@ -64,13 +64,8 @@
       "candidate_digest": "c5d12e19f512b60ae707af3887aa011b984bb320e80d922e7448fc13ee4502e4",
       "local_regression": {
         "score": 94.0,
-        "pass_threshold": 80.0,
-        "provider_send_attempted": false,
         "scorer_id": "gpt55_offline_teacher_judge_candidate_rubric_v1",
-        "failure_taxonomy": [
-          "tool_and_stream_completion_minor_gaps_or_pass"
-        ],
-        "status": "passed",
+        "pass_threshold": 80.0,
         "assertions": [
           {
             "assertion_id": "mentions_tool_or_execution_decision",
@@ -84,6 +79,11 @@
             "assertion_id": "avoids_unbounded_retry",
             "passed": true
           }
+        ],
+        "status": "passed",
+        "provider_send_attempted": false,
+        "failure_taxonomy": [
+          "tool_and_stream_completion_minor_gaps_or_pass"
         ]
       },
       "source_manifest": [
@@ -101,15 +101,15 @@
         },
         {
           "source_ref": "docs/review_artifacts/osai_frontier_measured_results.json",
-          "sha256": "6e341fbf257a9c34dc9c444a6da9ab5046dc55e92dd2d4d3af0f57871835076a",
-          "size_bytes": 6509528,
+          "sha256": "7a2caa28134e95e478dc169540bd52bd95fd3b3e2dc89b9fbfc764eface82513",
+          "size_bytes": 6569462,
           "content_embedded": false
         }
       ],
       "teacher_information_embedded": false,
       "local_absolute_paths_embedded": false
     },
-    "generated_at": "2026-07-26T06:41:12.579896+00:00",
+    "generated_at": "2026-07-26T07:44:26.958862+00:00",
     "output_contract": {
       "begin_marker": "===OSAI_EXAMINER_PACKET_BEGIN===",
       "emit_begin_marker_as_first_output": true,
@@ -163,7 +163,7 @@
       "consecutive_success_count": 16,
       "duplicate_candidate_cycle_count": 0,
       "finalized_examiner_run_count": 16,
-      "generated_at": "2026-07-26T06:41:11.845753+00:00",
+      "generated_at": "2026-07-26T07:44:26.287492+00:00",
       "incomplete_cycle_count": 0,
       "invalid_cycle_count": 0,
       "invalid_runs": [],
@@ -1046,7 +1046,7 @@
       "refill_required": false,
       "reviewable_complete_count": 360,
       "schema_version": "scheduled_haru_supply_buffer_status.v1",
-      "source_inventory_count": 2389,
+      "source_inventory_count": 2395,
       "source_policy": "real_failure_evidence_only_no_filler",
       "supply_state": "abundant",
       "target_buffer_cases": 360
@@ -1962,7 +1962,7 @@
     "refill_required": false,
     "reviewable_complete_count": 360,
     "schema_version": "scheduled_haru_supply_buffer_status.v1",
-    "source_inventory_count": 2389,
+    "source_inventory_count": 2395,
     "source_policy": "real_failure_evidence_only_no_filler",
     "supply_state": "abundant",
     "target_buffer_cases": 360
