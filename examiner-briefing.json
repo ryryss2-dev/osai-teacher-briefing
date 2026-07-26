@@ -101,14 +101,14 @@
       },
       {
         "content_embedded": false,
-        "sha256": "5b4566a26724e498e6fe2699b97a77ad53e63b9b5aafe75e0217ab7dfd6ffbe4",
-        "size_bytes": 7160335,
+        "sha256": "1714059388a178678bd0ac25b39b43e1bf68f16c1102c91dc7c063a6dc4c9615",
+        "size_bytes": 7201430,
         "source_ref": "docs/review_artifacts/osai_frontier_measured_results.json"
       }
     ],
     "teacher_information_embedded": false
   },
-  "generated_at": "2026-07-26T18:05:53.329705+00:00",
+  "generated_at": "2026-07-26T18:24:47.150232+00:00",
   "output_contract": {
     "begin_marker": "===OSAI_EXAMINER_PACKET_BEGIN===",
     "emit_begin_marker_as_first_output": true,
@@ -128,7 +128,7 @@
   },
   "publication_contract": {
     "artifact_name": "examiner-briefing.json",
-    "generator_revision": "ad6427323f1b0723a7df86330c352f75cdbe9e923e830033f840da8c28c9ad38",
+    "generator_revision": "6b82a5eefd8cb3498efd509ecc17b0cec336b6ea85ac3bf3a7f18c19aa487513",
     "raw_url": "https://raw.githubusercontent.com/ryryss2-dev/osai-teacher-briefing/main/examiner-briefing.json",
     "remote_exact_byte_verification_required": true
   },
@@ -158,7 +158,7 @@
     "consecutive_success_count": 20,
     "duplicate_candidate_cycle_count": 0,
     "finalized_examiner_run_count": 20,
-    "generated_at": "2026-07-26T18:05:52.513573+00:00",
+    "generated_at": "2026-07-26T18:24:46.537178+00:00",
     "incomplete_cycle_count": 0,
     "invalid_cycle_count": 0,
     "invalid_runs": [],
