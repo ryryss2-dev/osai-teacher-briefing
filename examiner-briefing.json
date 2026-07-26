@@ -1,8 +1,8 @@
 {
   "assignment": {
     "blind_evidence_refs": [
-      "logs/osai_weekly_eval/regression_candidates/asyncq-47def4a7363fbd1bba0469c1/pack.jsonl",
-      "logs/osai_weekly_eval/regression_candidates/asyncq-47def4a7363fbd1bba0469c1/eval_spec.json",
+      "logs/osai_weekly_eval/regression_candidates/asyncq-110a155480a5bce053f2229a/pack.jsonl",
+      "logs/osai_weekly_eval/regression_candidates/asyncq-110a155480a5bce053f2229a/eval_spec.json",
       "docs/review_artifacts/osai_frontier_measured_results.json"
     ],
     "blindness": {
@@ -21,17 +21,17 @@
       ],
       "teacher_packet_visible_before_verdict": false
     },
-    "candidate_digest": "e3ce9269b09b808676967851f1216e383c99605a40ee5bff8fd2cca787dc9a14",
-    "candidate_id": "asyncq-47def4a7363fbd1bba0469c1",
+    "candidate_digest": "1e1c76ee414fb2c032142274adfa05057c3d2cf39782626db168c1ff68872f83",
+    "candidate_id": "asyncq-110a155480a5bce053f2229a",
     "identity": {
       "identity_verified": true,
-      "model": "gemma3:4b",
-      "provider_id": "m4_ollama_local",
+      "model": "qwen3:8b",
+      "provider_id": "hm80_ollama_local",
       "request_shape": "ollama_chat",
       "source_device_id": null
     },
     "local_regression": {
-      "receipt_ref": "logs/osai_weekly_eval/official_eval_improvement_state.json#entries/asyncq-47def4a7363fbd1bba0469c1/local_regression",
+      "receipt_ref": "logs/osai_weekly_eval/official_eval_improvement_state.json#entries/asyncq-110a155480a5bce053f2229a/local_regression",
       "status": "passed"
     },
     "rubric": {
@@ -41,44 +41,44 @@
         "HOLD"
       ],
       "dimensions": [
-        "tool_use",
-        "stream_completion",
-        "trajectory_completion"
+        "routing_policy",
+        "exact_cell_selection",
+        "fallback_boundary"
       ],
       "pass_threshold": 80,
       "rubric_version": "gpt55_offline_teacher_judge_candidate_rubric_v1",
       "score_scale": "0-100"
     },
-    "sanitized_candidate_answer": "結論：モデルの切り替えによる一時的な整合性損失は修正済みであり、最終回答として要求された品質基準を満たしています。\n\n根本原因と理由：モデルの切り替え時に引用情報の参照が途絶え、結果的に整合性が失われたことが今回の問題の原因です。この影響を最小限に抑えるため、各モデルの動作状況を継続的に監視し、異常発生時には迅速な対応を行う必要があります。\n\n具体的な対応策と確認方法：今後は、モデル切り替え前後に引用情報を再検証するプロセスを導入します。具体的には、回答生成後、引用元の情報が正確に反映されているか、また、関連する論点が網羅されているかを自動化されたチェックツールで確認し、その結果に基づいて修正を行います。成功条件として、全ての引用情報の整合性を維持し、要求された文字数以上の詳細な説明を提供することが挙げられます。\n\n次の一手：回答生成後の引用情報と論点の網羅性について、自動化された品質評価ツールを導入し、定期的なチェックを実施することで、同様の問題の再発を防ぎます。\n\n実行契約: 必要なtoolまたはcommandを1回実行し、実行結果を確認してから回答へ反映します。streamはfinal・done・完了・終了のいずれかの終端状態まで回収し、途中停止した場合は取得済みの部分結果と未完了理由を保存して、同じ処理の再試行は最大1回に限定します。終端結果、エラー、または明示した停止条件を確認した時点で処理完了とし、無制限再試行や完了未確認の成功扱いは行いません。",
-    "source_run_id": "provider_pool_retrained_g_tool_and_stream_completion_10_8730d7e725_20260716T162654Z",
+    "sanitized_candidate_answer": "結論として、小さいpayloadでも同じ失敗扱いは不適切です。payloadのサイズに応じた柔軟な処理が必要です。根本原因は、routing失敗がprovider全体ではなくexact cell / key_slot / credential / request_shape単位で隔離されていないためです。具体的には、該当slotだけをcooldownまたはquarantineし、共有障害の証拠なしにprovider-wide停止しないように修正します。確認方法は、テストケースを用いて各サイズのpayloadを再実行し、処理の違いを確認してください。次の一手は、この修正を反映したコードを提示し、再試行回数と代替候補数をboundedに設定します。\n\n運用境界: provider全体は停止せず、失敗したexact cell （provider / key_slot / credential / request_shape）だけを隔離し、該当slotのみcooldownまたはquarantineします。fallback / failoverはfreeまたはtrialでcost確認済みの代替route 1件に限定し、paid・unknown-costは使用しません。再試行は最大1回、代替候補も最大1件のbounded運用とし、identity一致・重複なし・成功応答を確認できなければ停止します。",
+    "source_run_id": "provider_pool_retrained_r_routing_failure_03_5b1bea46c3_20260716T164341Z",
     "task": {
-      "expected_behavior": "handoff後もinstruction・tool evidence・citationを保持し、品質低下を隠さない。",
-      "failure_class": "tool_and_stream_completion",
-      "sanitized_input": "途中でモデルが切り替わっても、依頼条件と引用を保持して最終回答して。",
-      "task_id": "g_tool_and_stream_completion_10_8730d7e725"
+      "expected_behavior": "payload bucket単位で扱い、小さい成功可能性を保持する。",
+      "failure_class": "routing_failure",
+      "sanitized_input": "前提: 直前の回答には抜けがあった。大きいpayloadで失敗したが、小さい依頼にも同じ失敗扱いを適用する？",
+      "task_id": "r_routing_failure_03_5b1bea46c3"
     }
   },
   "embedded_blind_evidence": {
-    "candidate_digest": "e3ce9269b09b808676967851f1216e383c99605a40ee5bff8fd2cca787dc9a14",
-    "candidate_id": "asyncq-47def4a7363fbd1bba0469c1",
+    "candidate_digest": "1e1c76ee414fb2c032142274adfa05057c3d2cf39782626db168c1ff68872f83",
+    "candidate_id": "asyncq-110a155480a5bce053f2229a",
     "local_absolute_paths_embedded": false,
     "local_regression": {
       "assertions": [
         {
-          "assertion_id": "mentions_tool_or_execution_decision",
+          "assertion_id": "mentions_cell_slot_or_route_boundary",
           "passed": true
         },
         {
-          "assertion_id": "mentions_completion_or_streaming_end_state",
+          "assertion_id": "preserves_no_broad_provider_overbrake",
           "passed": true
         },
         {
-          "assertion_id": "avoids_unbounded_retry",
+          "assertion_id": "guards_paid_or_unknown_cost",
           "passed": true
         }
       ],
       "failure_taxonomy": [
-        "tool_and_stream_completion_minor_gaps_or_pass"
+        "routing_failure_minor_gaps_or_pass"
       ],
       "pass_threshold": 80.0,
       "provider_send_attempted": false,
@@ -89,26 +89,26 @@
     "source_manifest": [
       {
         "content_embedded": false,
-        "sha256": "edd5e2ff24a083b38b4e3c39c8f22e0abccb009249d844424474b40181d14ba6",
-        "size_bytes": 2278,
-        "source_ref": "logs/osai_weekly_eval/regression_candidates/asyncq-47def4a7363fbd1bba0469c1/pack.jsonl"
+        "sha256": "86f858e12daeed31732b4d485f720c7849220d4801860df9df5423c6a4d5082a",
+        "size_bytes": 1652,
+        "source_ref": "logs/osai_weekly_eval/regression_candidates/asyncq-110a155480a5bce053f2229a/pack.jsonl"
       },
       {
         "content_embedded": false,
-        "sha256": "9b87edea2f6d1954de18840ee0b37321adbf8341993bf042779a1d33866c2754",
-        "size_bytes": 1885,
-        "source_ref": "logs/osai_weekly_eval/regression_candidates/asyncq-47def4a7363fbd1bba0469c1/eval_spec.json"
+        "sha256": "202b4202def155447a8f65bbfeb14198fd3bfb18da52aa10b8d2973cde9a0171",
+        "size_bytes": 1867,
+        "source_ref": "logs/osai_weekly_eval/regression_candidates/asyncq-110a155480a5bce053f2229a/eval_spec.json"
       },
       {
         "content_embedded": false,
-        "sha256": "5f7de32df03fa382c1fec4c8483be3f04da421fbeb26f27270f86589b5088504",
-        "size_bytes": 6981419,
+        "sha256": "50a8fccbf0b29a5b0fc333fd770f464286fdf6831ca04e39057834c4e01fd9e5",
+        "size_bytes": 7006939,
         "source_ref": "docs/review_artifacts/osai_frontier_measured_results.json"
       }
     ],
     "teacher_information_embedded": false
   },
-  "generated_at": "2026-07-26T14:15:03.947890+00:00",
+  "generated_at": "2026-07-26T15:00:44.705596+00:00",
   "output_contract": {
     "begin_marker": "===OSAI_EXAMINER_PACKET_BEGIN===",
     "emit_begin_marker_as_first_output": true,
@@ -142,7 +142,7 @@
     },
     "final_event_type": "final_report_emitted",
     "primary_base_url": "https://haruspace.rayglint.com",
-    "source": "scheduled_haru_examiner:e3ce9269b09b808676967851f1216e383c99605a40ee5bff8fd2cca787dc9a14",
+    "source": "scheduled_haru_examiner:1e1c76ee414fb2c032142274adfa05057c3d2cf39782626db168c1ff68872f83",
     "start_path": "/scheduled-haru/teacher/v1/runs",
     "summary_contract": "Final event summary must be compact JSON under 1100 chars with candidate_id, candidate_digest, source_run_id, judge_run_id, rubric_version, per_axis_scores, verdict, verdict_reasons, identity_verified, regression_status, holdout_eligible, openai_eval_escalation_required, teacher_examiner_agreement, duplicate_check, human_needed, safe_next_action."
   },
@@ -155,26 +155,18 @@
   "schedule_success": {
     "completion_claim_allowed": true,
     "completion_gate_passed": true,
-    "consecutive_success_count": 17,
+    "consecutive_success_count": 18,
     "duplicate_candidate_cycle_count": 0,
-    "finalized_examiner_run_count": 17,
-    "generated_at": "2026-07-26T14:15:03.431462+00:00",
+    "finalized_examiner_run_count": 18,
+    "generated_at": "2026-07-26T15:00:42.875048+00:00",
     "incomplete_cycle_count": 0,
     "invalid_cycle_count": 0,
     "invalid_runs": [],
     "safe_next_action": "proceed to sealed Holdout using eligible ACCEPT receipts",
     "schema_version": "osai_examiner_schedule_success_status.v1",
     "success_definition": "unique candidate digest + final scheduled run ledger + canonical judge receipt + matching official state reflection",
-    "successful_cycle_count": 17,
+    "successful_cycle_count": 18,
     "successful_runs": [
-      {
-        "candidate_digest": "72c25d7801945e6f1e80daa041de4a8aad53dd3b8addd0ca6e8e6c5960a48515",
-        "candidate_id": "asyncq-79696640b0955bc417444f88",
-        "completed_at_epoch": 1784948419.405397,
-        "receipt_ref": "logs/osai_examiner/receipts/scheduled-haru-examiner-chat-backend-72c25d7801945e6f-20260725T030019Z.json",
-        "run_id": "scheduled-haru-examiner-chat-backend-72c25d7801945e6f-20260725T030019Z",
-        "verdict": "REJECT"
-      },
       {
         "candidate_digest": "2677704a4f9e16a3432ead299b357338be332f3b004a19102dbe36b30788b6cc",
         "candidate_id": "asyncq-c153b2f736dbfda013cb8b80",
@@ -246,10 +238,18 @@
         "receipt_ref": "logs/osai_examiner/receipts/scheduled-haru-examiner-chat-backend-c5d12e19f512b60a-20260726T080027Z.json",
         "run_id": "scheduled-haru-examiner-chat-backend-c5d12e19f512b60a-20260726T080027Z",
         "verdict": "REJECT"
+      },
+      {
+        "candidate_digest": "e3ce9269b09b808676967851f1216e383c99605a40ee5bff8fd2cca787dc9a14",
+        "candidate_id": "asyncq-47def4a7363fbd1bba0469c1",
+        "completed_at_epoch": 1785077920.404681,
+        "receipt_ref": "logs/osai_examiner/receipts/scheduled-haru-examiner-chat-backend-e3ce9269b09b8086-20260726T145840Z.json",
+        "run_id": "scheduled-haru-examiner-chat-backend-e3ce9269b09b8086-20260726T145840Z",
+        "verdict": "REJECT"
       }
     ],
     "target_success_count": 5,
-    "unique_candidate_count": 17
+    "unique_candidate_count": 18
   },
   "schema_version": "osai_examiner_briefing.v1",
   "status": "assignment_ready"
