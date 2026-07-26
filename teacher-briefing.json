@@ -59,7 +59,57 @@
         "task_id": "r_routing_failure_03_5b1bea46c3"
       }
     },
-    "generated_at": "2026-07-26T15:01:46.341234+00:00",
+    "embedded_blind_evidence": {
+      "candidate_id": "asyncq-110a155480a5bce053f2229a",
+      "candidate_digest": "1e1c76ee414fb2c032142274adfa05057c3d2cf39782626db168c1ff68872f83",
+      "local_regression": {
+        "scorer_id": "gpt55_offline_teacher_judge_candidate_rubric_v1",
+        "pass_threshold": 80.0,
+        "status": "passed",
+        "failure_taxonomy": [
+          "routing_failure_minor_gaps_or_pass"
+        ],
+        "score": 94.0,
+        "assertions": [
+          {
+            "assertion_id": "mentions_cell_slot_or_route_boundary",
+            "passed": true
+          },
+          {
+            "assertion_id": "preserves_no_broad_provider_overbrake",
+            "passed": true
+          },
+          {
+            "assertion_id": "guards_paid_or_unknown_cost",
+            "passed": true
+          }
+        ],
+        "provider_send_attempted": false
+      },
+      "source_manifest": [
+        {
+          "source_ref": "logs/osai_weekly_eval/regression_candidates/asyncq-110a155480a5bce053f2229a/pack.jsonl",
+          "sha256": "86f858e12daeed31732b4d485f720c7849220d4801860df9df5423c6a4d5082a",
+          "size_bytes": 1652,
+          "content_embedded": false
+        },
+        {
+          "source_ref": "logs/osai_weekly_eval/regression_candidates/asyncq-110a155480a5bce053f2229a/eval_spec.json",
+          "sha256": "202b4202def155447a8f65bbfeb14198fd3bfb18da52aa10b8d2973cde9a0171",
+          "size_bytes": 1867,
+          "content_embedded": false
+        },
+        {
+          "source_ref": "docs/review_artifacts/osai_frontier_measured_results.json",
+          "sha256": "e8e32db97d69efde848fb1a155fbe43d28b333dcbe2293eae1e588aedb37a2f6",
+          "size_bytes": 7015131,
+          "content_embedded": false
+        }
+      ],
+      "teacher_information_embedded": false,
+      "local_absolute_paths_embedded": false
+    },
+    "generated_at": "2026-07-26T15:17:27.462506+00:00",
     "output_contract": {
       "begin_marker": "===OSAI_EXAMINER_PACKET_BEGIN===",
       "emit_begin_marker_as_first_output": true,
@@ -76,6 +126,16 @@
       "preamble_allowed": false,
       "schema_version": "osai_examiner_packet.v1",
       "stop_after_end_marker": true
+    },
+    "publication_contract": {
+      "generator_revision": "93ecb9a54b3e265904b0f483ae8966bb2b2ea9619f7cbaed80dbe21cc0f127fd",
+      "artifact_name": "examiner-briefing.json",
+      "raw_url": "https://raw.githubusercontent.com/ryryss2-dev/osai-teacher-briefing/main/examiner-briefing.json",
+      "remote_exact_byte_verification_required": true,
+      "container_artifact_name": "teacher-briefing.json",
+      "container_key": "examiner_feed",
+      "container_raw_url": "https://raw.githubusercontent.com/ryryss2-dev/osai-teacher-briefing/main/teacher-briefing.json",
+      "standalone_raw_url": "https://raw.githubusercontent.com/ryryss2-dev/osai-teacher-briefing/main/examiner-briefing.json"
     },
     "run_ledger": {
       "event_path_template": "/scheduled-haru/teacher/v1/runs/{run_id}/events",
@@ -103,7 +163,7 @@
       "consecutive_success_count": 18,
       "duplicate_candidate_cycle_count": 0,
       "finalized_examiner_run_count": 18,
-      "generated_at": "2026-07-26T15:01:45.717604+00:00",
+      "generated_at": "2026-07-26T15:17:26.874395+00:00",
       "incomplete_cycle_count": 0,
       "invalid_cycle_count": 0,
       "invalid_runs": [],
@@ -198,66 +258,6 @@
     },
     "schema_version": "osai_examiner_briefing.v1",
     "status": "assignment_ready",
-    "publication_contract": {
-      "generator_revision": "93ecb9a54b3e265904b0f483ae8966bb2b2ea9619f7cbaed80dbe21cc0f127fd",
-      "artifact_name": "examiner-briefing.json",
-      "raw_url": "https://raw.githubusercontent.com/ryryss2-dev/osai-teacher-briefing/main/examiner-briefing.json",
-      "remote_exact_byte_verification_required": true,
-      "container_artifact_name": "teacher-briefing.json",
-      "container_key": "examiner_feed",
-      "container_raw_url": "https://raw.githubusercontent.com/ryryss2-dev/osai-teacher-briefing/main/teacher-briefing.json",
-      "standalone_raw_url": "https://raw.githubusercontent.com/ryryss2-dev/osai-teacher-briefing/main/examiner-briefing.json"
-    },
-    "embedded_blind_evidence": {
-      "candidate_id": "asyncq-110a155480a5bce053f2229a",
-      "candidate_digest": "1e1c76ee414fb2c032142274adfa05057c3d2cf39782626db168c1ff68872f83",
-      "local_regression": {
-        "scorer_id": "gpt55_offline_teacher_judge_candidate_rubric_v1",
-        "score": 94.0,
-        "failure_taxonomy": [
-          "routing_failure_minor_gaps_or_pass"
-        ],
-        "provider_send_attempted": false,
-        "pass_threshold": 80.0,
-        "assertions": [
-          {
-            "assertion_id": "mentions_cell_slot_or_route_boundary",
-            "passed": true
-          },
-          {
-            "assertion_id": "preserves_no_broad_provider_overbrake",
-            "passed": true
-          },
-          {
-            "assertion_id": "guards_paid_or_unknown_cost",
-            "passed": true
-          }
-        ],
-        "status": "passed"
-      },
-      "source_manifest": [
-        {
-          "source_ref": "logs/osai_weekly_eval/regression_candidates/asyncq-110a155480a5bce053f2229a/pack.jsonl",
-          "sha256": "86f858e12daeed31732b4d485f720c7849220d4801860df9df5423c6a4d5082a",
-          "size_bytes": 1652,
-          "content_embedded": false
-        },
-        {
-          "source_ref": "logs/osai_weekly_eval/regression_candidates/asyncq-110a155480a5bce053f2229a/eval_spec.json",
-          "sha256": "202b4202def155447a8f65bbfeb14198fd3bfb18da52aa10b8d2973cde9a0171",
-          "size_bytes": 1867,
-          "content_embedded": false
-        },
-        {
-          "source_ref": "docs/review_artifacts/osai_frontier_measured_results.json",
-          "sha256": "f1f7498da7c530f64e3764bb33ef5a3f89c62f24b08e6fe2ed4c001238fa3f01",
-          "size_bytes": 7009991,
-          "content_embedded": false
-        }
-      ],
-      "teacher_information_embedded": false,
-      "local_absolute_paths_embedded": false
-    },
     "role_separation": {
       "consumer_role": "independent_blind_examiner",
       "allowed_top_level_key": "examiner_feed",
@@ -1046,7 +1046,7 @@
       "refill_required": false,
       "reviewable_complete_count": 360,
       "schema_version": "scheduled_haru_supply_buffer_status.v1",
-      "source_inventory_count": 2454,
+      "source_inventory_count": 2460,
       "source_policy": "real_failure_evidence_only_no_filler",
       "supply_state": "abundant",
       "target_buffer_cases": 360
@@ -1962,7 +1962,7 @@
     "refill_required": false,
     "reviewable_complete_count": 360,
     "schema_version": "scheduled_haru_supply_buffer_status.v1",
-    "source_inventory_count": 2454,
+    "source_inventory_count": 2460,
     "source_policy": "real_failure_evidence_only_no_filler",
     "supply_state": "abundant",
     "target_buffer_cases": 360
