@@ -101,14 +101,14 @@
       },
       {
         "content_embedded": false,
-        "sha256": "44f38ca61be1b07df3d94d86fab1ffea05266a55ef08a6c96370f805545997d7",
-        "size_bytes": 7283626,
+        "sha256": "614163f8d54dd99b9f3af34df310f483dfd4c6d3b2cd51cb64c6d852e280494f",
+        "size_bytes": 7304479,
         "source_ref": "docs/review_artifacts/osai_frontier_measured_results.json"
       }
     ],
     "teacher_information_embedded": false
   },
-  "generated_at": "2026-07-27T01:18:07.836921+00:00",
+  "generated_at": "2026-07-27T01:44:10.466801+00:00",
   "output_contract": {
     "begin_marker": "===OSAI_EXAMINER_PACKET_BEGIN===",
     "emit_begin_marker_as_first_output": true,
@@ -158,7 +158,7 @@
     "consecutive_success_count": 26,
     "duplicate_candidate_cycle_count": 0,
     "finalized_examiner_run_count": 26,
-    "generated_at": "2026-07-27T01:18:06.929719+00:00",
+    "generated_at": "2026-07-27T01:44:09.548960+00:00",
     "incomplete_cycle_count": 0,
     "invalid_cycle_count": 0,
     "invalid_runs": [],
