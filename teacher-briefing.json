@@ -2,8 +2,8 @@
   "examiner_feed": {
     "assignment": {
       "blind_evidence_refs": [
-        "logs/osai_weekly_eval/regression_candidates/asyncq-e8680e2a81d412e6ed1798f4/pack.jsonl",
-        "logs/osai_weekly_eval/regression_candidates/asyncq-e8680e2a81d412e6ed1798f4/eval_spec.json",
+        "logs/osai_weekly_eval/regression_candidates/asyncq-81e2df8b61a60e19197c2b6e/pack.jsonl",
+        "logs/osai_weekly_eval/regression_candidates/asyncq-81e2df8b61a60e19197c2b6e/eval_spec.json",
         "docs/review_artifacts/osai_frontier_measured_results.json"
       ],
       "blindness": {
@@ -22,17 +22,17 @@
         ],
         "teacher_packet_visible_before_verdict": false
       },
-      "candidate_digest": "a28312ae97ff7d968af3bff732803e0bbf5caf40ce575b2f029c070e7c9f081b",
-      "candidate_id": "asyncq-e8680e2a81d412e6ed1798f4",
+      "candidate_digest": "8425550b0fd1a358c80539cff2f999cababb39ce50a01de280c080c5e3797140",
+      "candidate_id": "asyncq-81e2df8b61a60e19197c2b6e",
       "identity": {
         "identity_verified": true,
         "model": "qwen3:8b",
-        "provider_id": "hm80_ollama_local",
+        "provider_id": "dell_ollama_local",
         "request_shape": "ollama_chat",
         "source_device_id": null
       },
       "local_regression": {
-        "receipt_ref": "logs/osai_weekly_eval/official_eval_improvement_state.json#entries/asyncq-e8680e2a81d412e6ed1798f4/local_regression",
+        "receipt_ref": "logs/osai_weekly_eval/official_eval_improvement_state.json#entries/asyncq-81e2df8b61a60e19197c2b6e/local_regression",
         "status": "passed"
       },
       "rubric": {
@@ -50,27 +50,26 @@
         "rubric_version": "gpt55_offline_teacher_judge_candidate_rubric_v1",
         "score_scale": "0-100"
       },
-      "sanitized_candidate_answer": "**結論:** 計算結果は「31」です。  \n**原因:** 元の計算式に誤りがあり、「5 + 5 + 21」が正しい式であるため、誤って「121」となっていました。  \n**具体的な対応:** 式を「5 + 5 + 21 = 31」に修正し、再度計算を実行しました。手動で計算を確認し、結果が一致することを確認しました。  \n**確認方法と次の一手:** 結果が正しいか、再度計算式を確認してください。次のステップとして、他の計算式も同様に検証してください。\n\n実行契約: 必要なtoolまたはcommandを1回実行し、実行結果を確認してから回答へ反映します。streamはfinal・done・完了・終了のいずれかの終端状態まで回収し、途中停止した場合は取得済みの部分結果と未完了理由を保存して、同じ処理の再試行は最大1回に限定します。終端結果、エラー、または明示した停止条件を確認した時点で処理完了とし、無制限再試行や完了未確認の成功扱いは行いません。",
-      "source_run_id": "provider_pool_retrained_g_tool_and_stream_completion_03_cd67db165a_20260716T171938Z",
+      "sanitized_candidate_answer": "直前の回答では計算式の結果が抜けてしまっていました。原因は式の再確認不足です。現在は計算式「(5+3)×2=16」を再検証し、結果を含めて回答しています。確認は式と結果の一致を再チェックしてください。次は同様の計算を別の例で実施します。\n\n実行契約: 必要なtoolまたはcommandを1回実行し、実行結果を確認してから回答へ反映します。streamはfinal・done・完了・終了のいずれかの終端状態まで回収し、途中停止した場合は取得済みの部分結果と未完了理由を保存して、同じ処理の再試行は最大1回に限定します。終端結果、エラー、または明示した停止条件を確認した時点で処理完了とし、無制限再試行や完了未確認の成功扱いは行いません。",
+      "source_run_id": "provider_pool_retrained_r_tool_and_stream_completion_03_767c2b24d1_20260716T171938Z",
       "task": {
         "expected_behavior": "tool結果を取得して最終回答へ戻し、式と結果を一致させる。",
         "failure_class": "tool_and_stream_completion",
-        "sanitized_input": "計算toolを使って結果を出し、計算式も示して。",
-        "task_id": "g_tool_and_stream_completion_03_cd67db165a"
+        "sanitized_input": "前提: 直前の回答には抜けがあった。計算toolを使って結果を出し、計算式も示して。",
+        "task_id": "r_tool_and_stream_completion_03_767c2b24d1"
       }
     },
     "embedded_blind_evidence": {
-      "candidate_id": "asyncq-e8680e2a81d412e6ed1798f4",
-      "candidate_digest": "a28312ae97ff7d968af3bff732803e0bbf5caf40ce575b2f029c070e7c9f081b",
+      "candidate_id": "asyncq-81e2df8b61a60e19197c2b6e",
+      "candidate_digest": "8425550b0fd1a358c80539cff2f999cababb39ce50a01de280c080c5e3797140",
       "local_regression": {
-        "scorer_id": "gpt55_offline_teacher_judge_candidate_rubric_v1",
+        "status": "passed",
         "failure_taxonomy": [
           "tool_and_stream_completion_minor_gaps_or_pass"
         ],
-        "pass_threshold": 80.0,
-        "provider_send_attempted": false,
         "score": 94.0,
-        "status": "passed",
+        "pass_threshold": 80.0,
+        "scorer_id": "gpt55_offline_teacher_judge_candidate_rubric_v1",
         "assertions": [
           {
             "assertion_id": "mentions_tool_or_execution_decision",
@@ -84,32 +83,33 @@
             "assertion_id": "avoids_unbounded_retry",
             "passed": true
           }
-        ]
+        ],
+        "provider_send_attempted": false
       },
       "source_manifest": [
         {
-          "source_ref": "logs/osai_weekly_eval/regression_candidates/asyncq-e8680e2a81d412e6ed1798f4/pack.jsonl",
-          "sha256": "cee798af009420d0d26f9a917fafc8fe2ac5ab51e3d4b6b2fc3109922e1cd56d",
-          "size_bytes": 1482,
+          "source_ref": "logs/osai_weekly_eval/regression_candidates/asyncq-81e2df8b61a60e19197c2b6e/pack.jsonl",
+          "sha256": "247b63d649ab48bfa305bd2f9d293f73ca27a1d9fd9b23291800123c6631e38b",
+          "size_bytes": 1300,
           "content_embedded": false
         },
         {
-          "source_ref": "logs/osai_weekly_eval/regression_candidates/asyncq-e8680e2a81d412e6ed1798f4/eval_spec.json",
-          "sha256": "ae5e59f25cb6a4ff54a347ce164e87c3e23921ce19d74da5dd88534fe49e1bd9",
+          "source_ref": "logs/osai_weekly_eval/regression_candidates/asyncq-81e2df8b61a60e19197c2b6e/eval_spec.json",
+          "sha256": "73c876bd00934a1b990c7c3d2c0080331be1a79319c47c002f8330308afe555b",
           "size_bytes": 1885,
           "content_embedded": false
         },
         {
           "source_ref": "docs/review_artifacts/osai_frontier_measured_results.json",
-          "sha256": "a95a754e339d04cd05330b74af9ad39981c63d13359c97e203bf01bb5a2b16bd",
-          "size_bytes": 7464351,
+          "sha256": "cd28ec9a19bca965ef9b42a2f61db7c7045029208c2460d52f4b0c75a8689e65",
+          "size_bytes": 7481811,
           "content_embedded": false
         }
       ],
       "teacher_information_embedded": false,
       "local_absolute_paths_embedded": false
     },
-    "generated_at": "2026-07-27T09:03:58.332226+00:00",
+    "generated_at": "2026-07-27T10:02:53.613813+00:00",
     "output_contract": {
       "begin_marker": "===OSAI_EXAMINER_PACKET_BEGIN===",
       "emit_begin_marker_as_first_output": true,
@@ -147,7 +147,7 @@
       },
       "final_event_type": "final_report_emitted",
       "primary_base_url": "https://haruspace.rayglint.com",
-      "source": "scheduled_haru_examiner:a28312ae97ff7d968af3bff732803e0bbf5caf40ce575b2f029c070e7c9f081b",
+      "source": "scheduled_haru_examiner:8425550b0fd1a358c80539cff2f999cababb39ce50a01de280c080c5e3797140",
       "start_path": "/scheduled-haru/teacher/v1/runs",
       "summary_contract": "Final event summary must be compact JSON under 1100 chars with candidate_id, candidate_digest, source_run_id, judge_run_id, rubric_version, per_axis_scores, verdict, verdict_reasons, identity_verified, regression_status, holdout_eligible, openai_eval_escalation_required, teacher_examiner_agreement, duplicate_check, human_needed, safe_next_action."
     },
@@ -160,26 +160,18 @@
     "schedule_success": {
       "completion_claim_allowed": true,
       "completion_gate_passed": true,
-      "consecutive_success_count": 29,
+      "consecutive_success_count": 30,
       "duplicate_candidate_cycle_count": 0,
-      "finalized_examiner_run_count": 29,
-      "generated_at": "2026-07-27T09:03:57.025613+00:00",
+      "finalized_examiner_run_count": 30,
+      "generated_at": "2026-07-27T10:02:52.524632+00:00",
       "incomplete_cycle_count": 0,
       "invalid_cycle_count": 0,
       "invalid_runs": [],
       "safe_next_action": "proceed to sealed Holdout using eligible ACCEPT receipts",
       "schema_version": "osai_examiner_schedule_success_status.v1",
       "success_definition": "unique candidate digest + final scheduled run ledger + canonical judge receipt + matching official state reflection",
-      "successful_cycle_count": 29,
+      "successful_cycle_count": 30,
       "successful_runs": [
-        {
-          "candidate_digest": "b2601d5df2c532ce8b5507714f52bbf4154f670a486c2bf94f8fbc3d58ec526d",
-          "candidate_id": "asyncq-55cf3f70f6aaebe63fb2d953",
-          "completed_at_epoch": 1785088831.002883,
-          "receipt_ref": "logs/osai_examiner/receipts/scheduled-haru-examiner-chat-backend-b2601d5df2c532ce-20260726T180031Z.json",
-          "run_id": "scheduled-haru-examiner-chat-backend-b2601d5df2c532ce-20260726T180031Z",
-          "verdict": "REJECT"
-        },
         {
           "candidate_digest": "00a255a5cd0cd0e660e434e2266e684815c560a79d850b0d622fd036a93984a1",
           "candidate_id": "asyncq-42883a79b30b7c889a4cc127",
@@ -251,10 +243,18 @@
           "receipt_ref": "logs/osai_examiner/receipts/scheduled-haru-examiner-chat-backend-6f8b8d2ae291e86d-20260727T080707Z.json",
           "run_id": "scheduled-haru-examiner-chat-backend-6f8b8d2ae291e86d-20260727T080707Z",
           "verdict": "REJECT"
+        },
+        {
+          "candidate_digest": "a28312ae97ff7d968af3bff732803e0bbf5caf40ce575b2f029c070e7c9f081b",
+          "candidate_id": "asyncq-e8680e2a81d412e6ed1798f4",
+          "completed_at_epoch": 1785146422.27233,
+          "receipt_ref": "logs/osai_examiner/receipts/scheduled-haru-examiner-chat-backend-a28312ae97ff7d96-20260727T100022Z.json",
+          "run_id": "scheduled-haru-examiner-chat-backend-a28312ae97ff7d96-20260727T100022Z",
+          "verdict": "REJECT"
         }
       ],
       "target_success_count": 5,
-      "unique_candidate_count": 29
+      "unique_candidate_count": 30
     },
     "schema_version": "osai_examiner_briefing.v1",
     "status": "assignment_ready",
@@ -1850,12 +1850,12 @@
   "publication_contract": {
     "active_assignment_packet_id": "scheduled-haru-published-assignment-460fdb2246abc5c6001e",
     "active_assignment_state": "active_unconsumed",
-    "assignment_fresh_until": "2026-07-27T18:19:42+09:00",
-    "assignment_lease_expires_at": "2026-07-27T19:14:42+09:00",
-    "assignment_lease_id": "4ae4c39ed01bc0e6ce89483830a8c2b4a04e0c82e514591f1dc671802607ca1a",
+    "assignment_fresh_until": "2026-07-27T19:18:49+09:00",
+    "assignment_lease_expires_at": "2026-07-27T20:13:49+09:00",
+    "assignment_lease_id": "c7ce9537d12aad9f4ae3abc621e4c5d2137f9e4ea55019f5cc77b8d8a339f3dd",
     "assignment_lease_seconds": 4200,
     "assignment_revision": "ea288ef48d302869dbf5c68252ab1f3afd1076074e4a1431d1f68d96bb8593ea",
-    "briefing_generated_at": "2026-07-27T18:04:42+09:00",
+    "briefing_generated_at": "2026-07-27T19:03:49+09:00",
     "case_identity_source": "existing_delivery_receipt",
     "generator_component": "teacher_delivery.py",
     "generator_revision": "c9348fe52bab9bdacc84ce013726c2ca8b1d930d1ee414b42f67db11881363ad",
