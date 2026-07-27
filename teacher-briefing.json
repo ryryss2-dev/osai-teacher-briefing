@@ -63,11 +63,8 @@
       "candidate_id": "asyncq-c7fd2dfca6f512e3a47d866b",
       "candidate_digest": "6f8b8d2ae291e86d650506709de0767e1bd5228e1bac92aa166441a6fbbc6f1b",
       "local_regression": {
-        "failure_taxonomy": [
-          "tool_and_stream_completion_minor_gaps_or_pass"
-        ],
-        "status": "passed",
-        "scorer_id": "gpt55_offline_teacher_judge_candidate_rubric_v1",
+        "provider_send_attempted": false,
+        "pass_threshold": 80.0,
         "assertions": [
           {
             "assertion_id": "mentions_tool_or_execution_decision",
@@ -82,9 +79,12 @@
             "passed": true
           }
         ],
-        "provider_send_attempted": false,
-        "pass_threshold": 80.0,
-        "score": 94.0
+        "score": 94.0,
+        "status": "passed",
+        "failure_taxonomy": [
+          "tool_and_stream_completion_minor_gaps_or_pass"
+        ],
+        "scorer_id": "gpt55_offline_teacher_judge_candidate_rubric_v1"
       },
       "source_manifest": [
         {
@@ -101,15 +101,15 @@
         },
         {
           "source_ref": "docs/review_artifacts/osai_frontier_measured_results.json",
-          "sha256": "99b73f61ec3b41c2aae832ba6657a11df6d3d1e3bd272090ef7ac7eb6793af87",
-          "size_bytes": 7437906,
+          "sha256": "903cbe8466cf4ac42550141bf0b3a1f4a007ec7974db42c3b0e5c1586413c2b3",
+          "size_bytes": 7445270,
           "content_embedded": false
         }
       ],
       "teacher_information_embedded": false,
       "local_absolute_paths_embedded": false
     },
-    "generated_at": "2026-07-27T06:57:46.814137+00:00",
+    "generated_at": "2026-07-27T08:01:07.855922+00:00",
     "output_contract": {
       "begin_marker": "===OSAI_EXAMINER_PACKET_BEGIN===",
       "emit_begin_marker_as_first_output": true,
@@ -163,7 +163,7 @@
       "consecutive_success_count": 28,
       "duplicate_candidate_cycle_count": 0,
       "finalized_examiner_run_count": 28,
-      "generated_at": "2026-07-27T06:57:44.594839+00:00",
+      "generated_at": "2026-07-27T08:01:06.369146+00:00",
       "incomplete_cycle_count": 0,
       "invalid_cycle_count": 0,
       "invalid_runs": [],
@@ -1850,12 +1850,12 @@
   "publication_contract": {
     "active_assignment_packet_id": "scheduled-haru-published-assignment-460fdb2246abc5c6001e",
     "active_assignment_state": "active_unconsumed",
-    "assignment_fresh_until": "2026-07-27T16:13:57+09:00",
-    "assignment_lease_expires_at": "2026-07-27T17:08:57+09:00",
-    "assignment_lease_id": "9ec4d3642883866e8e1285b7deb130b2bc0a4eddd95230e9ab868fed9a9b407a",
+    "assignment_fresh_until": "2026-07-27T17:17:06+09:00",
+    "assignment_lease_expires_at": "2026-07-27T18:12:06+09:00",
+    "assignment_lease_id": "13ba23a2c83d7589fc4e32a7cd13396187fa5035da5dff5f59d97621b7af394a",
     "assignment_lease_seconds": 4200,
     "assignment_revision": "ea288ef48d302869dbf5c68252ab1f3afd1076074e4a1431d1f68d96bb8593ea",
-    "briefing_generated_at": "2026-07-27T15:58:57+09:00",
+    "briefing_generated_at": "2026-07-27T17:02:06+09:00",
     "case_identity_source": "existing_delivery_receipt",
     "generator_component": "teacher_delivery.py",
     "generator_revision": "c9348fe52bab9bdacc84ce013726c2ca8b1d930d1ee414b42f67db11881363ad",
