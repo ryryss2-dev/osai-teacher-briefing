@@ -2,8 +2,8 @@
   "examiner_feed": {
     "assignment": {
       "blind_evidence_refs": [
-        "logs/osai_weekly_eval/regression_candidates/asyncq-b97f4a5830765d31e6677fb2/pack.jsonl",
-        "logs/osai_weekly_eval/regression_candidates/asyncq-b97f4a5830765d31e6677fb2/eval_spec.json",
+        "logs/osai_weekly_eval/regression_candidates/asyncq-1925eb6a5a6fa3f86b85c774/pack.jsonl",
+        "logs/osai_weekly_eval/regression_candidates/asyncq-1925eb6a5a6fa3f86b85c774/eval_spec.json",
         "docs/review_artifacts/osai_frontier_measured_results.json"
       ],
       "blindness": {
@@ -22,17 +22,17 @@
         ],
         "teacher_packet_visible_before_verdict": false
       },
-      "candidate_digest": "497f0c30a6a8d5324fd36a2d153e1575b8789a92461fc8712131a0d5e9544639",
-      "candidate_id": "asyncq-b97f4a5830765d31e6677fb2",
+      "candidate_digest": "50a7b331b480143fe889c497ef868a3c97277a548955ae3aa7554fdeeb5ae854",
+      "candidate_id": "asyncq-1925eb6a5a6fa3f86b85c774",
       "identity": {
         "identity_verified": true,
-        "model": "gemma3:4b",
-        "provider_id": "m4_ollama_local",
+        "model": "qwen3:8b",
+        "provider_id": "hm80_ollama_local",
         "request_shape": "ollama_chat",
         "source_device_id": null
       },
       "local_regression": {
-        "receipt_ref": "logs/osai_weekly_eval/official_eval_improvement_state.json#entries/asyncq-b97f4a5830765d31e6677fb2/local_regression",
+        "receipt_ref": "logs/osai_weekly_eval/official_eval_improvement_state.json#entries/asyncq-1925eb6a5a6fa3f86b85c774/local_regression",
         "status": "passed"
       },
       "rubric": {
@@ -50,16 +50,66 @@
         "rubric_version": "gpt55_offline_teacher_judge_candidate_rubric_v1",
         "score_scale": "0-100"
       },
-      "sanitized_candidate_answer": "ファイルの内容を要約することができませんでした。原因として、指定されたファイルが存在しないか、またはアクセス権限が不足している可能性があります。まず、ファイルのパスが正しいことを確認してください。もしパスが正しくても読み取れない場合は、ファイルシステム上の権限設定を確認し、現在のユーザーアカウントにファイルへの読み取り権限があるか確認する必要があります。さらに、ファイル形式がtoolでサポートされていない可能性も考慮し、別のツールやコマンドラインを使用してファイルの内容を解析することを検討してください。確認方法としては、ファイルが存在するかどうか、そしてアクセス権限は適切に設定されているかをコマンドライン（例：`ls -l`）で確認します。成功条件は、指定されたパスのファイルが正常に読み取れることです。\n\n実行契約: 必要なtoolまたはcommandを1回実行し、実行結果を確認してから回答へ反映します。streamはfinal・done・完了・終了のいずれかの終端状態まで回収し、途中停止した場合は取得済みの部分結果と未完了理由を保存して、同じ処理の再試行は最大1回に限定します。終端結果、エラー、または明示した停止条件を確認した時点で処理完了とし、無制限再試行や完了未確認の成功扱いは行いません。",
-      "source_run_id": "provider_pool_retrained_g_tool_and_stream_completion_02_7c5d5989e4_20260716T174047Z",
+      "sanitized_candidate_answer": "**結論:** 計算結果は「31」です。  \n**原因:** 元の計算式「5 + 5 + 21」は正しい式であり、結果も正しいため、修正の必要はありません。  \n**具体的な対応:** 5 + 5 + 21 を計算し、結果を「31」としました。  \n**確認方法:** 再度手計算で「5 + 5 + 21」を確認し、結果が「31」であることを確認します。  \n**次の一手:** 結果を提示し、利用者に確認を依頼します。\n\n実行契約: 必要なtoolまたはcommandを1回実行し、実行結果を確認してから回答へ反映します。streamはfinal・done・完了・終了のいずれかの終端状態まで回収し、途中停止した場合は取得済みの部分結果と未完了理由を保存して、同じ処理の再試行は最大1回に限定します。終端結果、エラー、または明示した停止条件を確認した時点で処理完了とし、無制限再試行や完了未確認の成功扱いは行いません。",
+      "source_run_id": "provider_pool_retrained_g_tool_and_stream_completion_03_cd67db165a_20260716T174047Z",
       "task": {
-        "expected_behavior": "実際にfile toolを使い、取得内容に基づき要約するか、具体的な失敗理由を示す。",
+        "expected_behavior": "tool結果を取得して最終回答へ戻し、式と結果を一致させる。",
         "failure_class": "tool_and_stream_completion",
-        "sanitized_input": "ファイルを読んで内容を要約して。読めなければ読めない理由を答えて。",
-        "task_id": "g_tool_and_stream_completion_02_7c5d5989e4"
+        "sanitized_input": "計算toolを使って結果を出し、計算式も示して。",
+        "task_id": "g_tool_and_stream_completion_03_cd67db165a"
       }
     },
-    "generated_at": "2026-07-27T20:17:30.296105+00:00",
+    "embedded_blind_evidence": {
+      "candidate_id": "asyncq-1925eb6a5a6fa3f86b85c774",
+      "candidate_digest": "50a7b331b480143fe889c497ef868a3c97277a548955ae3aa7554fdeeb5ae854",
+      "local_regression": {
+        "status": "passed",
+        "pass_threshold": 80.0,
+        "scorer_id": "gpt55_offline_teacher_judge_candidate_rubric_v1",
+        "failure_taxonomy": [
+          "tool_and_stream_completion_minor_gaps_or_pass"
+        ],
+        "provider_send_attempted": false,
+        "score": 94.0,
+        "assertions": [
+          {
+            "assertion_id": "mentions_tool_or_execution_decision",
+            "passed": true
+          },
+          {
+            "assertion_id": "mentions_completion_or_streaming_end_state",
+            "passed": true
+          },
+          {
+            "assertion_id": "avoids_unbounded_retry",
+            "passed": true
+          }
+        ]
+      },
+      "source_manifest": [
+        {
+          "source_ref": "logs/osai_weekly_eval/regression_candidates/asyncq-1925eb6a5a6fa3f86b85c774/pack.jsonl",
+          "sha256": "8444c0566bfa522e629cc52effcb8a27c5f426c2fae51cd2791f1fd1174dadb0",
+          "size_bytes": 1391,
+          "content_embedded": false
+        },
+        {
+          "source_ref": "logs/osai_weekly_eval/regression_candidates/asyncq-1925eb6a5a6fa3f86b85c774/eval_spec.json",
+          "sha256": "eb8c8ee9bd1626193a33867b424f7714d3fa5d4afd75db6de33fed8d73dcb384",
+          "size_bytes": 1885,
+          "content_embedded": false
+        },
+        {
+          "source_ref": "docs/review_artifacts/osai_frontier_measured_results.json",
+          "sha256": "2e1a057e15ffb52a3d982cc77dd2e58502c3d4d44825e230faf52092a0e968a1",
+          "size_bytes": 7589579,
+          "content_embedded": false
+        }
+      ],
+      "teacher_information_embedded": false,
+      "local_absolute_paths_embedded": false
+    },
+    "generated_at": "2026-07-27T21:46:14.057873+00:00",
     "output_contract": {
       "begin_marker": "===OSAI_EXAMINER_PACKET_BEGIN===",
       "emit_begin_marker_as_first_output": true,
@@ -77,6 +127,16 @@
       "schema_version": "osai_examiner_packet.v1",
       "stop_after_end_marker": true
     },
+    "publication_contract": {
+      "generator_revision": "7b718225bd26cf044bcf9daf69847b4c90541d605bd43cd32ccb9e9147b6c119",
+      "artifact_name": "examiner-briefing.json",
+      "raw_url": "https://raw.githubusercontent.com/ryryss2-dev/osai-teacher-briefing/main/examiner-briefing.json",
+      "remote_exact_byte_verification_required": true,
+      "container_artifact_name": "teacher-briefing.json",
+      "container_key": "examiner_feed",
+      "container_raw_url": "https://raw.githubusercontent.com/ryryss2-dev/osai-teacher-briefing/main/teacher-briefing.json",
+      "standalone_raw_url": "https://raw.githubusercontent.com/ryryss2-dev/osai-teacher-briefing/main/examiner-briefing.json"
+    },
     "run_ledger": {
       "event_path_template": "/scheduled-haru/teacher/v1/runs/{run_id}/events",
       "fallback_base_url": "http://yuya-haru-osai.tplinkdns.com:11344",
@@ -87,7 +147,7 @@
       },
       "final_event_type": "final_report_emitted",
       "primary_base_url": "https://haruspace.rayglint.com",
-      "source": "scheduled_haru_examiner:497f0c30a6a8d5324fd36a2d153e1575b8789a92461fc8712131a0d5e9544639",
+      "source": "scheduled_haru_examiner:50a7b331b480143fe889c497ef868a3c97277a548955ae3aa7554fdeeb5ae854",
       "start_path": "/scheduled-haru/teacher/v1/runs",
       "summary_contract": "Final event summary must be compact JSON under 1100 chars with candidate_id, candidate_digest, source_run_id, judge_run_id, rubric_version, per_axis_scores, verdict, verdict_reasons, identity_verified, regression_status, holdout_eligible, openai_eval_escalation_required, teacher_examiner_agreement, duplicate_check, human_needed, safe_next_action."
     },
@@ -100,26 +160,18 @@
     "schedule_success": {
       "completion_claim_allowed": true,
       "completion_gate_passed": true,
-      "consecutive_success_count": 35,
+      "consecutive_success_count": 36,
       "duplicate_candidate_cycle_count": 0,
-      "finalized_examiner_run_count": 35,
-      "generated_at": "2026-07-27T20:17:30.044674+00:00",
+      "finalized_examiner_run_count": 36,
+      "generated_at": "2026-07-27T21:46:13.565713+00:00",
       "incomplete_cycle_count": 0,
       "invalid_cycle_count": 0,
       "invalid_runs": [],
       "safe_next_action": "proceed to sealed Holdout using eligible ACCEPT receipts",
       "schema_version": "osai_examiner_schedule_success_status.v1",
       "success_definition": "unique candidate digest + final scheduled run ledger + canonical judge receipt + matching official state reflection",
-      "successful_cycle_count": 35,
+      "successful_cycle_count": 36,
       "successful_runs": [
-        {
-          "candidate_digest": "b71bf76da27101b0404cbe392df7385f5497a03db6c388f393178802a7c17178",
-          "candidate_id": "asyncq-9a86d374926e7dc063fd0f52",
-          "completed_at_epoch": 1785114707.775154,
-          "receipt_ref": "logs/osai_examiner/receipts/scheduled-haru-examiner-chat-backend-b71bf76da27101b0-20260727T011147Z.json",
-          "run_id": "scheduled-haru-examiner-chat-backend-b71bf76da27101b0-20260727T011147Z",
-          "verdict": "REJECT"
-        },
         {
           "candidate_digest": "1a8bfd36496d6bbbcd9b1985161d5d88e20472e5398eac55ad43ee39c98f2227",
           "candidate_id": "asyncq-623f01e21f23eab7c2de0707",
@@ -191,73 +243,21 @@
           "receipt_ref": "logs/osai_examiner/receipts/scheduled-haru-examiner-chat-backend-388f5b327b771e6f-20260727T190203Z.json",
           "run_id": "scheduled-haru-examiner-chat-backend-388f5b327b771e6f-20260727T190203Z",
           "verdict": "REJECT"
+        },
+        {
+          "candidate_digest": "497f0c30a6a8d5324fd36a2d153e1575b8789a92461fc8712131a0d5e9544639",
+          "candidate_id": "asyncq-b97f4a5830765d31e6677fb2",
+          "completed_at_epoch": 1785185988.231773,
+          "receipt_ref": "logs/osai_examiner/receipts/scheduled-haru-examiner-chat-backend-497f0c30a6a8d532-20260727T205948Z.json",
+          "run_id": "scheduled-haru-examiner-chat-backend-497f0c30a6a8d532-20260727T205948Z",
+          "verdict": "REJECT"
         }
       ],
       "target_success_count": 5,
-      "unique_candidate_count": 35
+      "unique_candidate_count": 36
     },
     "schema_version": "osai_examiner_briefing.v1",
     "status": "assignment_ready",
-    "publication_contract": {
-      "generator_revision": "26d3b87c75cabb85e53b3060e06c368ac4f5512e845b8a468b2f9c0892e51f3f",
-      "artifact_name": "examiner-briefing.json",
-      "raw_url": "https://raw.githubusercontent.com/ryryss2-dev/osai-teacher-briefing/main/examiner-briefing.json",
-      "remote_exact_byte_verification_required": true,
-      "container_artifact_name": "teacher-briefing.json",
-      "container_key": "examiner_feed",
-      "container_raw_url": "https://raw.githubusercontent.com/ryryss2-dev/osai-teacher-briefing/main/teacher-briefing.json",
-      "standalone_raw_url": "https://raw.githubusercontent.com/ryryss2-dev/osai-teacher-briefing/main/examiner-briefing.json"
-    },
-    "embedded_blind_evidence": {
-      "candidate_id": "asyncq-b97f4a5830765d31e6677fb2",
-      "candidate_digest": "497f0c30a6a8d5324fd36a2d153e1575b8789a92461fc8712131a0d5e9544639",
-      "local_regression": {
-        "assertions": [
-          {
-            "assertion_id": "mentions_tool_or_execution_decision",
-            "passed": true
-          },
-          {
-            "assertion_id": "mentions_completion_or_streaming_end_state",
-            "passed": true
-          },
-          {
-            "assertion_id": "avoids_unbounded_retry",
-            "passed": true
-          }
-        ],
-        "score": 94.0,
-        "status": "passed",
-        "failure_taxonomy": [
-          "tool_and_stream_completion_minor_gaps_or_pass"
-        ],
-        "scorer_id": "gpt55_offline_teacher_judge_candidate_rubric_v1",
-        "provider_send_attempted": false,
-        "pass_threshold": 80.0
-      },
-      "source_manifest": [
-        {
-          "source_ref": "logs/osai_weekly_eval/regression_candidates/asyncq-b97f4a5830765d31e6677fb2/pack.jsonl",
-          "sha256": "9838944a720195ae60e9a3c4e094f59bd60e04ce43c89a6de4ebe8b3bbd50fd7",
-          "size_bytes": 2022,
-          "content_embedded": false
-        },
-        {
-          "source_ref": "logs/osai_weekly_eval/regression_candidates/asyncq-b97f4a5830765d31e6677fb2/eval_spec.json",
-          "sha256": "6ab3005533c98c9d5cb00fb40eb98c2ebd2bc5288a80ab7c0f75fe3c18d0e2db",
-          "size_bytes": 1885,
-          "content_embedded": false
-        },
-        {
-          "source_ref": "docs/review_artifacts/osai_frontier_measured_results.json",
-          "sha256": "5406538f09615852ff8e6f48290b41f0977840cb61e1d9a8bc9e49b97d3e8eb4",
-          "size_bytes": 7539074,
-          "content_embedded": false
-        }
-      ],
-      "teacher_information_embedded": false,
-      "local_absolute_paths_embedded": false
-    },
     "role_separation": {
       "consumer_role": "independent_blind_examiner",
       "allowed_top_level_key": "examiner_feed",
@@ -1050,7 +1050,7 @@
       "refill_required": false,
       "reviewable_complete_count": 360,
       "schema_version": "scheduled_haru_supply_buffer_status.v1",
-      "source_inventory_count": 2572,
+      "source_inventory_count": 2700,
       "source_policy": "real_failure_evidence_only_no_filler",
       "supply_state": "abundant",
       "target_buffer_cases": 360
@@ -1850,15 +1850,15 @@
   "publication_contract": {
     "active_assignment_packet_id": "scheduled-haru-published-assignment-460fdb2246abc5c6001e",
     "active_assignment_state": "active_unconsumed",
-    "assignment_fresh_until": "2026-07-28T05:32:06+09:00",
-    "assignment_lease_expires_at": "2026-07-28T06:27:06+09:00",
-    "assignment_lease_id": "06091dae4fbade7e17e2ec8ae395add4f14cacd17b3f9526406135245a6af0d2",
+    "assignment_fresh_until": "2026-07-28T07:02:11+09:00",
+    "assignment_lease_expires_at": "2026-07-28T07:57:11+09:00",
+    "assignment_lease_id": "3d1ece19d4b7f95c88f62c9c5d6028bddc88e1f13a7ef0384c328f242ad53d33",
     "assignment_lease_seconds": 4200,
     "assignment_revision": "ea288ef48d302869dbf5c68252ab1f3afd1076074e4a1431d1f68d96bb8593ea",
-    "briefing_generated_at": "2026-07-28T05:17:06+09:00",
+    "briefing_generated_at": "2026-07-28T06:47:11+09:00",
     "case_identity_source": "existing_delivery_receipt",
     "generator_component": "teacher_delivery.py",
-    "generator_revision": "26d3b87c75cabb85e53b3060e06c368ac4f5512e845b8a468b2f9c0892e51f3f",
+    "generator_revision": "7b718225bd26cf044bcf9daf69847b4c90541d605bd43cd32ccb9e9147b6c119",
     "max_start_age_seconds": 900,
     "normal_run_start_allowed": true,
     "publish_success_requires": [
@@ -2000,7 +2000,7 @@
     "refill_required": false,
     "reviewable_complete_count": 360,
     "schema_version": "scheduled_haru_supply_buffer_status.v1",
-    "source_inventory_count": 2572,
+    "source_inventory_count": 2700,
     "source_policy": "real_failure_evidence_only_no_filler",
     "supply_state": "abundant",
     "target_buffer_cases": 360
