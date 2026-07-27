@@ -1,8 +1,8 @@
 {
   "assignment": {
     "blind_evidence_refs": [
-      "logs/osai_weekly_eval/regression_candidates/asyncq-ad42a3cb7874c994ac77b039/pack.jsonl",
-      "logs/osai_weekly_eval/regression_candidates/asyncq-ad42a3cb7874c994ac77b039/eval_spec.json",
+      "logs/osai_weekly_eval/regression_candidates/asyncq-335a2cdcff3bbe2b932113da/pack.jsonl",
+      "logs/osai_weekly_eval/regression_candidates/asyncq-335a2cdcff3bbe2b932113da/eval_spec.json",
       "docs/review_artifacts/osai_frontier_measured_results.json"
     ],
     "blindness": {
@@ -21,17 +21,17 @@
       ],
       "teacher_packet_visible_before_verdict": false
     },
-    "candidate_digest": "2493025ef6c7d41d4c81828973f2a846cc4273dc4bf17b5bc6c6539400a073d5",
-    "candidate_id": "asyncq-ad42a3cb7874c994ac77b039",
+    "candidate_digest": "71cb6faed1ed7b2906dd6602a01aeb2a5fe8989fdbfe5c01a1fb412976d769a0",
+    "candidate_id": "asyncq-335a2cdcff3bbe2b932113da",
     "identity": {
       "identity_verified": true,
-      "model": "qwen2.5-coder:7b",
-      "provider_id": "m3max_ollama_local",
+      "model": "qwen3:8b",
+      "provider_id": "dell_ollama_local",
       "request_shape": "ollama_chat",
       "source_device_id": null
     },
     "local_regression": {
-      "receipt_ref": "logs/osai_weekly_eval/official_eval_improvement_state.json#entries/asyncq-ad42a3cb7874c994ac77b039/local_regression",
+      "receipt_ref": "logs/osai_weekly_eval/official_eval_improvement_state.json#entries/asyncq-335a2cdcff3bbe2b932113da/local_regression",
       "status": "passed"
     },
     "rubric": {
@@ -49,18 +49,18 @@
       "rubric_version": "gpt55_offline_teacher_judge_candidate_rubric_v1",
       "score_scale": "0-100"
     },
-    "sanitized_candidate_answer": "結論：失敗事例の再現と修正が完了しました。\n\n原因：元のコードに存在するバグにより、期待通りの動作が実行できませんでした。\n\n対応：該当のバグを修正し、再度テストを行いました。確認方法は、修正後のコードで再現試験を行い、成功したかどうかを確認します。\n\n次の一手：成功すれば、正常な操作が可能であることを確認し、問題解決として完了とします。失敗すれば、追加のデバッグが必要となるため、その対策を考えます。",
-    "source_run_id": "provider_pool_retrained_d_tool_and_stream_completion_61c17baa4faf170b5cb8_20260716T172606Z",
+    "sanitized_candidate_answer": "前回の回答では計算式と結果の整合性が欠けていました。原因は式の再確認不足でした。現在は正しい式「(12 × 3) + (8 ÷ 2) = 40」を導き、結果も一致させました。確認は式を再計算することで可能です。ご確認ください。次は他の計算式も同様に確認していきます。\n\n実行契約: 必要なtoolまたはcommandを1回実行し、実行結果を確認してから回答へ反映します。streamはfinal・done・完了・終了のいずれかの終端状態まで回収し、途中停止した場合は取得済みの部分結果と未完了理由を保存して、同じ処理の再試行は最大1回に限定します。終端結果、エラー、または明示した停止条件を確認した時点で処理完了とし、無制限再試行や完了未確認の成功扱いは行いません。",
+    "source_run_id": "provider_pool_retrained_r_tool_and_stream_completion_03_767c2b24d1_20260716T172606Z",
     "task": {
-      "expected_behavior": "tool result後の最終回答まで完走する。",
+      "expected_behavior": "tool結果を取得して最終回答へ戻し、式と結果を一致させる。",
       "failure_class": "tool_and_stream_completion",
-      "sanitized_input": "この失敗事例を再現し、原因を直した上で完全な回答を返して。",
-      "task_id": "d_tool_and_stream_completion_61c17baa4faf170b5cb8"
+      "sanitized_input": "前提: 直前の回答には抜けがあった。計算toolを使って結果を出し、計算式も示して。",
+      "task_id": "r_tool_and_stream_completion_03_767c2b24d1"
     }
   },
   "embedded_blind_evidence": {
-    "candidate_digest": "2493025ef6c7d41d4c81828973f2a846cc4273dc4bf17b5bc6c6539400a073d5",
-    "candidate_id": "asyncq-ad42a3cb7874c994ac77b039",
+    "candidate_digest": "71cb6faed1ed7b2906dd6602a01aeb2a5fe8989fdbfe5c01a1fb412976d769a0",
+    "candidate_id": "asyncq-335a2cdcff3bbe2b932113da",
     "local_absolute_paths_embedded": false,
     "local_regression": {
       "assertions": [
@@ -89,26 +89,26 @@
     "source_manifest": [
       {
         "content_embedded": false,
-        "sha256": "6fd24dc5db25d24d13872554c089be0c556e146f5c7b10192f73ddef5d51eef8",
-        "size_bytes": 975,
-        "source_ref": "logs/osai_weekly_eval/regression_candidates/asyncq-ad42a3cb7874c994ac77b039/pack.jsonl"
+        "sha256": "cd3e31837c529dbe97c4ac7c496d7d408ea5cedc852928fbd3dacf75098cdf24",
+        "size_bytes": 1320,
+        "source_ref": "logs/osai_weekly_eval/regression_candidates/asyncq-335a2cdcff3bbe2b932113da/pack.jsonl"
       },
       {
         "content_embedded": false,
-        "sha256": "accc847ff47d6566f2ac15890c6376fcd089d1894e219d570389e01a442debe8",
+        "sha256": "03d59b6878df25e3bcfc78f76db0ac5aa3de55b83c647299f084753a4e6ba7b3",
         "size_bytes": 1885,
-        "source_ref": "logs/osai_weekly_eval/regression_candidates/asyncq-ad42a3cb7874c994ac77b039/eval_spec.json"
+        "source_ref": "logs/osai_weekly_eval/regression_candidates/asyncq-335a2cdcff3bbe2b932113da/eval_spec.json"
       },
       {
         "content_embedded": false,
-        "sha256": "f1c260ea594d74bf9699a2d5c64c48b47b559b4d65da77e6eda1d2a269221954",
-        "size_bytes": 7518430,
+        "sha256": "ba1da78cebdb056f8bb8e9662e634e8b95d60c41e101d4f056903d2a17610426",
+        "size_bytes": 7537069,
         "source_ref": "docs/review_artifacts/osai_frontier_measured_results.json"
       }
     ],
     "teacher_information_embedded": false
   },
-  "generated_at": "2026-07-27T11:11:52.460240+00:00",
+  "generated_at": "2026-07-27T12:14:28.788072+00:00",
   "output_contract": {
     "begin_marker": "===OSAI_EXAMINER_PACKET_BEGIN===",
     "emit_begin_marker_as_first_output": true,
@@ -128,7 +128,7 @@
   },
   "publication_contract": {
     "artifact_name": "examiner-briefing.json",
-    "generator_revision": "17eefe39a70421ca2f4b5afa3c3afa0fc08e47960adc7ed0a38c4342bae607ae",
+    "generator_revision": "850876a441123da8725f92d1ceebc7b5cecd31e09ee6dd4bac40efabc70cd267",
     "raw_url": "https://raw.githubusercontent.com/ryryss2-dev/osai-teacher-briefing/main/examiner-briefing.json",
     "remote_exact_byte_verification_required": true
   },
@@ -142,7 +142,7 @@
     },
     "final_event_type": "final_report_emitted",
     "primary_base_url": "https://haruspace.rayglint.com",
-    "source": "scheduled_haru_examiner:2493025ef6c7d41d4c81828973f2a846cc4273dc4bf17b5bc6c6539400a073d5",
+    "source": "scheduled_haru_examiner:71cb6faed1ed7b2906dd6602a01aeb2a5fe8989fdbfe5c01a1fb412976d769a0",
     "start_path": "/scheduled-haru/teacher/v1/runs",
     "summary_contract": "Final event summary must be compact JSON under 1100 chars with candidate_id, candidate_digest, source_run_id, judge_run_id, rubric_version, per_axis_scores, verdict, verdict_reasons, identity_verified, regression_status, holdout_eligible, openai_eval_escalation_required, teacher_examiner_agreement, duplicate_check, human_needed, safe_next_action."
   },
@@ -155,26 +155,18 @@
   "schedule_success": {
     "completion_claim_allowed": true,
     "completion_gate_passed": true,
-    "consecutive_success_count": 31,
+    "consecutive_success_count": 32,
     "duplicate_candidate_cycle_count": 0,
-    "finalized_examiner_run_count": 31,
-    "generated_at": "2026-07-27T11:11:51.561939+00:00",
+    "finalized_examiner_run_count": 32,
+    "generated_at": "2026-07-27T12:14:27.842023+00:00",
     "incomplete_cycle_count": 0,
     "invalid_cycle_count": 0,
     "invalid_runs": [],
     "safe_next_action": "proceed to sealed Holdout using eligible ACCEPT receipts",
     "schema_version": "osai_examiner_schedule_success_status.v1",
     "success_definition": "unique candidate digest + final scheduled run ledger + canonical judge receipt + matching official state reflection",
-    "successful_cycle_count": 31,
+    "successful_cycle_count": 32,
     "successful_runs": [
-      {
-        "candidate_digest": "ff653ee22736cce1b308047c5ec933e5795b95f4773fdf2487d4b7db8362b692",
-        "candidate_id": "asyncq-e718335cc926997bd2a4fe71",
-        "completed_at_epoch": 1785096076.438969,
-        "receipt_ref": "logs/osai_examiner/receipts/scheduled-haru-examiner-chat-backend-ff653ee22736cce1-20260726T200116Z.json",
-        "run_id": "scheduled-haru-examiner-chat-backend-ff653ee22736cce1-20260726T200116Z",
-        "verdict": "REJECT"
-      },
       {
         "candidate_digest": "3d1ebb1190baa63bf303a6834fafea12825acea30192f0b7472e3de5fec0eb59",
         "candidate_id": "asyncq-4aa44aa54d7182665754e8d3",
@@ -246,10 +238,18 @@
         "receipt_ref": "logs/osai_examiner/receipts/scheduled-haru-examiner-chat-backend-8425550b0fd1a358-20260727T110211Z.json",
         "run_id": "scheduled-haru-examiner-chat-backend-8425550b0fd1a358-20260727T110211Z",
         "verdict": "REJECT"
+      },
+      {
+        "candidate_digest": "2493025ef6c7d41d4c81828973f2a846cc4273dc4bf17b5bc6c6539400a073d5",
+        "candidate_id": "asyncq-ad42a3cb7874c994ac77b039",
+        "completed_at_epoch": 1785153849.189256,
+        "receipt_ref": "logs/osai_examiner/receipts/scheduled-haru-examiner-chat-backend-2493025ef6c7d41d-20260727T120409Z.json",
+        "run_id": "scheduled-haru-examiner-chat-backend-2493025ef6c7d41d-20260727T120409Z",
+        "verdict": "REJECT"
       }
     ],
     "target_success_count": 5,
-    "unique_candidate_count": 31
+    "unique_candidate_count": 32
   },
   "schema_version": "osai_examiner_briefing.v1",
   "status": "assignment_ready"
