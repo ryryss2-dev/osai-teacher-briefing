@@ -59,57 +59,7 @@
         "task_id": "g_tool_and_stream_completion_02_7c5d5989e4"
       }
     },
-    "embedded_blind_evidence": {
-      "candidate_id": "asyncq-e483ef7378a34f3604fad3e8",
-      "candidate_digest": "c12ccad207d47c9100ca7e97ecd611ed400185a35963da6e193de6d94dd62634",
-      "local_regression": {
-        "provider_send_attempted": false,
-        "scorer_id": "gpt55_offline_teacher_judge_candidate_rubric_v1",
-        "status": "passed",
-        "score": 94.0,
-        "pass_threshold": 80.0,
-        "failure_taxonomy": [
-          "tool_and_stream_completion_minor_gaps_or_pass"
-        ],
-        "assertions": [
-          {
-            "assertion_id": "mentions_tool_or_execution_decision",
-            "passed": true
-          },
-          {
-            "assertion_id": "mentions_completion_or_streaming_end_state",
-            "passed": true
-          },
-          {
-            "assertion_id": "avoids_unbounded_retry",
-            "passed": true
-          }
-        ]
-      },
-      "source_manifest": [
-        {
-          "source_ref": "logs/osai_weekly_eval/regression_candidates/asyncq-e483ef7378a34f3604fad3e8/pack.jsonl",
-          "sha256": "6f8687a2535506ea6b6056d68b9e6da1671fb25f64cfd9686d4c2ae22dedce87",
-          "size_bytes": 2237,
-          "content_embedded": false
-        },
-        {
-          "source_ref": "logs/osai_weekly_eval/regression_candidates/asyncq-e483ef7378a34f3604fad3e8/eval_spec.json",
-          "sha256": "b1a7f0c5c07c6758a9813a553bd787a136a1ccd975ad64af98e07e3bedce5598",
-          "size_bytes": 1885,
-          "content_embedded": false
-        },
-        {
-          "source_ref": "docs/review_artifacts/osai_frontier_measured_results.json",
-          "sha256": "04b65d4e151994afb01096dc350d47b9d092418556e76e949bfffe86a8f0c599",
-          "size_bytes": 7874180,
-          "content_embedded": false
-        }
-      ],
-      "teacher_information_embedded": false,
-      "local_absolute_paths_embedded": false
-    },
-    "generated_at": "2026-07-28T09:41:37.802309+00:00",
+    "generated_at": "2026-07-28T10:57:18.889147+00:00",
     "output_contract": {
       "begin_marker": "===OSAI_EXAMINER_PACKET_BEGIN===",
       "emit_begin_marker_as_first_output": true,
@@ -126,16 +76,6 @@
       "preamble_allowed": false,
       "schema_version": "osai_examiner_packet.v1",
       "stop_after_end_marker": true
-    },
-    "publication_contract": {
-      "generator_revision": "7b718225bd26cf044bcf9daf69847b4c90541d605bd43cd32ccb9e9147b6c119",
-      "artifact_name": "examiner-briefing.json",
-      "raw_url": "https://raw.githubusercontent.com/ryryss2-dev/osai-teacher-briefing/main/examiner-briefing.json",
-      "remote_exact_byte_verification_required": true,
-      "container_artifact_name": "teacher-briefing.json",
-      "container_key": "examiner_feed",
-      "container_raw_url": "https://raw.githubusercontent.com/ryryss2-dev/osai-teacher-briefing/main/teacher-briefing.json",
-      "standalone_raw_url": "https://raw.githubusercontent.com/ryryss2-dev/osai-teacher-briefing/main/examiner-briefing.json"
     },
     "run_ledger": {
       "event_path_template": "/scheduled-haru/teacher/v1/runs/{run_id}/events",
@@ -163,7 +103,7 @@
       "consecutive_success_count": 43,
       "duplicate_candidate_cycle_count": 0,
       "finalized_examiner_run_count": 43,
-      "generated_at": "2026-07-28T09:41:37.362358+00:00",
+      "generated_at": "2026-07-28T10:57:18.700598+00:00",
       "incomplete_cycle_count": 0,
       "invalid_cycle_count": 0,
       "invalid_runs": [],
@@ -258,6 +198,66 @@
     },
     "schema_version": "osai_examiner_briefing.v1",
     "status": "assignment_ready",
+    "publication_contract": {
+      "generator_revision": "4950893564991224e7f95f1afdbd245b8912ddd08c3b82bd37ee6f0f48c1b24a",
+      "artifact_name": "examiner-briefing.json",
+      "raw_url": "https://raw.githubusercontent.com/ryryss2-dev/osai-teacher-briefing/main/examiner-briefing.json",
+      "remote_exact_byte_verification_required": true,
+      "container_artifact_name": "teacher-briefing.json",
+      "container_key": "examiner_feed",
+      "container_raw_url": "https://raw.githubusercontent.com/ryryss2-dev/osai-teacher-briefing/main/teacher-briefing.json",
+      "standalone_raw_url": "https://raw.githubusercontent.com/ryryss2-dev/osai-teacher-briefing/main/examiner-briefing.json"
+    },
+    "embedded_blind_evidence": {
+      "candidate_id": "asyncq-e483ef7378a34f3604fad3e8",
+      "candidate_digest": "c12ccad207d47c9100ca7e97ecd611ed400185a35963da6e193de6d94dd62634",
+      "local_regression": {
+        "status": "passed",
+        "failure_taxonomy": [
+          "tool_and_stream_completion_minor_gaps_or_pass"
+        ],
+        "assertions": [
+          {
+            "assertion_id": "mentions_tool_or_execution_decision",
+            "passed": true
+          },
+          {
+            "assertion_id": "mentions_completion_or_streaming_end_state",
+            "passed": true
+          },
+          {
+            "assertion_id": "avoids_unbounded_retry",
+            "passed": true
+          }
+        ],
+        "score": 94.0,
+        "scorer_id": "gpt55_offline_teacher_judge_candidate_rubric_v1",
+        "provider_send_attempted": false,
+        "pass_threshold": 80.0
+      },
+      "source_manifest": [
+        {
+          "source_ref": "logs/osai_weekly_eval/regression_candidates/asyncq-e483ef7378a34f3604fad3e8/pack.jsonl",
+          "sha256": "6f8687a2535506ea6b6056d68b9e6da1671fb25f64cfd9686d4c2ae22dedce87",
+          "size_bytes": 2237,
+          "content_embedded": false
+        },
+        {
+          "source_ref": "logs/osai_weekly_eval/regression_candidates/asyncq-e483ef7378a34f3604fad3e8/eval_spec.json",
+          "sha256": "b1a7f0c5c07c6758a9813a553bd787a136a1ccd975ad64af98e07e3bedce5598",
+          "size_bytes": 1885,
+          "content_embedded": false
+        },
+        {
+          "source_ref": "docs/review_artifacts/osai_frontier_measured_results.json",
+          "sha256": "04b65d4e151994afb01096dc350d47b9d092418556e76e949bfffe86a8f0c599",
+          "size_bytes": 7874180,
+          "content_embedded": false
+        }
+      ],
+      "teacher_information_embedded": false,
+      "local_absolute_paths_embedded": false
+    },
     "role_separation": {
       "consumer_role": "independent_blind_examiner",
       "allowed_top_level_key": "examiner_feed",
@@ -1050,7 +1050,7 @@
       "refill_required": false,
       "reviewable_complete_count": 360,
       "schema_version": "scheduled_haru_supply_buffer_status.v1",
-      "source_inventory_count": 3127,
+      "source_inventory_count": 3202,
       "source_policy": "real_failure_evidence_only_no_filler",
       "supply_state": "abundant",
       "target_buffer_cases": 360
@@ -1850,15 +1850,15 @@
   "publication_contract": {
     "active_assignment_packet_id": "scheduled-haru-published-assignment-460fdb2246abc5c6001e",
     "active_assignment_state": "active_unconsumed",
-    "assignment_fresh_until": "2026-07-28T18:57:38+09:00",
-    "assignment_lease_expires_at": "2026-07-28T19:52:38+09:00",
-    "assignment_lease_id": "e13d5b0466981d0ddfe4244cc60231c402f4c4bde52df85e2218bbd86fb0405b",
+    "assignment_fresh_until": "2026-07-28T20:00:48+09:00",
+    "assignment_lease_expires_at": "2026-07-28T20:55:48+09:00",
+    "assignment_lease_id": "89d47cee2a590c27901ad7900ff72e6e5c7d3a2ea5b5fb0f0709a1da8673f099",
     "assignment_lease_seconds": 4200,
     "assignment_revision": "ea288ef48d302869dbf5c68252ab1f3afd1076074e4a1431d1f68d96bb8593ea",
-    "briefing_generated_at": "2026-07-28T18:42:38+09:00",
+    "briefing_generated_at": "2026-07-28T19:45:48+09:00",
     "case_identity_source": "existing_delivery_receipt",
     "generator_component": "teacher_delivery.py",
-    "generator_revision": "7b718225bd26cf044bcf9daf69847b4c90541d605bd43cd32ccb9e9147b6c119",
+    "generator_revision": "4950893564991224e7f95f1afdbd245b8912ddd08c3b82bd37ee6f0f48c1b24a",
     "max_start_age_seconds": 900,
     "normal_run_start_allowed": true,
     "publish_success_requires": [
@@ -2000,7 +2000,7 @@
     "refill_required": false,
     "reviewable_complete_count": 360,
     "schema_version": "scheduled_haru_supply_buffer_status.v1",
-    "source_inventory_count": 3127,
+    "source_inventory_count": 3202,
     "source_policy": "real_failure_evidence_only_no_filler",
     "supply_state": "abundant",
     "target_buffer_cases": 360
