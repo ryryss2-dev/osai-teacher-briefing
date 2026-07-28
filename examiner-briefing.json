@@ -1,8 +1,8 @@
 {
   "assignment": {
     "blind_evidence_refs": [
-      "logs/osai_weekly_eval/regression_candidates/asyncq-5ea03045a7d6d2f5e05a11fc/pack.jsonl",
-      "logs/osai_weekly_eval/regression_candidates/asyncq-5ea03045a7d6d2f5e05a11fc/eval_spec.json",
+      "logs/osai_weekly_eval/regression_candidates/asyncq-7ecfb105209948a8f4192e33/pack.jsonl",
+      "logs/osai_weekly_eval/regression_candidates/asyncq-7ecfb105209948a8f4192e33/eval_spec.json",
       "docs/review_artifacts/osai_frontier_measured_results.json"
     ],
     "blindness": {
@@ -21,8 +21,8 @@
       ],
       "teacher_packet_visible_before_verdict": false
     },
-    "candidate_digest": "4a6dce7e39897262239e09a5661a1c1f851c3a5e1ec026a2c27582c10527de2e",
-    "candidate_id": "asyncq-5ea03045a7d6d2f5e05a11fc",
+    "candidate_digest": "37a3d1f9f5b863c0a81e139c50b2fa0306685dff24fa59cf74ba34b512a5e1b8",
+    "candidate_id": "asyncq-7ecfb105209948a8f4192e33",
     "identity": {
       "identity_verified": true,
       "model": "gemma3:4b",
@@ -31,7 +31,7 @@
       "source_device_id": null
     },
     "local_regression": {
-      "receipt_ref": "logs/osai_weekly_eval/official_eval_improvement_state.json#entries/asyncq-5ea03045a7d6d2f5e05a11fc/local_regression",
+      "receipt_ref": "logs/osai_weekly_eval/official_eval_improvement_state.json#entries/asyncq-7ecfb105209948a8f4192e33/local_regression",
       "status": "passed"
     },
     "rubric": {
@@ -49,8 +49,8 @@
       "rubric_version": "gpt55_offline_teacher_judge_candidate_rubric_v1",
       "score_scale": "0-100"
     },
-    "sanitized_candidate_answer": "ファイルの内容を読み取ることができなかった原因は、指定されたファイルが存在しないか、またはアクセス権限が不足していた可能性が高いです。まずは、ファイルの絶対パスを確認し、そのパスが正しいことを確認してください。さらに、当該ファイルに対する読み取り権限が付与されているか、ユーザーアカウントで十分な権限を持っているかを確認し、必要であれば管理者を通じて権限を付与してもらう必要があります。成功条件としては、指定されたパスにファイルが存在し、ユーザーアカウントがファイルの読み取り権限を持つ状態が確認できれば、再度file toolを実行することで内容の要約が可能になります。次の一手として、`ls -l <ファイルパス>`コマンドを使用してファイルとディレクトリのアクセス権限を確認することをお勧めします。\n\n実行契約: 必要なtoolまたはcommandを1回実行し、実行結果を確認してから回答へ反映します。streamはfinal・done・完了・終了のいずれかの終端状態まで回収し、途中停止した場合は取得済みの部分結果と未完了理由を保存して、同じ処理の再試行は最大1回に限定します。終端結果、エラー、または明示した停止条件を確認した時点で処理完了とし、無制限再試行や完了未確認の成功扱いは行いません。",
-    "source_run_id": "provider_pool_retrained_g_tool_and_stream_completion_02_7c5d5989e4_20260716T184557Z",
+    "sanitized_candidate_answer": "ファイルの内容を要約することができませんでした。根本原因は、指定されたファイルが存在しないか、または私のシステムにアクセスするための適切な権限がありませんでした。具体的な対応として、ファイルのパスが正しいことを再度確認し、ファイルに対する読み取り権限があることを確認してください。また、ファイル名の大文字小文字の違いにも注意が必要です。確認方法としては、ファイルシステムのファイル一覧を確認し、指定されたファイルが存在するかどうかを視覚的に確認します。成功条件は、指定されたファイルがシステム上で存在し、読み取り権限が付与されている状態です。次の一手として、ファイルパスを再度慎重に確認し、ファイル名と拡張子が正しいことを確認してください。\n\n実行契約: 必要なtoolまたはcommandを1回実行し、実行結果を確認してから回答へ反映します。streamはfinal・done・完了・終了のいずれかの終端状態まで回収し、途中停止した場合は取得済みの部分結果と未完了理由を保存して、同じ処理の再試行は最大1回に限定します。終端結果、エラー、または明示した停止条件を確認した時点で処理完了とし、無制限再試行や完了未確認の成功扱いは行いません。",
+    "source_run_id": "provider_pool_retrained_g_tool_and_stream_completion_02_7c5d5989e4_20260716T184751Z",
     "task": {
       "expected_behavior": "実際にfile toolを使い、取得内容に基づき要約するか、具体的な失敗理由を示す。",
       "failure_class": "tool_and_stream_completion",
@@ -59,8 +59,8 @@
     }
   },
   "embedded_blind_evidence": {
-    "candidate_digest": "4a6dce7e39897262239e09a5661a1c1f851c3a5e1ec026a2c27582c10527de2e",
-    "candidate_id": "asyncq-5ea03045a7d6d2f5e05a11fc",
+    "candidate_digest": "37a3d1f9f5b863c0a81e139c50b2fa0306685dff24fa59cf74ba34b512a5e1b8",
+    "candidate_id": "asyncq-7ecfb105209948a8f4192e33",
     "local_absolute_paths_embedded": false,
     "local_regression": {
       "assertions": [
@@ -89,15 +89,15 @@
     "source_manifest": [
       {
         "content_embedded": false,
-        "sha256": "2b11903506f0a4d7f3ca3b1caaa16d276cffe488cc0937564efbc4123aba1fe4",
-        "size_bytes": 1994,
-        "source_ref": "logs/osai_weekly_eval/regression_candidates/asyncq-5ea03045a7d6d2f5e05a11fc/pack.jsonl"
+        "sha256": "34823de346df07bafb78c587a673508c34cbf96e1e1a882bef248165fc681d31",
+        "size_bytes": 1936,
+        "source_ref": "logs/osai_weekly_eval/regression_candidates/asyncq-7ecfb105209948a8f4192e33/pack.jsonl"
       },
       {
         "content_embedded": false,
-        "sha256": "8be2788d4fb996be251ba61e5077288b32415d933c1f1b5499b9aeef66d24c38",
+        "sha256": "7b0d5ec60899d5b8efc303beb156af95330a07d0f327437111ca71ded32e75f9",
         "size_bytes": 1885,
-        "source_ref": "logs/osai_weekly_eval/regression_candidates/asyncq-5ea03045a7d6d2f5e05a11fc/eval_spec.json"
+        "source_ref": "logs/osai_weekly_eval/regression_candidates/asyncq-7ecfb105209948a8f4192e33/eval_spec.json"
       },
       {
         "content_embedded": false,
@@ -108,7 +108,7 @@
     ],
     "teacher_information_embedded": false
   },
-  "generated_at": "2026-07-28T21:54:06.446915+00:00",
+  "generated_at": "2026-07-28T22:58:25.377572+00:00",
   "output_contract": {
     "begin_marker": "===OSAI_EXAMINER_PACKET_BEGIN===",
     "emit_begin_marker_as_first_output": true,
@@ -142,7 +142,7 @@
     },
     "final_event_type": "final_report_emitted",
     "primary_base_url": "https://haruspace.rayglint.com",
-    "source": "scheduled_haru_examiner:4a6dce7e39897262239e09a5661a1c1f851c3a5e1ec026a2c27582c10527de2e",
+    "source": "scheduled_haru_examiner:37a3d1f9f5b863c0a81e139c50b2fa0306685dff24fa59cf74ba34b512a5e1b8",
     "start_path": "/scheduled-haru/teacher/v1/runs",
     "summary_contract": "Final event summary must be compact JSON under 1100 chars with candidate_id, candidate_digest, source_run_id, judge_run_id, rubric_version, per_axis_scores, verdict, verdict_reasons, identity_verified, regression_status, holdout_eligible, openai_eval_escalation_required, teacher_examiner_agreement, duplicate_check, human_needed, safe_next_action."
   },
@@ -155,26 +155,18 @@
   "schedule_success": {
     "completion_claim_allowed": true,
     "completion_gate_passed": true,
-    "consecutive_success_count": 46,
+    "consecutive_success_count": 47,
     "duplicate_candidate_cycle_count": 0,
-    "finalized_examiner_run_count": 46,
-    "generated_at": "2026-07-28T21:54:05.642532+00:00",
+    "finalized_examiner_run_count": 47,
+    "generated_at": "2026-07-28T22:58:24.869399+00:00",
     "incomplete_cycle_count": 0,
     "invalid_cycle_count": 0,
     "invalid_runs": [],
     "safe_next_action": "proceed to sealed Holdout using eligible ACCEPT receipts",
     "schema_version": "osai_examiner_schedule_success_status.v1",
     "success_definition": "unique candidate digest + final scheduled run ledger + canonical judge receipt + matching official state reflection",
-    "successful_cycle_count": 46,
+    "successful_cycle_count": 47,
     "successful_runs": [
-      {
-        "candidate_digest": "50a7b331b480143fe889c497ef868a3c97277a548955ae3aa7554fdeeb5ae854",
-        "candidate_id": "asyncq-1925eb6a5a6fa3f86b85c774",
-        "completed_at_epoch": 1785193186.529275,
-        "receipt_ref": "logs/osai_examiner/receipts/scheduled-haru-examiner-chat-backend-50a7b331b480143f-20260727T225946Z.json",
-        "run_id": "scheduled-haru-examiner-chat-backend-50a7b331b480143f-20260727T225946Z",
-        "verdict": "REJECT"
-      },
       {
         "candidate_digest": "63cb40a083c3e65a8b135aa596b3c3548dfb13269c1ab888297c5caad7cb0439",
         "candidate_id": "asyncq-889e24aa7548d3e257c9f82b",
@@ -246,10 +238,18 @@
         "receipt_ref": "logs/osai_examiner/receipts/scheduled-haru-examiner-chat-backend-9045ea5116f70fbf-20260728T150123Z.json",
         "run_id": "scheduled-haru-examiner-chat-backend-9045ea5116f70fbf-20260728T150123Z",
         "verdict": "REJECT"
+      },
+      {
+        "candidate_digest": "4a6dce7e39897262239e09a5661a1c1f851c3a5e1ec026a2c27582c10527de2e",
+        "candidate_id": "asyncq-5ea03045a7d6d2f5e05a11fc",
+        "completed_at_epoch": 1785275992.551472,
+        "receipt_ref": "logs/osai_examiner/receipts/scheduled-haru-examiner-chat-backend-4a6dce7e39897262-20260728T215952Z.json",
+        "run_id": "scheduled-haru-examiner-chat-backend-4a6dce7e39897262-20260728T215952Z",
+        "verdict": "REJECT"
       }
     ],
     "target_success_count": 5,
-    "unique_candidate_count": 46
+    "unique_candidate_count": 47
   },
   "schema_version": "osai_examiner_briefing.v1",
   "status": "assignment_ready"
