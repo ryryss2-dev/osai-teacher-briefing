@@ -1,8 +1,8 @@
 {
   "assignment": {
     "blind_evidence_refs": [
-      "logs/osai_weekly_eval/regression_candidates/asyncq-5e1f5ad44cec1c653a4a2d9e/pack.jsonl",
-      "logs/osai_weekly_eval/regression_candidates/asyncq-5e1f5ad44cec1c653a4a2d9e/eval_spec.json",
+      "logs/osai_weekly_eval/regression_candidates/asyncq-bee5cdbefd3f5646a9419a9a/pack.jsonl",
+      "logs/osai_weekly_eval/regression_candidates/asyncq-bee5cdbefd3f5646a9419a9a/eval_spec.json",
       "docs/review_artifacts/osai_frontier_measured_results.json"
     ],
     "blindness": {
@@ -21,17 +21,17 @@
       ],
       "teacher_packet_visible_before_verdict": false
     },
-    "candidate_digest": "0f3fed38d6d5136be644ec73e6190d5a6cad5b8fb0566f3fc4a85ea325b2e89a",
-    "candidate_id": "asyncq-5e1f5ad44cec1c653a4a2d9e",
+    "candidate_digest": "8dbe28fb4911d71db415c0b624006c22107e9612b9df2842b5b1239d3bb9d8b9",
+    "candidate_id": "asyncq-bee5cdbefd3f5646a9419a9a",
     "identity": {
       "identity_verified": true,
-      "model": "gemma3:4b",
-      "provider_id": "m4_ollama_local",
+      "model": "qwen3:8b",
+      "provider_id": "hm80_ollama_local",
       "request_shape": "ollama_chat",
       "source_device_id": null
     },
     "local_regression": {
-      "receipt_ref": "logs/osai_weekly_eval/official_eval_improvement_state.json#entries/asyncq-5e1f5ad44cec1c653a4a2d9e/local_regression",
+      "receipt_ref": "logs/osai_weekly_eval/official_eval_improvement_state.json#entries/asyncq-bee5cdbefd3f5646a9419a9a/local_regression",
       "status": "passed"
     },
     "rubric": {
@@ -49,18 +49,18 @@
       "rubric_version": "gpt55_offline_teacher_judge_candidate_rubric_v1",
       "score_scale": "0-100"
     },
-    "sanitized_candidate_answer": "ファイルの内容を読み取ることができなかったため、今回の評価は62/100となりました。根本原因としては、指定されたファイルへのアクセス権限が不足していた可能性が高いと判断します。具体的な対応として、ファイルのパスが正しいか、ファイルシステム上で存在するかを確認し、適切な権限でファイルにアクセスできるユーザーで再度実行してください。確認方法としては、ファイルシステムのパーミッション設定を調べ、また、ファイル名やパスを再確認することで、誤りを修正できます。次の一手として、管理者権限でコマンドを実行してみることを推奨します。\n\n実行契約: 必要なtoolまたはcommandを1回実行し、実行結果を確認してから回答へ反映します。streamはfinal・done・完了・終了のいずれかの終端状態まで回収し、途中停止した場合は取得済みの部分結果と未完了理由を保存して、同じ処理の再試行は最大1回に限定します。終端結果、エラー、または明示した停止条件を確認した時点で処理完了とし、無制限再試行や完了未確認の成功扱いは行いません。",
-    "source_run_id": "provider_pool_retrained_g_tool_and_stream_completion_02_7c5d5989e4_20260716T180501Z",
+    "sanitized_candidate_answer": "**結論:** 計算結果は「24」です。  \n**原因:** 元の計算式「6 + 6 + 6 + 6」が正解であり、「6 * 6 + 6」は誤った式でした。  \n**具体的な対応と確認方法:** 計算ツールで「6 + 6 + 6 + 6 = 24」と入力し、結果を確認しました。  \n**次の一手:** 今後は計算式を慎重に確認し、ツールを活用して誤りを防ぎましょう。\n\n実行契約: 必要なtoolまたはcommandを1回実行し、実行結果を確認してから回答へ反映します。streamはfinal・done・完了・終了のいずれかの終端状態まで回収し、途中停止した場合は取得済みの部分結果と未完了理由を保存して、同じ処理の再試行は最大1回に限定します。終端結果、エラー、または明示した停止条件を確認した時点で処理完了とし、無制限再試行や完了未確認の成功扱いは行いません。",
+    "source_run_id": "provider_pool_retrained_g_tool_and_stream_completion_03_cd67db165a_20260716T180501Z",
     "task": {
-      "expected_behavior": "実際にfile toolを使い、取得内容に基づき要約するか、具体的な失敗理由を示す。",
+      "expected_behavior": "tool結果を取得して最終回答へ戻し、式と結果を一致させる。",
       "failure_class": "tool_and_stream_completion",
-      "sanitized_input": "ファイルを読んで内容を要約して。読めなければ読めない理由を答えて。",
-      "task_id": "g_tool_and_stream_completion_02_7c5d5989e4"
+      "sanitized_input": "計算toolを使って結果を出し、計算式も示して。",
+      "task_id": "g_tool_and_stream_completion_03_cd67db165a"
     }
   },
   "embedded_blind_evidence": {
-    "candidate_digest": "0f3fed38d6d5136be644ec73e6190d5a6cad5b8fb0566f3fc4a85ea325b2e89a",
-    "candidate_id": "asyncq-5e1f5ad44cec1c653a4a2d9e",
+    "candidate_digest": "8dbe28fb4911d71db415c0b624006c22107e9612b9df2842b5b1239d3bb9d8b9",
+    "candidate_id": "asyncq-bee5cdbefd3f5646a9419a9a",
     "local_absolute_paths_embedded": false,
     "local_regression": {
       "assertions": [
@@ -89,26 +89,26 @@
     "source_manifest": [
       {
         "content_embedded": false,
-        "sha256": "5d9ab0ad7c458df3163352f5b7a41e664e7ef4830dec0d1a94bdf0db3dae75ab",
-        "size_bytes": 1750,
-        "source_ref": "logs/osai_weekly_eval/regression_candidates/asyncq-5e1f5ad44cec1c653a4a2d9e/pack.jsonl"
+        "sha256": "2dfb09d3a4ce23b2c2a310852d6b150bc6650e62431d4118470b66556ea810ec",
+        "size_bytes": 1320,
+        "source_ref": "logs/osai_weekly_eval/regression_candidates/asyncq-bee5cdbefd3f5646a9419a9a/pack.jsonl"
       },
       {
         "content_embedded": false,
-        "sha256": "e952acac7e0a87dc29c3a5a4a9821e1b2b22d1d7680f0835e9f6937958518e40",
+        "sha256": "2180be384ad1ec4724e805bf7e9bcab7b3ca31d72ed3e086cdb881da465f24d8",
         "size_bytes": 1885,
-        "source_ref": "logs/osai_weekly_eval/regression_candidates/asyncq-5e1f5ad44cec1c653a4a2d9e/eval_spec.json"
+        "source_ref": "logs/osai_weekly_eval/regression_candidates/asyncq-bee5cdbefd3f5646a9419a9a/eval_spec.json"
       },
       {
         "content_embedded": false,
-        "sha256": "63ebdbf287f14d1095204fb5e65b2ba582053d884020ccd34866010b16135bba",
-        "size_bytes": 7694769,
+        "sha256": "52678b62332a458a55c952b916f1ee3afd2a412e01962c9b305b8fa2c5b7d9c7",
+        "size_bytes": 7743752,
         "source_ref": "docs/review_artifacts/osai_frontier_measured_results.json"
       }
     ],
     "teacher_information_embedded": false
   },
-  "generated_at": "2026-07-28T06:24:02.860157+00:00",
+  "generated_at": "2026-07-28T07:12:50.409469+00:00",
   "output_contract": {
     "begin_marker": "===OSAI_EXAMINER_PACKET_BEGIN===",
     "emit_begin_marker_as_first_output": true,
@@ -128,7 +128,7 @@
   },
   "publication_contract": {
     "artifact_name": "examiner-briefing.json",
-    "generator_revision": "4139338da5c032008dbb5d45d53b5f7db0a4d2cf261a58b30e063bb8fed2bee6",
+    "generator_revision": "41ba05baf2d2ba0c588c1a7403e1a60a6bcd3eed20c85fbd9603a2b78814a9ac",
     "raw_url": "https://raw.githubusercontent.com/ryryss2-dev/osai-teacher-briefing/main/examiner-briefing.json",
     "remote_exact_byte_verification_required": true
   },
@@ -142,7 +142,7 @@
     },
     "final_event_type": "final_report_emitted",
     "primary_base_url": "https://haruspace.rayglint.com",
-    "source": "scheduled_haru_examiner:0f3fed38d6d5136be644ec73e6190d5a6cad5b8fb0566f3fc4a85ea325b2e89a",
+    "source": "scheduled_haru_examiner:8dbe28fb4911d71db415c0b624006c22107e9612b9df2842b5b1239d3bb9d8b9",
     "start_path": "/scheduled-haru/teacher/v1/runs",
     "summary_contract": "Final event summary must be compact JSON under 1100 chars with candidate_id, candidate_digest, source_run_id, judge_run_id, rubric_version, per_axis_scores, verdict, verdict_reasons, identity_verified, regression_status, holdout_eligible, openai_eval_escalation_required, teacher_examiner_agreement, duplicate_check, human_needed, safe_next_action."
   },
@@ -155,26 +155,18 @@
   "schedule_success": {
     "completion_claim_allowed": true,
     "completion_gate_passed": true,
-    "consecutive_success_count": 40,
+    "consecutive_success_count": 41,
     "duplicate_candidate_cycle_count": 0,
-    "finalized_examiner_run_count": 40,
-    "generated_at": "2026-07-28T06:24:02.216159+00:00",
+    "finalized_examiner_run_count": 41,
+    "generated_at": "2026-07-28T07:12:49.932060+00:00",
     "incomplete_cycle_count": 0,
     "invalid_cycle_count": 0,
     "invalid_runs": [],
     "safe_next_action": "proceed to sealed Holdout using eligible ACCEPT receipts",
     "schema_version": "osai_examiner_schedule_success_status.v1",
     "success_definition": "unique candidate digest + final scheduled run ledger + canonical judge receipt + matching official state reflection",
-    "successful_cycle_count": 40,
+    "successful_cycle_count": 41,
     "successful_runs": [
-      {
-        "candidate_digest": "8425550b0fd1a358c80539cff2f999cababb39ce50a01de280c080c5e3797140",
-        "candidate_id": "asyncq-81e2df8b61a60e19197c2b6e",
-        "completed_at_epoch": 1785150131.943769,
-        "receipt_ref": "logs/osai_examiner/receipts/scheduled-haru-examiner-chat-backend-8425550b0fd1a358-20260727T110211Z.json",
-        "run_id": "scheduled-haru-examiner-chat-backend-8425550b0fd1a358-20260727T110211Z",
-        "verdict": "REJECT"
-      },
       {
         "candidate_digest": "2493025ef6c7d41d4c81828973f2a846cc4273dc4bf17b5bc6c6539400a073d5",
         "candidate_id": "asyncq-ad42a3cb7874c994ac77b039",
@@ -246,10 +238,18 @@
         "receipt_ref": "logs/osai_examiner/receipts/scheduled-haru-examiner-chat-backend-55b6c46270a37bac-20260728T055927Z.json",
         "run_id": "scheduled-haru-examiner-chat-backend-55b6c46270a37bac-20260728T055927Z",
         "verdict": "REJECT"
+      },
+      {
+        "candidate_digest": "0f3fed38d6d5136be644ec73e6190d5a6cad5b8fb0566f3fc4a85ea325b2e89a",
+        "candidate_id": "asyncq-5e1f5ad44cec1c653a4a2d9e",
+        "completed_at_epoch": 1785222162.144536,
+        "receipt_ref": "logs/osai_examiner/receipts/scheduled-haru-examiner-chat-backend-0f3fed38d6d5136b-20260728T070242Z.json",
+        "run_id": "scheduled-haru-examiner-chat-backend-0f3fed38d6d5136b-20260728T070242Z",
+        "verdict": "REJECT"
       }
     ],
     "target_success_count": 5,
-    "unique_candidate_count": 40
+    "unique_candidate_count": 41
   },
   "schema_version": "osai_examiner_briefing.v1",
   "status": "assignment_ready"
