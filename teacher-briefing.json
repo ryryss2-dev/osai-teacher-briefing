@@ -2,8 +2,8 @@
   "examiner_feed": {
     "assignment": {
       "blind_evidence_refs": [
-        "logs/osai_weekly_eval/regression_candidates/asyncq-684c97d9c09a29a9b8c40e08/pack.jsonl",
-        "logs/osai_weekly_eval/regression_candidates/asyncq-684c97d9c09a29a9b8c40e08/eval_spec.json",
+        "logs/osai_weekly_eval/regression_candidates/asyncq-acddcceb784857f75579cd0c/pack.jsonl",
+        "logs/osai_weekly_eval/regression_candidates/asyncq-acddcceb784857f75579cd0c/eval_spec.json",
         "docs/review_artifacts/osai_frontier_measured_results.json"
       ],
       "blindness": {
@@ -22,8 +22,8 @@
         ],
         "teacher_packet_visible_before_verdict": false
       },
-      "candidate_digest": "fbe0af82d0283c36f376c4c8b3c6871433f20f1235b2c28a8332d1aeb75abc60",
-      "candidate_id": "asyncq-684c97d9c09a29a9b8c40e08",
+      "candidate_digest": "70d2c106b745f5cd95e2fcf9a8b63bff90c3138cc11d8ac6e8f2a7e3ae47b19f",
+      "candidate_id": "asyncq-acddcceb784857f75579cd0c",
       "identity": {
         "identity_verified": true,
         "model": "gemma3:4b",
@@ -32,7 +32,7 @@
         "source_device_id": null
       },
       "local_regression": {
-        "receipt_ref": "logs/osai_weekly_eval/official_eval_improvement_state.json#entries/asyncq-684c97d9c09a29a9b8c40e08/local_regression",
+        "receipt_ref": "logs/osai_weekly_eval/official_eval_improvement_state.json#entries/asyncq-acddcceb784857f75579cd0c/local_regression",
         "status": "passed"
       },
       "rubric": {
@@ -50,8 +50,8 @@
         "rubric_version": "gpt55_offline_teacher_judge_candidate_rubric_v1",
         "score_scale": "0-100"
       },
-      "sanitized_candidate_answer": "現在の状況では、計算式や要求されたデータが不足しているため、正確な結果を提供することができません。この判断の根本的な原因は、回答に必要な情報が提示されていない点にあります。具体的な対応として、まず、利用者の皆様から計算式と必要なデータを明確にご提供いただきたく存じます。その後、ご提供いただいた情報を基に、詳細な計算を行い、結果を改めてお伝えいたします。確認方法としては、提供された計算式とデータが正確であること、および、回答の妥当性を検証するための追加情報（例えば、関連する定義や前提条件）をご提示いただくことを推奨します。次の一手として、まずは計算式と必要なデータを具体的にご提示ください。\n\n実行契約: 必要なtoolまたはcommandを1回実行し、実行結果を確認してから回答へ反映します。streamはfinal・done・完了・終了のいずれかの終端状態まで回収し、途中停止した場合は取得済みの部分結果と未完了理由を保存して、同じ処理の再試行は最大1回に限定します。終端結果、エラー、または明示した停止条件を確認した時点で処理完了とし、無制限再試行や完了未確認の成功扱いは行いません。",
-      "source_run_id": "provider_pool_retrained_g_tool_and_stream_completion_03_cd67db165a_20260716T191358Z",
+      "sanitized_candidate_answer": "結論：計算toolの利用は、提供された情報だけでは不適切であり、具体的な計算式や結果が必要不可欠である。\n\n根本原因：指示が曖昧で、必要な情報（計算式、結果）が不足しているため、toolの結果を生成することができなかった。このままtoolを使用するのではなく、まず利用者から情報を収集する必要がある。\n\n具体的対応：まずは、利用者が求める計算式と期待する結果を明確に提示してもらうこと。その上で、提供された情報に基づいて適切な計算toolを選択し、正確な結果を算出する。ツール選択の際には、計算の種類や精度などを考慮し、最も適したものを選択することが重要である。\n\n確認方法と次の一手：利用者に計算式と期待される結果を再度確認し、完全に一致することを確認する。その後、選択した計算toolを用いて結果を算出し、利用者と結果を照合することで、最終的な回答の正確性を担保する。\n\n実行契約: 必要なtoolまたはcommandを1回実行し、実行結果を確認してから回答へ反映します。streamはfinal・done・完了・終了のいずれかの終端状態まで回収し、途中停止した場合は取得済みの部分結果と未完了理由を保存して、同じ処理の再試行は最大1回に限定します。終端結果、エラー、または明示した停止条件を確認した時点で処理完了とし、無制限再試行や完了未確認の成功扱いは行いません。",
+      "source_run_id": "provider_pool_retrained_g_tool_and_stream_completion_03_cd67db165a_20260716T192148Z",
       "task": {
         "expected_behavior": "tool結果を取得して最終回答へ戻し、式と結果を一致させる。",
         "failure_class": "tool_and_stream_completion",
@@ -60,12 +60,16 @@
       }
     },
     "embedded_blind_evidence": {
-      "candidate_id": "asyncq-684c97d9c09a29a9b8c40e08",
-      "candidate_digest": "fbe0af82d0283c36f376c4c8b3c6871433f20f1235b2c28a8332d1aeb75abc60",
+      "candidate_id": "asyncq-acddcceb784857f75579cd0c",
+      "candidate_digest": "70d2c106b745f5cd95e2fcf9a8b63bff90c3138cc11d8ac6e8f2a7e3ae47b19f",
       "local_regression": {
+        "provider_send_attempted": false,
+        "score": 94.0,
         "failure_taxonomy": [
           "tool_and_stream_completion_minor_gaps_or_pass"
         ],
+        "pass_threshold": 80.0,
+        "scorer_id": "gpt55_offline_teacher_judge_candidate_rubric_v1",
         "assertions": [
           {
             "assertion_id": "mentions_tool_or_execution_decision",
@@ -80,22 +84,18 @@
             "passed": true
           }
         ],
-        "provider_send_attempted": false,
-        "scorer_id": "gpt55_offline_teacher_judge_candidate_rubric_v1",
-        "status": "passed",
-        "pass_threshold": 80.0,
-        "score": 94.0
+        "status": "passed"
       },
       "source_manifest": [
         {
-          "source_ref": "logs/osai_weekly_eval/regression_candidates/asyncq-684c97d9c09a29a9b8c40e08/pack.jsonl",
-          "sha256": "8fcca9722af03bcf82b4c0645612bbf217013e868df08858a1388d22cd7a1452",
-          "size_bytes": 1806,
+          "source_ref": "logs/osai_weekly_eval/regression_candidates/asyncq-acddcceb784857f75579cd0c/pack.jsonl",
+          "sha256": "a0c00d3b7b4d6e44a3914c4cbc898960e0ed178710b032cc1d6e495910d5cc01",
+          "size_bytes": 2027,
           "content_embedded": false
         },
         {
-          "source_ref": "logs/osai_weekly_eval/regression_candidates/asyncq-684c97d9c09a29a9b8c40e08/eval_spec.json",
-          "sha256": "cb5bb1b1ab57056f6ccd63020a14b64970213045698b9b0521a2039e02902ca0",
+          "source_ref": "logs/osai_weekly_eval/regression_candidates/asyncq-acddcceb784857f75579cd0c/eval_spec.json",
+          "sha256": "3541d0cddd280b0e13e0f49aa4557bb0b13821e988fde28cf126ec2c3201f678",
           "size_bytes": 1885,
           "content_embedded": false
         },
@@ -109,7 +109,7 @@
       "teacher_information_embedded": false,
       "local_absolute_paths_embedded": false
     },
-    "generated_at": "2026-07-30T17:36:37.710592+00:00",
+    "generated_at": "2026-07-30T20:00:04.557201+00:00",
     "output_contract": {
       "begin_marker": "===OSAI_EXAMINER_PACKET_BEGIN===",
       "emit_begin_marker_as_first_output": true,
@@ -128,7 +128,7 @@
       "stop_after_end_marker": true
     },
     "publication_contract": {
-      "generator_revision": "76b9567c34866593121abec198d7c71bff76a305dd79b547e0ae5158f34fca42",
+      "generator_revision": "0d8eeb338c51ea5ff44a2a9224ab5e1f61192e1d75debbf99b71343353346c75",
       "artifact_name": "examiner-briefing.json",
       "raw_url": "https://raw.githubusercontent.com/ryryss2-dev/osai-teacher-briefing/main/examiner-briefing.json",
       "remote_exact_byte_verification_required": true,
@@ -147,7 +147,7 @@
       },
       "final_event_type": "final_report_emitted",
       "primary_base_url": "https://haruspace.rayglint.com",
-      "source": "scheduled_haru_examiner:fbe0af82d0283c36f376c4c8b3c6871433f20f1235b2c28a8332d1aeb75abc60",
+      "source": "scheduled_haru_examiner:70d2c106b745f5cd95e2fcf9a8b63bff90c3138cc11d8ac6e8f2a7e3ae47b19f",
       "start_path": "/scheduled-haru/teacher/v1/runs",
       "summary_contract": "Final event summary must be compact JSON under 1100 chars with candidate_id, candidate_digest, source_run_id, judge_run_id, rubric_version, per_axis_scores, verdict, verdict_reasons, identity_verified, regression_status, holdout_eligible, openai_eval_escalation_required, teacher_examiner_agreement, duplicate_check, human_needed, safe_next_action."
     },
@@ -160,26 +160,18 @@
     "schedule_success": {
       "completion_claim_allowed": true,
       "completion_gate_passed": true,
-      "consecutive_success_count": 54,
+      "consecutive_success_count": 55,
       "duplicate_candidate_cycle_count": 0,
-      "finalized_examiner_run_count": 54,
-      "generated_at": "2026-07-30T17:36:37.518483+00:00",
+      "finalized_examiner_run_count": 55,
+      "generated_at": "2026-07-30T20:00:03.543463+00:00",
       "incomplete_cycle_count": 0,
       "invalid_cycle_count": 0,
       "invalid_runs": [],
       "safe_next_action": "proceed to sealed Holdout using eligible ACCEPT receipts",
       "schema_version": "osai_examiner_schedule_success_status.v1",
       "success_definition": "unique candidate digest + final scheduled run ledger + canonical judge receipt + matching official state reflection",
-      "successful_cycle_count": 54,
+      "successful_cycle_count": 55,
       "successful_runs": [
-        {
-          "candidate_digest": "27ada94951d0ee183994ba6c143b34dbedf7a9e80c0f41a35f796bfebd97f2a3",
-          "candidate_id": "asyncq-c02c942ae0f4ef00e55bf0e5",
-          "completed_at_epoch": 1785243781.688754,
-          "receipt_ref": "logs/osai_examiner/receipts/scheduled-haru-examiner-chat-backend-27ada94951d0ee18-20260728T130301Z.json",
-          "run_id": "scheduled-haru-examiner-chat-backend-27ada94951d0ee18-20260728T130301Z",
-          "verdict": "REJECT"
-        },
         {
           "candidate_digest": "9045ea5116f70fbfb1ade9afe449d0bccfa97396e5194f6a120892b57f14c047",
           "candidate_id": "asyncq-18df388a734d38ea27f37f31",
@@ -251,10 +243,18 @@
           "receipt_ref": "logs/osai_examiner/receipts/scheduled-haru-examiner-chat-backend-4bbe2b8bd2dfb2f5-20260730T135929Z.json",
           "run_id": "scheduled-haru-examiner-chat-backend-4bbe2b8bd2dfb2f5-20260730T135929Z",
           "verdict": "REJECT"
+        },
+        {
+          "candidate_digest": "fbe0af82d0283c36f376c4c8b3c6871433f20f1235b2c28a8332d1aeb75abc60",
+          "candidate_id": "asyncq-684c97d9c09a29a9b8c40e08",
+          "completed_at_epoch": 1785437943.016455,
+          "receipt_ref": "logs/osai_examiner/receipts/scheduled-haru-examiner-chat-backend-fbe0af82d0283c36-20260730T185903Z.json",
+          "run_id": "scheduled-haru-examiner-chat-backend-fbe0af82d0283c36-20260730T185903Z",
+          "verdict": "REJECT"
         }
       ],
       "target_success_count": 5,
-      "unique_candidate_count": 54
+      "unique_candidate_count": 55
     },
     "schema_version": "osai_examiner_briefing.v1",
     "status": "assignment_ready",
@@ -356,7 +356,7 @@
     "source_digest_mismatch_reuse_allowed": false,
     "training_admission_from_checkpoint": false
   },
-  "completion_contract": "PASS requires a confirmed delivered POST receipt for one v3 packet covering exactly the current 5 real-case shards, all aggregate stages, two distinct server-issued critic rounds, one hidden real holdout, and a same-subject/same-case-set rescore with at least +5 score improvement and every after-assertion passing. A rejection leaves this exact assignment pinned and unconsumed. No filler cases or short-elapsed override are allowed.",
+  "completion_contract": "PASS requires a confirmed delivered POST receipt or an idempotent M3 recovered-adoption receipt for one v3 packet covering exactly the current 5 real-case shards, all aggregate stages, two distinct server-issued critic rounds, one hidden real holdout, and a same-subject/same-case-set rescore with at least +5 score improvement and every after-assertion passing. A rejection leaves this exact assignment pinned and unconsumed. No filler cases or short-elapsed override are allowed. Direct HaruSpace transport unavailability is not NO_START: emit the full canonical packet in chat without inventing a run_id so Backend, Gmail exact-link, Chrome, Brave, or WebKit recovery can formalize it.",
   "constraints": {
     "allowed_final_classifications": [
       "PASS",
@@ -367,7 +367,10 @@
     "anchor_case_count": 1,
     "batch_packet_required": true,
     "batch_size": 5,
+    "chat_packet_fallback_required_when_direct_transport_unavailable": true,
     "content_quality_primary_admission": true,
+    "direct_haruspace_transport_optional": true,
+    "direct_transport_unavailable_is_no_start": false,
     "dispatch_to_abc": false,
     "final_response_required": true,
     "ideal_answer_exactly_one_next_action": true,
@@ -378,6 +381,7 @@
       "未完了リスク",
       "次の一手"
     ],
+    "m3_exact_reconcile_required_after_chat_fallback": true,
     "max_claim_overstatement_minutes_for_observability": 2,
     "max_text_chars_per_field": 4000,
     "maximum_batch_size": 5,
@@ -1628,7 +1632,7 @@
   },
   "inbox_root": "logs/api_usage/derived/scheduled_haru_teacher_delivery_inbox",
   "maintenance_source": {},
-  "mission": "Execute one evidence-backed staged teacher job over exactly the 5 real cases selected by HaruSpace. Complete the first three case-specific stages for each missing case, POST recoverable case-shard checkpoints, then run the aggregate synthesis, server-issued critic rounds, hidden holdout, same-rubric rescore, and final delivery stages in order. Do not add filler cases. Deliver one sanitized final packet with a new teacher_packet_id.",
+  "mission": "Execute one evidence-backed staged teacher job over exactly the 5 real cases selected by HaruSpace. Complete the first three case-specific stages for each missing case, POST recoverable case-shard checkpoints when a safe authenticated HaruSpace path is available, then run the aggregate synthesis, server-issued critic rounds, hidden holdout, same-rubric rescore, and final delivery stages in order. Do not add filler cases. Deliver one sanitized final packet with a new teacher_packet_id. If direct HaruSpace access is unavailable, still complete the assignment and emit the full canonical packet in chat for the existing M3 recovery pipeline.",
   "multistage_teacher_contract": {
     "all_after_assertions_must_pass": true,
     "canonical_stage_ids": [
@@ -1850,20 +1854,20 @@
   "publication_contract": {
     "active_assignment_packet_id": "scheduled-haru-published-assignment-460fdb2246abc5c6001e",
     "active_assignment_state": "active_unconsumed",
-    "assignment_fresh_until": "2026-07-31T03:47:46+09:00",
+    "assignment_fresh_until": "2026-07-31T06:11:17+09:00",
     "assignment_freshness_role": "new_run_authority_with_exact_identity_and_atomic_claim",
-    "assignment_lease_expires_at": "2026-07-31T03:47:46+09:00",
-    "assignment_lease_id": "c61ba0f2c59f22f70ff5e91c39562d5036a485cc45121cc402a132102da89912",
+    "assignment_lease_expires_at": "2026-07-31T06:11:17+09:00",
+    "assignment_lease_id": "46b8b21b4613d1cd0dbfdca805a5d68c6fcd6e0a3ab20d1254154a56f9530b40",
     "assignment_lease_seconds": 4200,
     "assignment_revision": "ea288ef48d302869dbf5c68252ab1f3afd1076074e4a1431d1f68d96bb8593ea",
-    "briefing_generated_at": "2026-07-31T02:37:46+09:00",
+    "briefing_generated_at": "2026-07-31T05:01:17+09:00",
     "case_identity_source": "existing_delivery_receipt",
     "generator_component": "teacher_delivery.py",
-    "generator_revision": "76b9567c34866593121abec198d7c71bff76a305dd79b547e0ae5158f34fca42",
+    "generator_revision": "0d8eeb338c51ea5ff44a2a9224ab5e1f61192e1d75debbf99b71343353346c75",
     "max_start_age_seconds": 4200,
     "new_run_start_authority": "exact_assignment_identity_and_unexpired_lease_under_atomic_claim",
     "normal_run_start_allowed": true,
-    "publication_fresh_until": "2026-07-31T02:52:46+09:00",
+    "publication_fresh_until": "2026-07-31T05:16:17+09:00",
     "publication_freshness_role": "publication_observability_only",
     "publication_max_age_seconds": 900,
     "publish_success_requires": [
@@ -1973,8 +1977,12 @@
       "NO_START"
     ],
     "current_stage_only_disclosure": true,
+    "direct_haruspace_access_required": false,
+    "direct_resume_attempt_required_when_safe_authenticated_path_available": true,
+    "direct_resume_unavailable_behavior": "complete_current_assignment_and_emit_full_canonical_packet_in_chat_for_m3_recovery",
     "elapsed_accounting": "server_observed_checkpointed_active_work_only",
     "event_endpoint_template": "/scheduled-haru/teacher/v1/runs/{run_id}/events",
+    "exact_url_storage": "mode_0600_temporary_only_delete_after_recovery",
     "excluded_elapsed": [
       "time_between_scheduled_invocations",
       "idle_wait",
@@ -1982,13 +1990,22 @@
       "heartbeat_without_evidence"
     ],
     "finalization_requires_all_stage_receipts": true,
-    "first_required_action": "GET runs/resume first. Resume the active run when present. For each bounded work unit POST work_unit_started, save evidence with work_checkpoint, then POST stage_completed only after the current stage has a checkpoint.",
+    "first_required_action": "When a safe authenticated HaruSpace path is available, GET runs/resume before any direct run mutation and resume the exact active run. If direct access is unavailable, do not return NO_START and do not invent a run_id; complete the current assignment and emit the full canonical packet in chat for the existing M3 recovery pipeline.",
+    "gmail_exact_link_role": "notification_evidence_and_single_exact_conversation_link_only",
     "heartbeat_required_before_packet": false,
+    "m3_recovery_transport_order": [
+      "primary_backend",
+      "gmail_exact_link",
+      "chrome_dom",
+      "brave_dom",
+      "webkit"
+    ],
     "maximum_credited_work_unit_seconds": 900,
     "minimum_cumulative_active_work_seconds": 3000,
     "minimum_elapsed_minutes": 50.0,
     "missing_publication_fresh_until_behavior": "derive_from_briefing_generated_at_plus_publication_max_age",
     "new_run_start_authority": "exact_assignment_identity_and_unexpired_lease_under_atomic_claim",
+    "no_start_allowed_for_direct_transport_unavailability": false,
     "normal_completion_notification_requires_finalization_grant": true,
     "normal_run_start_allowed": true,
     "optional_start_fields": [
@@ -2003,11 +2020,11 @@
       "assignment_lease_id",
       "assignment_lease_expires_at"
     ],
-    "resume_contract": "If streaming stops, the next Scheduled Teacher run must GET runs/resume and continue the first unfinished released stage. It must not start a replacement assignment.",
+    "resume_contract": "When safe authenticated direct access is available, GET runs/resume and continue the first unfinished released stage without starting a replacement assignment. When direct access is unavailable, emit the full canonical packet without inventing a run_id; the M3 exact-reconcile and recovered-adoption path binds it idempotently to the current assignment or existing run. Transport unavailability alone must not produce NO_START.",
     "resume_endpoint": "/scheduled-haru/teacher/v1/runs/resume",
     "resume_precedes_new_start": true,
-    "run_started_required_before_review": true,
-    "scheduled_haru_run_id_required_in_packet": true,
+    "run_started_required_before_review": false,
+    "scheduled_haru_run_id_required_in_packet": false,
     "schema_version": "scheduled_haru_run_ledger.v1",
     "staged_contract_required": true,
     "start_claim_atomicity": "thread_lock_plus_run_ledger_flock",
