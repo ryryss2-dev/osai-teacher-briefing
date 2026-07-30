@@ -63,11 +63,12 @@
       "candidate_id": "asyncq-684c97d9c09a29a9b8c40e08",
       "candidate_digest": "fbe0af82d0283c36f376c4c8b3c6871433f20f1235b2c28a8332d1aeb75abc60",
       "local_regression": {
-        "scorer_id": "gpt55_offline_teacher_judge_candidate_rubric_v1",
         "failure_taxonomy": [
           "tool_and_stream_completion_minor_gaps_or_pass"
         ],
+        "pass_threshold": 80.0,
         "status": "passed",
+        "score": 94.0,
         "assertions": [
           {
             "assertion_id": "mentions_tool_or_execution_decision",
@@ -83,8 +84,7 @@
           }
         ],
         "provider_send_attempted": false,
-        "pass_threshold": 80.0,
-        "score": 94.0
+        "scorer_id": "gpt55_offline_teacher_judge_candidate_rubric_v1"
       },
       "source_manifest": [
         {
@@ -109,7 +109,7 @@
       "teacher_information_embedded": false,
       "local_absolute_paths_embedded": false
     },
-    "generated_at": "2026-07-30T15:17:15.633681+00:00",
+    "generated_at": "2026-07-30T16:13:15.929363+00:00",
     "output_contract": {
       "begin_marker": "===OSAI_EXAMINER_PACKET_BEGIN===",
       "emit_begin_marker_as_first_output": true,
@@ -163,7 +163,7 @@
       "consecutive_success_count": 54,
       "duplicate_candidate_cycle_count": 0,
       "finalized_examiner_run_count": 54,
-      "generated_at": "2026-07-30T15:17:14.624870+00:00",
+      "generated_at": "2026-07-30T16:13:14.950692+00:00",
       "incomplete_cycle_count": 0,
       "invalid_cycle_count": 0,
       "invalid_runs": [],
@@ -1850,23 +1850,28 @@
   "publication_contract": {
     "active_assignment_packet_id": "scheduled-haru-published-assignment-460fdb2246abc5c6001e",
     "active_assignment_state": "active_unconsumed",
-    "assignment_fresh_until": "2026-07-31T00:33:34+09:00",
-    "assignment_lease_expires_at": "2026-07-31T01:28:34+09:00",
-    "assignment_lease_id": "99e36a1a1704631b1dea65752ab3bd417a3fde135d9e4dd7e1f8995a552a24a2",
+    "assignment_fresh_until": "2026-07-31T02:24:35+09:00",
+    "assignment_freshness_role": "new_run_authority_with_exact_identity_and_atomic_claim",
+    "assignment_lease_expires_at": "2026-07-31T02:24:35+09:00",
+    "assignment_lease_id": "b5994b853c5d987c41926be22f4cf4cf0fdde857cb4216bbe9009fe49125ab14",
     "assignment_lease_seconds": 4200,
     "assignment_revision": "ea288ef48d302869dbf5c68252ab1f3afd1076074e4a1431d1f68d96bb8593ea",
-    "briefing_generated_at": "2026-07-31T00:18:34+09:00",
+    "briefing_generated_at": "2026-07-31T01:14:35+09:00",
     "case_identity_source": "existing_delivery_receipt",
     "generator_component": "teacher_delivery.py",
-    "generator_revision": "07bd2276ec4c5a71e0a162055759171ce3fc51e0953518b93a983829da082bca",
-    "max_start_age_seconds": 900,
+    "generator_revision": "f71c0e88b180206642a789e2e9ff0dae027198f1f17de2ca0aa3988d355072ee",
+    "max_start_age_seconds": 4200,
+    "new_run_start_authority": "exact_assignment_identity_and_unexpired_lease_under_atomic_claim",
     "normal_run_start_allowed": true,
+    "publication_fresh_until": "2026-07-31T01:29:35+09:00",
+    "publication_freshness_role": "publication_observability_only",
+    "publication_max_age_seconds": 900,
     "publish_success_requires": [
       "local_generator_revision_match",
       "github_raw_generator_revision_match",
       "github_raw_payload_sha256_match",
       "assignment_revision_match",
-      "briefing_not_stale",
+      "publication_not_stale",
       "assignment_lease_not_expired"
     ],
     "reload_policy": "reload_only_8796_once_when_missing_or_revision_mismatch",
@@ -1982,8 +1987,14 @@
     "maximum_credited_work_unit_seconds": 900,
     "minimum_cumulative_active_work_seconds": 3000,
     "minimum_elapsed_minutes": 50.0,
+    "missing_publication_fresh_until_behavior": "derive_from_briefing_generated_at_plus_publication_max_age",
+    "new_run_start_authority": "exact_assignment_identity_and_unexpired_lease_under_atomic_claim",
     "normal_completion_notification_requires_finalization_grant": true,
     "normal_run_start_allowed": true,
+    "optional_start_fields": [
+      "publication_fresh_until"
+    ],
+    "publication_freshness_is_start_authority": false,
     "required_start_fields": [
       "assignment_revision",
       "assignment_case_ids",
@@ -1994,10 +2005,12 @@
     ],
     "resume_contract": "If streaming stops, the next Scheduled Teacher run must GET runs/resume and continue the first unfinished released stage. It must not start a replacement assignment.",
     "resume_endpoint": "/scheduled-haru/teacher/v1/runs/resume",
+    "resume_precedes_new_start": true,
     "run_started_required_before_review": true,
     "scheduled_haru_run_id_required_in_packet": true,
     "schema_version": "scheduled_haru_run_ledger.v1",
     "staged_contract_required": true,
+    "start_claim_atomicity": "thread_lock_plus_run_ledger_flock",
     "start_endpoint": "/scheduled-haru/teacher/v1/runs",
     "status_endpoint_template": "/scheduled-haru/teacher/v1/runs/{run_id}/status",
     "target_elapsed_minutes": 55.0
