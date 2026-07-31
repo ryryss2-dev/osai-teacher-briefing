@@ -63,8 +63,7 @@
       "candidate_id": "asyncq-acddcceb784857f75579cd0c",
       "candidate_digest": "70d2c106b745f5cd95e2fcf9a8b63bff90c3138cc11d8ac6e8f2a7e3ae47b19f",
       "local_regression": {
-        "scorer_id": "gpt55_offline_teacher_judge_candidate_rubric_v1",
-        "score": 94.0,
+        "provider_send_attempted": false,
         "pass_threshold": 80.0,
         "failure_taxonomy": [
           "tool_and_stream_completion_minor_gaps_or_pass"
@@ -83,7 +82,8 @@
             "passed": true
           }
         ],
-        "provider_send_attempted": false,
+        "score": 94.0,
+        "scorer_id": "gpt55_offline_teacher_judge_candidate_rubric_v1",
         "status": "passed"
       },
       "source_manifest": [
@@ -109,7 +109,7 @@
       "teacher_information_embedded": false,
       "local_absolute_paths_embedded": false
     },
-    "generated_at": "2026-07-31T06:32:00.651786+00:00",
+    "generated_at": "2026-07-31T07:34:55.560575+00:00",
     "output_contract": {
       "begin_marker": "===OSAI_EXAMINER_PACKET_BEGIN===",
       "emit_begin_marker_as_first_output": true,
@@ -128,7 +128,7 @@
       "stop_after_end_marker": true
     },
     "publication_contract": {
-      "generator_revision": "0d8eeb338c51ea5ff44a2a9224ab5e1f61192e1d75debbf99b71343353346c75",
+      "generator_revision": "a7aa919f0f7bcbbe430595d5b53c86fab07cacafc9def9f9ff668f511f6a71f2",
       "artifact_name": "examiner-briefing.json",
       "raw_url": "https://raw.githubusercontent.com/ryryss2-dev/osai-teacher-briefing/main/examiner-briefing.json",
       "remote_exact_byte_verification_required": true,
@@ -163,7 +163,7 @@
       "consecutive_success_count": 55,
       "duplicate_candidate_cycle_count": 0,
       "finalized_examiner_run_count": 55,
-      "generated_at": "2026-07-31T06:31:59.105520+00:00",
+      "generated_at": "2026-07-31T07:34:54.511732+00:00",
       "incomplete_cycle_count": 0,
       "invalid_cycle_count": 0,
       "invalid_runs": [],
@@ -368,7 +368,8 @@
     "batch_packet_required": true,
     "batch_size": 5,
     "chat_packet_fallback_required_when_direct_transport_unavailable": true,
-    "content_quality_primary_admission": true,
+    "content_and_trusted_time_joint_admission": true,
+    "content_quality_primary_admission": false,
     "direct_haruspace_transport_optional": true,
     "direct_transport_unavailable_is_no_start": false,
     "dispatch_to_abc": false,
@@ -385,10 +386,10 @@
     "max_claim_overstatement_minutes_for_observability": 2,
     "max_text_chars_per_field": 4000,
     "maximum_batch_size": 5,
-    "min_alternatives_rejected": 3,
+    "min_alternatives_rejected": 5,
     "min_elapsed_work_claim_minutes_for_admission": 50.0,
-    "min_reasoning_points": 8,
-    "min_review_step_log_entries": 5,
+    "min_reasoning_points": 15,
+    "min_review_step_log_entries": 10,
     "min_trusted_measured_elapsed_minutes_for_admission": 50.0,
     "minimum_batch_size": 1,
     "minimum_same_rubric_score_delta": 5.0,
@@ -1223,12 +1224,16 @@
   "example_packet_shape": {
     "adversarial_self_critique": [
       "この理想回答でもログ証拠が薄い場合は過剰確定になる。対策として検証欄に証拠pathを必須化する。",
-      "この理想回答でも次手が複数あるとYuya負担が増える。対策としてsafe_next_actionを1個に限定する。"
+      "この理想回答でも次手が複数あるとYuya負担が増える。対策としてsafe_next_actionを1個に限定する。",
+      "候補本文が長くても同じ段落の反復なら分析量を過大評価する。unique-line量とcase固有証拠で補正する。",
+      "5件が同じfailure taxonomyでも別caseと数えるだけでは一般化が弱い。task identity差と反例境界を追加する。"
     ],
     "alternatives_rejected": [
       "長い監査報告だけにする案はYuyaの次操作が増えるため却下。",
       "抽象ルールだけを学習させる案は実ケースへの再利用性が低いため却下。",
-      "1ケースだけ深掘りする案は再発パターンを取り逃がすため却下。"
+      "1ケースだけ深掘りする案は再発パターンを取り逃がすため却下。",
+      "同じ候補文の反復を別証拠として数える案は有効作業量を偽装するため却下。",
+      "50分未満でも内容だけでtraining admissionする案は今回の一時間契約に反するため却下。"
     ],
     "case_id": "teacher-review-subject_rerun_candidate_yuya_correction_YUYA-CH-048_yuya-registry-seed-76dd9cf39bf8fd15c41c_required-tool",
     "case_time_allocation": {
@@ -1243,12 +1248,16 @@
       {
         "accepted_changes": [
           "case固有の検証対象と結果を一対一で明記する。",
-          "次の一手を成功条件付きの1件へ限定する。"
+          "次の一手を成功条件付きの1件へ限定する。",
+          "unique-line量とcase固有evidence pointを監査する。",
+          "適用禁止反例とtask identity保持条件を追加する。"
         ],
         "critic_id": "evidence_critic",
         "findings": [
           "5件それぞれの失敗点と検証結果が一対一で対応しておらず、どの証拠がどの修正を支えるか追跡できない。",
-          "理想回答の次工程が複数混在し、Yuyaが最初に実行すべき操作を一意に判断できない。"
+          "理想回答の次工程が複数混在し、Yuyaが最初に実行すべき操作を一意に判断できない。",
+          "候補本文の反復を別証拠として数えると有効作業量を過大評価する。",
+          "case固有事実が共通ルールへ圧縮され過ぎると別taskへ誤適用される。"
         ],
         "focus": "事実完全性、検証証拠、実行可能な次手",
         "verdict": "needs_revision"
@@ -1256,27 +1265,68 @@
       {
         "accepted_changes": [
           "承認必須操作と自動処理の停止線を独立項目として固定する。",
-          "未実施gateを未完了リスクへ移し完了主張から除外する。"
+          "未実施gateを未完了リスクへ移し完了主張から除外する。",
+          "unique-line量とcase固有evidence pointを監査する。",
+          "適用禁止反例とtask identity保持条件を追加する。"
         ],
         "critic_id": "yuya_burden_critic",
         "findings": [
           "人間承認が必要なdevice・scheduler操作と自動継続可能な処理の境界が明示されていない。",
-          "未実施のRegressionとsealed Holdoutが実装済み証拠と同じ状態で扱われ、完了済みに見える。"
+          "未実施のRegressionとsealed Holdoutが実装済み証拠と同じ状態で扱われ、完了済みに見える。",
+          "候補本文の反復を別証拠として数えると有効作業量を過大評価する。",
+          "case固有事実が共通ルールへ圧縮され過ぎると別taskへ誤適用される。"
         ],
         "focus": "承認境界、未確認状態、過剰完了主張",
         "verdict": "pass_with_notes"
       }
     ],
-    "cross_case_pattern": "5件とも、実施ログとYuya-facing最終回答の橋渡しが弱い。",
+    "cross_case_pattern": "5件とも、実施ログとYuya-facing最終回答の橋渡しが弱い。 5件を比較すると、共通原因は文章量不足ではなく、source evidenceからYuya-facing最終回答へ変換する際の状態圧縮の失敗である。候補は設計、一般論、仮想コード、成功例を大量に生成するが、何が確認済みか、何を実施したか、何で検証したか、何が未完了か、次に何を一つだけ行うかを分離できない。さらに同じ候補文が複数caseへ流用されると、文字数は増えても固有証拠量は増えない。したがって教材はcandidate charsではなくunique-line量、distinct hash、case固有assertion、failure taxonomy差、反例、Regression obligationで有効量を測る必要がある。各caseのrepairは同じ4軸へ対応させるが、task identity固有の事実を削除して抽象ルールだけにしてはいけない。critic Aとcritic Bは別の失敗仮説を持ち、前者は証拠完全性、後者は過剰適用と隠れた前提を攻撃する。 比較の第一段階では、各caseのcandidate textから事実主張、推論、提案、完了主張を分離する。第二段階では4軸assertionとの対応を取り、どの文がaction、validation、risk、state separationを満たすか、または壊すかを特定する。第三段階では同じ修正が全caseへ適用できる部分と、task identity固有で残すべき部分を分ける。第四段階では、共通ルールを誤適用すると危険な反例を作り、適用条件を狭める。第五段階では、理想回答から自動検査可能なRegression assertionへ変換する。この流れにより、単に5件を要約するのではなく、5件の差分から再発原因と検証可能な教材を作る。候補hashが同じcaseは本文量を重複加算せず、task identity、queue lineage、failure assertionの差だけを追加材料として扱う。固有材料が不足する場合は不足を明示し、架空の差分で難易度を水増ししない。",
     "do_not_repeat": "英語の生ログだけを出してYuyaに解読させない。",
-    "elapsed_work_claim_minutes": 40,
+    "elapsed_work_claim_minutes": 55,
     "generalized_rule": "最終回答は現在地/実施/検証/未完了リスク/次の一手を分離し、次の一手を1個に絞る。",
     "human_needed": false,
-    "ideal_answer": "現在地:\n対象5件の共通欠陥を確認した。\n\n実施:\ncase固有証拠を保持した修正版と再利用ルールを作成した。\n\n検証:\n同一rubricのafter assertionがすべてPASSし、before比で5点以上改善した。\n\n未完了リスク:\ncanonical Codex再回答、Regression、sealed Holdout、本番採用、final liveは未実施。\n\n次の一手:\nこの教材を同一subjectのcanonical Codex再回答へ1件だけ渡す。",
+    "ideal_answer": "現在地:\n対象5件の共通欠陥を確認した。\n\n実施:\ncase固有証拠を保持した修正版と再利用ルールを作成した。\n\n検証:\n同一rubricのafter assertionがすべてPASSし、before比で5点以上改善した。\n\n未完了リスク:\ncanonical Codex再回答、Regression、sealed Holdout、本番採用、final liveは未実施。\n\n次の一手:\nこの教材を同一subjectのcanonical Codex再回答へ1件だけ渡す。\n\n補足検証:\n各caseについて、候補本文に実在根拠がある主張、候補本文だけでは確認できない主張、deterministic assertionで失敗した軸を分けた。修正版は具体名や成功結果を補完せず、確認できた内容だけを現在地と実施へ置く。検証欄では対象・方法・観測結果を一対一にし、Regression、Holdout、本番反映、live確認を別状態として残す。\n\ncase別修理:\nanchorは架空仕様と成功ログを除き、要求と実証済み事実の差を明示する。sibling 1はvalidation対象と観測結果を追加する。sibling 2は現在地と残件を分離する。sibling 3は抽象ルールを具体的な次手へ変換する。sibling 4は共通ルールと適用禁止反例を併記する。\n\n完了判定:\nこの回答だけで実装・Regression・Holdout・本番・liveが完了したとは主張しない。同一subject、同一case set、同一rubricで再評価し、after assertionが全件PASSし、trusted timingとfinalization receiptが揃った時だけtraining admissionへ進める。\n\n証拠対応表:\n各caseの主張は、candidate本文、candidate hash、task identity、deterministic assertion、failure taxonomyのどれに基づくかを明示する。根拠が候補本文だけの場合は候補がそう述べた事実に限定し、実装済み・実行済み・成功済みへ格上げしない。assertionがfalseなら、単なる文章修正ではなく、その軸を満たす観測可能な情報をideal answerへ追加する。task identityが違うcase間では、共通ルールを適用する前に入力条件と安全境界が同じかを確認する。\n\n反例確認:\n設計例を求める依頼では仮想コードを出せるが、実在確認済みとは書かない。短い事実回答では一時間契約を機械的に適用しないが、このTeacher assignmentは5件の実失敗を比較し再利用教材へ変換する専用契約なので、case固有分析、二つの独立critic、Regression fixture、field auditを省かない。安全承認が必要な操作はnext actionへ置けるが、実行済みとは扱わない。\n\n品質判定:\n文字数そのものではなく、固有の証拠点、比較差分、却下案、反例、修正、自動再検証可能なassertionが揃っているかを見る。同じ段落の繰り返しは新しい証拠に数えず、各caseの結論が別のcaseへ入れ替えても成立するならcase固有性不足として修正する。",
     "job_id": "example-job",
     "north_star_score": 65,
     "osai_should_learn": "外部IDE最終回答品質を優先し、作業ログだけで完了扱いしない。",
     "per_axis_breakdown": {
+      "case_axis_matrix": [
+        {
+          "action": "実施済み内容と次の一手を区別した。",
+          "case_id": "teacher-review-subject_rerun_candidate_yuya_correction_YUYA-CH-048_yuya-registry-seed-76dd9cf39bf8fd15c41c_required-tool",
+          "risk": "未実施gateと安全停止線を独立表示した。",
+          "state_separation": "現在地/実施/検証/未完了/次手へ分離した。",
+          "validation": "検証対象・方法・観測結果・未確認範囲を対応させた。"
+        },
+        {
+          "action": "実施済み内容と次の一手を区別した。",
+          "case_id": "teacher-review-subject_rerun_candidate_yuya_correction_YUYA-CH-044_yuya-episode-2ce0fb68f0be0425cd14-asyncq-d513c5e4d1e2",
+          "risk": "未実施gateと安全停止線を独立表示した。",
+          "state_separation": "現在地/実施/検証/未完了/次手へ分離した。",
+          "validation": "検証対象・方法・観測結果・未確認範囲を対応させた。"
+        },
+        {
+          "action": "実施済み内容と次の一手を区別した。",
+          "case_id": "teacher-review-subject_rerun_candidate_yuya_correction_YUYA-CH-044_yuya-episode-2ce0fb68f0be0425cd14-asyncq-066ccd6107a3",
+          "risk": "未実施gateと安全停止線を独立表示した。",
+          "state_separation": "現在地/実施/検証/未完了/次手へ分離した。",
+          "validation": "検証対象・方法・観測結果・未確認範囲を対応させた。"
+        },
+        {
+          "action": "実施済み内容と次の一手を区別した。",
+          "case_id": "teacher-review-subject_rerun_candidate_yuya_correction_YUYA-CH-044_yuya-episode-a25cd3006690ef568053-asyncq-5beaa42156cb",
+          "risk": "未実施gateと安全停止線を独立表示した。",
+          "state_separation": "現在地/実施/検証/未完了/次手へ分離した。",
+          "validation": "検証対象・方法・観測結果・未確認範囲を対応させた。"
+        },
+        {
+          "action": "実施済み内容と次の一手を区別した。",
+          "case_id": "teacher-review-subject_rerun_candidate_yuya_correction_YUYA-CH-044_yuya-episode-2ce0fb68f0be0425cd14-asyncq-521eae7e4e84",
+          "risk": "未実施gateと安全停止線を独立表示した。",
+          "state_separation": "現在地/実施/検証/未完了/次手へ分離した。",
+          "validation": "検証対象・方法・観測結果・未確認範囲を対応させた。"
+        }
+      ],
       "covers_failure_or_risk": "未完了リスクと停止線が弱い。",
       "covers_validation": "検証コマンドと結果が不足している。",
       "covers_what_is_done_or_action": "実施内容が結論から読めず、次の一手に落ちていない。",
@@ -1284,37 +1334,137 @@
     },
     "per_case_reviews": [
       {
+        "alternatives": [
+          "候補文の長さだけを増やす案。",
+          "共通ルールだけを書きcase固有差分を省く案。"
+        ],
         "case_id": "teacher-review-subject_rerun_candidate_yuya_correction_YUYA-CH-048_yuya-registry-seed-76dd9cf39bf8fd15c41c_required-tool",
+        "counterexamples": [
+          "ユーザーが明示的に仮想設計例を求める場合は、例示と実在事実を分離して提示できる。",
+          "安全上のGO待ちは一つの次手へ絞っても自動実行済みとは扱わない。"
+        ],
+        "detail": "このcaseの修理は表面的な言い換えではなく、候補本文から観測できる事実と観測できない主張を一文ずつ分離する。候補が具体的なサービス名、コード、テスト成功を含む場合でもsource evidenceに存在しなければ未確認へ戻す。さらに、修正版がYuyaの追加質問を減らすか、検証結果と残作業が一読で区別できるか、安全境界を越えずに次の一手が一意かを確認する。",
+        "evidence_points": [
+          "teacher-review-subject_rerun_candidate_yuya_correction_YUYA-CH-048_yuya-registry-seed-76dd9cf39bf8fd15c41c_required-tool: candidate hashとcase identityが一致している。",
+          "teacher-review-subject_rerun_candidate_yuya_correction_YUYA-CH-048_yuya-registry-seed-76dd9cf39bf8fd15c41c_required-tool: action coverageの合否を候補本文へ照合した。",
+          "teacher-review-subject_rerun_candidate_yuya_correction_YUYA-CH-048_yuya-registry-seed-76dd9cf39bf8fd15c41c_required-tool: validation coverageの合否を候補本文へ照合した。",
+          "teacher-review-subject_rerun_candidate_yuya_correction_YUYA-CH-048_yuya-registry-seed-76dd9cf39bf8fd15c41c_required-tool: failure/risk coverageの合否を候補本文へ照合した。",
+          "teacher-review-subject_rerun_candidate_yuya_correction_YUYA-CH-048_yuya-registry-seed-76dd9cf39bf8fd15c41c_required-tool: state separationの合否を候補本文へ照合した。",
+          "teacher-review-subject_rerun_candidate_yuya_correction_YUYA-CH-048_yuya-registry-seed-76dd9cf39bf8fd15c41c_required-tool: 未確認の実装・Regression・live結果を完了扱いしていない。"
+        ],
         "fix": "検証と次手を分離",
+        "regression_obligation": "同じtask identityで、action/validation/risk/state separationの4軸を再評価し、架空証拠なし・次手1件・未完了明示を自動assertする。",
+        "repair": "確認済み事実、実施、検証、未完了リスク、次の一手へ再構成し、各主張をcase固有evidence pointへ接続する。",
         "role": "anchor",
+        "source_facts": "teacher-review-subject_rerun_candidate_yuya_correction_YUYA-CH-048_yuya-registry-seed-76dd9cf39bf8fd15c41c_required-tool の候補本文、deterministic assertion、failure taxonomy、task identityを別々に照合し、候補本文に存在しない実装・成功ログを事実化していない。",
         "weakness": "次の一手が曖昧"
       },
       {
+        "alternatives": [
+          "候補文の長さだけを増やす案。",
+          "共通ルールだけを書きcase固有差分を省く案。"
+        ],
         "case_id": "teacher-review-subject_rerun_candidate_yuya_correction_YUYA-CH-044_yuya-episode-2ce0fb68f0be0425cd14-asyncq-d513c5e4d1e2",
+        "counterexamples": [
+          "ユーザーが明示的に仮想設計例を求める場合は、例示と実在事実を分離して提示できる。",
+          "安全上のGO待ちは一つの次手へ絞っても自動実行済みとは扱わない。"
+        ],
+        "detail": "このcaseの修理は表面的な言い換えではなく、候補本文から観測できる事実と観測できない主張を一文ずつ分離する。候補が具体的なサービス名、コード、テスト成功を含む場合でもsource evidenceに存在しなければ未確認へ戻す。さらに、修正版がYuyaの追加質問を減らすか、検証結果と残作業が一読で区別できるか、安全境界を越えずに次の一手が一意かを確認する。",
+        "evidence_points": [
+          "teacher-review-subject_rerun_candidate_yuya_correction_YUYA-CH-044_yuya-episode-2ce0fb68f0be0425cd14-asyncq-d513c5e4d1e2: candidate hashとcase identityが一致している。",
+          "teacher-review-subject_rerun_candidate_yuya_correction_YUYA-CH-044_yuya-episode-2ce0fb68f0be0425cd14-asyncq-d513c5e4d1e2: action coverageの合否を候補本文へ照合した。",
+          "teacher-review-subject_rerun_candidate_yuya_correction_YUYA-CH-044_yuya-episode-2ce0fb68f0be0425cd14-asyncq-d513c5e4d1e2: validation coverageの合否を候補本文へ照合した。",
+          "teacher-review-subject_rerun_candidate_yuya_correction_YUYA-CH-044_yuya-episode-2ce0fb68f0be0425cd14-asyncq-d513c5e4d1e2: failure/risk coverageの合否を候補本文へ照合した。",
+          "teacher-review-subject_rerun_candidate_yuya_correction_YUYA-CH-044_yuya-episode-2ce0fb68f0be0425cd14-asyncq-d513c5e4d1e2: state separationの合否を候補本文へ照合した。",
+          "teacher-review-subject_rerun_candidate_yuya_correction_YUYA-CH-044_yuya-episode-2ce0fb68f0be0425cd14-asyncq-d513c5e4d1e2: 未確認の実装・Regression・live結果を完了扱いしていない。"
+        ],
         "fix": "証拠path必須",
+        "regression_obligation": "同じtask identityで、action/validation/risk/state separationの4軸を再評価し、架空証拠なし・次手1件・未完了明示を自動assertする。",
+        "repair": "確認済み事実、実施、検証、未完了リスク、次の一手へ再構成し、各主張をcase固有evidence pointへ接続する。",
         "role": "sibling",
+        "source_facts": "teacher-review-subject_rerun_candidate_yuya_correction_YUYA-CH-044_yuya-episode-2ce0fb68f0be0425cd14-asyncq-d513c5e4d1e2 の候補本文、deterministic assertion、failure taxonomy、task identityを別々に照合し、候補本文に存在しない実装・成功ログを事実化していない。",
         "weakness": "検証不足"
       },
       {
+        "alternatives": [
+          "候補文の長さだけを増やす案。",
+          "共通ルールだけを書きcase固有差分を省く案。"
+        ],
         "case_id": "teacher-review-subject_rerun_candidate_yuya_correction_YUYA-CH-044_yuya-episode-2ce0fb68f0be0425cd14-asyncq-066ccd6107a3",
+        "counterexamples": [
+          "ユーザーが明示的に仮想設計例を求める場合は、例示と実在事実を分離して提示できる。",
+          "安全上のGO待ちは一つの次手へ絞っても自動実行済みとは扱わない。"
+        ],
+        "detail": "このcaseの修理は表面的な言い換えではなく、候補本文から観測できる事実と観測できない主張を一文ずつ分離する。候補が具体的なサービス名、コード、テスト成功を含む場合でもsource evidenceに存在しなければ未確認へ戻す。さらに、修正版がYuyaの追加質問を減らすか、検証結果と残作業が一読で区別できるか、安全境界を越えずに次の一手が一意かを確認する。",
+        "evidence_points": [
+          "teacher-review-subject_rerun_candidate_yuya_correction_YUYA-CH-044_yuya-episode-2ce0fb68f0be0425cd14-asyncq-066ccd6107a3: candidate hashとcase identityが一致している。",
+          "teacher-review-subject_rerun_candidate_yuya_correction_YUYA-CH-044_yuya-episode-2ce0fb68f0be0425cd14-asyncq-066ccd6107a3: action coverageの合否を候補本文へ照合した。",
+          "teacher-review-subject_rerun_candidate_yuya_correction_YUYA-CH-044_yuya-episode-2ce0fb68f0be0425cd14-asyncq-066ccd6107a3: validation coverageの合否を候補本文へ照合した。",
+          "teacher-review-subject_rerun_candidate_yuya_correction_YUYA-CH-044_yuya-episode-2ce0fb68f0be0425cd14-asyncq-066ccd6107a3: failure/risk coverageの合否を候補本文へ照合した。",
+          "teacher-review-subject_rerun_candidate_yuya_correction_YUYA-CH-044_yuya-episode-2ce0fb68f0be0425cd14-asyncq-066ccd6107a3: state separationの合否を候補本文へ照合した。",
+          "teacher-review-subject_rerun_candidate_yuya_correction_YUYA-CH-044_yuya-episode-2ce0fb68f0be0425cd14-asyncq-066ccd6107a3: 未確認の実装・Regression・live結果を完了扱いしていない。"
+        ],
         "fix": "未完了欄必須",
+        "regression_obligation": "同じtask identityで、action/validation/risk/state separationの4軸を再評価し、架空証拠なし・次手1件・未完了明示を自動assertする。",
+        "repair": "確認済み事実、実施、検証、未完了リスク、次の一手へ再構成し、各主張をcase固有evidence pointへ接続する。",
         "role": "sibling",
+        "source_facts": "teacher-review-subject_rerun_candidate_yuya_correction_YUYA-CH-044_yuya-episode-2ce0fb68f0be0425cd14-asyncq-066ccd6107a3 の候補本文、deterministic assertion、failure taxonomy、task identityを別々に照合し、候補本文に存在しない実装・成功ログを事実化していない。",
         "weakness": "未完了未分離"
       },
       {
+        "alternatives": [
+          "候補文の長さだけを増やす案。",
+          "共通ルールだけを書きcase固有差分を省く案。"
+        ],
         "case_id": "teacher-review-subject_rerun_candidate_yuya_correction_YUYA-CH-044_yuya-episode-a25cd3006690ef568053-asyncq-5beaa42156cb",
+        "counterexamples": [
+          "ユーザーが明示的に仮想設計例を求める場合は、例示と実在事実を分離して提示できる。",
+          "安全上のGO待ちは一つの次手へ絞っても自動実行済みとは扱わない。"
+        ],
+        "detail": "このcaseの修理は表面的な言い換えではなく、候補本文から観測できる事実と観測できない主張を一文ずつ分離する。候補が具体的なサービス名、コード、テスト成功を含む場合でもsource evidenceに存在しなければ未確認へ戻す。さらに、修正版がYuyaの追加質問を減らすか、検証結果と残作業が一読で区別できるか、安全境界を越えずに次の一手が一意かを確認する。",
+        "evidence_points": [
+          "teacher-review-subject_rerun_candidate_yuya_correction_YUYA-CH-044_yuya-episode-a25cd3006690ef568053-asyncq-5beaa42156cb: candidate hashとcase identityが一致している。",
+          "teacher-review-subject_rerun_candidate_yuya_correction_YUYA-CH-044_yuya-episode-a25cd3006690ef568053-asyncq-5beaa42156cb: action coverageの合否を候補本文へ照合した。",
+          "teacher-review-subject_rerun_candidate_yuya_correction_YUYA-CH-044_yuya-episode-a25cd3006690ef568053-asyncq-5beaa42156cb: validation coverageの合否を候補本文へ照合した。",
+          "teacher-review-subject_rerun_candidate_yuya_correction_YUYA-CH-044_yuya-episode-a25cd3006690ef568053-asyncq-5beaa42156cb: failure/risk coverageの合否を候補本文へ照合した。",
+          "teacher-review-subject_rerun_candidate_yuya_correction_YUYA-CH-044_yuya-episode-a25cd3006690ef568053-asyncq-5beaa42156cb: state separationの合否を候補本文へ照合した。",
+          "teacher-review-subject_rerun_candidate_yuya_correction_YUYA-CH-044_yuya-episode-a25cd3006690ef568053-asyncq-5beaa42156cb: 未確認の実装・Regression・live結果を完了扱いしていない。"
+        ],
         "fix": "次手1個",
+        "regression_obligation": "同じtask identityで、action/validation/risk/state separationの4軸を再評価し、架空証拠なし・次手1件・未完了明示を自動assertする。",
+        "repair": "確認済み事実、実施、検証、未完了リスク、次の一手へ再構成し、各主張をcase固有evidence pointへ接続する。",
         "role": "sibling",
+        "source_facts": "teacher-review-subject_rerun_candidate_yuya_correction_YUYA-CH-044_yuya-episode-a25cd3006690ef568053-asyncq-5beaa42156cb の候補本文、deterministic assertion、failure taxonomy、task identityを別々に照合し、候補本文に存在しない実装・成功ログを事実化していない。",
         "weakness": "Yuya負担増"
       },
       {
+        "alternatives": [
+          "候補文の長さだけを増やす案。",
+          "共通ルールだけを書きcase固有差分を省く案。"
+        ],
         "case_id": "teacher-review-subject_rerun_candidate_yuya_correction_YUYA-CH-044_yuya-episode-2ce0fb68f0be0425cd14-asyncq-521eae7e4e84",
+        "counterexamples": [
+          "ユーザーが明示的に仮想設計例を求める場合は、例示と実在事実を分離して提示できる。",
+          "安全上のGO待ちは一つの次手へ絞っても自動実行済みとは扱わない。"
+        ],
+        "detail": "このcaseの修理は表面的な言い換えではなく、候補本文から観測できる事実と観測できない主張を一文ずつ分離する。候補が具体的なサービス名、コード、テスト成功を含む場合でもsource evidenceに存在しなければ未確認へ戻す。さらに、修正版がYuyaの追加質問を減らすか、検証結果と残作業が一読で区別できるか、安全境界を越えずに次の一手が一意かを確認する。",
+        "evidence_points": [
+          "teacher-review-subject_rerun_candidate_yuya_correction_YUYA-CH-044_yuya-episode-2ce0fb68f0be0425cd14-asyncq-521eae7e4e84: candidate hashとcase identityが一致している。",
+          "teacher-review-subject_rerun_candidate_yuya_correction_YUYA-CH-044_yuya-episode-2ce0fb68f0be0425cd14-asyncq-521eae7e4e84: action coverageの合否を候補本文へ照合した。",
+          "teacher-review-subject_rerun_candidate_yuya_correction_YUYA-CH-044_yuya-episode-2ce0fb68f0be0425cd14-asyncq-521eae7e4e84: validation coverageの合否を候補本文へ照合した。",
+          "teacher-review-subject_rerun_candidate_yuya_correction_YUYA-CH-044_yuya-episode-2ce0fb68f0be0425cd14-asyncq-521eae7e4e84: failure/risk coverageの合否を候補本文へ照合した。",
+          "teacher-review-subject_rerun_candidate_yuya_correction_YUYA-CH-044_yuya-episode-2ce0fb68f0be0425cd14-asyncq-521eae7e4e84: state separationの合否を候補本文へ照合した。",
+          "teacher-review-subject_rerun_candidate_yuya_correction_YUYA-CH-044_yuya-episode-2ce0fb68f0be0425cd14-asyncq-521eae7e4e84: 未確認の実装・Regression・live結果を完了扱いしていない。"
+        ],
         "fix": "具体例化",
+        "regression_obligation": "同じtask identityで、action/validation/risk/state separationの4軸を再評価し、架空証拠なし・次手1件・未完了明示を自動assertする。",
+        "repair": "確認済み事実、実施、検証、未完了リスク、次の一手へ再構成し、各主張をcase固有evidence pointへ接続する。",
         "role": "sibling",
+        "source_facts": "teacher-review-subject_rerun_candidate_yuya_correction_YUYA-CH-044_yuya-episode-2ce0fb68f0be0425cd14-asyncq-521eae7e4e84 の候補本文、deterministic assertion、failure taxonomy、task identityを別々に照合し、候補本文に存在しない実装・成功ログを事実化していない。",
         "weakness": "抽象ルール"
       }
     ],
-    "prompt_patch": "最終回答ではdirect_conclusionとsafe_next_actionを必ず分ける。",
+    "prompt_patch": "最終回答ではdirect_conclusionとsafe_next_actionを必ず分ける。 最終回答を作る前に、各caseのcandidate evidence、deterministic assertions、failure taxonomy、task identityを一覧化する。各caseにつき少なくとも6件の証拠点、2案の代替、2件の反例、1件のcase固有repair、1件のRegression obligationを作る。次に5件×4軸のmatrixを作り、action、validation、risk、state separationを個別評価する。共通原因を合成した後、ideal answerとprompt patchを初稿化し、critic Aは事実完全性・検証・次手を、critic Bは反例・過剰適用・隠れた前提・Regression coverageを独立に攻撃する。各criticは4件以上のfindingと3件以上のaccepted changeを残す。修正後に8件以上のRegression assertionとfield-by-field auditを行う。trusted backendまたはrun-ledger計測が50分未満、または自己申告との差が2分を超える場合はtrainingへ採用せず、assignmentを消費しない。待機や文章の反復は作業時間・証拠量へ数えない。 各evidence pointは、観測対象、観測元、観測結果、そこから許される結論、許されない結論を含める。各alternativeは採用した場合の利点と、今回却下する具体的理由を含める。各counterexampleはgeneralized ruleを適用してはいけない条件と、その場合の安全な別処理を含める。case-axis matrixは単語だけで埋めず、候補本文のどの欠陥をどう修理し、何で再検証するかを書く。critic Aとcritic Bのfinding集合は同一にせず、それぞれのaccepted changeがfinal packetのどのfieldへ反映されたかをreview_step_logへ記録する。Regression fixtureはpositive、negative、boundary、unknown-evidence、human-GO、no-false-completion、exactly-one-next-action、case-identity-preservationを最低限含める。final auditではrequired_fieldsの存在だけでなく、case IDの完全一致、数、重複、内容長、独立critic、same-rubric before/after、trusted timing、未完了gateの正直な表示を一項目ずつ確認する。",
     "quality_self_score": {
       "depth": 0.82,
       "specificity": 0.84,
@@ -1329,15 +1479,26 @@
       "外部IDE最終回答としてそのまま使える構造ではない。",
       "人間GOが必要な境界と不要な境界が混ざっている。",
       "失敗時の停止線が明示されていない。",
-      "OSAIが学ぶべき能力へ接続されていない。"
+      "OSAIが学ぶべき能力へ接続されていない。",
+      "5件の候補本文にある固有主張と重複表現を分離し、反復を新しい証拠として数えない。",
+      "candidate hashが重複するcaseでもtask identityとfailure assertionの差を個別に扱う。",
+      "source factsと推論を別欄に分け、推論は根拠を示せる範囲だけに限定する。",
+      "各caseの修理が同じ4軸rubricへどう効くかをcase-axis matrixで明示する。",
+      "critic Aは事実完全性を、critic Bは反例と過剰適用を独立に攻撃する。",
+      "修正版から自動Regressionへ変換できるassertionを8件以上作る。",
+      "最終packetの全required fieldを一項目ずつ監査し、短い要約で証拠を削らない。"
     ],
     "regression_fixture": {
       "input_example": "検証が曖昧な作業報告",
       "required_assertions": [
         "現在地がある",
-        "検証がある",
+        "実施内容がある",
+        "検証対象と結果が対応する",
+        "未完了リスクが独立している",
         "次の一手が1個",
-        "未確認を確定しない"
+        "架空証拠がない",
+        "実装・テスト・liveを混同しない",
+        "case固有事実を保持する"
       ]
     },
     "review_step_log": [
@@ -1346,7 +1507,11 @@
       "sibling 2を比較した。",
       "sibling 3を比較した。",
       "sibling 4を比較した。",
-      "5件共通の再発パターンへ圧縮した。"
+      "5件共通の再発パターンへ圧縮した。",
+      "5件×4軸のcase-axis matrixを作成した。",
+      "critic Aの4件以上の指摘を反映した。",
+      "critic Bの独立した4件以上の指摘を反映した。",
+      "Regression fixtureとrequired fieldsをfield-by-field監査した。"
     ],
     "reviewed_case_id": "teacher-review-subject_rerun_candidate_yuya_correction_YUYA-CH-048_yuya-registry-seed-76dd9cf39bf8fd15c41c_required-tool",
     "reviewed_case_ids": [
@@ -1603,16 +1768,23 @@
     "training_item_id": "example-training-item",
     "what_went_wrong": "最終回答がsafe_next_actionを具体化できず、Yuyaの次操作が増えた。",
     "why_not_shallow": "5件比較、反例、2回のcritic、修正版、同一rubric再採点まで段階別証拠として含めている。",
-    "work_budget_minutes": 40
+    "work_budget_minutes": 55
   },
   "expected_depth": {
     "avoid_generic_packet": true,
-    "content_quality_primary_admission": true,
+    "content_and_trusted_time_joint_admission": true,
+    "content_quality_primary_admission": false,
     "maximum_reviewed_case_count": 5,
-    "minimum_alternatives_rejected": 3,
+    "minimum_accepted_changes_per_critic": 3,
+    "minimum_alternatives_rejected": 5,
     "minimum_elapsed_work_claim_minutes_for_admission": 50.0,
-    "minimum_reasoning_points": 8,
-    "minimum_review_step_log_entries": 5,
+    "minimum_findings_per_critic": 4,
+    "minimum_per_case_alternatives": 2,
+    "minimum_per_case_counterexamples": 2,
+    "minimum_per_case_evidence_points": 6,
+    "minimum_reasoning_points": 15,
+    "minimum_regression_assertions": 8,
+    "minimum_review_step_log_entries": 10,
     "minimum_reviewed_case_count": 1,
     "minimum_trusted_measured_elapsed_minutes_for_admission": 50.0,
     "must_explain_why_not_shallow": true,
@@ -1833,6 +2005,54 @@
     }
   },
   "ok": true,
+  "one_hour_workload_contract": {
+    "aggregate_required": {
+      "accepted_changes_per_critic": 3,
+      "alternatives_rejected": 5,
+      "case_axis_matrix_axes": [
+        "action",
+        "validation",
+        "risk",
+        "state_separation"
+      ],
+      "case_axis_matrix_rows": 5,
+      "critic_rounds": 2,
+      "cross_case_pattern_min_chars": 700,
+      "findings_per_critic": 4,
+      "ideal_answer_min_chars": 1000,
+      "prompt_patch_min_chars": 600,
+      "reasoning_points": 15,
+      "regression_assertions": 8,
+      "review_step_log_entries": 10
+    },
+    "early_partial_before_minimum_trusted_time_allowed": false,
+    "minimum_trusted_active_work_minutes": 50.0,
+    "per_case_required": {
+      "alternatives": 2,
+      "case_specific_repair": 1,
+      "counterexamples": 2,
+      "evidence_points": 6,
+      "regression_obligation": 1
+    },
+    "repeated_source_text_counts_as_new_evidence": false,
+    "required_case_count": 5,
+    "required_pass_order": [
+      "input_material_inventory",
+      "five_independent_case_analyses",
+      "case_axis_matrix",
+      "cross_case_causal_synthesis",
+      "ideal_answer_and_prompt_patch_draft",
+      "independent_critic_a",
+      "independent_critic_b",
+      "revision",
+      "regression_fixture",
+      "field_by_field_contract_audit"
+    ],
+    "schema_version": "scheduled_haru_one_hour_workload.v1",
+    "short_output_behavior": "Emit a fail-visible checkpoint only after completing all locally available work; trusted elapsed below 50 minutes is not training-admissible and does not consume the assignment.",
+    "target_active_work_minutes": 55.0,
+    "waiting_or_padding_counts_as_work": false
+  },
   "osai_teacher_review_inbox": "logs/api_usage/derived/osai_teacher_review_inbox",
   "packet_identity_contract": {
     "canonical_intake_behavior": "A legacy terminal turnNN suffix is removed deterministically; the submitted value remains recorded as submitted_teacher_packet_id.",
@@ -1851,23 +2071,99 @@
     "secret_value_saved_here": false,
     "unsafe_candidate_text_fail_closed": true
   },
+  "public_workload_material": {
+    "case_count": 5,
+    "distinct_candidate_hash_count": 3,
+    "distinct_failure_taxonomy_count": 3,
+    "duplicate_candidate_hash_groups": [
+      {
+        "candidate_sha256": "8e6f91cf1675a8560890cdbbd53fe11acfff415cacaad1a9783f31ed282f3657",
+        "case_ids": [
+          "teacher-review-subject_rerun_candidate_yuya_correction_YUYA-CH-044_yuya-episode-2ce0fb68f0be0425cd14-asyncq-d513c5e4d1e2",
+          "teacher-review-subject_rerun_candidate_yuya_correction_YUYA-CH-044_yuya-episode-2ce0fb68f0be0425cd14-asyncq-066ccd6107a3",
+          "teacher-review-subject_rerun_candidate_yuya_correction_YUYA-CH-044_yuya-episode-2ce0fb68f0be0425cd14-asyncq-521eae7e4e84"
+        ]
+      }
+    ],
+    "effective_material_policy": "Repeated text is not counted as new difficulty. Use case-specific facts, deterministic assertions, distinct failure taxonomies, counterexamples, and regression obligations as the effective workload.",
+    "per_case": [
+      {
+        "candidate_chars": 15000,
+        "candidate_hash_verified": true,
+        "case_id": "teacher-review-subject_rerun_candidate_yuya_correction_YUYA-CH-048_yuya-registry-seed-76dd9cf39bf8fd15c41c_required-tool",
+        "deterministic_assertion_count": 7,
+        "failure_taxonomy_count": 2,
+        "normalized_line_count": 263,
+        "unique_line_chars": 2704,
+        "unique_line_ratio": 0.1803,
+        "unique_normalized_line_count": 50
+      },
+      {
+        "candidate_chars": 15000,
+        "candidate_hash_verified": true,
+        "case_id": "teacher-review-subject_rerun_candidate_yuya_correction_YUYA-CH-044_yuya-episode-2ce0fb68f0be0425cd14-asyncq-d513c5e4d1e2",
+        "deterministic_assertion_count": 7,
+        "failure_taxonomy_count": 2,
+        "normalized_line_count": 435,
+        "unique_line_chars": 1199,
+        "unique_line_ratio": 0.0799,
+        "unique_normalized_line_count": 40
+      },
+      {
+        "candidate_chars": 15000,
+        "candidate_hash_verified": true,
+        "case_id": "teacher-review-subject_rerun_candidate_yuya_correction_YUYA-CH-044_yuya-episode-2ce0fb68f0be0425cd14-asyncq-066ccd6107a3",
+        "deterministic_assertion_count": 7,
+        "failure_taxonomy_count": 2,
+        "normalized_line_count": 435,
+        "unique_line_chars": 1199,
+        "unique_line_ratio": 0.0799,
+        "unique_normalized_line_count": 40
+      },
+      {
+        "candidate_chars": 15000,
+        "candidate_hash_verified": true,
+        "case_id": "teacher-review-subject_rerun_candidate_yuya_correction_YUYA-CH-044_yuya-episode-a25cd3006690ef568053-asyncq-5beaa42156cb",
+        "deterministic_assertion_count": 7,
+        "failure_taxonomy_count": 2,
+        "normalized_line_count": 473,
+        "unique_line_chars": 1014,
+        "unique_line_ratio": 0.0676,
+        "unique_normalized_line_count": 35
+      },
+      {
+        "candidate_chars": 15000,
+        "candidate_hash_verified": true,
+        "case_id": "teacher-review-subject_rerun_candidate_yuya_correction_YUYA-CH-044_yuya-episode-2ce0fb68f0be0425cd14-asyncq-521eae7e4e84",
+        "deterministic_assertion_count": 7,
+        "failure_taxonomy_count": 2,
+        "normalized_line_count": 435,
+        "unique_line_chars": 1199,
+        "unique_line_ratio": 0.0799,
+        "unique_normalized_line_count": 40
+      }
+    ],
+    "schema_version": "scheduled_haru_public_workload_material.v1",
+    "total_candidate_chars": 75000,
+    "total_unique_line_chars": 7315
+  },
   "publication_contract": {
     "active_assignment_packet_id": "scheduled-haru-published-assignment-460fdb2246abc5c6001e",
     "active_assignment_state": "active_unconsumed",
-    "assignment_fresh_until": "2026-07-31T16:43:16+09:00",
+    "assignment_fresh_until": "2026-07-31T17:49:32+09:00",
     "assignment_freshness_role": "new_run_authority_with_exact_identity_and_atomic_claim",
-    "assignment_lease_expires_at": "2026-07-31T16:43:16+09:00",
-    "assignment_lease_id": "836b45c65b89436c1a459992bec092bec3cf567c588391c99525cb2eacaf409c",
+    "assignment_lease_expires_at": "2026-07-31T17:49:32+09:00",
+    "assignment_lease_id": "6d208d2ac7ed801cd344998a82304cd4cdb67a2cf55c25e7f70a9743be68e4ec",
     "assignment_lease_seconds": 4200,
     "assignment_revision": "ea288ef48d302869dbf5c68252ab1f3afd1076074e4a1431d1f68d96bb8593ea",
-    "briefing_generated_at": "2026-07-31T15:33:16+09:00",
+    "briefing_generated_at": "2026-07-31T16:39:32+09:00",
     "case_identity_source": "existing_delivery_receipt",
     "generator_component": "teacher_delivery.py",
-    "generator_revision": "0d8eeb338c51ea5ff44a2a9224ab5e1f61192e1d75debbf99b71343353346c75",
+    "generator_revision": "a7aa919f0f7bcbbe430595d5b53c86fab07cacafc9def9f9ff668f511f6a71f2",
     "max_start_age_seconds": 4200,
     "new_run_start_authority": "exact_assignment_identity_and_unexpired_lease_under_atomic_claim",
     "normal_run_start_allowed": true,
-    "publication_fresh_until": "2026-07-31T15:48:16+09:00",
+    "publication_fresh_until": "2026-07-31T16:54:32+09:00",
     "publication_freshness_role": "publication_observability_only",
     "publication_max_age_seconds": 900,
     "publish_success_requires": [
