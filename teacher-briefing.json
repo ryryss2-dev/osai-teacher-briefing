@@ -1,14 +1,14 @@
 {
   "assignment": {
-    "assignment_id": "scheduled-haru-batch50-21f5ae52c5ec-c7d3eb031800",
-    "assignment_revision": "21f5ae52c5ec0011854526ce48a457f6d14a1cc732cb5ba6d00a3521dd21d585",
+    "assignment_id": "scheduled-haru-batch50-2784f4cab08c-c7d3eb031800",
+    "assignment_revision": "2784f4cab08cbd5a0848388b0050d585de67483e44ff159d0b08d9f5faeeb9a8",
     "candidate_digest": "c7d3eb0318007ff93bfb3c4e3f5220f99b7759b3b318b548f58fbd60d3a2659c",
     "case_set_digest": "c7d3eb0318007ff93bfb3c4e3f5220f99b7759b3b318b548f58fbd60d3a2659c",
-    "cycle_id": "scheduled-haru-cycle-21f5ae52c5ec0011-c7d3eb0318007ff9",
+    "cycle_id": "scheduled-haru-cycle-2784f4cab08cbd5a-c7d3eb0318007ff9",
     "reviewed_case_count": 50,
-    "teacher_packet_id": "scheduled-haru-batch50-21f5ae52c5ec-c7d3eb031800"
+    "teacher_packet_id": "scheduled-haru-batch50-2784f4cab08c-c7d3eb031800"
   },
-  "assignment_revision": "21f5ae52c5ec0011854526ce48a457f6d14a1cc732cb5ba6d00a3521dd21d585",
+  "assignment_revision": "2784f4cab08cbd5a0848388b0050d585de67483e44ff159d0b08d9f5faeeb9a8",
   "batch_review_contract": {
     "anchor_case_count": 1,
     "batch_size": 50,
@@ -27,7 +27,7 @@
     "case_shard_work_items": [
       {
         "case_id": "teacher-review-yuya_correction_YUYA-CH-026_yuya-episode-18ac1f3f2ac521892b6d-unknown_queue",
-        "case_source_digest": "c7ab144512e989a1017dcbcbb6e4155b44369cc22f7e06ffcd4fba4011a592d8",
+        "case_source_digest": "9fafe54bcc952d4d70e241b437977d2b988a9b1752032e1e0cf13222f9f96e09",
         "checkpoint_kind": "scheduled_haru_case_shards",
         "lane_index": 0,
         "stage_ids": [
@@ -38,7 +38,7 @@
       },
       {
         "case_id": "teacher-review-yuya_correction_YUYA-CH-027_yuya-episode-679ac4af3688ab47f76c-unknown_queue",
-        "case_source_digest": "c04adf4750a73811cb8d10d3a5f4b2ddc5c3c83c18bb05c494bf1a85b5cbe6ac",
+        "case_source_digest": "ed9bb90b302e800f13e954f6fd6121bcf0c842cb0a260749c4337e7807cf5828",
         "checkpoint_kind": "scheduled_haru_case_shards",
         "lane_index": 1,
         "stage_ids": [
@@ -49,7 +49,7 @@
       },
       {
         "case_id": "teacher-review-yuya_correction_YUYA-CH-027_yuya-episode-bb6f6901a96b25f2804a-unknown_queue",
-        "case_source_digest": "56568d06247885c24fee7219f928392a175b6d968e253393b2b58d3266d0944c",
+        "case_source_digest": "384219f4b1d520326f29f27f8121dc0b28e77225d36064b54fee459b705512e2",
         "checkpoint_kind": "scheduled_haru_case_shards",
         "lane_index": 2,
         "stage_ids": [
@@ -60,7 +60,7 @@
       },
       {
         "case_id": "teacher-review-yuya_correction_YUYA-CH-026_yuya-episode-bcf2b7c4ed539184a7d6-unknown_queue",
-        "case_source_digest": "c179ea6af53b539356611ed401ed44ce9603eb3e8c2834f9ee6c9589da5e5afc",
+        "case_source_digest": "1a9aad0e18ef049186c4a9cec705c12a2325b3c893b3b634225aa7457003673f",
         "checkpoint_kind": "scheduled_haru_case_shards",
         "lane_index": 3,
         "stage_ids": [
@@ -71,7 +71,7 @@
       },
       {
         "case_id": "teacher-review-yuya_correction_YUYA-CH-028_yuya-episode-47270b5ba39bbe64a758-unknown_queue",
-        "case_source_digest": "941dfd48d2019938ae24504c95ad11a3e5c361da01d196cda1946220f2125c4d",
+        "case_source_digest": "ed48a038e6d90bab38568d26e1ace0a2927b3c8127243076f7e5ef0749cb2bdb",
         "checkpoint_kind": "scheduled_haru_case_shards",
         "lane_index": 4,
         "stage_ids": [
@@ -82,7 +82,7 @@
       },
       {
         "case_id": "teacher-review-yuya_correction_YUYA-CH-027_yuya-episode-4407e6d10f56457175e3-unknown_queue",
-        "case_source_digest": "d598419e9cea39456b1a743c83b54ebfc2a75da20f4c7ff40f04745792e35985",
+        "case_source_digest": "6d84f0f7cd68ee0759b0e7747d4db932c8c16613a8d4058514b41745e36d53a7",
         "checkpoint_kind": "scheduled_haru_case_shards",
         "lane_index": 5,
         "stage_ids": [
@@ -93,7 +93,7 @@
       },
       {
         "case_id": "teacher-review-yuya_history_backfill_YUYA-CH-002_3f3175c1a0216af8-unknown_queue",
-        "case_source_digest": "83ec117acda5cbdc4db3fca88b021bbed511517e81315122a64976127d33b829",
+        "case_source_digest": "c50935ca5bc8d93cb718c1397b31980c5580feeda0e66a9cf9d440426010c956",
         "checkpoint_kind": "scheduled_haru_case_shards",
         "lane_index": 6,
         "stage_ids": [
@@ -104,7 +104,7 @@
       },
       {
         "case_id": "teacher-review-yuya_history_backfill_YUYA-CH-003_77bdee6ecd7f3910-unknown_queue",
-        "case_source_digest": "65627d95d5639e04c2527f752eaca35d0e5a08ce4346a0a7c23d14529552d127",
+        "case_source_digest": "326f3b7de3412a39d2df035befe1d189c9167675ad9b859c10a6e6525e45db2c",
         "checkpoint_kind": "scheduled_haru_case_shards",
         "lane_index": 7,
         "stage_ids": [
@@ -115,7 +115,7 @@
       },
       {
         "case_id": "teacher-review-yuya_history_backfill_YUYA-CH-004_db48c28329569532-unknown_queue",
-        "case_source_digest": "63e5f43e65d2ccd0d8875b970e1c226475011def4c8ca79160a0f82a80d44308",
+        "case_source_digest": "e08f4667c5885462e0aff69b18d0f5be18e80d524b11d0e6dc41cee164f9aa08",
         "checkpoint_kind": "scheduled_haru_case_shards",
         "lane_index": 8,
         "stage_ids": [
@@ -126,7 +126,7 @@
       },
       {
         "case_id": "teacher-review-yuya_history_backfill_YUYA-CH-005_038b01175cc30b56-unknown_queue",
-        "case_source_digest": "b5d2ad81438c6ff3b6e58becc6cf9b05806d605b0502cf905a9c80583c22951d",
+        "case_source_digest": "e1698c681ed80196d72416116622e57915e55c1d238fa6c8a62d6fcd90d8a383",
         "checkpoint_kind": "scheduled_haru_case_shards",
         "lane_index": 9,
         "stage_ids": [
@@ -137,7 +137,7 @@
       },
       {
         "case_id": "teacher-review-yuya_history_backfill_YUYA-CH-006_1ba915806ab27978-unknown_queue",
-        "case_source_digest": "988d101167b3cc309e41a5ef5c16661e2cf1299abf3d4b83024d9dd2c0182fce",
+        "case_source_digest": "e4abb3db3f3c2617c6d2e034b3e6ca7f950d1b235f9c056dada0387839cd346f",
         "checkpoint_kind": "scheduled_haru_case_shards",
         "lane_index": 10,
         "stage_ids": [
@@ -148,7 +148,7 @@
       },
       {
         "case_id": "teacher-review-yuya_history_backfill_YUYA-CH-007_af368bb467671800-unknown_queue",
-        "case_source_digest": "68bb13f504be9e04ef720e0ca9f4867b863298ce00424389e09bc4476c15001c",
+        "case_source_digest": "5313699b23f7c6bf93bbcc57a434d6c9530253c50443f6d9515283a9ae61608e",
         "checkpoint_kind": "scheduled_haru_case_shards",
         "lane_index": 11,
         "stage_ids": [
@@ -159,7 +159,7 @@
       },
       {
         "case_id": "teacher-review-yuya_history_backfill_YUYA-CH-008_210d17a93183565b-unknown_queue",
-        "case_source_digest": "d4961ee72b0e3f69a8e44378395148fa0493eb27a5feca2b18380c87b810f908",
+        "case_source_digest": "f6180de86985791cc92e78dc44546999bde7b8d75dbab4f314441d6c76135ea9",
         "checkpoint_kind": "scheduled_haru_case_shards",
         "lane_index": 12,
         "stage_ids": [
@@ -170,7 +170,7 @@
       },
       {
         "case_id": "teacher-review-yuya_history_backfill_YUYA-CH-010_21b6a4de81aa221c-unknown_queue",
-        "case_source_digest": "e84be94e3c18c2fed0d656fcea27cee2f15e3ce363e43e54944d81a7170ea12b",
+        "case_source_digest": "167d638afdf25915f44cdc8f676f977906da8788f09be27b4f2343457786ccb6",
         "checkpoint_kind": "scheduled_haru_case_shards",
         "lane_index": 13,
         "stage_ids": [
@@ -181,7 +181,7 @@
       },
       {
         "case_id": "teacher-review-yuya_history_backfill_YUYA-CH-011_17d2280c21c19cad-unknown_queue",
-        "case_source_digest": "f0682eceac1f612231efc6d220f98d26c1c32c3c7503b450ed2ea0d71c71fb8c",
+        "case_source_digest": "66d3bfbae6d8c1fecdadc435e32b0a5f46f2370aabaa9e36e89b722058a38343",
         "checkpoint_kind": "scheduled_haru_case_shards",
         "lane_index": 14,
         "stage_ids": [
@@ -192,7 +192,7 @@
       },
       {
         "case_id": "teacher-review-yuya_history_backfill_YUYA-CH-012_0f97768e54849419-unknown_queue",
-        "case_source_digest": "34d73eb77be5e0a2a112d94bb011560b0b52fdbf26a9cdc82d5f3a81d3e85beb",
+        "case_source_digest": "e08b03191226882d2ae1abcd0ecc77c0a855a7ed984a90390ec6e5c7c8101678",
         "checkpoint_kind": "scheduled_haru_case_shards",
         "lane_index": 15,
         "stage_ids": [
@@ -203,7 +203,7 @@
       },
       {
         "case_id": "teacher-review-yuya_history_backfill_YUYA-CH-013_87d7f478852cf5ce-unknown_queue",
-        "case_source_digest": "67cdaea876e072dad8d3fbf7fe557dc74b6e57bb52bfc1f359cd346ea89139c5",
+        "case_source_digest": "72e3cbf615f733ded117bbe0c7d5ca8879df26202e64047cc99f50279caff78b",
         "checkpoint_kind": "scheduled_haru_case_shards",
         "lane_index": 16,
         "stage_ids": [
@@ -214,7 +214,7 @@
       },
       {
         "case_id": "teacher-review-yuya_history_backfill_YUYA-CH-014_06ad1ff7dd591f75-unknown_queue",
-        "case_source_digest": "f071e6fc3a0e57492892cc5b3fbb7f9ac2442e73e4bf31357ae9fa5681094405",
+        "case_source_digest": "2531d7ee6bb8404bc2bc9c9a2acdbd8035c53578185dd62dede461760f23c36e",
         "checkpoint_kind": "scheduled_haru_case_shards",
         "lane_index": 17,
         "stage_ids": [
@@ -225,7 +225,7 @@
       },
       {
         "case_id": "teacher-review-yuya_history_backfill_YUYA-CH-015_dab0cf48de4fc92c-unknown_queue",
-        "case_source_digest": "742608bd35cd5e427be78d3fc6e4069dd099ac083ee10ee57c3f78503bab3fbc",
+        "case_source_digest": "c3f7258ddd30fdfcf998746897e0d6865571221bf7f08cefa1781fe4cb408b10",
         "checkpoint_kind": "scheduled_haru_case_shards",
         "lane_index": 18,
         "stage_ids": [
@@ -236,7 +236,7 @@
       },
       {
         "case_id": "teacher-review-yuya_history_backfill_YUYA-CH-016_6b5bad183c933967-unknown_queue",
-        "case_source_digest": "736f2b8b91daef3f33daa5937d030f132eb9856bb2fa2ae5a8cf117e6b8c137b",
+        "case_source_digest": "bee4ad2270f4a5f6617511aa4ef3052b1b6ad1d61d6941105e29abed06a365e6",
         "checkpoint_kind": "scheduled_haru_case_shards",
         "lane_index": 19,
         "stage_ids": [
@@ -247,7 +247,7 @@
       },
       {
         "case_id": "teacher-review-yuya_history_backfill_YUYA-CH-017_c5bc83c1a5c91d66-unknown_queue",
-        "case_source_digest": "d6ec53d1b56082b2ac573af65a7f510ca2137a23a87d8eedfcc99918f23e2b48",
+        "case_source_digest": "0dcb9ddf5d51a1fdfc504dfb5e85315468db730194b6286c2cd915884dcb6b38",
         "checkpoint_kind": "scheduled_haru_case_shards",
         "lane_index": 20,
         "stage_ids": [
@@ -258,7 +258,7 @@
       },
       {
         "case_id": "teacher-review-yuya_history_backfill_YUYA-CH-018_2995c316e977de15-unknown_queue",
-        "case_source_digest": "c27d0d417504e8fd04554a541e3e0a61ea2c7ab73b3ed7ce4c135ae19fc588d4",
+        "case_source_digest": "1e3a8b253d459ed0dbd16ecad48da3d0f4e8e15143a7337500a2e7a731b0178c",
         "checkpoint_kind": "scheduled_haru_case_shards",
         "lane_index": 21,
         "stage_ids": [
@@ -269,7 +269,7 @@
       },
       {
         "case_id": "teacher-review-yuya_history_backfill_YUYA-CH-019_64d8e51bd29e458b-unknown_queue",
-        "case_source_digest": "fab20abdba2194aba14dcb6e89293a19e083bb0127b6766797c1399a334fee98",
+        "case_source_digest": "cf4fb5f08bd3d02cb6dcf11490a0b0bef96d970103e8aa3f7fd989317f7f80c1",
         "checkpoint_kind": "scheduled_haru_case_shards",
         "lane_index": 22,
         "stage_ids": [
@@ -280,7 +280,7 @@
       },
       {
         "case_id": "teacher-review-yuya_history_backfill_YUYA-CH-020_5aee30308cc9cea9-unknown_queue",
-        "case_source_digest": "1f380c7500dc584c443917f95f41534392b45ac20641ae7ac50609333c4bc7a1",
+        "case_source_digest": "a77eaa68a1fb4dc6637a8b80a43cd83e49aa9f139af6f90861c4b9626b54a0d9",
         "checkpoint_kind": "scheduled_haru_case_shards",
         "lane_index": 23,
         "stage_ids": [
@@ -291,7 +291,7 @@
       },
       {
         "case_id": "teacher-review-yuya_history_backfill_YUYA-CH-021_340b5e3e980ff3cf-unknown_queue",
-        "case_source_digest": "7b1bf97e2c5cc8a19b78d570fe7e52738d86a73db385e7ac1632ae1f3097c93e",
+        "case_source_digest": "21ff4015290d66daf115e727a33aa5554d20bb810dd5b8f30f764bc1dfc09b33",
         "checkpoint_kind": "scheduled_haru_case_shards",
         "lane_index": 24,
         "stage_ids": [
@@ -302,7 +302,7 @@
       },
       {
         "case_id": "teacher-review-yuya_history_backfill_YUYA-CH-022_38855e854af9f85c-unknown_queue",
-        "case_source_digest": "1b39270a90de5294484aaf0418768573940be9017ded1d7678a71f2ddf953e3e",
+        "case_source_digest": "907c55e813735dd498bfdadf566a3400009d1031a9f2dd2efd22b7e20485e4a5",
         "checkpoint_kind": "scheduled_haru_case_shards",
         "lane_index": 25,
         "stage_ids": [
@@ -313,7 +313,7 @@
       },
       {
         "case_id": "teacher-review-yuya_history_backfill_YUYA-CH-023_0c35d7b0f17d8a85-unknown_queue",
-        "case_source_digest": "670e582650a490ad6733d675770ece53feebed51277e5e41d5475f065791e28c",
+        "case_source_digest": "f959365db541e6cf346fec47753d3d7f1de3427302c66ba00189a8d2f044e2d5",
         "checkpoint_kind": "scheduled_haru_case_shards",
         "lane_index": 26,
         "stage_ids": [
@@ -324,7 +324,7 @@
       },
       {
         "case_id": "teacher-review-yuya_history_backfill_YUYA-CH-024_47157ff46a3b64ee-unknown_queue",
-        "case_source_digest": "e04a76b4c2c0ec85b763cdf5560f4d56219f7900d9a10d0d5babf4fd9850be0a",
+        "case_source_digest": "c41c72e5519feb6da626c30ef874f24e56500db0fae62d2ade5d2719d922fd1b",
         "checkpoint_kind": "scheduled_haru_case_shards",
         "lane_index": 27,
         "stage_ids": [
@@ -335,7 +335,7 @@
       },
       {
         "case_id": "teacher-review-yuya_history_backfill_YUYA-CH-025_21604ff7fe715c23-unknown_queue",
-        "case_source_digest": "f0f562b309ee2a3b03b1465d644bae158275778b199360690f611fcfb40a4db3",
+        "case_source_digest": "c3dbc56713675aa9cfe35cf565302e61925cba2c27e1604f03d0b0e93047757d",
         "checkpoint_kind": "scheduled_haru_case_shards",
         "lane_index": 28,
         "stage_ids": [
@@ -346,7 +346,7 @@
       },
       {
         "case_id": "teacher-review-yuya_history_backfill_YUYA-CH-026_06e1c77143f809d1-unknown_queue",
-        "case_source_digest": "b08ce8c15ece96cc220b83e7cbb0703a30edd20555dbce74da27a0e317166e0d",
+        "case_source_digest": "51badf45800dfd07dd94bf747d549a1e527c43e4549ccaa6c764e37f8018a5b9",
         "checkpoint_kind": "scheduled_haru_case_shards",
         "lane_index": 29,
         "stage_ids": [
@@ -357,7 +357,7 @@
       },
       {
         "case_id": "teacher-review-yuya_history_backfill_YUYA-CH-027_1e544ebd3ed1580b-unknown_queue",
-        "case_source_digest": "9e4d5e2fe2b7bdb6c990b6170aa0079b0fbc42b84b2a32ce1bd72bf44041d226",
+        "case_source_digest": "c041e1b3a579ea089d57e2b403b27e0e376b9e7b58132c5ba5557667d057124f",
         "checkpoint_kind": "scheduled_haru_case_shards",
         "lane_index": 30,
         "stage_ids": [
@@ -368,7 +368,7 @@
       },
       {
         "case_id": "teacher-review-yuya_history_backfill_YUYA-CH-028_230cf87881e8a9a0-unknown_queue",
-        "case_source_digest": "b492a198048c9c7e8e05ade824d7b10aeee4176a9fa27b16addf0ce9c58467cc",
+        "case_source_digest": "8ce00f501aea5677a996dbef94bd40e5c08d20e2bae1b0e04c1e20388f4be806",
         "checkpoint_kind": "scheduled_haru_case_shards",
         "lane_index": 31,
         "stage_ids": [
@@ -379,7 +379,7 @@
       },
       {
         "case_id": "teacher-review-yuya_history_backfill_YUYA-CH-029_1fa53e987833012f-unknown_queue",
-        "case_source_digest": "d07c0fc31e2193a5473e152e86bd3346cb500cf397cd77232bfacb7ab5b72e4a",
+        "case_source_digest": "b0a27be0c9af3b09d3f01400d9cc8e7738c4bd9fd513ca0b63661cb52a87c64a",
         "checkpoint_kind": "scheduled_haru_case_shards",
         "lane_index": 32,
         "stage_ids": [
@@ -390,7 +390,7 @@
       },
       {
         "case_id": "teacher-review-yuya_history_backfill_YUYA-CH-030_4a1971baece5adc6-unknown_queue",
-        "case_source_digest": "919e209b05d3aa17e0e4629529f651f4bdd4087d9df63bc4fe6e8ac349be9e7d",
+        "case_source_digest": "2645977ab1ef871e6b9611584b3fd0bf0dfcc6d73a1101365c257297bc4830b7",
         "checkpoint_kind": "scheduled_haru_case_shards",
         "lane_index": 33,
         "stage_ids": [
@@ -401,7 +401,7 @@
       },
       {
         "case_id": "teacher-review-yuya_history_backfill_YUYA-CH-031_288a5a6db7114339-unknown_queue",
-        "case_source_digest": "7e0a04f08559028867d07a4dbbc13449deb3fd65cbadecf7319d1b5bcabcc17a",
+        "case_source_digest": "c44230a6fed70fd5ec08dff1ad0dc543f852b56b716a51793910550dac6b2fee",
         "checkpoint_kind": "scheduled_haru_case_shards",
         "lane_index": 34,
         "stage_ids": [
@@ -412,7 +412,7 @@
       },
       {
         "case_id": "teacher-review-yuya_history_backfill_YUYA-CH-032_0a67215dae0baacd-unknown_queue",
-        "case_source_digest": "808b49d9a562b4d64ec613824336d5d679e6741c4715105b0abf0fde8f8f3087",
+        "case_source_digest": "dca30ace416419bdfb101030a3d3f6109ea154455842e533b4966dcb5d3ba121",
         "checkpoint_kind": "scheduled_haru_case_shards",
         "lane_index": 35,
         "stage_ids": [
@@ -423,7 +423,7 @@
       },
       {
         "case_id": "teacher-review-yuya_history_backfill_YUYA-CH-033_1a050591a6be94a4-unknown_queue",
-        "case_source_digest": "99640ca3ca27e5812ce62a07e2eb85fd0f21794c94e9cee34d51484063598c7a",
+        "case_source_digest": "da1de0545193a8d267092c7f0071378ac771870ec5da2b63c967ece5cfbb68c8",
         "checkpoint_kind": "scheduled_haru_case_shards",
         "lane_index": 36,
         "stage_ids": [
@@ -434,7 +434,7 @@
       },
       {
         "case_id": "teacher-review-yuya_history_backfill_YUYA-CH-034_03130486a0505810-unknown_queue",
-        "case_source_digest": "bcbaa79860e3f568994acf077dda6867a21d8a0d8cf59505354e59d78d6a51f4",
+        "case_source_digest": "2b69cd5cd5d055b28f4a3b21650cdea748a94d220e3e4a24b0b4a7e184170ef4",
         "checkpoint_kind": "scheduled_haru_case_shards",
         "lane_index": 37,
         "stage_ids": [
@@ -445,7 +445,7 @@
       },
       {
         "case_id": "teacher-review-yuya_history_backfill_YUYA-CH-035_449a189a8fba22b6-unknown_queue",
-        "case_source_digest": "3e8bba9dfda97d97dc84d434a30333379af4a0498e914113ef6375416a8136da",
+        "case_source_digest": "4f6f62e6cdc95a456f4bf2166cb1d71b00bea4c175b100a8343d22ffa9508030",
         "checkpoint_kind": "scheduled_haru_case_shards",
         "lane_index": 38,
         "stage_ids": [
@@ -456,7 +456,7 @@
       },
       {
         "case_id": "teacher-review-yuya_history_backfill_YUYA-CH-036_104e7fcc5214106f-unknown_queue",
-        "case_source_digest": "6f15d8dc684cad0537bf49f941db636b9ed791a393b6b8c411307c9f77c7cea5",
+        "case_source_digest": "de66a2ba074e3e6895ff2e0a41be206dc5d8363f329d8e6f7cda8655157c0b33",
         "checkpoint_kind": "scheduled_haru_case_shards",
         "lane_index": 39,
         "stage_ids": [
@@ -467,7 +467,7 @@
       },
       {
         "case_id": "teacher-review-yuya_history_backfill_YUYA-CH-037_1c0cba1177266610-unknown_queue",
-        "case_source_digest": "4855c0fca258bf6922bd97bb93e84491efa70f0d3d37ee881a45416f2c689ba2",
+        "case_source_digest": "350074034c948f44d488d9a00d54ac39f33012aefa1c38ccbfcacaa802a1461d",
         "checkpoint_kind": "scheduled_haru_case_shards",
         "lane_index": 40,
         "stage_ids": [
@@ -478,7 +478,7 @@
       },
       {
         "case_id": "teacher-review-yuya_history_backfill_YUYA-CH-038_15305f7797cd9059-unknown_queue",
-        "case_source_digest": "af211ba776def303257dd219972a61f1575fe56ff4af29dc9202a0bb404e8dfb",
+        "case_source_digest": "b0029a22ae14bce9cc7cd9e72e46d965a62121d046c47c92f44b43cc70deb94e",
         "checkpoint_kind": "scheduled_haru_case_shards",
         "lane_index": 41,
         "stage_ids": [
@@ -489,7 +489,7 @@
       },
       {
         "case_id": "teacher-review-yuya_history_backfill_YUYA-CH-039_05957dfc032cc9c7-unknown_queue",
-        "case_source_digest": "0b965efd2f00e8f211a57993aa15db36e8e604d4b1fda34f384246bea665cef5",
+        "case_source_digest": "dca9bfb0ebe414b937dcdd51aff4096ca588cc23e5742a1bb168e9f6281275ee",
         "checkpoint_kind": "scheduled_haru_case_shards",
         "lane_index": 42,
         "stage_ids": [
@@ -500,7 +500,7 @@
       },
       {
         "case_id": "teacher-review-yuya_history_backfill_YUYA-CH-040_4a8905663a652a6d-unknown_queue",
-        "case_source_digest": "8f71c13db03c571f74cfe2217d93dec70b31272f3e4cbfab39b8f51e2b53d263",
+        "case_source_digest": "d410a8e776fdc3505e1e98d7c68ba9c8cd5066dcb40aa5f57f8167fe4eae18bc",
         "checkpoint_kind": "scheduled_haru_case_shards",
         "lane_index": 43,
         "stage_ids": [
@@ -511,7 +511,7 @@
       },
       {
         "case_id": "teacher-review-yuya_history_backfill_YUYA-CH-041_35857ea1b0543252-unknown_queue",
-        "case_source_digest": "c19bf3fa4ad08d5ff9e52cef26541925c96b6aab57c999db20177f9b406e1e47",
+        "case_source_digest": "e6afc6d60e869907bd3ce2b83c894c3707f0c5598e2835add9dc6eafed8d8aa5",
         "checkpoint_kind": "scheduled_haru_case_shards",
         "lane_index": 44,
         "stage_ids": [
@@ -522,7 +522,7 @@
       },
       {
         "case_id": "teacher-review-yuya_history_backfill_YUYA-CH-042_0eb5df402d2ab5ff-unknown_queue",
-        "case_source_digest": "429a4fd8396778609bef0d383ee2095468ea1770809ebdc029c52deaaadbaade",
+        "case_source_digest": "423b224938c5657379f1fdb7b2e0e1fe42e2cb66f66f6b556a2c7bc1536c4705",
         "checkpoint_kind": "scheduled_haru_case_shards",
         "lane_index": 45,
         "stage_ids": [
@@ -533,7 +533,7 @@
       },
       {
         "case_id": "teacher-review-yuya_history_backfill_YUYA-CH-043_0194763cfebfa1fc-unknown_queue",
-        "case_source_digest": "f3660d120b257c4dc89696634334b6bc444f5e519258f99ab4808253f4af7e1d",
+        "case_source_digest": "529c3c695005fb06ce2954c2fb5b5bd8bacd36d9ca29c9e8c4d07f3ab65ee4b6",
         "checkpoint_kind": "scheduled_haru_case_shards",
         "lane_index": 46,
         "stage_ids": [
@@ -544,7 +544,7 @@
       },
       {
         "case_id": "teacher-review-yuya_history_backfill_YUYA-CH-044_07bbd6136b73dfdc-unknown_queue",
-        "case_source_digest": "efe9abd8f03a252a87fbf7ba84df456bb213f7c8a1cf7e2a1c63e39fdafd8627",
+        "case_source_digest": "ea0ea7825271d977ad02d51b17fb69970acfa681095525fbea31aecb17612f44",
         "checkpoint_kind": "scheduled_haru_case_shards",
         "lane_index": 47,
         "stage_ids": [
@@ -555,7 +555,7 @@
       },
       {
         "case_id": "teacher-review-yuya_history_backfill_YUYA-CH-045_061f002ad7e57991-unknown_queue",
-        "case_source_digest": "5e8ff0581413b5f6fe8df09664b05ed2504ffd7b1cb0499ce03df1c39fb7ca8f",
+        "case_source_digest": "c8d3cebf8aa72a89c7271ade193c7967b12ac9bb39f1bfb12a72987e1f90c1ef",
         "checkpoint_kind": "scheduled_haru_case_shards",
         "lane_index": 48,
         "stage_ids": [
@@ -566,7 +566,7 @@
       },
       {
         "case_id": "teacher-review-yuya_history_backfill_YUYA-CH-046_12ffd9bfffbc6e0c-unknown_queue",
-        "case_source_digest": "a3e412af76dba80ac18bb9c834a629c06d808ac8b9ac97bc269d9ab60210aa78",
+        "case_source_digest": "9a55ed69b9859fcc9717b552527666d9c71b39c830ac9463147d321d5d8b13cb",
         "checkpoint_kind": "scheduled_haru_case_shards",
         "lane_index": 49,
         "stage_ids": [
@@ -696,20 +696,20 @@
     "zero_case_metadata_checkpoint_allowed_when_material_sufficient": false
   },
   "cycle_identity": {
-    "assignment_id": "scheduled-haru-batch50-21f5ae52c5ec-c7d3eb031800",
+    "assignment_id": "scheduled-haru-batch50-2784f4cab08c-c7d3eb031800",
     "candidate_digest": "c7d3eb0318007ff93bfb3c4e3f5220f99b7759b3b318b548f58fbd60d3a2659c",
-    "cycle_id": "scheduled-haru-cycle-21f5ae52c5ec0011-c7d3eb0318007ff9",
+    "cycle_id": "scheduled-haru-cycle-2784f4cab08cbd5a-c7d3eb0318007ff9",
     "schema_version": "osai_scheduled_review_cycle_identity.v1"
   },
   "deep_review_bundle": {
-    "active_assignment_packet_id": "scheduled-haru-batch50-21f5ae52c5ec-c7d3eb031800",
+    "active_assignment_packet_id": "scheduled-haru-batch50-2784f4cab08c-c7d3eb031800",
     "active_assignment_state": "active_unconsumed",
     "anchor_case": {
       "case_id": "teacher-review-yuya_correction_YUYA-CH-026_yuya-episode-18ac1f3f2ac521892b6d-unknown_queue",
-      "case_shard_artifact": "teacher-case-shards/scheduled-haru-batch50-21f5ae52c5ec-c7d3eb031800/shard-001.json",
+      "case_shard_artifact": "teacher-case-shards/scheduled-haru-batch50-2784f4cab08c-c7d3eb031800/shard-001.json",
       "case_shard_index": 1,
-      "case_shard_sha256": "89d2728268bbcbdb4f88ff36def63aa1f2751b4d045f1d045980e2872d1f2d4d",
-      "case_shard_url": "https://raw.githubusercontent.com/ryryss2-dev/osai-teacher-briefing/main/teacher-case-shards/scheduled-haru-batch50-21f5ae52c5ec-c7d3eb031800/shard-001.json",
+      "case_shard_sha256": "9cffe832569daa5c0a15fee334ff322ccd47f8682667244a8fb7bfbf0f7af177",
+      "case_shard_url": "https://raw.githubusercontent.com/ryryss2-dev/osai-teacher-briefing/main/teacher-case-shards/scheduled-haru-batch50-2784f4cab08c-c7d3eb031800/shard-001.json",
       "material_inlined": false,
       "queue_id": "unknown_queue",
       "task_id": "yuya_correction::YUYA-CH-026::yuya-episode-18ac1f3f2ac521892b6d",
@@ -781,10 +781,10 @@
     "sibling_cases": [
       {
         "case_id": "teacher-review-yuya_correction_YUYA-CH-027_yuya-episode-679ac4af3688ab47f76c-unknown_queue",
-        "case_shard_artifact": "teacher-case-shards/scheduled-haru-batch50-21f5ae52c5ec-c7d3eb031800/shard-001.json",
+        "case_shard_artifact": "teacher-case-shards/scheduled-haru-batch50-2784f4cab08c-c7d3eb031800/shard-001.json",
         "case_shard_index": 1,
-        "case_shard_sha256": "89d2728268bbcbdb4f88ff36def63aa1f2751b4d045f1d045980e2872d1f2d4d",
-        "case_shard_url": "https://raw.githubusercontent.com/ryryss2-dev/osai-teacher-briefing/main/teacher-case-shards/scheduled-haru-batch50-21f5ae52c5ec-c7d3eb031800/shard-001.json",
+        "case_shard_sha256": "9cffe832569daa5c0a15fee334ff322ccd47f8682667244a8fb7bfbf0f7af177",
+        "case_shard_url": "https://raw.githubusercontent.com/ryryss2-dev/osai-teacher-briefing/main/teacher-case-shards/scheduled-haru-batch50-2784f4cab08c-c7d3eb031800/shard-001.json",
         "material_inlined": false,
         "queue_id": "unknown_queue",
         "task_id": "yuya_correction::YUYA-CH-027::yuya-episode-679ac4af3688ab47f76c",
@@ -792,10 +792,10 @@
       },
       {
         "case_id": "teacher-review-yuya_correction_YUYA-CH-027_yuya-episode-bb6f6901a96b25f2804a-unknown_queue",
-        "case_shard_artifact": "teacher-case-shards/scheduled-haru-batch50-21f5ae52c5ec-c7d3eb031800/shard-001.json",
+        "case_shard_artifact": "teacher-case-shards/scheduled-haru-batch50-2784f4cab08c-c7d3eb031800/shard-001.json",
         "case_shard_index": 1,
-        "case_shard_sha256": "89d2728268bbcbdb4f88ff36def63aa1f2751b4d045f1d045980e2872d1f2d4d",
-        "case_shard_url": "https://raw.githubusercontent.com/ryryss2-dev/osai-teacher-briefing/main/teacher-case-shards/scheduled-haru-batch50-21f5ae52c5ec-c7d3eb031800/shard-001.json",
+        "case_shard_sha256": "9cffe832569daa5c0a15fee334ff322ccd47f8682667244a8fb7bfbf0f7af177",
+        "case_shard_url": "https://raw.githubusercontent.com/ryryss2-dev/osai-teacher-briefing/main/teacher-case-shards/scheduled-haru-batch50-2784f4cab08c-c7d3eb031800/shard-001.json",
         "material_inlined": false,
         "queue_id": "unknown_queue",
         "task_id": "yuya_correction::YUYA-CH-027::yuya-episode-bb6f6901a96b25f2804a",
@@ -803,10 +803,10 @@
       },
       {
         "case_id": "teacher-review-yuya_correction_YUYA-CH-026_yuya-episode-bcf2b7c4ed539184a7d6-unknown_queue",
-        "case_shard_artifact": "teacher-case-shards/scheduled-haru-batch50-21f5ae52c5ec-c7d3eb031800/shard-001.json",
+        "case_shard_artifact": "teacher-case-shards/scheduled-haru-batch50-2784f4cab08c-c7d3eb031800/shard-001.json",
         "case_shard_index": 1,
-        "case_shard_sha256": "89d2728268bbcbdb4f88ff36def63aa1f2751b4d045f1d045980e2872d1f2d4d",
-        "case_shard_url": "https://raw.githubusercontent.com/ryryss2-dev/osai-teacher-briefing/main/teacher-case-shards/scheduled-haru-batch50-21f5ae52c5ec-c7d3eb031800/shard-001.json",
+        "case_shard_sha256": "9cffe832569daa5c0a15fee334ff322ccd47f8682667244a8fb7bfbf0f7af177",
+        "case_shard_url": "https://raw.githubusercontent.com/ryryss2-dev/osai-teacher-briefing/main/teacher-case-shards/scheduled-haru-batch50-2784f4cab08c-c7d3eb031800/shard-001.json",
         "material_inlined": false,
         "queue_id": "unknown_queue",
         "task_id": "yuya_correction::YUYA-CH-026::yuya-episode-bcf2b7c4ed539184a7d6",
@@ -814,10 +814,10 @@
       },
       {
         "case_id": "teacher-review-yuya_correction_YUYA-CH-028_yuya-episode-47270b5ba39bbe64a758-unknown_queue",
-        "case_shard_artifact": "teacher-case-shards/scheduled-haru-batch50-21f5ae52c5ec-c7d3eb031800/shard-001.json",
+        "case_shard_artifact": "teacher-case-shards/scheduled-haru-batch50-2784f4cab08c-c7d3eb031800/shard-001.json",
         "case_shard_index": 1,
-        "case_shard_sha256": "89d2728268bbcbdb4f88ff36def63aa1f2751b4d045f1d045980e2872d1f2d4d",
-        "case_shard_url": "https://raw.githubusercontent.com/ryryss2-dev/osai-teacher-briefing/main/teacher-case-shards/scheduled-haru-batch50-21f5ae52c5ec-c7d3eb031800/shard-001.json",
+        "case_shard_sha256": "9cffe832569daa5c0a15fee334ff322ccd47f8682667244a8fb7bfbf0f7af177",
+        "case_shard_url": "https://raw.githubusercontent.com/ryryss2-dev/osai-teacher-briefing/main/teacher-case-shards/scheduled-haru-batch50-2784f4cab08c-c7d3eb031800/shard-001.json",
         "material_inlined": false,
         "queue_id": "unknown_queue",
         "task_id": "yuya_correction::YUYA-CH-028::yuya-episode-47270b5ba39bbe64a758",
@@ -825,10 +825,10 @@
       },
       {
         "case_id": "teacher-review-yuya_correction_YUYA-CH-027_yuya-episode-4407e6d10f56457175e3-unknown_queue",
-        "case_shard_artifact": "teacher-case-shards/scheduled-haru-batch50-21f5ae52c5ec-c7d3eb031800/shard-002.json",
+        "case_shard_artifact": "teacher-case-shards/scheduled-haru-batch50-2784f4cab08c-c7d3eb031800/shard-002.json",
         "case_shard_index": 2,
-        "case_shard_sha256": "06f10db8db098490bcb07f9d8fabb882a44f12c3e37178abba2f06452284321b",
-        "case_shard_url": "https://raw.githubusercontent.com/ryryss2-dev/osai-teacher-briefing/main/teacher-case-shards/scheduled-haru-batch50-21f5ae52c5ec-c7d3eb031800/shard-002.json",
+        "case_shard_sha256": "2d043f539aaa21fb98fa6ec05f99daa48ec341aae393ad6d51dfa472c7419373",
+        "case_shard_url": "https://raw.githubusercontent.com/ryryss2-dev/osai-teacher-briefing/main/teacher-case-shards/scheduled-haru-batch50-2784f4cab08c-c7d3eb031800/shard-002.json",
         "material_inlined": false,
         "queue_id": "unknown_queue",
         "task_id": "yuya_correction::YUYA-CH-027::yuya-episode-4407e6d10f56457175e3",
@@ -836,10 +836,10 @@
       },
       {
         "case_id": "teacher-review-yuya_history_backfill_YUYA-CH-002_3f3175c1a0216af8-unknown_queue",
-        "case_shard_artifact": "teacher-case-shards/scheduled-haru-batch50-21f5ae52c5ec-c7d3eb031800/shard-002.json",
+        "case_shard_artifact": "teacher-case-shards/scheduled-haru-batch50-2784f4cab08c-c7d3eb031800/shard-002.json",
         "case_shard_index": 2,
-        "case_shard_sha256": "06f10db8db098490bcb07f9d8fabb882a44f12c3e37178abba2f06452284321b",
-        "case_shard_url": "https://raw.githubusercontent.com/ryryss2-dev/osai-teacher-briefing/main/teacher-case-shards/scheduled-haru-batch50-21f5ae52c5ec-c7d3eb031800/shard-002.json",
+        "case_shard_sha256": "2d043f539aaa21fb98fa6ec05f99daa48ec341aae393ad6d51dfa472c7419373",
+        "case_shard_url": "https://raw.githubusercontent.com/ryryss2-dev/osai-teacher-briefing/main/teacher-case-shards/scheduled-haru-batch50-2784f4cab08c-c7d3eb031800/shard-002.json",
         "material_inlined": false,
         "queue_id": "unknown_queue",
         "task_id": "yuya_history_backfill::YUYA-CH-002::3f3175c1a0216af8",
@@ -847,10 +847,10 @@
       },
       {
         "case_id": "teacher-review-yuya_history_backfill_YUYA-CH-003_77bdee6ecd7f3910-unknown_queue",
-        "case_shard_artifact": "teacher-case-shards/scheduled-haru-batch50-21f5ae52c5ec-c7d3eb031800/shard-002.json",
+        "case_shard_artifact": "teacher-case-shards/scheduled-haru-batch50-2784f4cab08c-c7d3eb031800/shard-002.json",
         "case_shard_index": 2,
-        "case_shard_sha256": "06f10db8db098490bcb07f9d8fabb882a44f12c3e37178abba2f06452284321b",
-        "case_shard_url": "https://raw.githubusercontent.com/ryryss2-dev/osai-teacher-briefing/main/teacher-case-shards/scheduled-haru-batch50-21f5ae52c5ec-c7d3eb031800/shard-002.json",
+        "case_shard_sha256": "2d043f539aaa21fb98fa6ec05f99daa48ec341aae393ad6d51dfa472c7419373",
+        "case_shard_url": "https://raw.githubusercontent.com/ryryss2-dev/osai-teacher-briefing/main/teacher-case-shards/scheduled-haru-batch50-2784f4cab08c-c7d3eb031800/shard-002.json",
         "material_inlined": false,
         "queue_id": "unknown_queue",
         "task_id": "yuya_history_backfill::YUYA-CH-003::77bdee6ecd7f3910",
@@ -858,10 +858,10 @@
       },
       {
         "case_id": "teacher-review-yuya_history_backfill_YUYA-CH-004_db48c28329569532-unknown_queue",
-        "case_shard_artifact": "teacher-case-shards/scheduled-haru-batch50-21f5ae52c5ec-c7d3eb031800/shard-002.json",
+        "case_shard_artifact": "teacher-case-shards/scheduled-haru-batch50-2784f4cab08c-c7d3eb031800/shard-002.json",
         "case_shard_index": 2,
-        "case_shard_sha256": "06f10db8db098490bcb07f9d8fabb882a44f12c3e37178abba2f06452284321b",
-        "case_shard_url": "https://raw.githubusercontent.com/ryryss2-dev/osai-teacher-briefing/main/teacher-case-shards/scheduled-haru-batch50-21f5ae52c5ec-c7d3eb031800/shard-002.json",
+        "case_shard_sha256": "2d043f539aaa21fb98fa6ec05f99daa48ec341aae393ad6d51dfa472c7419373",
+        "case_shard_url": "https://raw.githubusercontent.com/ryryss2-dev/osai-teacher-briefing/main/teacher-case-shards/scheduled-haru-batch50-2784f4cab08c-c7d3eb031800/shard-002.json",
         "material_inlined": false,
         "queue_id": "unknown_queue",
         "task_id": "yuya_history_backfill::YUYA-CH-004::db48c28329569532",
@@ -869,10 +869,10 @@
       },
       {
         "case_id": "teacher-review-yuya_history_backfill_YUYA-CH-005_038b01175cc30b56-unknown_queue",
-        "case_shard_artifact": "teacher-case-shards/scheduled-haru-batch50-21f5ae52c5ec-c7d3eb031800/shard-002.json",
+        "case_shard_artifact": "teacher-case-shards/scheduled-haru-batch50-2784f4cab08c-c7d3eb031800/shard-002.json",
         "case_shard_index": 2,
-        "case_shard_sha256": "06f10db8db098490bcb07f9d8fabb882a44f12c3e37178abba2f06452284321b",
-        "case_shard_url": "https://raw.githubusercontent.com/ryryss2-dev/osai-teacher-briefing/main/teacher-case-shards/scheduled-haru-batch50-21f5ae52c5ec-c7d3eb031800/shard-002.json",
+        "case_shard_sha256": "2d043f539aaa21fb98fa6ec05f99daa48ec341aae393ad6d51dfa472c7419373",
+        "case_shard_url": "https://raw.githubusercontent.com/ryryss2-dev/osai-teacher-briefing/main/teacher-case-shards/scheduled-haru-batch50-2784f4cab08c-c7d3eb031800/shard-002.json",
         "material_inlined": false,
         "queue_id": "unknown_queue",
         "task_id": "yuya_history_backfill::YUYA-CH-005::038b01175cc30b56",
@@ -880,10 +880,10 @@
       },
       {
         "case_id": "teacher-review-yuya_history_backfill_YUYA-CH-006_1ba915806ab27978-unknown_queue",
-        "case_shard_artifact": "teacher-case-shards/scheduled-haru-batch50-21f5ae52c5ec-c7d3eb031800/shard-003.json",
+        "case_shard_artifact": "teacher-case-shards/scheduled-haru-batch50-2784f4cab08c-c7d3eb031800/shard-003.json",
         "case_shard_index": 3,
-        "case_shard_sha256": "3697af1c693faebf03019c630b3f095a04f324c9d93b72db4b3f74f1171368c6",
-        "case_shard_url": "https://raw.githubusercontent.com/ryryss2-dev/osai-teacher-briefing/main/teacher-case-shards/scheduled-haru-batch50-21f5ae52c5ec-c7d3eb031800/shard-003.json",
+        "case_shard_sha256": "b26dccb309ad99c13d0466cc8b27f9c6d17711b82e2a8fadffcbdcad011349fb",
+        "case_shard_url": "https://raw.githubusercontent.com/ryryss2-dev/osai-teacher-briefing/main/teacher-case-shards/scheduled-haru-batch50-2784f4cab08c-c7d3eb031800/shard-003.json",
         "material_inlined": false,
         "queue_id": "unknown_queue",
         "task_id": "yuya_history_backfill::YUYA-CH-006::1ba915806ab27978",
@@ -891,10 +891,10 @@
       },
       {
         "case_id": "teacher-review-yuya_history_backfill_YUYA-CH-007_af368bb467671800-unknown_queue",
-        "case_shard_artifact": "teacher-case-shards/scheduled-haru-batch50-21f5ae52c5ec-c7d3eb031800/shard-003.json",
+        "case_shard_artifact": "teacher-case-shards/scheduled-haru-batch50-2784f4cab08c-c7d3eb031800/shard-003.json",
         "case_shard_index": 3,
-        "case_shard_sha256": "3697af1c693faebf03019c630b3f095a04f324c9d93b72db4b3f74f1171368c6",
-        "case_shard_url": "https://raw.githubusercontent.com/ryryss2-dev/osai-teacher-briefing/main/teacher-case-shards/scheduled-haru-batch50-21f5ae52c5ec-c7d3eb031800/shard-003.json",
+        "case_shard_sha256": "b26dccb309ad99c13d0466cc8b27f9c6d17711b82e2a8fadffcbdcad011349fb",
+        "case_shard_url": "https://raw.githubusercontent.com/ryryss2-dev/osai-teacher-briefing/main/teacher-case-shards/scheduled-haru-batch50-2784f4cab08c-c7d3eb031800/shard-003.json",
         "material_inlined": false,
         "queue_id": "unknown_queue",
         "task_id": "yuya_history_backfill::YUYA-CH-007::af368bb467671800",
@@ -902,10 +902,10 @@
       },
       {
         "case_id": "teacher-review-yuya_history_backfill_YUYA-CH-008_210d17a93183565b-unknown_queue",
-        "case_shard_artifact": "teacher-case-shards/scheduled-haru-batch50-21f5ae52c5ec-c7d3eb031800/shard-003.json",
+        "case_shard_artifact": "teacher-case-shards/scheduled-haru-batch50-2784f4cab08c-c7d3eb031800/shard-003.json",
         "case_shard_index": 3,
-        "case_shard_sha256": "3697af1c693faebf03019c630b3f095a04f324c9d93b72db4b3f74f1171368c6",
-        "case_shard_url": "https://raw.githubusercontent.com/ryryss2-dev/osai-teacher-briefing/main/teacher-case-shards/scheduled-haru-batch50-21f5ae52c5ec-c7d3eb031800/shard-003.json",
+        "case_shard_sha256": "b26dccb309ad99c13d0466cc8b27f9c6d17711b82e2a8fadffcbdcad011349fb",
+        "case_shard_url": "https://raw.githubusercontent.com/ryryss2-dev/osai-teacher-briefing/main/teacher-case-shards/scheduled-haru-batch50-2784f4cab08c-c7d3eb031800/shard-003.json",
         "material_inlined": false,
         "queue_id": "unknown_queue",
         "task_id": "yuya_history_backfill::YUYA-CH-008::210d17a93183565b",
@@ -913,10 +913,10 @@
       },
       {
         "case_id": "teacher-review-yuya_history_backfill_YUYA-CH-010_21b6a4de81aa221c-unknown_queue",
-        "case_shard_artifact": "teacher-case-shards/scheduled-haru-batch50-21f5ae52c5ec-c7d3eb031800/shard-003.json",
+        "case_shard_artifact": "teacher-case-shards/scheduled-haru-batch50-2784f4cab08c-c7d3eb031800/shard-003.json",
         "case_shard_index": 3,
-        "case_shard_sha256": "3697af1c693faebf03019c630b3f095a04f324c9d93b72db4b3f74f1171368c6",
-        "case_shard_url": "https://raw.githubusercontent.com/ryryss2-dev/osai-teacher-briefing/main/teacher-case-shards/scheduled-haru-batch50-21f5ae52c5ec-c7d3eb031800/shard-003.json",
+        "case_shard_sha256": "b26dccb309ad99c13d0466cc8b27f9c6d17711b82e2a8fadffcbdcad011349fb",
+        "case_shard_url": "https://raw.githubusercontent.com/ryryss2-dev/osai-teacher-briefing/main/teacher-case-shards/scheduled-haru-batch50-2784f4cab08c-c7d3eb031800/shard-003.json",
         "material_inlined": false,
         "queue_id": "unknown_queue",
         "task_id": "yuya_history_backfill::YUYA-CH-010::21b6a4de81aa221c",
@@ -924,10 +924,10 @@
       },
       {
         "case_id": "teacher-review-yuya_history_backfill_YUYA-CH-011_17d2280c21c19cad-unknown_queue",
-        "case_shard_artifact": "teacher-case-shards/scheduled-haru-batch50-21f5ae52c5ec-c7d3eb031800/shard-003.json",
+        "case_shard_artifact": "teacher-case-shards/scheduled-haru-batch50-2784f4cab08c-c7d3eb031800/shard-003.json",
         "case_shard_index": 3,
-        "case_shard_sha256": "3697af1c693faebf03019c630b3f095a04f324c9d93b72db4b3f74f1171368c6",
-        "case_shard_url": "https://raw.githubusercontent.com/ryryss2-dev/osai-teacher-briefing/main/teacher-case-shards/scheduled-haru-batch50-21f5ae52c5ec-c7d3eb031800/shard-003.json",
+        "case_shard_sha256": "b26dccb309ad99c13d0466cc8b27f9c6d17711b82e2a8fadffcbdcad011349fb",
+        "case_shard_url": "https://raw.githubusercontent.com/ryryss2-dev/osai-teacher-briefing/main/teacher-case-shards/scheduled-haru-batch50-2784f4cab08c-c7d3eb031800/shard-003.json",
         "material_inlined": false,
         "queue_id": "unknown_queue",
         "task_id": "yuya_history_backfill::YUYA-CH-011::17d2280c21c19cad",
@@ -935,10 +935,10 @@
       },
       {
         "case_id": "teacher-review-yuya_history_backfill_YUYA-CH-012_0f97768e54849419-unknown_queue",
-        "case_shard_artifact": "teacher-case-shards/scheduled-haru-batch50-21f5ae52c5ec-c7d3eb031800/shard-004.json",
+        "case_shard_artifact": "teacher-case-shards/scheduled-haru-batch50-2784f4cab08c-c7d3eb031800/shard-004.json",
         "case_shard_index": 4,
-        "case_shard_sha256": "d32ff16fe8fc99cd66a395b6108f6c5fb14852918d46aefe2b1d2cadec8b5b30",
-        "case_shard_url": "https://raw.githubusercontent.com/ryryss2-dev/osai-teacher-briefing/main/teacher-case-shards/scheduled-haru-batch50-21f5ae52c5ec-c7d3eb031800/shard-004.json",
+        "case_shard_sha256": "87cf363397409253f808d360b428125d364a237d9a74db2e5279231765195642",
+        "case_shard_url": "https://raw.githubusercontent.com/ryryss2-dev/osai-teacher-briefing/main/teacher-case-shards/scheduled-haru-batch50-2784f4cab08c-c7d3eb031800/shard-004.json",
         "material_inlined": false,
         "queue_id": "unknown_queue",
         "task_id": "yuya_history_backfill::YUYA-CH-012::0f97768e54849419",
@@ -946,10 +946,10 @@
       },
       {
         "case_id": "teacher-review-yuya_history_backfill_YUYA-CH-013_87d7f478852cf5ce-unknown_queue",
-        "case_shard_artifact": "teacher-case-shards/scheduled-haru-batch50-21f5ae52c5ec-c7d3eb031800/shard-004.json",
+        "case_shard_artifact": "teacher-case-shards/scheduled-haru-batch50-2784f4cab08c-c7d3eb031800/shard-004.json",
         "case_shard_index": 4,
-        "case_shard_sha256": "d32ff16fe8fc99cd66a395b6108f6c5fb14852918d46aefe2b1d2cadec8b5b30",
-        "case_shard_url": "https://raw.githubusercontent.com/ryryss2-dev/osai-teacher-briefing/main/teacher-case-shards/scheduled-haru-batch50-21f5ae52c5ec-c7d3eb031800/shard-004.json",
+        "case_shard_sha256": "87cf363397409253f808d360b428125d364a237d9a74db2e5279231765195642",
+        "case_shard_url": "https://raw.githubusercontent.com/ryryss2-dev/osai-teacher-briefing/main/teacher-case-shards/scheduled-haru-batch50-2784f4cab08c-c7d3eb031800/shard-004.json",
         "material_inlined": false,
         "queue_id": "unknown_queue",
         "task_id": "yuya_history_backfill::YUYA-CH-013::87d7f478852cf5ce",
@@ -957,10 +957,10 @@
       },
       {
         "case_id": "teacher-review-yuya_history_backfill_YUYA-CH-014_06ad1ff7dd591f75-unknown_queue",
-        "case_shard_artifact": "teacher-case-shards/scheduled-haru-batch50-21f5ae52c5ec-c7d3eb031800/shard-004.json",
+        "case_shard_artifact": "teacher-case-shards/scheduled-haru-batch50-2784f4cab08c-c7d3eb031800/shard-004.json",
         "case_shard_index": 4,
-        "case_shard_sha256": "d32ff16fe8fc99cd66a395b6108f6c5fb14852918d46aefe2b1d2cadec8b5b30",
-        "case_shard_url": "https://raw.githubusercontent.com/ryryss2-dev/osai-teacher-briefing/main/teacher-case-shards/scheduled-haru-batch50-21f5ae52c5ec-c7d3eb031800/shard-004.json",
+        "case_shard_sha256": "87cf363397409253f808d360b428125d364a237d9a74db2e5279231765195642",
+        "case_shard_url": "https://raw.githubusercontent.com/ryryss2-dev/osai-teacher-briefing/main/teacher-case-shards/scheduled-haru-batch50-2784f4cab08c-c7d3eb031800/shard-004.json",
         "material_inlined": false,
         "queue_id": "unknown_queue",
         "task_id": "yuya_history_backfill::YUYA-CH-014::06ad1ff7dd591f75",
@@ -968,10 +968,10 @@
       },
       {
         "case_id": "teacher-review-yuya_history_backfill_YUYA-CH-015_dab0cf48de4fc92c-unknown_queue",
-        "case_shard_artifact": "teacher-case-shards/scheduled-haru-batch50-21f5ae52c5ec-c7d3eb031800/shard-004.json",
+        "case_shard_artifact": "teacher-case-shards/scheduled-haru-batch50-2784f4cab08c-c7d3eb031800/shard-004.json",
         "case_shard_index": 4,
-        "case_shard_sha256": "d32ff16fe8fc99cd66a395b6108f6c5fb14852918d46aefe2b1d2cadec8b5b30",
-        "case_shard_url": "https://raw.githubusercontent.com/ryryss2-dev/osai-teacher-briefing/main/teacher-case-shards/scheduled-haru-batch50-21f5ae52c5ec-c7d3eb031800/shard-004.json",
+        "case_shard_sha256": "87cf363397409253f808d360b428125d364a237d9a74db2e5279231765195642",
+        "case_shard_url": "https://raw.githubusercontent.com/ryryss2-dev/osai-teacher-briefing/main/teacher-case-shards/scheduled-haru-batch50-2784f4cab08c-c7d3eb031800/shard-004.json",
         "material_inlined": false,
         "queue_id": "unknown_queue",
         "task_id": "yuya_history_backfill::YUYA-CH-015::dab0cf48de4fc92c",
@@ -979,10 +979,10 @@
       },
       {
         "case_id": "teacher-review-yuya_history_backfill_YUYA-CH-016_6b5bad183c933967-unknown_queue",
-        "case_shard_artifact": "teacher-case-shards/scheduled-haru-batch50-21f5ae52c5ec-c7d3eb031800/shard-004.json",
+        "case_shard_artifact": "teacher-case-shards/scheduled-haru-batch50-2784f4cab08c-c7d3eb031800/shard-004.json",
         "case_shard_index": 4,
-        "case_shard_sha256": "d32ff16fe8fc99cd66a395b6108f6c5fb14852918d46aefe2b1d2cadec8b5b30",
-        "case_shard_url": "https://raw.githubusercontent.com/ryryss2-dev/osai-teacher-briefing/main/teacher-case-shards/scheduled-haru-batch50-21f5ae52c5ec-c7d3eb031800/shard-004.json",
+        "case_shard_sha256": "87cf363397409253f808d360b428125d364a237d9a74db2e5279231765195642",
+        "case_shard_url": "https://raw.githubusercontent.com/ryryss2-dev/osai-teacher-briefing/main/teacher-case-shards/scheduled-haru-batch50-2784f4cab08c-c7d3eb031800/shard-004.json",
         "material_inlined": false,
         "queue_id": "unknown_queue",
         "task_id": "yuya_history_backfill::YUYA-CH-016::6b5bad183c933967",
@@ -990,10 +990,10 @@
       },
       {
         "case_id": "teacher-review-yuya_history_backfill_YUYA-CH-017_c5bc83c1a5c91d66-unknown_queue",
-        "case_shard_artifact": "teacher-case-shards/scheduled-haru-batch50-21f5ae52c5ec-c7d3eb031800/shard-005.json",
+        "case_shard_artifact": "teacher-case-shards/scheduled-haru-batch50-2784f4cab08c-c7d3eb031800/shard-005.json",
         "case_shard_index": 5,
-        "case_shard_sha256": "9f797d8d3035d710bf60345516997c2957ebd9cf2d2c907a07d31e8b965fc31d",
-        "case_shard_url": "https://raw.githubusercontent.com/ryryss2-dev/osai-teacher-briefing/main/teacher-case-shards/scheduled-haru-batch50-21f5ae52c5ec-c7d3eb031800/shard-005.json",
+        "case_shard_sha256": "d2e33289d05ffe91b8920b35202656f7b24957d8af42d520aa3b8284dbc16649",
+        "case_shard_url": "https://raw.githubusercontent.com/ryryss2-dev/osai-teacher-briefing/main/teacher-case-shards/scheduled-haru-batch50-2784f4cab08c-c7d3eb031800/shard-005.json",
         "material_inlined": false,
         "queue_id": "unknown_queue",
         "task_id": "yuya_history_backfill::YUYA-CH-017::c5bc83c1a5c91d66",
@@ -1001,10 +1001,10 @@
       },
       {
         "case_id": "teacher-review-yuya_history_backfill_YUYA-CH-018_2995c316e977de15-unknown_queue",
-        "case_shard_artifact": "teacher-case-shards/scheduled-haru-batch50-21f5ae52c5ec-c7d3eb031800/shard-005.json",
+        "case_shard_artifact": "teacher-case-shards/scheduled-haru-batch50-2784f4cab08c-c7d3eb031800/shard-005.json",
         "case_shard_index": 5,
-        "case_shard_sha256": "9f797d8d3035d710bf60345516997c2957ebd9cf2d2c907a07d31e8b965fc31d",
-        "case_shard_url": "https://raw.githubusercontent.com/ryryss2-dev/osai-teacher-briefing/main/teacher-case-shards/scheduled-haru-batch50-21f5ae52c5ec-c7d3eb031800/shard-005.json",
+        "case_shard_sha256": "d2e33289d05ffe91b8920b35202656f7b24957d8af42d520aa3b8284dbc16649",
+        "case_shard_url": "https://raw.githubusercontent.com/ryryss2-dev/osai-teacher-briefing/main/teacher-case-shards/scheduled-haru-batch50-2784f4cab08c-c7d3eb031800/shard-005.json",
         "material_inlined": false,
         "queue_id": "unknown_queue",
         "task_id": "yuya_history_backfill::YUYA-CH-018::2995c316e977de15",
@@ -1012,10 +1012,10 @@
       },
       {
         "case_id": "teacher-review-yuya_history_backfill_YUYA-CH-019_64d8e51bd29e458b-unknown_queue",
-        "case_shard_artifact": "teacher-case-shards/scheduled-haru-batch50-21f5ae52c5ec-c7d3eb031800/shard-005.json",
+        "case_shard_artifact": "teacher-case-shards/scheduled-haru-batch50-2784f4cab08c-c7d3eb031800/shard-005.json",
         "case_shard_index": 5,
-        "case_shard_sha256": "9f797d8d3035d710bf60345516997c2957ebd9cf2d2c907a07d31e8b965fc31d",
-        "case_shard_url": "https://raw.githubusercontent.com/ryryss2-dev/osai-teacher-briefing/main/teacher-case-shards/scheduled-haru-batch50-21f5ae52c5ec-c7d3eb031800/shard-005.json",
+        "case_shard_sha256": "d2e33289d05ffe91b8920b35202656f7b24957d8af42d520aa3b8284dbc16649",
+        "case_shard_url": "https://raw.githubusercontent.com/ryryss2-dev/osai-teacher-briefing/main/teacher-case-shards/scheduled-haru-batch50-2784f4cab08c-c7d3eb031800/shard-005.json",
         "material_inlined": false,
         "queue_id": "unknown_queue",
         "task_id": "yuya_history_backfill::YUYA-CH-019::64d8e51bd29e458b",
@@ -1023,10 +1023,10 @@
       },
       {
         "case_id": "teacher-review-yuya_history_backfill_YUYA-CH-020_5aee30308cc9cea9-unknown_queue",
-        "case_shard_artifact": "teacher-case-shards/scheduled-haru-batch50-21f5ae52c5ec-c7d3eb031800/shard-005.json",
+        "case_shard_artifact": "teacher-case-shards/scheduled-haru-batch50-2784f4cab08c-c7d3eb031800/shard-005.json",
         "case_shard_index": 5,
-        "case_shard_sha256": "9f797d8d3035d710bf60345516997c2957ebd9cf2d2c907a07d31e8b965fc31d",
-        "case_shard_url": "https://raw.githubusercontent.com/ryryss2-dev/osai-teacher-briefing/main/teacher-case-shards/scheduled-haru-batch50-21f5ae52c5ec-c7d3eb031800/shard-005.json",
+        "case_shard_sha256": "d2e33289d05ffe91b8920b35202656f7b24957d8af42d520aa3b8284dbc16649",
+        "case_shard_url": "https://raw.githubusercontent.com/ryryss2-dev/osai-teacher-briefing/main/teacher-case-shards/scheduled-haru-batch50-2784f4cab08c-c7d3eb031800/shard-005.json",
         "material_inlined": false,
         "queue_id": "unknown_queue",
         "task_id": "yuya_history_backfill::YUYA-CH-020::5aee30308cc9cea9",
@@ -1034,10 +1034,10 @@
       },
       {
         "case_id": "teacher-review-yuya_history_backfill_YUYA-CH-021_340b5e3e980ff3cf-unknown_queue",
-        "case_shard_artifact": "teacher-case-shards/scheduled-haru-batch50-21f5ae52c5ec-c7d3eb031800/shard-005.json",
+        "case_shard_artifact": "teacher-case-shards/scheduled-haru-batch50-2784f4cab08c-c7d3eb031800/shard-005.json",
         "case_shard_index": 5,
-        "case_shard_sha256": "9f797d8d3035d710bf60345516997c2957ebd9cf2d2c907a07d31e8b965fc31d",
-        "case_shard_url": "https://raw.githubusercontent.com/ryryss2-dev/osai-teacher-briefing/main/teacher-case-shards/scheduled-haru-batch50-21f5ae52c5ec-c7d3eb031800/shard-005.json",
+        "case_shard_sha256": "d2e33289d05ffe91b8920b35202656f7b24957d8af42d520aa3b8284dbc16649",
+        "case_shard_url": "https://raw.githubusercontent.com/ryryss2-dev/osai-teacher-briefing/main/teacher-case-shards/scheduled-haru-batch50-2784f4cab08c-c7d3eb031800/shard-005.json",
         "material_inlined": false,
         "queue_id": "unknown_queue",
         "task_id": "yuya_history_backfill::YUYA-CH-021::340b5e3e980ff3cf",
@@ -1045,10 +1045,10 @@
       },
       {
         "case_id": "teacher-review-yuya_history_backfill_YUYA-CH-022_38855e854af9f85c-unknown_queue",
-        "case_shard_artifact": "teacher-case-shards/scheduled-haru-batch50-21f5ae52c5ec-c7d3eb031800/shard-006.json",
+        "case_shard_artifact": "teacher-case-shards/scheduled-haru-batch50-2784f4cab08c-c7d3eb031800/shard-006.json",
         "case_shard_index": 6,
-        "case_shard_sha256": "0551d5180eacc83ce0b651ee40d589a1bd7587bc97cd396848dda9b2d91e9c71",
-        "case_shard_url": "https://raw.githubusercontent.com/ryryss2-dev/osai-teacher-briefing/main/teacher-case-shards/scheduled-haru-batch50-21f5ae52c5ec-c7d3eb031800/shard-006.json",
+        "case_shard_sha256": "eb75074c402680a31338eec3e51333a741adc70225a4b9f4bb3417995351b09f",
+        "case_shard_url": "https://raw.githubusercontent.com/ryryss2-dev/osai-teacher-briefing/main/teacher-case-shards/scheduled-haru-batch50-2784f4cab08c-c7d3eb031800/shard-006.json",
         "material_inlined": false,
         "queue_id": "unknown_queue",
         "task_id": "yuya_history_backfill::YUYA-CH-022::38855e854af9f85c",
@@ -1056,10 +1056,10 @@
       },
       {
         "case_id": "teacher-review-yuya_history_backfill_YUYA-CH-023_0c35d7b0f17d8a85-unknown_queue",
-        "case_shard_artifact": "teacher-case-shards/scheduled-haru-batch50-21f5ae52c5ec-c7d3eb031800/shard-006.json",
+        "case_shard_artifact": "teacher-case-shards/scheduled-haru-batch50-2784f4cab08c-c7d3eb031800/shard-006.json",
         "case_shard_index": 6,
-        "case_shard_sha256": "0551d5180eacc83ce0b651ee40d589a1bd7587bc97cd396848dda9b2d91e9c71",
-        "case_shard_url": "https://raw.githubusercontent.com/ryryss2-dev/osai-teacher-briefing/main/teacher-case-shards/scheduled-haru-batch50-21f5ae52c5ec-c7d3eb031800/shard-006.json",
+        "case_shard_sha256": "eb75074c402680a31338eec3e51333a741adc70225a4b9f4bb3417995351b09f",
+        "case_shard_url": "https://raw.githubusercontent.com/ryryss2-dev/osai-teacher-briefing/main/teacher-case-shards/scheduled-haru-batch50-2784f4cab08c-c7d3eb031800/shard-006.json",
         "material_inlined": false,
         "queue_id": "unknown_queue",
         "task_id": "yuya_history_backfill::YUYA-CH-023::0c35d7b0f17d8a85",
@@ -1067,10 +1067,10 @@
       },
       {
         "case_id": "teacher-review-yuya_history_backfill_YUYA-CH-024_47157ff46a3b64ee-unknown_queue",
-        "case_shard_artifact": "teacher-case-shards/scheduled-haru-batch50-21f5ae52c5ec-c7d3eb031800/shard-006.json",
+        "case_shard_artifact": "teacher-case-shards/scheduled-haru-batch50-2784f4cab08c-c7d3eb031800/shard-006.json",
         "case_shard_index": 6,
-        "case_shard_sha256": "0551d5180eacc83ce0b651ee40d589a1bd7587bc97cd396848dda9b2d91e9c71",
-        "case_shard_url": "https://raw.githubusercontent.com/ryryss2-dev/osai-teacher-briefing/main/teacher-case-shards/scheduled-haru-batch50-21f5ae52c5ec-c7d3eb031800/shard-006.json",
+        "case_shard_sha256": "eb75074c402680a31338eec3e51333a741adc70225a4b9f4bb3417995351b09f",
+        "case_shard_url": "https://raw.githubusercontent.com/ryryss2-dev/osai-teacher-briefing/main/teacher-case-shards/scheduled-haru-batch50-2784f4cab08c-c7d3eb031800/shard-006.json",
         "material_inlined": false,
         "queue_id": "unknown_queue",
         "task_id": "yuya_history_backfill::YUYA-CH-024::47157ff46a3b64ee",
@@ -1078,10 +1078,10 @@
       },
       {
         "case_id": "teacher-review-yuya_history_backfill_YUYA-CH-025_21604ff7fe715c23-unknown_queue",
-        "case_shard_artifact": "teacher-case-shards/scheduled-haru-batch50-21f5ae52c5ec-c7d3eb031800/shard-006.json",
+        "case_shard_artifact": "teacher-case-shards/scheduled-haru-batch50-2784f4cab08c-c7d3eb031800/shard-006.json",
         "case_shard_index": 6,
-        "case_shard_sha256": "0551d5180eacc83ce0b651ee40d589a1bd7587bc97cd396848dda9b2d91e9c71",
-        "case_shard_url": "https://raw.githubusercontent.com/ryryss2-dev/osai-teacher-briefing/main/teacher-case-shards/scheduled-haru-batch50-21f5ae52c5ec-c7d3eb031800/shard-006.json",
+        "case_shard_sha256": "eb75074c402680a31338eec3e51333a741adc70225a4b9f4bb3417995351b09f",
+        "case_shard_url": "https://raw.githubusercontent.com/ryryss2-dev/osai-teacher-briefing/main/teacher-case-shards/scheduled-haru-batch50-2784f4cab08c-c7d3eb031800/shard-006.json",
         "material_inlined": false,
         "queue_id": "unknown_queue",
         "task_id": "yuya_history_backfill::YUYA-CH-025::21604ff7fe715c23",
@@ -1089,10 +1089,10 @@
       },
       {
         "case_id": "teacher-review-yuya_history_backfill_YUYA-CH-026_06e1c77143f809d1-unknown_queue",
-        "case_shard_artifact": "teacher-case-shards/scheduled-haru-batch50-21f5ae52c5ec-c7d3eb031800/shard-006.json",
+        "case_shard_artifact": "teacher-case-shards/scheduled-haru-batch50-2784f4cab08c-c7d3eb031800/shard-006.json",
         "case_shard_index": 6,
-        "case_shard_sha256": "0551d5180eacc83ce0b651ee40d589a1bd7587bc97cd396848dda9b2d91e9c71",
-        "case_shard_url": "https://raw.githubusercontent.com/ryryss2-dev/osai-teacher-briefing/main/teacher-case-shards/scheduled-haru-batch50-21f5ae52c5ec-c7d3eb031800/shard-006.json",
+        "case_shard_sha256": "eb75074c402680a31338eec3e51333a741adc70225a4b9f4bb3417995351b09f",
+        "case_shard_url": "https://raw.githubusercontent.com/ryryss2-dev/osai-teacher-briefing/main/teacher-case-shards/scheduled-haru-batch50-2784f4cab08c-c7d3eb031800/shard-006.json",
         "material_inlined": false,
         "queue_id": "unknown_queue",
         "task_id": "yuya_history_backfill::YUYA-CH-026::06e1c77143f809d1",
@@ -1100,10 +1100,10 @@
       },
       {
         "case_id": "teacher-review-yuya_history_backfill_YUYA-CH-027_1e544ebd3ed1580b-unknown_queue",
-        "case_shard_artifact": "teacher-case-shards/scheduled-haru-batch50-21f5ae52c5ec-c7d3eb031800/shard-007.json",
+        "case_shard_artifact": "teacher-case-shards/scheduled-haru-batch50-2784f4cab08c-c7d3eb031800/shard-007.json",
         "case_shard_index": 7,
-        "case_shard_sha256": "37b234284c99a391c48e92b7f6449450df9bed3c1d5b6609650e255c3caff0d3",
-        "case_shard_url": "https://raw.githubusercontent.com/ryryss2-dev/osai-teacher-briefing/main/teacher-case-shards/scheduled-haru-batch50-21f5ae52c5ec-c7d3eb031800/shard-007.json",
+        "case_shard_sha256": "ac2b3d2e75fe2dafe70255e3876765b64cbf853810352564edb5eb599e0d9546",
+        "case_shard_url": "https://raw.githubusercontent.com/ryryss2-dev/osai-teacher-briefing/main/teacher-case-shards/scheduled-haru-batch50-2784f4cab08c-c7d3eb031800/shard-007.json",
         "material_inlined": false,
         "queue_id": "unknown_queue",
         "task_id": "yuya_history_backfill::YUYA-CH-027::1e544ebd3ed1580b",
@@ -1111,10 +1111,10 @@
       },
       {
         "case_id": "teacher-review-yuya_history_backfill_YUYA-CH-028_230cf87881e8a9a0-unknown_queue",
-        "case_shard_artifact": "teacher-case-shards/scheduled-haru-batch50-21f5ae52c5ec-c7d3eb031800/shard-007.json",
+        "case_shard_artifact": "teacher-case-shards/scheduled-haru-batch50-2784f4cab08c-c7d3eb031800/shard-007.json",
         "case_shard_index": 7,
-        "case_shard_sha256": "37b234284c99a391c48e92b7f6449450df9bed3c1d5b6609650e255c3caff0d3",
-        "case_shard_url": "https://raw.githubusercontent.com/ryryss2-dev/osai-teacher-briefing/main/teacher-case-shards/scheduled-haru-batch50-21f5ae52c5ec-c7d3eb031800/shard-007.json",
+        "case_shard_sha256": "ac2b3d2e75fe2dafe70255e3876765b64cbf853810352564edb5eb599e0d9546",
+        "case_shard_url": "https://raw.githubusercontent.com/ryryss2-dev/osai-teacher-briefing/main/teacher-case-shards/scheduled-haru-batch50-2784f4cab08c-c7d3eb031800/shard-007.json",
         "material_inlined": false,
         "queue_id": "unknown_queue",
         "task_id": "yuya_history_backfill::YUYA-CH-028::230cf87881e8a9a0",
@@ -1122,10 +1122,10 @@
       },
       {
         "case_id": "teacher-review-yuya_history_backfill_YUYA-CH-029_1fa53e987833012f-unknown_queue",
-        "case_shard_artifact": "teacher-case-shards/scheduled-haru-batch50-21f5ae52c5ec-c7d3eb031800/shard-007.json",
+        "case_shard_artifact": "teacher-case-shards/scheduled-haru-batch50-2784f4cab08c-c7d3eb031800/shard-007.json",
         "case_shard_index": 7,
-        "case_shard_sha256": "37b234284c99a391c48e92b7f6449450df9bed3c1d5b6609650e255c3caff0d3",
-        "case_shard_url": "https://raw.githubusercontent.com/ryryss2-dev/osai-teacher-briefing/main/teacher-case-shards/scheduled-haru-batch50-21f5ae52c5ec-c7d3eb031800/shard-007.json",
+        "case_shard_sha256": "ac2b3d2e75fe2dafe70255e3876765b64cbf853810352564edb5eb599e0d9546",
+        "case_shard_url": "https://raw.githubusercontent.com/ryryss2-dev/osai-teacher-briefing/main/teacher-case-shards/scheduled-haru-batch50-2784f4cab08c-c7d3eb031800/shard-007.json",
         "material_inlined": false,
         "queue_id": "unknown_queue",
         "task_id": "yuya_history_backfill::YUYA-CH-029::1fa53e987833012f",
@@ -1133,10 +1133,10 @@
       },
       {
         "case_id": "teacher-review-yuya_history_backfill_YUYA-CH-030_4a1971baece5adc6-unknown_queue",
-        "case_shard_artifact": "teacher-case-shards/scheduled-haru-batch50-21f5ae52c5ec-c7d3eb031800/shard-007.json",
+        "case_shard_artifact": "teacher-case-shards/scheduled-haru-batch50-2784f4cab08c-c7d3eb031800/shard-007.json",
         "case_shard_index": 7,
-        "case_shard_sha256": "37b234284c99a391c48e92b7f6449450df9bed3c1d5b6609650e255c3caff0d3",
-        "case_shard_url": "https://raw.githubusercontent.com/ryryss2-dev/osai-teacher-briefing/main/teacher-case-shards/scheduled-haru-batch50-21f5ae52c5ec-c7d3eb031800/shard-007.json",
+        "case_shard_sha256": "ac2b3d2e75fe2dafe70255e3876765b64cbf853810352564edb5eb599e0d9546",
+        "case_shard_url": "https://raw.githubusercontent.com/ryryss2-dev/osai-teacher-briefing/main/teacher-case-shards/scheduled-haru-batch50-2784f4cab08c-c7d3eb031800/shard-007.json",
         "material_inlined": false,
         "queue_id": "unknown_queue",
         "task_id": "yuya_history_backfill::YUYA-CH-030::4a1971baece5adc6",
@@ -1144,10 +1144,10 @@
       },
       {
         "case_id": "teacher-review-yuya_history_backfill_YUYA-CH-031_288a5a6db7114339-unknown_queue",
-        "case_shard_artifact": "teacher-case-shards/scheduled-haru-batch50-21f5ae52c5ec-c7d3eb031800/shard-007.json",
+        "case_shard_artifact": "teacher-case-shards/scheduled-haru-batch50-2784f4cab08c-c7d3eb031800/shard-007.json",
         "case_shard_index": 7,
-        "case_shard_sha256": "37b234284c99a391c48e92b7f6449450df9bed3c1d5b6609650e255c3caff0d3",
-        "case_shard_url": "https://raw.githubusercontent.com/ryryss2-dev/osai-teacher-briefing/main/teacher-case-shards/scheduled-haru-batch50-21f5ae52c5ec-c7d3eb031800/shard-007.json",
+        "case_shard_sha256": "ac2b3d2e75fe2dafe70255e3876765b64cbf853810352564edb5eb599e0d9546",
+        "case_shard_url": "https://raw.githubusercontent.com/ryryss2-dev/osai-teacher-briefing/main/teacher-case-shards/scheduled-haru-batch50-2784f4cab08c-c7d3eb031800/shard-007.json",
         "material_inlined": false,
         "queue_id": "unknown_queue",
         "task_id": "yuya_history_backfill::YUYA-CH-031::288a5a6db7114339",
@@ -1155,10 +1155,10 @@
       },
       {
         "case_id": "teacher-review-yuya_history_backfill_YUYA-CH-032_0a67215dae0baacd-unknown_queue",
-        "case_shard_artifact": "teacher-case-shards/scheduled-haru-batch50-21f5ae52c5ec-c7d3eb031800/shard-008.json",
+        "case_shard_artifact": "teacher-case-shards/scheduled-haru-batch50-2784f4cab08c-c7d3eb031800/shard-008.json",
         "case_shard_index": 8,
-        "case_shard_sha256": "b24b76f9da3cc48777a9073219d959d09ef3dcb88d4e58e113ffaa14cbd35968",
-        "case_shard_url": "https://raw.githubusercontent.com/ryryss2-dev/osai-teacher-briefing/main/teacher-case-shards/scheduled-haru-batch50-21f5ae52c5ec-c7d3eb031800/shard-008.json",
+        "case_shard_sha256": "a5b0c59e2c2c0dfe2f078e59b237980da65702cd8a9aae96db5929eb86ac7a5d",
+        "case_shard_url": "https://raw.githubusercontent.com/ryryss2-dev/osai-teacher-briefing/main/teacher-case-shards/scheduled-haru-batch50-2784f4cab08c-c7d3eb031800/shard-008.json",
         "material_inlined": false,
         "queue_id": "unknown_queue",
         "task_id": "yuya_history_backfill::YUYA-CH-032::0a67215dae0baacd",
@@ -1166,10 +1166,10 @@
       },
       {
         "case_id": "teacher-review-yuya_history_backfill_YUYA-CH-033_1a050591a6be94a4-unknown_queue",
-        "case_shard_artifact": "teacher-case-shards/scheduled-haru-batch50-21f5ae52c5ec-c7d3eb031800/shard-008.json",
+        "case_shard_artifact": "teacher-case-shards/scheduled-haru-batch50-2784f4cab08c-c7d3eb031800/shard-008.json",
         "case_shard_index": 8,
-        "case_shard_sha256": "b24b76f9da3cc48777a9073219d959d09ef3dcb88d4e58e113ffaa14cbd35968",
-        "case_shard_url": "https://raw.githubusercontent.com/ryryss2-dev/osai-teacher-briefing/main/teacher-case-shards/scheduled-haru-batch50-21f5ae52c5ec-c7d3eb031800/shard-008.json",
+        "case_shard_sha256": "a5b0c59e2c2c0dfe2f078e59b237980da65702cd8a9aae96db5929eb86ac7a5d",
+        "case_shard_url": "https://raw.githubusercontent.com/ryryss2-dev/osai-teacher-briefing/main/teacher-case-shards/scheduled-haru-batch50-2784f4cab08c-c7d3eb031800/shard-008.json",
         "material_inlined": false,
         "queue_id": "unknown_queue",
         "task_id": "yuya_history_backfill::YUYA-CH-033::1a050591a6be94a4",
@@ -1177,10 +1177,10 @@
       },
       {
         "case_id": "teacher-review-yuya_history_backfill_YUYA-CH-034_03130486a0505810-unknown_queue",
-        "case_shard_artifact": "teacher-case-shards/scheduled-haru-batch50-21f5ae52c5ec-c7d3eb031800/shard-008.json",
+        "case_shard_artifact": "teacher-case-shards/scheduled-haru-batch50-2784f4cab08c-c7d3eb031800/shard-008.json",
         "case_shard_index": 8,
-        "case_shard_sha256": "b24b76f9da3cc48777a9073219d959d09ef3dcb88d4e58e113ffaa14cbd35968",
-        "case_shard_url": "https://raw.githubusercontent.com/ryryss2-dev/osai-teacher-briefing/main/teacher-case-shards/scheduled-haru-batch50-21f5ae52c5ec-c7d3eb031800/shard-008.json",
+        "case_shard_sha256": "a5b0c59e2c2c0dfe2f078e59b237980da65702cd8a9aae96db5929eb86ac7a5d",
+        "case_shard_url": "https://raw.githubusercontent.com/ryryss2-dev/osai-teacher-briefing/main/teacher-case-shards/scheduled-haru-batch50-2784f4cab08c-c7d3eb031800/shard-008.json",
         "material_inlined": false,
         "queue_id": "unknown_queue",
         "task_id": "yuya_history_backfill::YUYA-CH-034::03130486a0505810",
@@ -1188,10 +1188,10 @@
       },
       {
         "case_id": "teacher-review-yuya_history_backfill_YUYA-CH-035_449a189a8fba22b6-unknown_queue",
-        "case_shard_artifact": "teacher-case-shards/scheduled-haru-batch50-21f5ae52c5ec-c7d3eb031800/shard-008.json",
+        "case_shard_artifact": "teacher-case-shards/scheduled-haru-batch50-2784f4cab08c-c7d3eb031800/shard-008.json",
         "case_shard_index": 8,
-        "case_shard_sha256": "b24b76f9da3cc48777a9073219d959d09ef3dcb88d4e58e113ffaa14cbd35968",
-        "case_shard_url": "https://raw.githubusercontent.com/ryryss2-dev/osai-teacher-briefing/main/teacher-case-shards/scheduled-haru-batch50-21f5ae52c5ec-c7d3eb031800/shard-008.json",
+        "case_shard_sha256": "a5b0c59e2c2c0dfe2f078e59b237980da65702cd8a9aae96db5929eb86ac7a5d",
+        "case_shard_url": "https://raw.githubusercontent.com/ryryss2-dev/osai-teacher-briefing/main/teacher-case-shards/scheduled-haru-batch50-2784f4cab08c-c7d3eb031800/shard-008.json",
         "material_inlined": false,
         "queue_id": "unknown_queue",
         "task_id": "yuya_history_backfill::YUYA-CH-035::449a189a8fba22b6",
@@ -1199,10 +1199,10 @@
       },
       {
         "case_id": "teacher-review-yuya_history_backfill_YUYA-CH-036_104e7fcc5214106f-unknown_queue",
-        "case_shard_artifact": "teacher-case-shards/scheduled-haru-batch50-21f5ae52c5ec-c7d3eb031800/shard-008.json",
+        "case_shard_artifact": "teacher-case-shards/scheduled-haru-batch50-2784f4cab08c-c7d3eb031800/shard-008.json",
         "case_shard_index": 8,
-        "case_shard_sha256": "b24b76f9da3cc48777a9073219d959d09ef3dcb88d4e58e113ffaa14cbd35968",
-        "case_shard_url": "https://raw.githubusercontent.com/ryryss2-dev/osai-teacher-briefing/main/teacher-case-shards/scheduled-haru-batch50-21f5ae52c5ec-c7d3eb031800/shard-008.json",
+        "case_shard_sha256": "a5b0c59e2c2c0dfe2f078e59b237980da65702cd8a9aae96db5929eb86ac7a5d",
+        "case_shard_url": "https://raw.githubusercontent.com/ryryss2-dev/osai-teacher-briefing/main/teacher-case-shards/scheduled-haru-batch50-2784f4cab08c-c7d3eb031800/shard-008.json",
         "material_inlined": false,
         "queue_id": "unknown_queue",
         "task_id": "yuya_history_backfill::YUYA-CH-036::104e7fcc5214106f",
@@ -1210,10 +1210,10 @@
       },
       {
         "case_id": "teacher-review-yuya_history_backfill_YUYA-CH-037_1c0cba1177266610-unknown_queue",
-        "case_shard_artifact": "teacher-case-shards/scheduled-haru-batch50-21f5ae52c5ec-c7d3eb031800/shard-009.json",
+        "case_shard_artifact": "teacher-case-shards/scheduled-haru-batch50-2784f4cab08c-c7d3eb031800/shard-009.json",
         "case_shard_index": 9,
-        "case_shard_sha256": "dd68950313ed6f88d8c48329260fbacd9925fb7c57d907ce62bbb8805a796230",
-        "case_shard_url": "https://raw.githubusercontent.com/ryryss2-dev/osai-teacher-briefing/main/teacher-case-shards/scheduled-haru-batch50-21f5ae52c5ec-c7d3eb031800/shard-009.json",
+        "case_shard_sha256": "db983d56c3926a386e57cedf159f2cb53f4f91ee57f484382e0e83d9c6bdeb58",
+        "case_shard_url": "https://raw.githubusercontent.com/ryryss2-dev/osai-teacher-briefing/main/teacher-case-shards/scheduled-haru-batch50-2784f4cab08c-c7d3eb031800/shard-009.json",
         "material_inlined": false,
         "queue_id": "unknown_queue",
         "task_id": "yuya_history_backfill::YUYA-CH-037::1c0cba1177266610",
@@ -1221,10 +1221,10 @@
       },
       {
         "case_id": "teacher-review-yuya_history_backfill_YUYA-CH-038_15305f7797cd9059-unknown_queue",
-        "case_shard_artifact": "teacher-case-shards/scheduled-haru-batch50-21f5ae52c5ec-c7d3eb031800/shard-009.json",
+        "case_shard_artifact": "teacher-case-shards/scheduled-haru-batch50-2784f4cab08c-c7d3eb031800/shard-009.json",
         "case_shard_index": 9,
-        "case_shard_sha256": "dd68950313ed6f88d8c48329260fbacd9925fb7c57d907ce62bbb8805a796230",
-        "case_shard_url": "https://raw.githubusercontent.com/ryryss2-dev/osai-teacher-briefing/main/teacher-case-shards/scheduled-haru-batch50-21f5ae52c5ec-c7d3eb031800/shard-009.json",
+        "case_shard_sha256": "db983d56c3926a386e57cedf159f2cb53f4f91ee57f484382e0e83d9c6bdeb58",
+        "case_shard_url": "https://raw.githubusercontent.com/ryryss2-dev/osai-teacher-briefing/main/teacher-case-shards/scheduled-haru-batch50-2784f4cab08c-c7d3eb031800/shard-009.json",
         "material_inlined": false,
         "queue_id": "unknown_queue",
         "task_id": "yuya_history_backfill::YUYA-CH-038::15305f7797cd9059",
@@ -1232,10 +1232,10 @@
       },
       {
         "case_id": "teacher-review-yuya_history_backfill_YUYA-CH-039_05957dfc032cc9c7-unknown_queue",
-        "case_shard_artifact": "teacher-case-shards/scheduled-haru-batch50-21f5ae52c5ec-c7d3eb031800/shard-009.json",
+        "case_shard_artifact": "teacher-case-shards/scheduled-haru-batch50-2784f4cab08c-c7d3eb031800/shard-009.json",
         "case_shard_index": 9,
-        "case_shard_sha256": "dd68950313ed6f88d8c48329260fbacd9925fb7c57d907ce62bbb8805a796230",
-        "case_shard_url": "https://raw.githubusercontent.com/ryryss2-dev/osai-teacher-briefing/main/teacher-case-shards/scheduled-haru-batch50-21f5ae52c5ec-c7d3eb031800/shard-009.json",
+        "case_shard_sha256": "db983d56c3926a386e57cedf159f2cb53f4f91ee57f484382e0e83d9c6bdeb58",
+        "case_shard_url": "https://raw.githubusercontent.com/ryryss2-dev/osai-teacher-briefing/main/teacher-case-shards/scheduled-haru-batch50-2784f4cab08c-c7d3eb031800/shard-009.json",
         "material_inlined": false,
         "queue_id": "unknown_queue",
         "task_id": "yuya_history_backfill::YUYA-CH-039::05957dfc032cc9c7",
@@ -1243,10 +1243,10 @@
       },
       {
         "case_id": "teacher-review-yuya_history_backfill_YUYA-CH-040_4a8905663a652a6d-unknown_queue",
-        "case_shard_artifact": "teacher-case-shards/scheduled-haru-batch50-21f5ae52c5ec-c7d3eb031800/shard-009.json",
+        "case_shard_artifact": "teacher-case-shards/scheduled-haru-batch50-2784f4cab08c-c7d3eb031800/shard-009.json",
         "case_shard_index": 9,
-        "case_shard_sha256": "dd68950313ed6f88d8c48329260fbacd9925fb7c57d907ce62bbb8805a796230",
-        "case_shard_url": "https://raw.githubusercontent.com/ryryss2-dev/osai-teacher-briefing/main/teacher-case-shards/scheduled-haru-batch50-21f5ae52c5ec-c7d3eb031800/shard-009.json",
+        "case_shard_sha256": "db983d56c3926a386e57cedf159f2cb53f4f91ee57f484382e0e83d9c6bdeb58",
+        "case_shard_url": "https://raw.githubusercontent.com/ryryss2-dev/osai-teacher-briefing/main/teacher-case-shards/scheduled-haru-batch50-2784f4cab08c-c7d3eb031800/shard-009.json",
         "material_inlined": false,
         "queue_id": "unknown_queue",
         "task_id": "yuya_history_backfill::YUYA-CH-040::4a8905663a652a6d",
@@ -1254,10 +1254,10 @@
       },
       {
         "case_id": "teacher-review-yuya_history_backfill_YUYA-CH-041_35857ea1b0543252-unknown_queue",
-        "case_shard_artifact": "teacher-case-shards/scheduled-haru-batch50-21f5ae52c5ec-c7d3eb031800/shard-009.json",
+        "case_shard_artifact": "teacher-case-shards/scheduled-haru-batch50-2784f4cab08c-c7d3eb031800/shard-009.json",
         "case_shard_index": 9,
-        "case_shard_sha256": "dd68950313ed6f88d8c48329260fbacd9925fb7c57d907ce62bbb8805a796230",
-        "case_shard_url": "https://raw.githubusercontent.com/ryryss2-dev/osai-teacher-briefing/main/teacher-case-shards/scheduled-haru-batch50-21f5ae52c5ec-c7d3eb031800/shard-009.json",
+        "case_shard_sha256": "db983d56c3926a386e57cedf159f2cb53f4f91ee57f484382e0e83d9c6bdeb58",
+        "case_shard_url": "https://raw.githubusercontent.com/ryryss2-dev/osai-teacher-briefing/main/teacher-case-shards/scheduled-haru-batch50-2784f4cab08c-c7d3eb031800/shard-009.json",
         "material_inlined": false,
         "queue_id": "unknown_queue",
         "task_id": "yuya_history_backfill::YUYA-CH-041::35857ea1b0543252",
@@ -1265,10 +1265,10 @@
       },
       {
         "case_id": "teacher-review-yuya_history_backfill_YUYA-CH-042_0eb5df402d2ab5ff-unknown_queue",
-        "case_shard_artifact": "teacher-case-shards/scheduled-haru-batch50-21f5ae52c5ec-c7d3eb031800/shard-010.json",
+        "case_shard_artifact": "teacher-case-shards/scheduled-haru-batch50-2784f4cab08c-c7d3eb031800/shard-010.json",
         "case_shard_index": 10,
-        "case_shard_sha256": "d5d8e350e15cdae30ec346c57c1719df9468f460b927fb7e782f9c45fb488a07",
-        "case_shard_url": "https://raw.githubusercontent.com/ryryss2-dev/osai-teacher-briefing/main/teacher-case-shards/scheduled-haru-batch50-21f5ae52c5ec-c7d3eb031800/shard-010.json",
+        "case_shard_sha256": "d03c984c56882e65bb8ad3219d7c551ff90277d96630864ac8aeefcfca64183e",
+        "case_shard_url": "https://raw.githubusercontent.com/ryryss2-dev/osai-teacher-briefing/main/teacher-case-shards/scheduled-haru-batch50-2784f4cab08c-c7d3eb031800/shard-010.json",
         "material_inlined": false,
         "queue_id": "unknown_queue",
         "task_id": "yuya_history_backfill::YUYA-CH-042::0eb5df402d2ab5ff",
@@ -1276,10 +1276,10 @@
       },
       {
         "case_id": "teacher-review-yuya_history_backfill_YUYA-CH-043_0194763cfebfa1fc-unknown_queue",
-        "case_shard_artifact": "teacher-case-shards/scheduled-haru-batch50-21f5ae52c5ec-c7d3eb031800/shard-010.json",
+        "case_shard_artifact": "teacher-case-shards/scheduled-haru-batch50-2784f4cab08c-c7d3eb031800/shard-010.json",
         "case_shard_index": 10,
-        "case_shard_sha256": "d5d8e350e15cdae30ec346c57c1719df9468f460b927fb7e782f9c45fb488a07",
-        "case_shard_url": "https://raw.githubusercontent.com/ryryss2-dev/osai-teacher-briefing/main/teacher-case-shards/scheduled-haru-batch50-21f5ae52c5ec-c7d3eb031800/shard-010.json",
+        "case_shard_sha256": "d03c984c56882e65bb8ad3219d7c551ff90277d96630864ac8aeefcfca64183e",
+        "case_shard_url": "https://raw.githubusercontent.com/ryryss2-dev/osai-teacher-briefing/main/teacher-case-shards/scheduled-haru-batch50-2784f4cab08c-c7d3eb031800/shard-010.json",
         "material_inlined": false,
         "queue_id": "unknown_queue",
         "task_id": "yuya_history_backfill::YUYA-CH-043::0194763cfebfa1fc",
@@ -1287,10 +1287,10 @@
       },
       {
         "case_id": "teacher-review-yuya_history_backfill_YUYA-CH-044_07bbd6136b73dfdc-unknown_queue",
-        "case_shard_artifact": "teacher-case-shards/scheduled-haru-batch50-21f5ae52c5ec-c7d3eb031800/shard-010.json",
+        "case_shard_artifact": "teacher-case-shards/scheduled-haru-batch50-2784f4cab08c-c7d3eb031800/shard-010.json",
         "case_shard_index": 10,
-        "case_shard_sha256": "d5d8e350e15cdae30ec346c57c1719df9468f460b927fb7e782f9c45fb488a07",
-        "case_shard_url": "https://raw.githubusercontent.com/ryryss2-dev/osai-teacher-briefing/main/teacher-case-shards/scheduled-haru-batch50-21f5ae52c5ec-c7d3eb031800/shard-010.json",
+        "case_shard_sha256": "d03c984c56882e65bb8ad3219d7c551ff90277d96630864ac8aeefcfca64183e",
+        "case_shard_url": "https://raw.githubusercontent.com/ryryss2-dev/osai-teacher-briefing/main/teacher-case-shards/scheduled-haru-batch50-2784f4cab08c-c7d3eb031800/shard-010.json",
         "material_inlined": false,
         "queue_id": "unknown_queue",
         "task_id": "yuya_history_backfill::YUYA-CH-044::07bbd6136b73dfdc",
@@ -1298,10 +1298,10 @@
       },
       {
         "case_id": "teacher-review-yuya_history_backfill_YUYA-CH-045_061f002ad7e57991-unknown_queue",
-        "case_shard_artifact": "teacher-case-shards/scheduled-haru-batch50-21f5ae52c5ec-c7d3eb031800/shard-010.json",
+        "case_shard_artifact": "teacher-case-shards/scheduled-haru-batch50-2784f4cab08c-c7d3eb031800/shard-010.json",
         "case_shard_index": 10,
-        "case_shard_sha256": "d5d8e350e15cdae30ec346c57c1719df9468f460b927fb7e782f9c45fb488a07",
-        "case_shard_url": "https://raw.githubusercontent.com/ryryss2-dev/osai-teacher-briefing/main/teacher-case-shards/scheduled-haru-batch50-21f5ae52c5ec-c7d3eb031800/shard-010.json",
+        "case_shard_sha256": "d03c984c56882e65bb8ad3219d7c551ff90277d96630864ac8aeefcfca64183e",
+        "case_shard_url": "https://raw.githubusercontent.com/ryryss2-dev/osai-teacher-briefing/main/teacher-case-shards/scheduled-haru-batch50-2784f4cab08c-c7d3eb031800/shard-010.json",
         "material_inlined": false,
         "queue_id": "unknown_queue",
         "task_id": "yuya_history_backfill::YUYA-CH-045::061f002ad7e57991",
@@ -1309,10 +1309,10 @@
       },
       {
         "case_id": "teacher-review-yuya_history_backfill_YUYA-CH-046_12ffd9bfffbc6e0c-unknown_queue",
-        "case_shard_artifact": "teacher-case-shards/scheduled-haru-batch50-21f5ae52c5ec-c7d3eb031800/shard-010.json",
+        "case_shard_artifact": "teacher-case-shards/scheduled-haru-batch50-2784f4cab08c-c7d3eb031800/shard-010.json",
         "case_shard_index": 10,
-        "case_shard_sha256": "d5d8e350e15cdae30ec346c57c1719df9468f460b927fb7e782f9c45fb488a07",
-        "case_shard_url": "https://raw.githubusercontent.com/ryryss2-dev/osai-teacher-briefing/main/teacher-case-shards/scheduled-haru-batch50-21f5ae52c5ec-c7d3eb031800/shard-010.json",
+        "case_shard_sha256": "d03c984c56882e65bb8ad3219d7c551ff90277d96630864ac8aeefcfca64183e",
+        "case_shard_url": "https://raw.githubusercontent.com/ryryss2-dev/osai-teacher-briefing/main/teacher-case-shards/scheduled-haru-batch50-2784f4cab08c-c7d3eb031800/shard-010.json",
         "material_inlined": false,
         "queue_id": "unknown_queue",
         "task_id": "yuya_history_backfill::YUYA-CH-046::12ffd9bfffbc6e0c",
@@ -1337,19 +1337,20 @@
   },
   "deep_review_case": {
     "candidate_evidence": {
-      "available": false,
+      "available": true,
       "candidate_attempts": [],
-      "candidate_source_role": "unresolved",
-      "included_in_briefing": false,
+      "candidate_source_role": "correction_rule_material",
+      "identity_checks": {
+        "rule_only_source_kind": true,
+        "training_item_id_present": true
+      },
+      "included_in_briefing": true,
       "mobile_recheck_job_id": "",
       "original_job_candidate": false,
       "primary_job_id": "",
-      "raw_headers_saved": false,
-      "raw_prompt_saved": false,
-      "raw_response_saved": false,
-      "reason": "no_safe_identity_bound_candidate",
+      "reason": "sanitized_correction_rule_material",
       "sanitized_original_candidate": "",
-      "secret_saved": false
+      "selected_job_id": ""
     },
     "candidate_text_backfill_required": false,
     "candidate_text_backfill_source_packet_id": "",
@@ -1436,13 +1437,13 @@
       "teacher_packet_exposed": false
     },
     "current_assignment_digest": "",
-    "cycle_id": "scheduled-haru-cycle-21f5ae52c5ec0011-c7d3eb0318007ff9",
+    "cycle_id": "scheduled-haru-cycle-2784f4cab08cbd5a-c7d3eb0318007ff9",
     "freshness": {
       "current_assignment_digest": "",
       "schema_version": "osai_examiner_feed_freshness.v1",
-      "valid_until": "2026-08-11T19:02:53.911199+00:00"
+      "valid_until": "2026-08-11T20:03:05.311635+00:00"
     },
-    "generated_at": "2026-08-11T17:32:53.911199+00:00",
+    "generated_at": "2026-08-11T18:33:05.311635+00:00",
     "judged_candidate_digests": [],
     "no_pending_exam_item": true,
     "schema_version": "osai_examiner_briefing.v1",
@@ -3349,7 +3350,7 @@
     "teacher_case_shards": [
       {
         "case_id": "teacher-review-yuya_correction_YUYA-CH-026_yuya-episode-18ac1f3f2ac521892b6d-unknown_queue",
-        "case_source_digest": "c7ab144512e989a1017dcbcbb6e4155b44369cc22f7e06ffcd4fba4011a592d8",
+        "case_source_digest": "9fafe54bcc952d4d70e241b437977d2b988a9b1752032e1e0cf13222f9f96e09",
         "stage_receipts": [
           {
             "case_ids": [
@@ -3380,7 +3381,7 @@
       },
       {
         "case_id": "teacher-review-yuya_correction_YUYA-CH-027_yuya-episode-679ac4af3688ab47f76c-unknown_queue",
-        "case_source_digest": "c04adf4750a73811cb8d10d3a5f4b2ddc5c3c83c18bb05c494bf1a85b5cbe6ac",
+        "case_source_digest": "ed9bb90b302e800f13e954f6fd6121bcf0c842cb0a260749c4337e7807cf5828",
         "stage_receipts": [
           {
             "case_ids": [
@@ -3411,7 +3412,7 @@
       },
       {
         "case_id": "teacher-review-yuya_correction_YUYA-CH-027_yuya-episode-bb6f6901a96b25f2804a-unknown_queue",
-        "case_source_digest": "56568d06247885c24fee7219f928392a175b6d968e253393b2b58d3266d0944c",
+        "case_source_digest": "384219f4b1d520326f29f27f8121dc0b28e77225d36064b54fee459b705512e2",
         "stage_receipts": [
           {
             "case_ids": [
@@ -3442,7 +3443,7 @@
       },
       {
         "case_id": "teacher-review-yuya_correction_YUYA-CH-026_yuya-episode-bcf2b7c4ed539184a7d6-unknown_queue",
-        "case_source_digest": "c179ea6af53b539356611ed401ed44ce9603eb3e8c2834f9ee6c9589da5e5afc",
+        "case_source_digest": "1a9aad0e18ef049186c4a9cec705c12a2325b3c893b3b634225aa7457003673f",
         "stage_receipts": [
           {
             "case_ids": [
@@ -3473,7 +3474,7 @@
       },
       {
         "case_id": "teacher-review-yuya_correction_YUYA-CH-028_yuya-episode-47270b5ba39bbe64a758-unknown_queue",
-        "case_source_digest": "941dfd48d2019938ae24504c95ad11a3e5c361da01d196cda1946220f2125c4d",
+        "case_source_digest": "ed48a038e6d90bab38568d26e1ace0a2927b3c8127243076f7e5ef0749cb2bdb",
         "stage_receipts": [
           {
             "case_ids": [
@@ -3504,7 +3505,7 @@
       },
       {
         "case_id": "teacher-review-yuya_correction_YUYA-CH-027_yuya-episode-4407e6d10f56457175e3-unknown_queue",
-        "case_source_digest": "d598419e9cea39456b1a743c83b54ebfc2a75da20f4c7ff40f04745792e35985",
+        "case_source_digest": "6d84f0f7cd68ee0759b0e7747d4db932c8c16613a8d4058514b41745e36d53a7",
         "stage_receipts": [
           {
             "case_ids": [
@@ -3535,7 +3536,7 @@
       },
       {
         "case_id": "teacher-review-yuya_history_backfill_YUYA-CH-002_3f3175c1a0216af8-unknown_queue",
-        "case_source_digest": "83ec117acda5cbdc4db3fca88b021bbed511517e81315122a64976127d33b829",
+        "case_source_digest": "c50935ca5bc8d93cb718c1397b31980c5580feeda0e66a9cf9d440426010c956",
         "stage_receipts": [
           {
             "case_ids": [
@@ -3566,7 +3567,7 @@
       },
       {
         "case_id": "teacher-review-yuya_history_backfill_YUYA-CH-003_77bdee6ecd7f3910-unknown_queue",
-        "case_source_digest": "65627d95d5639e04c2527f752eaca35d0e5a08ce4346a0a7c23d14529552d127",
+        "case_source_digest": "326f3b7de3412a39d2df035befe1d189c9167675ad9b859c10a6e6525e45db2c",
         "stage_receipts": [
           {
             "case_ids": [
@@ -3597,7 +3598,7 @@
       },
       {
         "case_id": "teacher-review-yuya_history_backfill_YUYA-CH-004_db48c28329569532-unknown_queue",
-        "case_source_digest": "63e5f43e65d2ccd0d8875b970e1c226475011def4c8ca79160a0f82a80d44308",
+        "case_source_digest": "e08f4667c5885462e0aff69b18d0f5be18e80d524b11d0e6dc41cee164f9aa08",
         "stage_receipts": [
           {
             "case_ids": [
@@ -3628,7 +3629,7 @@
       },
       {
         "case_id": "teacher-review-yuya_history_backfill_YUYA-CH-005_038b01175cc30b56-unknown_queue",
-        "case_source_digest": "b5d2ad81438c6ff3b6e58becc6cf9b05806d605b0502cf905a9c80583c22951d",
+        "case_source_digest": "e1698c681ed80196d72416116622e57915e55c1d238fa6c8a62d6fcd90d8a383",
         "stage_receipts": [
           {
             "case_ids": [
@@ -3659,7 +3660,7 @@
       },
       {
         "case_id": "teacher-review-yuya_history_backfill_YUYA-CH-006_1ba915806ab27978-unknown_queue",
-        "case_source_digest": "988d101167b3cc309e41a5ef5c16661e2cf1299abf3d4b83024d9dd2c0182fce",
+        "case_source_digest": "e4abb3db3f3c2617c6d2e034b3e6ca7f950d1b235f9c056dada0387839cd346f",
         "stage_receipts": [
           {
             "case_ids": [
@@ -3690,7 +3691,7 @@
       },
       {
         "case_id": "teacher-review-yuya_history_backfill_YUYA-CH-007_af368bb467671800-unknown_queue",
-        "case_source_digest": "68bb13f504be9e04ef720e0ca9f4867b863298ce00424389e09bc4476c15001c",
+        "case_source_digest": "5313699b23f7c6bf93bbcc57a434d6c9530253c50443f6d9515283a9ae61608e",
         "stage_receipts": [
           {
             "case_ids": [
@@ -3721,7 +3722,7 @@
       },
       {
         "case_id": "teacher-review-yuya_history_backfill_YUYA-CH-008_210d17a93183565b-unknown_queue",
-        "case_source_digest": "d4961ee72b0e3f69a8e44378395148fa0493eb27a5feca2b18380c87b810f908",
+        "case_source_digest": "f6180de86985791cc92e78dc44546999bde7b8d75dbab4f314441d6c76135ea9",
         "stage_receipts": [
           {
             "case_ids": [
@@ -3752,7 +3753,7 @@
       },
       {
         "case_id": "teacher-review-yuya_history_backfill_YUYA-CH-010_21b6a4de81aa221c-unknown_queue",
-        "case_source_digest": "e84be94e3c18c2fed0d656fcea27cee2f15e3ce363e43e54944d81a7170ea12b",
+        "case_source_digest": "167d638afdf25915f44cdc8f676f977906da8788f09be27b4f2343457786ccb6",
         "stage_receipts": [
           {
             "case_ids": [
@@ -3783,7 +3784,7 @@
       },
       {
         "case_id": "teacher-review-yuya_history_backfill_YUYA-CH-011_17d2280c21c19cad-unknown_queue",
-        "case_source_digest": "f0682eceac1f612231efc6d220f98d26c1c32c3c7503b450ed2ea0d71c71fb8c",
+        "case_source_digest": "66d3bfbae6d8c1fecdadc435e32b0a5f46f2370aabaa9e36e89b722058a38343",
         "stage_receipts": [
           {
             "case_ids": [
@@ -3814,7 +3815,7 @@
       },
       {
         "case_id": "teacher-review-yuya_history_backfill_YUYA-CH-012_0f97768e54849419-unknown_queue",
-        "case_source_digest": "34d73eb77be5e0a2a112d94bb011560b0b52fdbf26a9cdc82d5f3a81d3e85beb",
+        "case_source_digest": "e08b03191226882d2ae1abcd0ecc77c0a855a7ed984a90390ec6e5c7c8101678",
         "stage_receipts": [
           {
             "case_ids": [
@@ -3845,7 +3846,7 @@
       },
       {
         "case_id": "teacher-review-yuya_history_backfill_YUYA-CH-013_87d7f478852cf5ce-unknown_queue",
-        "case_source_digest": "67cdaea876e072dad8d3fbf7fe557dc74b6e57bb52bfc1f359cd346ea89139c5",
+        "case_source_digest": "72e3cbf615f733ded117bbe0c7d5ca8879df26202e64047cc99f50279caff78b",
         "stage_receipts": [
           {
             "case_ids": [
@@ -3876,7 +3877,7 @@
       },
       {
         "case_id": "teacher-review-yuya_history_backfill_YUYA-CH-014_06ad1ff7dd591f75-unknown_queue",
-        "case_source_digest": "f071e6fc3a0e57492892cc5b3fbb7f9ac2442e73e4bf31357ae9fa5681094405",
+        "case_source_digest": "2531d7ee6bb8404bc2bc9c9a2acdbd8035c53578185dd62dede461760f23c36e",
         "stage_receipts": [
           {
             "case_ids": [
@@ -3907,7 +3908,7 @@
       },
       {
         "case_id": "teacher-review-yuya_history_backfill_YUYA-CH-015_dab0cf48de4fc92c-unknown_queue",
-        "case_source_digest": "742608bd35cd5e427be78d3fc6e4069dd099ac083ee10ee57c3f78503bab3fbc",
+        "case_source_digest": "c3f7258ddd30fdfcf998746897e0d6865571221bf7f08cefa1781fe4cb408b10",
         "stage_receipts": [
           {
             "case_ids": [
@@ -3938,7 +3939,7 @@
       },
       {
         "case_id": "teacher-review-yuya_history_backfill_YUYA-CH-016_6b5bad183c933967-unknown_queue",
-        "case_source_digest": "736f2b8b91daef3f33daa5937d030f132eb9856bb2fa2ae5a8cf117e6b8c137b",
+        "case_source_digest": "bee4ad2270f4a5f6617511aa4ef3052b1b6ad1d61d6941105e29abed06a365e6",
         "stage_receipts": [
           {
             "case_ids": [
@@ -3969,7 +3970,7 @@
       },
       {
         "case_id": "teacher-review-yuya_history_backfill_YUYA-CH-017_c5bc83c1a5c91d66-unknown_queue",
-        "case_source_digest": "d6ec53d1b56082b2ac573af65a7f510ca2137a23a87d8eedfcc99918f23e2b48",
+        "case_source_digest": "0dcb9ddf5d51a1fdfc504dfb5e85315468db730194b6286c2cd915884dcb6b38",
         "stage_receipts": [
           {
             "case_ids": [
@@ -4000,7 +4001,7 @@
       },
       {
         "case_id": "teacher-review-yuya_history_backfill_YUYA-CH-018_2995c316e977de15-unknown_queue",
-        "case_source_digest": "c27d0d417504e8fd04554a541e3e0a61ea2c7ab73b3ed7ce4c135ae19fc588d4",
+        "case_source_digest": "1e3a8b253d459ed0dbd16ecad48da3d0f4e8e15143a7337500a2e7a731b0178c",
         "stage_receipts": [
           {
             "case_ids": [
@@ -4031,7 +4032,7 @@
       },
       {
         "case_id": "teacher-review-yuya_history_backfill_YUYA-CH-019_64d8e51bd29e458b-unknown_queue",
-        "case_source_digest": "fab20abdba2194aba14dcb6e89293a19e083bb0127b6766797c1399a334fee98",
+        "case_source_digest": "cf4fb5f08bd3d02cb6dcf11490a0b0bef96d970103e8aa3f7fd989317f7f80c1",
         "stage_receipts": [
           {
             "case_ids": [
@@ -4062,7 +4063,7 @@
       },
       {
         "case_id": "teacher-review-yuya_history_backfill_YUYA-CH-020_5aee30308cc9cea9-unknown_queue",
-        "case_source_digest": "1f380c7500dc584c443917f95f41534392b45ac20641ae7ac50609333c4bc7a1",
+        "case_source_digest": "a77eaa68a1fb4dc6637a8b80a43cd83e49aa9f139af6f90861c4b9626b54a0d9",
         "stage_receipts": [
           {
             "case_ids": [
@@ -4093,7 +4094,7 @@
       },
       {
         "case_id": "teacher-review-yuya_history_backfill_YUYA-CH-021_340b5e3e980ff3cf-unknown_queue",
-        "case_source_digest": "7b1bf97e2c5cc8a19b78d570fe7e52738d86a73db385e7ac1632ae1f3097c93e",
+        "case_source_digest": "21ff4015290d66daf115e727a33aa5554d20bb810dd5b8f30f764bc1dfc09b33",
         "stage_receipts": [
           {
             "case_ids": [
@@ -4124,7 +4125,7 @@
       },
       {
         "case_id": "teacher-review-yuya_history_backfill_YUYA-CH-022_38855e854af9f85c-unknown_queue",
-        "case_source_digest": "1b39270a90de5294484aaf0418768573940be9017ded1d7678a71f2ddf953e3e",
+        "case_source_digest": "907c55e813735dd498bfdadf566a3400009d1031a9f2dd2efd22b7e20485e4a5",
         "stage_receipts": [
           {
             "case_ids": [
@@ -4155,7 +4156,7 @@
       },
       {
         "case_id": "teacher-review-yuya_history_backfill_YUYA-CH-023_0c35d7b0f17d8a85-unknown_queue",
-        "case_source_digest": "670e582650a490ad6733d675770ece53feebed51277e5e41d5475f065791e28c",
+        "case_source_digest": "f959365db541e6cf346fec47753d3d7f1de3427302c66ba00189a8d2f044e2d5",
         "stage_receipts": [
           {
             "case_ids": [
@@ -4186,7 +4187,7 @@
       },
       {
         "case_id": "teacher-review-yuya_history_backfill_YUYA-CH-024_47157ff46a3b64ee-unknown_queue",
-        "case_source_digest": "e04a76b4c2c0ec85b763cdf5560f4d56219f7900d9a10d0d5babf4fd9850be0a",
+        "case_source_digest": "c41c72e5519feb6da626c30ef874f24e56500db0fae62d2ade5d2719d922fd1b",
         "stage_receipts": [
           {
             "case_ids": [
@@ -4217,7 +4218,7 @@
       },
       {
         "case_id": "teacher-review-yuya_history_backfill_YUYA-CH-025_21604ff7fe715c23-unknown_queue",
-        "case_source_digest": "f0f562b309ee2a3b03b1465d644bae158275778b199360690f611fcfb40a4db3",
+        "case_source_digest": "c3dbc56713675aa9cfe35cf565302e61925cba2c27e1604f03d0b0e93047757d",
         "stage_receipts": [
           {
             "case_ids": [
@@ -4248,7 +4249,7 @@
       },
       {
         "case_id": "teacher-review-yuya_history_backfill_YUYA-CH-026_06e1c77143f809d1-unknown_queue",
-        "case_source_digest": "b08ce8c15ece96cc220b83e7cbb0703a30edd20555dbce74da27a0e317166e0d",
+        "case_source_digest": "51badf45800dfd07dd94bf747d549a1e527c43e4549ccaa6c764e37f8018a5b9",
         "stage_receipts": [
           {
             "case_ids": [
@@ -4279,7 +4280,7 @@
       },
       {
         "case_id": "teacher-review-yuya_history_backfill_YUYA-CH-027_1e544ebd3ed1580b-unknown_queue",
-        "case_source_digest": "9e4d5e2fe2b7bdb6c990b6170aa0079b0fbc42b84b2a32ce1bd72bf44041d226",
+        "case_source_digest": "c041e1b3a579ea089d57e2b403b27e0e376b9e7b58132c5ba5557667d057124f",
         "stage_receipts": [
           {
             "case_ids": [
@@ -4310,7 +4311,7 @@
       },
       {
         "case_id": "teacher-review-yuya_history_backfill_YUYA-CH-028_230cf87881e8a9a0-unknown_queue",
-        "case_source_digest": "b492a198048c9c7e8e05ade824d7b10aeee4176a9fa27b16addf0ce9c58467cc",
+        "case_source_digest": "8ce00f501aea5677a996dbef94bd40e5c08d20e2bae1b0e04c1e20388f4be806",
         "stage_receipts": [
           {
             "case_ids": [
@@ -4341,7 +4342,7 @@
       },
       {
         "case_id": "teacher-review-yuya_history_backfill_YUYA-CH-029_1fa53e987833012f-unknown_queue",
-        "case_source_digest": "d07c0fc31e2193a5473e152e86bd3346cb500cf397cd77232bfacb7ab5b72e4a",
+        "case_source_digest": "b0a27be0c9af3b09d3f01400d9cc8e7738c4bd9fd513ca0b63661cb52a87c64a",
         "stage_receipts": [
           {
             "case_ids": [
@@ -4372,7 +4373,7 @@
       },
       {
         "case_id": "teacher-review-yuya_history_backfill_YUYA-CH-030_4a1971baece5adc6-unknown_queue",
-        "case_source_digest": "919e209b05d3aa17e0e4629529f651f4bdd4087d9df63bc4fe6e8ac349be9e7d",
+        "case_source_digest": "2645977ab1ef871e6b9611584b3fd0bf0dfcc6d73a1101365c257297bc4830b7",
         "stage_receipts": [
           {
             "case_ids": [
@@ -4403,7 +4404,7 @@
       },
       {
         "case_id": "teacher-review-yuya_history_backfill_YUYA-CH-031_288a5a6db7114339-unknown_queue",
-        "case_source_digest": "7e0a04f08559028867d07a4dbbc13449deb3fd65cbadecf7319d1b5bcabcc17a",
+        "case_source_digest": "c44230a6fed70fd5ec08dff1ad0dc543f852b56b716a51793910550dac6b2fee",
         "stage_receipts": [
           {
             "case_ids": [
@@ -4434,7 +4435,7 @@
       },
       {
         "case_id": "teacher-review-yuya_history_backfill_YUYA-CH-032_0a67215dae0baacd-unknown_queue",
-        "case_source_digest": "808b49d9a562b4d64ec613824336d5d679e6741c4715105b0abf0fde8f8f3087",
+        "case_source_digest": "dca30ace416419bdfb101030a3d3f6109ea154455842e533b4966dcb5d3ba121",
         "stage_receipts": [
           {
             "case_ids": [
@@ -4465,7 +4466,7 @@
       },
       {
         "case_id": "teacher-review-yuya_history_backfill_YUYA-CH-033_1a050591a6be94a4-unknown_queue",
-        "case_source_digest": "99640ca3ca27e5812ce62a07e2eb85fd0f21794c94e9cee34d51484063598c7a",
+        "case_source_digest": "da1de0545193a8d267092c7f0071378ac771870ec5da2b63c967ece5cfbb68c8",
         "stage_receipts": [
           {
             "case_ids": [
@@ -4496,7 +4497,7 @@
       },
       {
         "case_id": "teacher-review-yuya_history_backfill_YUYA-CH-034_03130486a0505810-unknown_queue",
-        "case_source_digest": "bcbaa79860e3f568994acf077dda6867a21d8a0d8cf59505354e59d78d6a51f4",
+        "case_source_digest": "2b69cd5cd5d055b28f4a3b21650cdea748a94d220e3e4a24b0b4a7e184170ef4",
         "stage_receipts": [
           {
             "case_ids": [
@@ -4527,7 +4528,7 @@
       },
       {
         "case_id": "teacher-review-yuya_history_backfill_YUYA-CH-035_449a189a8fba22b6-unknown_queue",
-        "case_source_digest": "3e8bba9dfda97d97dc84d434a30333379af4a0498e914113ef6375416a8136da",
+        "case_source_digest": "4f6f62e6cdc95a456f4bf2166cb1d71b00bea4c175b100a8343d22ffa9508030",
         "stage_receipts": [
           {
             "case_ids": [
@@ -4558,7 +4559,7 @@
       },
       {
         "case_id": "teacher-review-yuya_history_backfill_YUYA-CH-036_104e7fcc5214106f-unknown_queue",
-        "case_source_digest": "6f15d8dc684cad0537bf49f941db636b9ed791a393b6b8c411307c9f77c7cea5",
+        "case_source_digest": "de66a2ba074e3e6895ff2e0a41be206dc5d8363f329d8e6f7cda8655157c0b33",
         "stage_receipts": [
           {
             "case_ids": [
@@ -4589,7 +4590,7 @@
       },
       {
         "case_id": "teacher-review-yuya_history_backfill_YUYA-CH-037_1c0cba1177266610-unknown_queue",
-        "case_source_digest": "4855c0fca258bf6922bd97bb93e84491efa70f0d3d37ee881a45416f2c689ba2",
+        "case_source_digest": "350074034c948f44d488d9a00d54ac39f33012aefa1c38ccbfcacaa802a1461d",
         "stage_receipts": [
           {
             "case_ids": [
@@ -4620,7 +4621,7 @@
       },
       {
         "case_id": "teacher-review-yuya_history_backfill_YUYA-CH-038_15305f7797cd9059-unknown_queue",
-        "case_source_digest": "af211ba776def303257dd219972a61f1575fe56ff4af29dc9202a0bb404e8dfb",
+        "case_source_digest": "b0029a22ae14bce9cc7cd9e72e46d965a62121d046c47c92f44b43cc70deb94e",
         "stage_receipts": [
           {
             "case_ids": [
@@ -4651,7 +4652,7 @@
       },
       {
         "case_id": "teacher-review-yuya_history_backfill_YUYA-CH-039_05957dfc032cc9c7-unknown_queue",
-        "case_source_digest": "0b965efd2f00e8f211a57993aa15db36e8e604d4b1fda34f384246bea665cef5",
+        "case_source_digest": "dca9bfb0ebe414b937dcdd51aff4096ca588cc23e5742a1bb168e9f6281275ee",
         "stage_receipts": [
           {
             "case_ids": [
@@ -4682,7 +4683,7 @@
       },
       {
         "case_id": "teacher-review-yuya_history_backfill_YUYA-CH-040_4a8905663a652a6d-unknown_queue",
-        "case_source_digest": "8f71c13db03c571f74cfe2217d93dec70b31272f3e4cbfab39b8f51e2b53d263",
+        "case_source_digest": "d410a8e776fdc3505e1e98d7c68ba9c8cd5066dcb40aa5f57f8167fe4eae18bc",
         "stage_receipts": [
           {
             "case_ids": [
@@ -4713,7 +4714,7 @@
       },
       {
         "case_id": "teacher-review-yuya_history_backfill_YUYA-CH-041_35857ea1b0543252-unknown_queue",
-        "case_source_digest": "c19bf3fa4ad08d5ff9e52cef26541925c96b6aab57c999db20177f9b406e1e47",
+        "case_source_digest": "e6afc6d60e869907bd3ce2b83c894c3707f0c5598e2835add9dc6eafed8d8aa5",
         "stage_receipts": [
           {
             "case_ids": [
@@ -4744,7 +4745,7 @@
       },
       {
         "case_id": "teacher-review-yuya_history_backfill_YUYA-CH-042_0eb5df402d2ab5ff-unknown_queue",
-        "case_source_digest": "429a4fd8396778609bef0d383ee2095468ea1770809ebdc029c52deaaadbaade",
+        "case_source_digest": "423b224938c5657379f1fdb7b2e0e1fe42e2cb66f66f6b556a2c7bc1536c4705",
         "stage_receipts": [
           {
             "case_ids": [
@@ -4775,7 +4776,7 @@
       },
       {
         "case_id": "teacher-review-yuya_history_backfill_YUYA-CH-043_0194763cfebfa1fc-unknown_queue",
-        "case_source_digest": "f3660d120b257c4dc89696634334b6bc444f5e519258f99ab4808253f4af7e1d",
+        "case_source_digest": "529c3c695005fb06ce2954c2fb5b5bd8bacd36d9ca29c9e8c4d07f3ab65ee4b6",
         "stage_receipts": [
           {
             "case_ids": [
@@ -4806,7 +4807,7 @@
       },
       {
         "case_id": "teacher-review-yuya_history_backfill_YUYA-CH-044_07bbd6136b73dfdc-unknown_queue",
-        "case_source_digest": "efe9abd8f03a252a87fbf7ba84df456bb213f7c8a1cf7e2a1c63e39fdafd8627",
+        "case_source_digest": "ea0ea7825271d977ad02d51b17fb69970acfa681095525fbea31aecb17612f44",
         "stage_receipts": [
           {
             "case_ids": [
@@ -4837,7 +4838,7 @@
       },
       {
         "case_id": "teacher-review-yuya_history_backfill_YUYA-CH-045_061f002ad7e57991-unknown_queue",
-        "case_source_digest": "5e8ff0581413b5f6fe8df09664b05ed2504ffd7b1cb0499ce03df1c39fb7ca8f",
+        "case_source_digest": "c8d3cebf8aa72a89c7271ade193c7967b12ac9bb39f1bfb12a72987e1f90c1ef",
         "stage_receipts": [
           {
             "case_ids": [
@@ -4868,7 +4869,7 @@
       },
       {
         "case_id": "teacher-review-yuya_history_backfill_YUYA-CH-046_12ffd9bfffbc6e0c-unknown_queue",
-        "case_source_digest": "a3e412af76dba80ac18bb9c834a629c06d808ac8b9ac97bc269d9ab60210aa78",
+        "case_source_digest": "9a55ed69b9859fcc9717b552527666d9c71b39c830ac9463147d321d5d8b13cb",
         "stage_receipts": [
           {
             "case_ids": [
@@ -5226,12 +5227,12 @@
   },
   "freshness": {
     "candidate_digest": "c7d3eb0318007ff93bfb3c4e3f5220f99b7759b3b318b548f58fbd60d3a2659c",
-    "cycle_id": "scheduled-haru-cycle-21f5ae52c5ec0011-c7d3eb0318007ff9",
-    "generated_at": "2026-08-12T02:10:12+09:00",
+    "cycle_id": "scheduled-haru-cycle-2784f4cab08cbd5a-c7d3eb0318007ff9",
+    "generated_at": "2026-08-12T03:33:04+09:00",
     "schema_version": "osai_teacher_feed_freshness.v1",
-    "valid_until": "2026-08-12T03:20:12+09:00"
+    "valid_until": "2026-08-12T04:43:04+09:00"
   },
-  "generated_at": "2026-08-12T02:10:12+09:00",
+  "generated_at": "2026-08-12T03:33:04+09:00",
   "inbox_root": "logs/api_usage/derived/scheduled_haru_teacher_delivery_inbox",
   "maintenance_source": {},
   "mission": "Execute one evidence-backed staged Teacher job over exactly 50 material-complete real cases. For candidate_comparison cases compare the supplied sanitized original candidate. For correction_rule_audit cases do not invent a missing historical assistant answer; instead deeply stress-test the supplied real Yuya correction, expected behavior and correction strategy for applicability, misapplication, alternatives, counterexamples, repair and deterministic regression. Complete all 50 case analyses, the 50x4 axis matrix, cross-case synthesis, two distinct critic rounds, revision, regression fixture, same-rubric rescore and field audit. Waiting or padding is not work.",
@@ -5388,30 +5389,30 @@
     "unsafe_candidate_text_fail_closed": true
   },
   "publication_contract": {
-    "active_assignment_packet_id": "scheduled-haru-batch50-21f5ae52c5ec-c7d3eb031800",
+    "active_assignment_packet_id": "scheduled-haru-batch50-2784f4cab08c-c7d3eb031800",
     "active_assignment_state": "active_unconsumed",
     "artifact": "teacher-briefing.json",
     "artifact_name": "teacher-briefing.json",
-    "assignment_fresh_until": "2026-08-12T03:20:12+09:00",
+    "assignment_fresh_until": "2026-08-12T04:43:04+09:00",
     "assignment_freshness_role": "new_run_authority_with_exact_identity_and_atomic_claim",
-    "assignment_id": "scheduled-haru-batch50-21f5ae52c5ec-c7d3eb031800",
-    "assignment_lease_expires_at": "2026-08-12T03:20:12+09:00",
-    "assignment_lease_id": "dc319666919ca45c639f02ebce2b972ba8865bee56aa531f24865f41c8357436",
+    "assignment_id": "scheduled-haru-batch50-2784f4cab08c-c7d3eb031800",
+    "assignment_lease_expires_at": "2026-08-12T04:43:04+09:00",
+    "assignment_lease_id": "faf8576b4beb830bb5b2b9f680a750cc7bc9f3d7fd54b278a718c75df51604c8",
     "assignment_lease_seconds": 4200,
-    "assignment_revision": "21f5ae52c5ec0011854526ce48a457f6d14a1cc732cb5ba6d00a3521dd21d585",
-    "briefing_generated_at": "2026-08-12T02:10:12+09:00",
+    "assignment_revision": "2784f4cab08cbd5a0848388b0050d585de67483e44ff159d0b08d9f5faeeb9a8",
+    "briefing_generated_at": "2026-08-12T03:33:04+09:00",
     "candidate_digest": "c7d3eb0318007ff93bfb3c4e3f5220f99b7759b3b318b548f58fbd60d3a2659c",
     "case_identity_source": "scheduled_haru_multi_consumer_queue_selector",
     "case_material_transport": "sharded_raw_json",
     "case_set_digest": "c7d3eb0318007ff93bfb3c4e3f5220f99b7759b3b318b548f58fbd60d3a2659c",
-    "cycle_id": "scheduled-haru-cycle-21f5ae52c5ec0011-c7d3eb0318007ff9",
+    "cycle_id": "scheduled-haru-cycle-2784f4cab08cbd5a-c7d3eb0318007ff9",
     "generator_component": "teacher_delivery.py",
-    "generator_revision": "6d402ff221b44fbdd5ab58d1354ac0302a5c0fe9b84d25dcb0f93c44a2dbf6f1",
+    "generator_revision": "956e9e7277247ca91c5baed11ad6d8df925a06efc8829d62810f0946da27a32e",
     "max_public_json_artifact_bytes": 900000,
     "max_start_age_seconds": 4200,
     "new_run_start_authority": "exact_assignment_identity_and_unexpired_lease_under_atomic_claim",
     "normal_run_start_allowed": true,
-    "publication_fresh_until": "2026-08-12T02:25:12+09:00",
+    "publication_fresh_until": "2026-08-12T03:48:04+09:00",
     "publication_freshness_role": "publication_observability_only",
     "publication_max_age_seconds": 900,
     "publish_success_requires": [
@@ -5427,7 +5428,7 @@
     "review_material_digest": "692413f45be65c1a730b1c9409d57a3abe365b6b36c7dba092d32e41bc3d113e",
     "schema_version": "osai_derived_publication_contract.v1",
     "selected_case_count": 50,
-    "source_assignment_revision": "0199aeda304bb6c310804f70f707569b23fadbe6e363e0fd2e5c2e7ed9b1147b",
+    "source_assignment_revision": "7e0d567563b2bbb82e49bb4707f523e2c8b63e9e27af3322ab6b99f832c27112",
     "source_of_truth": "osai_workbench_current_assignment_revision",
     "teacher_case_material_inline": false,
     "teacher_case_shard_count": 10
@@ -5991,7 +5992,7 @@
     "schema_version": "scheduled_haru_gpt56_sol_difficulty.v1",
     "selection_policy": "Prefer evidence-ready real failures with more critical capability axes, more distinct failure taxonomies, lower prior score, larger verified candidate evidence, and higher operational priority."
   },
-  "source_assignment_revision": "0199aeda304bb6c310804f70f707569b23fadbe6e363e0fd2e5c2e7ed9b1147b",
+  "source_assignment_revision": "7e0d567563b2bbb82e49bb4707f523e2c8b63e9e27af3322ab6b99f832c27112",
   "status": "assignment_ready",
   "status_endpoint_template": "/scheduled-haru/teacher/v1/teacher-packets/{packet_id}/status",
   "supply_buffer": {
@@ -6011,8 +6012,8 @@
   },
   "teacher_case_shards": [
     {
-      "artifact": "teacher-case-shards/scheduled-haru-batch50-21f5ae52c5ec-c7d3eb031800/shard-001.json",
-      "byte_size": 24054,
+      "artifact": "teacher-case-shards/scheduled-haru-batch50-2784f4cab08c-c7d3eb031800/shard-001.json",
+      "byte_size": 24139,
       "case_count": 5,
       "case_ids": [
         "teacher-review-yuya_correction_YUYA-CH-026_yuya-episode-18ac1f3f2ac521892b6d-unknown_queue",
@@ -6022,14 +6023,14 @@
         "teacher-review-yuya_correction_YUYA-CH-028_yuya-episode-47270b5ba39bbe64a758-unknown_queue"
       ],
       "schema_version": "osai_teacher_case_shard_ref.v1",
-      "sha256": "89d2728268bbcbdb4f88ff36def63aa1f2751b4d045f1d045980e2872d1f2d4d",
+      "sha256": "9cffe832569daa5c0a15fee334ff322ccd47f8682667244a8fb7bfbf0f7af177",
       "shard_count": 10,
       "shard_index": 1,
-      "url": "https://raw.githubusercontent.com/ryryss2-dev/osai-teacher-briefing/main/teacher-case-shards/scheduled-haru-batch50-21f5ae52c5ec-c7d3eb031800/shard-001.json"
+      "url": "https://raw.githubusercontent.com/ryryss2-dev/osai-teacher-briefing/main/teacher-case-shards/scheduled-haru-batch50-2784f4cab08c-c7d3eb031800/shard-001.json"
     },
     {
-      "artifact": "teacher-case-shards/scheduled-haru-batch50-21f5ae52c5ec-c7d3eb031800/shard-002.json",
-      "byte_size": 22783,
+      "artifact": "teacher-case-shards/scheduled-haru-batch50-2784f4cab08c-c7d3eb031800/shard-002.json",
+      "byte_size": 22868,
       "case_count": 5,
       "case_ids": [
         "teacher-review-yuya_correction_YUYA-CH-027_yuya-episode-4407e6d10f56457175e3-unknown_queue",
@@ -6039,14 +6040,14 @@
         "teacher-review-yuya_history_backfill_YUYA-CH-005_038b01175cc30b56-unknown_queue"
       ],
       "schema_version": "osai_teacher_case_shard_ref.v1",
-      "sha256": "06f10db8db098490bcb07f9d8fabb882a44f12c3e37178abba2f06452284321b",
+      "sha256": "2d043f539aaa21fb98fa6ec05f99daa48ec341aae393ad6d51dfa472c7419373",
       "shard_count": 10,
       "shard_index": 2,
-      "url": "https://raw.githubusercontent.com/ryryss2-dev/osai-teacher-briefing/main/teacher-case-shards/scheduled-haru-batch50-21f5ae52c5ec-c7d3eb031800/shard-002.json"
+      "url": "https://raw.githubusercontent.com/ryryss2-dev/osai-teacher-briefing/main/teacher-case-shards/scheduled-haru-batch50-2784f4cab08c-c7d3eb031800/shard-002.json"
     },
     {
-      "artifact": "teacher-case-shards/scheduled-haru-batch50-21f5ae52c5ec-c7d3eb031800/shard-003.json",
-      "byte_size": 24303,
+      "artifact": "teacher-case-shards/scheduled-haru-batch50-2784f4cab08c-c7d3eb031800/shard-003.json",
+      "byte_size": 24388,
       "case_count": 5,
       "case_ids": [
         "teacher-review-yuya_history_backfill_YUYA-CH-006_1ba915806ab27978-unknown_queue",
@@ -6056,14 +6057,14 @@
         "teacher-review-yuya_history_backfill_YUYA-CH-011_17d2280c21c19cad-unknown_queue"
       ],
       "schema_version": "osai_teacher_case_shard_ref.v1",
-      "sha256": "3697af1c693faebf03019c630b3f095a04f324c9d93b72db4b3f74f1171368c6",
+      "sha256": "b26dccb309ad99c13d0466cc8b27f9c6d17711b82e2a8fadffcbdcad011349fb",
       "shard_count": 10,
       "shard_index": 3,
-      "url": "https://raw.githubusercontent.com/ryryss2-dev/osai-teacher-briefing/main/teacher-case-shards/scheduled-haru-batch50-21f5ae52c5ec-c7d3eb031800/shard-003.json"
+      "url": "https://raw.githubusercontent.com/ryryss2-dev/osai-teacher-briefing/main/teacher-case-shards/scheduled-haru-batch50-2784f4cab08c-c7d3eb031800/shard-003.json"
     },
     {
-      "artifact": "teacher-case-shards/scheduled-haru-batch50-21f5ae52c5ec-c7d3eb031800/shard-004.json",
-      "byte_size": 26668,
+      "artifact": "teacher-case-shards/scheduled-haru-batch50-2784f4cab08c-c7d3eb031800/shard-004.json",
+      "byte_size": 26753,
       "case_count": 5,
       "case_ids": [
         "teacher-review-yuya_history_backfill_YUYA-CH-012_0f97768e54849419-unknown_queue",
@@ -6073,14 +6074,14 @@
         "teacher-review-yuya_history_backfill_YUYA-CH-016_6b5bad183c933967-unknown_queue"
       ],
       "schema_version": "osai_teacher_case_shard_ref.v1",
-      "sha256": "d32ff16fe8fc99cd66a395b6108f6c5fb14852918d46aefe2b1d2cadec8b5b30",
+      "sha256": "87cf363397409253f808d360b428125d364a237d9a74db2e5279231765195642",
       "shard_count": 10,
       "shard_index": 4,
-      "url": "https://raw.githubusercontent.com/ryryss2-dev/osai-teacher-briefing/main/teacher-case-shards/scheduled-haru-batch50-21f5ae52c5ec-c7d3eb031800/shard-004.json"
+      "url": "https://raw.githubusercontent.com/ryryss2-dev/osai-teacher-briefing/main/teacher-case-shards/scheduled-haru-batch50-2784f4cab08c-c7d3eb031800/shard-004.json"
     },
     {
-      "artifact": "teacher-case-shards/scheduled-haru-batch50-21f5ae52c5ec-c7d3eb031800/shard-005.json",
-      "byte_size": 26459,
+      "artifact": "teacher-case-shards/scheduled-haru-batch50-2784f4cab08c-c7d3eb031800/shard-005.json",
+      "byte_size": 26544,
       "case_count": 5,
       "case_ids": [
         "teacher-review-yuya_history_backfill_YUYA-CH-017_c5bc83c1a5c91d66-unknown_queue",
@@ -6090,14 +6091,14 @@
         "teacher-review-yuya_history_backfill_YUYA-CH-021_340b5e3e980ff3cf-unknown_queue"
       ],
       "schema_version": "osai_teacher_case_shard_ref.v1",
-      "sha256": "9f797d8d3035d710bf60345516997c2957ebd9cf2d2c907a07d31e8b965fc31d",
+      "sha256": "d2e33289d05ffe91b8920b35202656f7b24957d8af42d520aa3b8284dbc16649",
       "shard_count": 10,
       "shard_index": 5,
-      "url": "https://raw.githubusercontent.com/ryryss2-dev/osai-teacher-briefing/main/teacher-case-shards/scheduled-haru-batch50-21f5ae52c5ec-c7d3eb031800/shard-005.json"
+      "url": "https://raw.githubusercontent.com/ryryss2-dev/osai-teacher-briefing/main/teacher-case-shards/scheduled-haru-batch50-2784f4cab08c-c7d3eb031800/shard-005.json"
     },
     {
-      "artifact": "teacher-case-shards/scheduled-haru-batch50-21f5ae52c5ec-c7d3eb031800/shard-006.json",
-      "byte_size": 22187,
+      "artifact": "teacher-case-shards/scheduled-haru-batch50-2784f4cab08c-c7d3eb031800/shard-006.json",
+      "byte_size": 22272,
       "case_count": 5,
       "case_ids": [
         "teacher-review-yuya_history_backfill_YUYA-CH-022_38855e854af9f85c-unknown_queue",
@@ -6107,14 +6108,14 @@
         "teacher-review-yuya_history_backfill_YUYA-CH-026_06e1c77143f809d1-unknown_queue"
       ],
       "schema_version": "osai_teacher_case_shard_ref.v1",
-      "sha256": "0551d5180eacc83ce0b651ee40d589a1bd7587bc97cd396848dda9b2d91e9c71",
+      "sha256": "eb75074c402680a31338eec3e51333a741adc70225a4b9f4bb3417995351b09f",
       "shard_count": 10,
       "shard_index": 6,
-      "url": "https://raw.githubusercontent.com/ryryss2-dev/osai-teacher-briefing/main/teacher-case-shards/scheduled-haru-batch50-21f5ae52c5ec-c7d3eb031800/shard-006.json"
+      "url": "https://raw.githubusercontent.com/ryryss2-dev/osai-teacher-briefing/main/teacher-case-shards/scheduled-haru-batch50-2784f4cab08c-c7d3eb031800/shard-006.json"
     },
     {
-      "artifact": "teacher-case-shards/scheduled-haru-batch50-21f5ae52c5ec-c7d3eb031800/shard-007.json",
-      "byte_size": 20670,
+      "artifact": "teacher-case-shards/scheduled-haru-batch50-2784f4cab08c-c7d3eb031800/shard-007.json",
+      "byte_size": 20755,
       "case_count": 5,
       "case_ids": [
         "teacher-review-yuya_history_backfill_YUYA-CH-027_1e544ebd3ed1580b-unknown_queue",
@@ -6124,14 +6125,14 @@
         "teacher-review-yuya_history_backfill_YUYA-CH-031_288a5a6db7114339-unknown_queue"
       ],
       "schema_version": "osai_teacher_case_shard_ref.v1",
-      "sha256": "37b234284c99a391c48e92b7f6449450df9bed3c1d5b6609650e255c3caff0d3",
+      "sha256": "ac2b3d2e75fe2dafe70255e3876765b64cbf853810352564edb5eb599e0d9546",
       "shard_count": 10,
       "shard_index": 7,
-      "url": "https://raw.githubusercontent.com/ryryss2-dev/osai-teacher-briefing/main/teacher-case-shards/scheduled-haru-batch50-21f5ae52c5ec-c7d3eb031800/shard-007.json"
+      "url": "https://raw.githubusercontent.com/ryryss2-dev/osai-teacher-briefing/main/teacher-case-shards/scheduled-haru-batch50-2784f4cab08c-c7d3eb031800/shard-007.json"
     },
     {
-      "artifact": "teacher-case-shards/scheduled-haru-batch50-21f5ae52c5ec-c7d3eb031800/shard-008.json",
-      "byte_size": 27736,
+      "artifact": "teacher-case-shards/scheduled-haru-batch50-2784f4cab08c-c7d3eb031800/shard-008.json",
+      "byte_size": 27821,
       "case_count": 5,
       "case_ids": [
         "teacher-review-yuya_history_backfill_YUYA-CH-032_0a67215dae0baacd-unknown_queue",
@@ -6141,14 +6142,14 @@
         "teacher-review-yuya_history_backfill_YUYA-CH-036_104e7fcc5214106f-unknown_queue"
       ],
       "schema_version": "osai_teacher_case_shard_ref.v1",
-      "sha256": "b24b76f9da3cc48777a9073219d959d09ef3dcb88d4e58e113ffaa14cbd35968",
+      "sha256": "a5b0c59e2c2c0dfe2f078e59b237980da65702cd8a9aae96db5929eb86ac7a5d",
       "shard_count": 10,
       "shard_index": 8,
-      "url": "https://raw.githubusercontent.com/ryryss2-dev/osai-teacher-briefing/main/teacher-case-shards/scheduled-haru-batch50-21f5ae52c5ec-c7d3eb031800/shard-008.json"
+      "url": "https://raw.githubusercontent.com/ryryss2-dev/osai-teacher-briefing/main/teacher-case-shards/scheduled-haru-batch50-2784f4cab08c-c7d3eb031800/shard-008.json"
     },
     {
-      "artifact": "teacher-case-shards/scheduled-haru-batch50-21f5ae52c5ec-c7d3eb031800/shard-009.json",
-      "byte_size": 27996,
+      "artifact": "teacher-case-shards/scheduled-haru-batch50-2784f4cab08c-c7d3eb031800/shard-009.json",
+      "byte_size": 28081,
       "case_count": 5,
       "case_ids": [
         "teacher-review-yuya_history_backfill_YUYA-CH-037_1c0cba1177266610-unknown_queue",
@@ -6158,14 +6159,14 @@
         "teacher-review-yuya_history_backfill_YUYA-CH-041_35857ea1b0543252-unknown_queue"
       ],
       "schema_version": "osai_teacher_case_shard_ref.v1",
-      "sha256": "dd68950313ed6f88d8c48329260fbacd9925fb7c57d907ce62bbb8805a796230",
+      "sha256": "db983d56c3926a386e57cedf159f2cb53f4f91ee57f484382e0e83d9c6bdeb58",
       "shard_count": 10,
       "shard_index": 9,
-      "url": "https://raw.githubusercontent.com/ryryss2-dev/osai-teacher-briefing/main/teacher-case-shards/scheduled-haru-batch50-21f5ae52c5ec-c7d3eb031800/shard-009.json"
+      "url": "https://raw.githubusercontent.com/ryryss2-dev/osai-teacher-briefing/main/teacher-case-shards/scheduled-haru-batch50-2784f4cab08c-c7d3eb031800/shard-009.json"
     },
     {
-      "artifact": "teacher-case-shards/scheduled-haru-batch50-21f5ae52c5ec-c7d3eb031800/shard-010.json",
-      "byte_size": 22331,
+      "artifact": "teacher-case-shards/scheduled-haru-batch50-2784f4cab08c-c7d3eb031800/shard-010.json",
+      "byte_size": 22416,
       "case_count": 5,
       "case_ids": [
         "teacher-review-yuya_history_backfill_YUYA-CH-042_0eb5df402d2ab5ff-unknown_queue",
@@ -6175,13 +6176,13 @@
         "teacher-review-yuya_history_backfill_YUYA-CH-046_12ffd9bfffbc6e0c-unknown_queue"
       ],
       "schema_version": "osai_teacher_case_shard_ref.v1",
-      "sha256": "d5d8e350e15cdae30ec346c57c1719df9468f460b927fb7e782f9c45fb488a07",
+      "sha256": "d03c984c56882e65bb8ad3219d7c551ff90277d96630864ac8aeefcfca64183e",
       "shard_count": 10,
       "shard_index": 10,
-      "url": "https://raw.githubusercontent.com/ryryss2-dev/osai-teacher-briefing/main/teacher-case-shards/scheduled-haru-batch50-21f5ae52c5ec-c7d3eb031800/shard-010.json"
+      "url": "https://raw.githubusercontent.com/ryryss2-dev/osai-teacher-briefing/main/teacher-case-shards/scheduled-haru-batch50-2784f4cab08c-c7d3eb031800/shard-010.json"
     }
   ],
-  "valid_until": "2026-08-12T03:20:12+09:00",
+  "valid_until": "2026-08-12T04:43:04+09:00",
   "work_budget_minutes": 55.0,
   "work_mode": "case_review"
 }
