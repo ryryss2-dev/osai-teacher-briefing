@@ -199,9 +199,9 @@
     "freshness": {
       "current_assignment_digest": "",
       "schema_version": "osai_examiner_feed_freshness.v1",
-      "valid_until": "2026-08-11T23:03:41.458227+00:00"
+      "valid_until": "2026-08-12T00:03:54.209134+00:00"
     },
-    "generated_at": "2026-08-11T21:33:41.458227+00:00",
+    "generated_at": "2026-08-11T22:33:54.209134+00:00",
     "judged_candidate_digests": [],
     "no_pending_exam_item": true,
     "schema_version": "osai_examiner_briefing.v1",
@@ -242,11 +242,11 @@
   "freshness": {
     "candidate_digest": "eec4ec1970115550731950b228ba4d6ccd09a1a791132c4a6f1350f4b6d542c6",
     "cycle_id": "scheduled-haru-cycle-3641175e8c2a3e66-eec4ec1970115550",
-    "generated_at": "2026-08-12T05:33:28+09:00",
+    "generated_at": "2026-08-12T07:33:52+09:00",
     "schema_version": "osai_teacher_feed_freshness.v1",
-    "valid_until": "2026-08-12T06:43:28+09:00"
+    "valid_until": "2026-08-12T08:43:52+09:00"
   },
-  "generated_at": "2026-08-12T05:33:28+09:00",
+  "generated_at": "2026-08-12T07:33:52+09:00",
   "inbox_root": "logs/api_usage/derived/scheduled_haru_teacher_delivery_inbox",
   "maintenance_source": {},
   "mission": "Execute one evidence-backed staged Teacher job over exactly 50 material-complete real cases. For candidate_comparison cases compare the supplied sanitized original candidate. For correction_rule_audit cases do not invent a missing historical assistant answer; instead deeply stress-test the supplied real Yuya correction, expected behavior and correction strategy for applicability, misapplication, alternatives, counterexamples, repair and deterministic regression. Complete all 50 case analyses, the 50x4 axis matrix, cross-case synthesis, two distinct critic rounds, revision, regression fixture, same-rubric rescore and field audit. Waiting or padding is not work.",
@@ -407,14 +407,14 @@
     "active_assignment_state": "active_unconsumed",
     "artifact": "teacher-briefing.json",
     "artifact_name": "teacher-briefing.json",
-    "assignment_fresh_until": "2026-08-12T06:43:28+09:00",
+    "assignment_fresh_until": "2026-08-12T08:43:52+09:00",
     "assignment_freshness_role": "new_run_authority_with_exact_identity_and_atomic_claim",
     "assignment_id": "scheduled-haru-batch50-3641175e8c2a-eec4ec197011",
-    "assignment_lease_expires_at": "2026-08-12T06:43:28+09:00",
-    "assignment_lease_id": "18fcfc9a790a86bb61dc6a088bf7bdd4d39dcf955997341889ceeb7e35eba10f",
+    "assignment_lease_expires_at": "2026-08-12T08:43:52+09:00",
+    "assignment_lease_id": "2a185b1fa07da459859c948ffdeeba84772356a2a805c839c235953c5e568218",
     "assignment_lease_seconds": 4200,
     "assignment_revision": "3641175e8c2a3e662aec54e28443c5c663f356cb5cb004e7d3ae0dd1308b5800",
-    "briefing_generated_at": "2026-08-12T05:33:28+09:00",
+    "briefing_generated_at": "2026-08-12T07:33:52+09:00",
     "candidate_digest": "eec4ec1970115550731950b228ba4d6ccd09a1a791132c4a6f1350f4b6d542c6",
     "case_identity_source": "scheduled_haru_multi_consumer_queue_selector",
     "case_material_transport": "sharded_raw_json",
@@ -426,7 +426,7 @@
     "max_start_age_seconds": 4200,
     "new_run_start_authority": "exact_assignment_identity_and_unexpired_lease_under_atomic_claim",
     "normal_run_start_allowed": true,
-    "publication_fresh_until": "2026-08-12T05:48:28+09:00",
+    "publication_fresh_until": "2026-08-12T07:48:52+09:00",
     "publication_freshness_role": "publication_observability_only",
     "publication_max_age_seconds": 900,
     "publish_success_requires": [
@@ -939,7 +939,7 @@
     "schema_version": "osai_teacher_transport_control_root.v1",
     "teacher_second_network_fetch_required_for_integrity": false
   },
-  "valid_until": "2026-08-12T06:43:28+09:00",
+  "valid_until": "2026-08-12T08:43:52+09:00",
   "work_budget_minutes": 55.0,
   "work_mode": "case_review"
 }
