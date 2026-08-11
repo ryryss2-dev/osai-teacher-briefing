@@ -1439,9 +1439,9 @@
     "freshness": {
       "current_assignment_digest": "",
       "schema_version": "osai_examiner_feed_freshness.v1",
-      "valid_until": "2026-08-11T17:02:33.359707+00:00"
+      "valid_until": "2026-08-11T17:57:57.056986+00:00"
     },
-    "generated_at": "2026-08-11T15:32:33.359707+00:00",
+    "generated_at": "2026-08-11T16:27:57.056986+00:00",
     "judged_candidate_digests": [],
     "no_pending_exam_item": true,
     "schema_version": "osai_examiner_briefing.v1",
@@ -5226,11 +5226,11 @@
   "freshness": {
     "candidate_digest": "c7d3eb0318007ff93bfb3c4e3f5220f99b7759b3b318b548f58fbd60d3a2659c",
     "cycle_id": "scheduled-haru-cycle-0199aeda304bb6c3-c7d3eb0318007ff9",
-    "generated_at": "2026-08-11T23:50:21+09:00",
+    "generated_at": "2026-08-12T01:27:56+09:00",
     "schema_version": "osai_teacher_feed_freshness.v1",
-    "valid_until": "2026-08-12T01:00:21+09:00"
+    "valid_until": "2026-08-12T02:37:56+09:00"
   },
-  "generated_at": "2026-08-11T23:50:21+09:00",
+  "generated_at": "2026-08-12T01:27:56+09:00",
   "inbox_root": "logs/api_usage/derived/scheduled_haru_teacher_delivery_inbox",
   "maintenance_source": {},
   "mission": "Execute one evidence-backed staged teacher job over exactly the 50 real cases selected by HaruSpace. Complete the first three case-specific stages for each missing case, POST recoverable case-shard checkpoints when a safe authenticated HaruSpace path is available, then run the aggregate synthesis, server-issued critic rounds, hidden holdout, same-rubric rescore, and final delivery stages in order. Do not add filler cases. Deliver one sanitized final packet with a new teacher_packet_id. If direct HaruSpace access is unavailable, still complete the assignment and emit the full canonical packet in chat for the existing M3 recovery pipeline.",
@@ -5386,14 +5386,14 @@
     "active_assignment_state": "active_unconsumed",
     "artifact": "teacher-briefing.json",
     "artifact_name": "teacher-briefing.json",
-    "assignment_fresh_until": "2026-08-12T01:00:21+09:00",
+    "assignment_fresh_until": "2026-08-12T02:37:56+09:00",
     "assignment_freshness_role": "new_run_authority_with_exact_identity_and_atomic_claim",
     "assignment_id": "scheduled-haru-batch50-0199aeda304b-c7d3eb031800",
-    "assignment_lease_expires_at": "2026-08-12T01:00:21+09:00",
-    "assignment_lease_id": "62def11ab2e37ed3c12bfb22a8e3e01a48243361f43d48044aa7cadaacd0666b",
+    "assignment_lease_expires_at": "2026-08-12T02:37:56+09:00",
+    "assignment_lease_id": "fb20fe5f7bc3320e3a97bca92754fd5e78d89df919a5e3694066aa31bded5698",
     "assignment_lease_seconds": 4200,
     "assignment_revision": "0199aeda304bb6c310804f70f707569b23fadbe6e363e0fd2e5c2e7ed9b1147b",
-    "briefing_generated_at": "2026-08-11T23:50:21+09:00",
+    "briefing_generated_at": "2026-08-12T01:27:56+09:00",
     "candidate_digest": "c7d3eb0318007ff93bfb3c4e3f5220f99b7759b3b318b548f58fbd60d3a2659c",
     "case_identity_source": "scheduled_haru_multi_consumer_queue_selector",
     "case_material_transport": "sharded_raw_json",
@@ -5405,7 +5405,7 @@
     "max_start_age_seconds": 4200,
     "new_run_start_authority": "exact_assignment_identity_and_unexpired_lease_under_atomic_claim",
     "normal_run_start_allowed": true,
-    "publication_fresh_until": "2026-08-12T00:05:21+09:00",
+    "publication_fresh_until": "2026-08-12T01:42:56+09:00",
     "publication_freshness_role": "publication_observability_only",
     "publication_max_age_seconds": 900,
     "publish_success_requires": [
@@ -6149,7 +6149,7 @@
       "url": "https://raw.githubusercontent.com/ryryss2-dev/osai-teacher-briefing/main/teacher-case-shards/scheduled-haru-batch50-0199aeda304b-c7d3eb031800/shard-010.json"
     }
   ],
-  "valid_until": "2026-08-12T01:00:21+09:00",
+  "valid_until": "2026-08-12T02:37:56+09:00",
   "work_budget_minutes": 55.0,
   "work_mode": "case_review"
 }
