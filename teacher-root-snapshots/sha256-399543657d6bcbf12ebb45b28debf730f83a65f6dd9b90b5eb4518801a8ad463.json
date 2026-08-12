@@ -1,25 +1,4 @@
 {
-  "aaa_immutable_snapshot_locator": {
-    "artifact": "teacher-root-snapshots/sha256-399543657d6bcbf12ebb45b28debf730f83a65f6dd9b90b5eb4518801a8ad463.json",
-    "assignment_revision": "b3f976f0707acf7fcf6fb47c7b288b0e80414d33429faef69d263054ad9e5d84",
-    "byte_size": 55437,
-    "canonical_root_role": "content_addressed_immutable_snapshot",
-    "case_set_digest": "2b6ee146bf0c7327881701248e12dbd173306bb8498af846a63bf90e832946d9",
-    "entry_role": "mutable_discovery_mirror_only",
-    "fetch_contract": {
-      "all_root_inspection_after_locator_from_snapshot_only": true,
-      "immutable_snapshot_fetch_count_max": 1,
-      "initial_main_fetch_count_max": 1,
-      "main_root_reopen_after_locator_forbidden": true,
-      "snapshot_path_write_once": true,
-      "snapshot_sha_and_identity_must_match_locator": true
-    },
-    "required_action": "Immediately fetch this immutable snapshot exactly once, then use only that snapshot for all root inspection, identity/integrity validation, shard selection, and analysis. Do not inspect or reopen the mutable main root again.",
-    "schema_version": "osai_teacher_immutable_snapshot_locator.v1",
-    "sha256": "399543657d6bcbf12ebb45b28debf730f83a65f6dd9b90b5eb4518801a8ad463",
-    "teacher_packet_id": "scheduled-haru-batch50-b3f976f0707a-2b6ee146bf0c",
-    "url": "https://raw.githubusercontent.com/ryryss2-dev/osai-teacher-briefing/main/teacher-root-snapshots/sha256-399543657d6bcbf12ebb45b28debf730f83a65f6dd9b90b5eb4518801a8ad463.json"
-  },
   "assignment": {
     "assignment_id": "scheduled-haru-batch50-b3f976f0707a-2b6ee146bf0c",
     "assignment_revision": "b3f976f0707acf7fcf6fb47c7b288b0e80414d33429faef69d263054ad9e5d84",
