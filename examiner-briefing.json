@@ -44,9 +44,9 @@
   "freshness": {
     "current_assignment_digest": "507bd5f4ece5fdbe86dd7df20cc32bf5325788fe1e6e43250e44f0e68e1298af",
     "schema_version": "osai_examiner_feed_freshness.v1",
-    "valid_until": "2026-08-12T07:19:40.028489+00:00"
+    "valid_until": "2026-08-12T07:24:52.757033+00:00"
   },
-  "generated_at": "2026-08-12T05:49:40.028489+00:00",
+  "generated_at": "2026-08-12T05:54:52.757033+00:00",
   "judged_candidate_digests": [],
   "no_pending_exam_item": false,
   "schema_version": "osai_examiner_briefing.v1",
