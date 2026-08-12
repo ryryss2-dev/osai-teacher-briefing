@@ -1,66 +1,66 @@
 {
   "assignment": {
-    "assignment_id": "scheduled-haru-batch50-3a4f34230108-eec4ec197011",
-    "assignment_revision": "3a4f34230108f935c7c422215ce9b4f7195624526e0ecad2a167ecc430e6b850",
-    "candidate_digest": "eec4ec1970115550731950b228ba4d6ccd09a1a791132c4a6f1350f4b6d542c6",
-    "case_set_digest": "eec4ec1970115550731950b228ba4d6ccd09a1a791132c4a6f1350f4b6d542c6",
-    "cycle_id": "scheduled-haru-cycle-3a4f34230108f935-eec4ec1970115550",
+    "assignment_id": "scheduled-haru-batch50-4ba5bb3d2388-2b6ee146bf0c",
+    "assignment_revision": "4ba5bb3d23884a0d25cbbfcbf1f5509240b94a34f51ee33e162adae4ba571cf3",
+    "candidate_digest": "2b6ee146bf0c7327881701248e12dbd173306bb8498af846a63bf90e832946d9",
+    "case_set_digest": "2b6ee146bf0c7327881701248e12dbd173306bb8498af846a63bf90e832946d9",
+    "cycle_id": "scheduled-haru-cycle-4ba5bb3d23884a0d-2b6ee146bf0c7327",
     "reviewed_case_count": 50,
-    "teacher_packet_id": "scheduled-haru-batch50-3a4f34230108-eec4ec197011"
+    "teacher_packet_id": "scheduled-haru-batch50-4ba5bb3d2388-2b6ee146bf0c"
   },
   "assignment_case_ids": [
-    "teacher-review-yuya_correction_YUYA-CH-026_yuya-episode-18ac1f3f2ac521892b6d-yuya_challenge_training_yuya-episode-18ac1f",
-    "teacher-review-yuya_correction_YUYA-CH-027_yuya-episode-679ac4af3688ab47f76c-yuya_challenge_training_yuya-episode-679ac4",
-    "teacher-review-yuya_correction_YUYA-CH-027_yuya-episode-bb6f6901a96b25f2804a-yuya_challenge_training_yuya-episode-bb6f69",
-    "teacher-review-yuya_correction_YUYA-CH-026_yuya-episode-bcf2b7c4ed539184a7d6-yuya_challenge_training_yuya-episode-bcf2b7",
-    "teacher-review-yuya_correction_YUYA-CH-028_yuya-episode-47270b5ba39bbe64a758-unknown_queue",
-    "teacher-review-yuya_correction_YUYA-CH-027_yuya-episode-4407e6d10f56457175e3-yuya_challenge_training_yuya-episode-4407e6",
-    "teacher-review-yuya_history_backfill_YUYA-CH-002_3f3175c1a0216af8-unknown_queue",
-    "teacher-review-yuya_history_backfill_YUYA-CH-003_77bdee6ecd7f3910-unknown_queue",
-    "teacher-review-yuya_history_backfill_YUYA-CH-004_db48c28329569532-unknown_queue",
-    "teacher-review-yuya_history_backfill_YUYA-CH-005_038b01175cc30b56-unknown_queue",
-    "teacher-review-yuya_history_backfill_YUYA-CH-006_1ba915806ab27978-unknown_queue",
-    "teacher-review-yuya_history_backfill_YUYA-CH-007_af368bb467671800-unknown_queue",
-    "teacher-review-yuya_history_backfill_YUYA-CH-008_210d17a93183565b-unknown_queue",
-    "teacher-review-yuya_history_backfill_YUYA-CH-010_21b6a4de81aa221c-unknown_queue",
-    "teacher-review-yuya_history_backfill_YUYA-CH-011_17d2280c21c19cad-unknown_queue",
-    "teacher-review-yuya_history_backfill_YUYA-CH-012_0f97768e54849419-unknown_queue",
-    "teacher-review-yuya_history_backfill_YUYA-CH-013_87d7f478852cf5ce-unknown_queue",
-    "teacher-review-yuya_history_backfill_YUYA-CH-014_06ad1ff7dd591f75-unknown_queue",
-    "teacher-review-yuya_history_backfill_YUYA-CH-015_dab0cf48de4fc92c-unknown_queue",
-    "teacher-review-yuya_history_backfill_YUYA-CH-016_6b5bad183c933967-unknown_queue",
-    "teacher-review-yuya_history_backfill_YUYA-CH-017_c5bc83c1a5c91d66-unknown_queue",
-    "teacher-review-yuya_history_backfill_YUYA-CH-018_2995c316e977de15-unknown_queue",
-    "teacher-review-yuya_history_backfill_YUYA-CH-019_64d8e51bd29e458b-unknown_queue",
-    "teacher-review-yuya_history_backfill_YUYA-CH-020_5aee30308cc9cea9-unknown_queue",
-    "teacher-review-yuya_history_backfill_YUYA-CH-021_340b5e3e980ff3cf-unknown_queue",
-    "teacher-review-yuya_history_backfill_YUYA-CH-022_38855e854af9f85c-unknown_queue",
-    "teacher-review-yuya_history_backfill_YUYA-CH-023_0c35d7b0f17d8a85-unknown_queue",
-    "teacher-review-yuya_history_backfill_YUYA-CH-024_47157ff46a3b64ee-unknown_queue",
-    "teacher-review-yuya_history_backfill_YUYA-CH-025_21604ff7fe715c23-unknown_queue",
-    "teacher-review-yuya_history_backfill_YUYA-CH-026_06e1c77143f809d1-unknown_queue",
-    "teacher-review-yuya_history_backfill_YUYA-CH-027_1e544ebd3ed1580b-unknown_queue",
-    "teacher-review-yuya_history_backfill_YUYA-CH-028_230cf87881e8a9a0-unknown_queue",
-    "teacher-review-yuya_history_backfill_YUYA-CH-029_1fa53e987833012f-unknown_queue",
-    "teacher-review-yuya_history_backfill_YUYA-CH-030_4a1971baece5adc6-unknown_queue",
-    "teacher-review-yuya_history_backfill_YUYA-CH-031_288a5a6db7114339-unknown_queue",
-    "teacher-review-yuya_history_backfill_YUYA-CH-032_0a67215dae0baacd-unknown_queue",
-    "teacher-review-yuya_history_backfill_YUYA-CH-033_1a050591a6be94a4-unknown_queue",
-    "teacher-review-yuya_history_backfill_YUYA-CH-034_03130486a0505810-unknown_queue",
-    "teacher-review-yuya_history_backfill_YUYA-CH-035_449a189a8fba22b6-unknown_queue",
-    "teacher-review-yuya_history_backfill_YUYA-CH-036_104e7fcc5214106f-unknown_queue",
-    "teacher-review-yuya_history_backfill_YUYA-CH-037_1c0cba1177266610-unknown_queue",
-    "teacher-review-yuya_history_backfill_YUYA-CH-038_15305f7797cd9059-unknown_queue",
-    "teacher-review-yuya_history_backfill_YUYA-CH-039_05957dfc032cc9c7-unknown_queue",
-    "teacher-review-yuya_history_backfill_YUYA-CH-040_4a8905663a652a6d-unknown_queue",
-    "teacher-review-yuya_history_backfill_YUYA-CH-041_35857ea1b0543252-unknown_queue",
-    "teacher-review-yuya_history_backfill_YUYA-CH-042_0eb5df402d2ab5ff-unknown_queue",
-    "teacher-review-yuya_history_backfill_YUYA-CH-043_0194763cfebfa1fc-unknown_queue",
-    "teacher-review-yuya_history_backfill_YUYA-CH-044_07bbd6136b73dfdc-unknown_queue",
-    "teacher-review-yuya_history_backfill_YUYA-CH-045_061f002ad7e57991-unknown_queue",
-    "teacher-review-yuya_history_backfill_YUYA-CH-046_12ffd9bfffbc6e0c-unknown_queue"
+    "teacher-review-yuya_history_backfill_YUYA-CH-047_2a9f30cf650f70c0-unknown_queue",
+    "teacher-review-yuya_history_backfill_YUYA-CH-048_8236482fea7c0002-unknown_queue",
+    "teacher-review-yuya_history_backfill_YUYA-CH-049_85b0dec5b766a150-unknown_queue",
+    "teacher-review-yuya_history_backfill_YUYA-CH-050_1d775d75f0036559-unknown_queue",
+    "teacher-review-yuya_history_backfill_YUYA-CH-051_7be082be757da0dc-unknown_queue",
+    "teacher-review-yuya_history_backfill_YUYA-CH-052_2a3152ad71ff9007-unknown_queue",
+    "teacher-review-yuya_history_backfill_YUYA-CH-053_696850c4b7bd3169-unknown_queue",
+    "teacher-review-yuya_history_backfill_YUYA-CH-054_021ea38384391c22-unknown_queue",
+    "teacher-review-yuya_history_backfill_YUYA-CH-055_03ddd9bb226e8dff-unknown_queue",
+    "teacher-review-yuya_history_backfill_YUYA-CH-056_049c7fecdc4ce9f9-unknown_queue",
+    "teacher-review-yuya_history_backfill_YUYA-CH-057_0601323974630606-unknown_queue",
+    "teacher-review-yuya_history_backfill_YUYA-CH-058_0792b8e5ab612d3d-unknown_queue",
+    "teacher-review-yuya_history_backfill_YUYA-CH-059_07f0175acbc9eddc-unknown_queue",
+    "teacher-review-yuya_history_backfill_YUYA-CH-060_08dfe22c1fa6b48e-unknown_queue",
+    "teacher-review-yuya_history_backfill_YUYA-CH-061_0a8fee93d5729afb-unknown_queue",
+    "teacher-review-yuya_history_backfill_YUYA-CH-062_0bd19574e7513d70-unknown_queue",
+    "teacher-review-yuya_history_backfill_YUYA-CH-063_0e5ba7b30ea62f6e-unknown_queue",
+    "teacher-review-yuya_history_backfill_YUYA-CH-064_0e879181a05b7bbd-unknown_queue",
+    "teacher-review-yuya_history_backfill_YUYA-CH-065_0f77002eb40f0967-unknown_queue",
+    "teacher-review-yuya_history_backfill_YUYA-CH-066_1366856a9b2d0af7-unknown_queue",
+    "teacher-review-yuya_history_backfill_YUYA-CH-067_15ffe00db0e72445-unknown_queue",
+    "teacher-review-yuya_history_backfill_YUYA-CH-068_1655df2fac4f7d2a-unknown_queue",
+    "teacher-review-yuya_history_backfill_YUYA-CH-069_176f42185320a258-unknown_queue",
+    "teacher-review-yuya_history_backfill_YUYA-CH-070_19a50d03d9ca18e7-unknown_queue",
+    "teacher-review-yuya_history_backfill_YUYA-CH-071_1def1c4469cdd22c-unknown_queue",
+    "teacher-review-yuya_history_backfill_YUYA-CH-072_1e7bd4daa76bf6fe-unknown_queue",
+    "teacher-review-yuya_history_backfill_YUYA-CH-073_1f41a35fb18166f4-unknown_queue",
+    "teacher-review-yuya_history_backfill_YUYA-CH-074_1fd4bdeffb779e7a-unknown_queue",
+    "teacher-review-yuya_history_backfill_YUYA-CH-075_20d9e1fe9b8e0640-unknown_queue",
+    "teacher-review-yuya_history_backfill_YUYA-CH-076_221dd545989c959e-unknown_queue",
+    "teacher-review-yuya_history_backfill_YUYA-CH-077_22b42fc12fe08068-unknown_queue",
+    "teacher-review-yuya_history_backfill_YUYA-CH-078_247c214aff477a19-unknown_queue",
+    "teacher-review-yuya_history_backfill_YUYA-CH-079_288363817dea4215-unknown_queue",
+    "teacher-review-yuya_history_backfill_YUYA-CH-080_2a7002f20e7979c9-unknown_queue",
+    "teacher-review-yuya_history_backfill_YUYA-CH-081_2d27825200ea93b0-unknown_queue",
+    "teacher-review-yuya_history_backfill_YUYA-CH-082_2f395a153c8f385e-unknown_queue",
+    "teacher-review-yuya_history_backfill_YUYA-CH-083_3031509d434c77ca-unknown_queue",
+    "teacher-review-yuya_history_backfill_YUYA-CH-084_31c117820e32b605-unknown_queue",
+    "teacher-review-yuya_history_backfill_YUYA-CH-085_344f604b514b83c8-unknown_queue",
+    "teacher-review-yuya_history_backfill_YUYA-CH-086_36a3e7a263effb0f-unknown_queue",
+    "teacher-review-yuya_history_backfill_YUYA-CH-087_373afccbab686204-unknown_queue",
+    "teacher-review-yuya_history_backfill_YUYA-CH-088_39098624409e0653-unknown_queue",
+    "teacher-review-yuya_history_backfill_YUYA-CH-089_3a5f0a06348bc59c-unknown_queue",
+    "teacher-review-yuya_history_backfill_YUYA-CH-090_3a9f34218a71f048-unknown_queue",
+    "teacher-review-yuya_history_backfill_YUYA-CH-091_3ef6fccd83b97eff-unknown_queue",
+    "teacher-review-yuya_history_backfill_YUYA-CH-092_408018050e6a7af2-unknown_queue",
+    "teacher-review-yuya_history_backfill_YUYA-CH-093_41072758459c06dc-unknown_queue",
+    "teacher-review-yuya_history_backfill_YUYA-CH-094_42ce9edaf2ce8e28-unknown_queue",
+    "teacher-review-yuya_history_backfill_YUYA-CH-095_434947d065e76f8b-unknown_queue",
+    "teacher-review-yuya_history_backfill_YUYA-CH-096_4368aab3c0ec76d4-unknown_queue"
   ],
-  "assignment_revision": "3a4f34230108f935c7c422215ce9b4f7195624526e0ecad2a167ecc430e6b850",
+  "assignment_revision": "4ba5bb3d23884a0d25cbbfcbf1f5509240b94a34f51ee33e162adae4ba571cf3",
   "batch_review_contract": {
     "anchor_case_count": 1,
     "batch_size": 50,
@@ -81,7 +81,7 @@
     "all_case_shards_ready": true,
     "integrity_gate_passed": true,
     "integrity_receipt_ref": "publication_integrity_receipt",
-    "integrity_receipt_sha256": "4972755b4260536abf8982342e460dbca5c6d5a3ed19d089cb9f20e0c0777f84",
+    "integrity_receipt_sha256": "32a71b83f296405c9999f82a017e90ae3078b5045c79d7a04a45eb4d394a731c",
     "publication_case_count": 50,
     "publication_shard_count": 10,
     "readiness_role": "publication_transport_readiness",
@@ -151,10 +151,20 @@
     "trusted_timing_unconfirmed_is_work_stop_reason": false,
     "zero_case_metadata_checkpoint_allowed_when_material_sufficient": false
   },
+  "current_assignment_identity": {
+    "case_set_digest": "2b6ee146bf0c7327881701248e12dbd173306bb8498af846a63bf90e832946d9",
+    "current_assignment_id": "scheduled-haru-batch50-4ba5bb3d2388-2b6ee146bf0c",
+    "current_assignment_revision": "4ba5bb3d23884a0d25cbbfcbf1f5509240b94a34f51ee33e162adae4ba571cf3",
+    "cycle_id": "scheduled-haru-cycle-4ba5bb3d23884a0d-2b6ee146bf0c7327",
+    "prior_run_or_cached_identity_allowed": false,
+    "same_fetched_root_identity_required": true,
+    "schema_version": "osai_teacher_current_assignment_identity.v1",
+    "source_lineage_revision_exposed": false
+  },
   "cycle_identity": {
-    "assignment_id": "scheduled-haru-batch50-3a4f34230108-eec4ec197011",
-    "candidate_digest": "eec4ec1970115550731950b228ba4d6ccd09a1a791132c4a6f1350f4b6d542c6",
-    "cycle_id": "scheduled-haru-cycle-3a4f34230108f935-eec4ec1970115550",
+    "assignment_id": "scheduled-haru-batch50-4ba5bb3d2388-2b6ee146bf0c",
+    "candidate_digest": "2b6ee146bf0c7327881701248e12dbd173306bb8498af846a63bf90e832946d9",
+    "cycle_id": "scheduled-haru-cycle-4ba5bb3d23884a0d-2b6ee146bf0c7327",
     "schema_version": "osai_scheduled_review_cycle_identity.v1"
   },
   "delivery_endpoint": "/scheduled-haru/teacher/v1/teacher-packets",
@@ -202,13 +212,13 @@
       "teacher_packet_exposed": false
     },
     "current_assignment_digest": "",
-    "cycle_id": "scheduled-haru-cycle-3a4f34230108f935-eec4ec1970115550",
+    "cycle_id": "scheduled-haru-cycle-4ba5bb3d23884a0d-2b6ee146bf0c7327",
     "freshness": {
       "current_assignment_digest": "",
       "schema_version": "osai_examiner_feed_freshness.v1",
-      "valid_until": "2026-08-12T04:04:44.091751+00:00"
+      "valid_until": "2026-08-12T04:13:24.040658+00:00"
     },
-    "generated_at": "2026-08-12T02:34:44.091751+00:00",
+    "generated_at": "2026-08-12T02:43:24.040658+00:00",
     "judged_candidate_digests": [],
     "no_pending_exam_item": true,
     "schema_version": "osai_examiner_briefing.v1",
@@ -249,13 +259,13 @@
     "target_elapsed_work_minutes": 55.0
   },
   "freshness": {
-    "candidate_digest": "eec4ec1970115550731950b228ba4d6ccd09a1a791132c4a6f1350f4b6d542c6",
-    "cycle_id": "scheduled-haru-cycle-3a4f34230108f935-eec4ec1970115550",
-    "generated_at": "2026-08-12T11:14:57+09:00",
+    "candidate_digest": "2b6ee146bf0c7327881701248e12dbd173306bb8498af846a63bf90e832946d9",
+    "cycle_id": "scheduled-haru-cycle-4ba5bb3d23884a0d-2b6ee146bf0c7327",
+    "generated_at": "2026-08-12T11:43:23+09:00",
     "schema_version": "osai_teacher_feed_freshness.v1",
-    "valid_until": "2026-08-12T12:24:57+09:00"
+    "valid_until": "2026-08-12T12:53:23+09:00"
   },
-  "generated_at": "2026-08-12T11:14:57+09:00",
+  "generated_at": "2026-08-12T11:43:23+09:00",
   "inbox_root": "logs/api_usage/derived/scheduled_haru_teacher_delivery_inbox",
   "maintenance_source": {},
   "mission": "Execute one evidence-backed staged Teacher job over exactly 50 material-complete real cases. For candidate_comparison cases compare the supplied sanitized original candidate. For correction_rule_audit cases do not invent a missing historical assistant answer; instead deeply stress-test the supplied real Yuya correction, expected behavior and correction strategy for applicability, misapplication, alternatives, counterexamples, repair and deterministic regression. Complete all 50 baseline case analyses, the 50x4 axis matrix and cross-case synthesis, then select 8-10 highest-risk or highest-uncertainty cases for explicit deep dives with competing hypotheses, disconfirming evidence, boundaries, failure scenarios, repair-breaking counterexamples and transfer limits. Run a separate falsification pass with at least five concrete counterexamples, two distinct critic rounds, revision, regression fixture, same-rubric rescore and field audit. Elapsed time and prose volume are not quality proxies. Waiting or padding for a time target is forbidden.",
@@ -419,30 +429,30 @@
     "unsafe_candidate_text_fail_closed": true
   },
   "publication_contract": {
-    "active_assignment_packet_id": "scheduled-haru-batch50-3a4f34230108-eec4ec197011",
+    "active_assignment_packet_id": "scheduled-haru-batch50-4ba5bb3d2388-2b6ee146bf0c",
     "active_assignment_state": "active_unconsumed",
     "artifact": "teacher-briefing.json",
     "artifact_name": "teacher-briefing.json",
-    "assignment_fresh_until": "2026-08-12T12:24:57+09:00",
+    "assignment_fresh_until": "2026-08-12T12:53:23+09:00",
     "assignment_freshness_role": "new_run_authority_with_exact_identity_and_atomic_claim",
-    "assignment_id": "scheduled-haru-batch50-3a4f34230108-eec4ec197011",
-    "assignment_lease_expires_at": "2026-08-12T12:24:57+09:00",
-    "assignment_lease_id": "763cf2f424a531c0eb6ec757729edf8f4e8d37cded5745feee1439fe8af860c3",
+    "assignment_id": "scheduled-haru-batch50-4ba5bb3d2388-2b6ee146bf0c",
+    "assignment_lease_expires_at": "2026-08-12T12:53:23+09:00",
+    "assignment_lease_id": "3e52e6f43122adae8d7b4b2ecbbaebb13b152559e0a4381026156aae5b770905",
     "assignment_lease_seconds": 4200,
-    "assignment_revision": "3a4f34230108f935c7c422215ce9b4f7195624526e0ecad2a167ecc430e6b850",
-    "briefing_generated_at": "2026-08-12T11:14:57+09:00",
-    "candidate_digest": "eec4ec1970115550731950b228ba4d6ccd09a1a791132c4a6f1350f4b6d542c6",
-    "case_identity_source": "scheduled_haru_multi_consumer_queue_selector",
+    "assignment_revision": "4ba5bb3d23884a0d25cbbfcbf1f5509240b94a34f51ee33e162adae4ba571cf3",
+    "briefing_generated_at": "2026-08-12T11:43:23+09:00",
+    "candidate_digest": "2b6ee146bf0c7327881701248e12dbd173306bb8498af846a63bf90e832946d9",
+    "case_identity_source": "existing_delivery_receipt",
     "case_material_transport": "sharded_raw_json",
-    "case_set_digest": "eec4ec1970115550731950b228ba4d6ccd09a1a791132c4a6f1350f4b6d542c6",
-    "cycle_id": "scheduled-haru-cycle-3a4f34230108f935-eec4ec1970115550",
+    "case_set_digest": "2b6ee146bf0c7327881701248e12dbd173306bb8498af846a63bf90e832946d9",
+    "cycle_id": "scheduled-haru-cycle-4ba5bb3d23884a0d-2b6ee146bf0c7327",
     "generator_component": "teacher_delivery.py",
-    "generator_revision": "8c1ed526c28bf6caabf6750cdc421625adfb4d248f46777df914afcc7ace8af8",
+    "generator_revision": "97b07a57038040282b4e7303fc965cc853596a2637061bd1ca815d36fe2269f0",
     "max_public_json_artifact_bytes": 900000,
     "max_start_age_seconds": 4200,
     "new_run_start_authority": "exact_assignment_identity_and_unexpired_lease_under_atomic_claim",
     "normal_run_start_allowed": true,
-    "publication_fresh_until": "2026-08-12T11:29:57+09:00",
+    "publication_fresh_until": "2026-08-12T11:58:23+09:00",
     "publication_freshness_role": "publication_observability_only",
     "publication_max_age_seconds": 900,
     "publish_success_requires": [
@@ -455,10 +465,10 @@
     ],
     "reload_policy": "reload_only_8796_once_when_missing_or_revision_mismatch",
     "remote_exact_byte_verification_required": true,
-    "review_material_digest": "354bf388ec7a6b9e9d1fdceec2dabd313b16d161327743b324d79d77972e43d6",
+    "review_material_digest": "9279fd72a87a09d9d30aeea36b53304345d2eb89650edcbd8ac6d1e4d0ac6d7d",
     "schema_version": "osai_derived_publication_contract.v1",
     "selected_case_count": 50,
-    "source_assignment_revision": "3ae89318706c3603e8e15519689905a3c72963e98e2e6761b1fbe908d0010e64",
+    "source_assignment_revision": "3f86e3a3603aa00664a0bd50b05ad4e7e25c7eaa6ed17e85e57fa0d7f265a3e8",
     "source_of_truth": "osai_workbench_current_assignment_revision",
     "teacher_case_material_inline": false,
     "teacher_case_shard_count": 10,
@@ -466,146 +476,146 @@
   },
   "publication_integrity_receipt": {
     "all_case_shards_ready": true,
-    "assignment_revision": "3a4f34230108f935c7c422215ce9b4f7195624526e0ecad2a167ecc430e6b850",
-    "case_set_digest": "eec4ec1970115550731950b228ba4d6ccd09a1a791132c4a6f1350f4b6d542c6",
-    "ordered_case_ids_sha256": "eec4ec1970115550731950b228ba4d6ccd09a1a791132c4a6f1350f4b6d542c6",
+    "assignment_revision": "4ba5bb3d23884a0d25cbbfcbf1f5509240b94a34f51ee33e162adae4ba571cf3",
+    "case_set_digest": "2b6ee146bf0c7327881701248e12dbd173306bb8498af846a63bf90e832946d9",
+    "ordered_case_ids_sha256": "2b6ee146bf0c7327881701248e12dbd173306bb8498af846a63bf90e832946d9",
     "publication_case_count": 50,
     "publication_shard_count": 10,
-    "receipt_sha256": "4972755b4260536abf8982342e460dbca5c6d5a3ed19d089cb9f20e0c0777f84",
+    "receipt_sha256": "32a71b83f296405c9999f82a017e90ae3078b5045c79d7a04a45eb4d394a731c",
     "schema_version": "osai_teacher_publication_integrity_receipt.v1",
     "shards": [
       {
-        "artifact": "teacher-case-shards/scheduled-haru-batch50-3a4f34230108-eec4ec197011/shard-001.json",
-        "byte_size": 24547,
+        "artifact": "teacher-case-shards/scheduled-haru-batch50-4ba5bb3d2388-2b6ee146bf0c/shard-001.json",
+        "byte_size": 24097,
         "case_ids": [
-          "teacher-review-yuya_correction_YUYA-CH-026_yuya-episode-18ac1f3f2ac521892b6d-yuya_challenge_training_yuya-episode-18ac1f",
-          "teacher-review-yuya_correction_YUYA-CH-027_yuya-episode-679ac4af3688ab47f76c-yuya_challenge_training_yuya-episode-679ac4",
-          "teacher-review-yuya_correction_YUYA-CH-027_yuya-episode-bb6f6901a96b25f2804a-yuya_challenge_training_yuya-episode-bb6f69",
-          "teacher-review-yuya_correction_YUYA-CH-026_yuya-episode-bcf2b7c4ed539184a7d6-yuya_challenge_training_yuya-episode-bcf2b7",
-          "teacher-review-yuya_correction_YUYA-CH-028_yuya-episode-47270b5ba39bbe64a758-unknown_queue"
+          "teacher-review-yuya_history_backfill_YUYA-CH-047_2a9f30cf650f70c0-unknown_queue",
+          "teacher-review-yuya_history_backfill_YUYA-CH-048_8236482fea7c0002-unknown_queue",
+          "teacher-review-yuya_history_backfill_YUYA-CH-049_85b0dec5b766a150-unknown_queue",
+          "teacher-review-yuya_history_backfill_YUYA-CH-050_1d775d75f0036559-unknown_queue",
+          "teacher-review-yuya_history_backfill_YUYA-CH-051_7be082be757da0dc-unknown_queue"
         ],
-        "sha256": "2c88c3c1bc323b2ba85a464dd65fe2b46f37ffd8b59fcef6794c8b9e76f882d4",
+        "sha256": "6ecb89eb0b49e5b8107834841d1f0e2c76c658db99cf8315c2656949600f117b",
         "shard_index": 1
       },
       {
-        "artifact": "teacher-case-shards/scheduled-haru-batch50-3a4f34230108-eec4ec197011/shard-002.json",
-        "byte_size": 22970,
+        "artifact": "teacher-case-shards/scheduled-haru-batch50-4ba5bb3d2388-2b6ee146bf0c/shard-002.json",
+        "byte_size": 24791,
         "case_ids": [
-          "teacher-review-yuya_correction_YUYA-CH-027_yuya-episode-4407e6d10f56457175e3-yuya_challenge_training_yuya-episode-4407e6",
-          "teacher-review-yuya_history_backfill_YUYA-CH-002_3f3175c1a0216af8-unknown_queue",
-          "teacher-review-yuya_history_backfill_YUYA-CH-003_77bdee6ecd7f3910-unknown_queue",
-          "teacher-review-yuya_history_backfill_YUYA-CH-004_db48c28329569532-unknown_queue",
-          "teacher-review-yuya_history_backfill_YUYA-CH-005_038b01175cc30b56-unknown_queue"
+          "teacher-review-yuya_history_backfill_YUYA-CH-052_2a3152ad71ff9007-unknown_queue",
+          "teacher-review-yuya_history_backfill_YUYA-CH-053_696850c4b7bd3169-unknown_queue",
+          "teacher-review-yuya_history_backfill_YUYA-CH-054_021ea38384391c22-unknown_queue",
+          "teacher-review-yuya_history_backfill_YUYA-CH-055_03ddd9bb226e8dff-unknown_queue",
+          "teacher-review-yuya_history_backfill_YUYA-CH-056_049c7fecdc4ce9f9-unknown_queue"
         ],
-        "sha256": "268c4ff2ed294979bff37a757d9c7397320291fb012649f3380555b8daf07aeb",
+        "sha256": "88125a8ad4f548a0627c8e1f7100c5b5cc8a3652eccc857b30cdc04b29ac6e61",
         "shard_index": 2
       },
       {
-        "artifact": "teacher-case-shards/scheduled-haru-batch50-3a4f34230108-eec4ec197011/shard-003.json",
-        "byte_size": 24388,
+        "artifact": "teacher-case-shards/scheduled-haru-batch50-4ba5bb3d2388-2b6ee146bf0c/shard-003.json",
+        "byte_size": 21856,
         "case_ids": [
-          "teacher-review-yuya_history_backfill_YUYA-CH-006_1ba915806ab27978-unknown_queue",
-          "teacher-review-yuya_history_backfill_YUYA-CH-007_af368bb467671800-unknown_queue",
-          "teacher-review-yuya_history_backfill_YUYA-CH-008_210d17a93183565b-unknown_queue",
-          "teacher-review-yuya_history_backfill_YUYA-CH-010_21b6a4de81aa221c-unknown_queue",
-          "teacher-review-yuya_history_backfill_YUYA-CH-011_17d2280c21c19cad-unknown_queue"
+          "teacher-review-yuya_history_backfill_YUYA-CH-057_0601323974630606-unknown_queue",
+          "teacher-review-yuya_history_backfill_YUYA-CH-058_0792b8e5ab612d3d-unknown_queue",
+          "teacher-review-yuya_history_backfill_YUYA-CH-059_07f0175acbc9eddc-unknown_queue",
+          "teacher-review-yuya_history_backfill_YUYA-CH-060_08dfe22c1fa6b48e-unknown_queue",
+          "teacher-review-yuya_history_backfill_YUYA-CH-061_0a8fee93d5729afb-unknown_queue"
         ],
-        "sha256": "e454af6aa7471d7be5e2387528e367c1512d5d0d93ecd55f1f49cb3196ccd28c",
+        "sha256": "c224d5536ffccfa80e95a8234948e82201420da74b84f92c28327ef4a8d2b4a4",
         "shard_index": 3
       },
       {
-        "artifact": "teacher-case-shards/scheduled-haru-batch50-3a4f34230108-eec4ec197011/shard-004.json",
-        "byte_size": 26753,
+        "artifact": "teacher-case-shards/scheduled-haru-batch50-4ba5bb3d2388-2b6ee146bf0c/shard-004.json",
+        "byte_size": 22317,
         "case_ids": [
-          "teacher-review-yuya_history_backfill_YUYA-CH-012_0f97768e54849419-unknown_queue",
-          "teacher-review-yuya_history_backfill_YUYA-CH-013_87d7f478852cf5ce-unknown_queue",
-          "teacher-review-yuya_history_backfill_YUYA-CH-014_06ad1ff7dd591f75-unknown_queue",
-          "teacher-review-yuya_history_backfill_YUYA-CH-015_dab0cf48de4fc92c-unknown_queue",
-          "teacher-review-yuya_history_backfill_YUYA-CH-016_6b5bad183c933967-unknown_queue"
+          "teacher-review-yuya_history_backfill_YUYA-CH-062_0bd19574e7513d70-unknown_queue",
+          "teacher-review-yuya_history_backfill_YUYA-CH-063_0e5ba7b30ea62f6e-unknown_queue",
+          "teacher-review-yuya_history_backfill_YUYA-CH-064_0e879181a05b7bbd-unknown_queue",
+          "teacher-review-yuya_history_backfill_YUYA-CH-065_0f77002eb40f0967-unknown_queue",
+          "teacher-review-yuya_history_backfill_YUYA-CH-066_1366856a9b2d0af7-unknown_queue"
         ],
-        "sha256": "791fb4d71871483ea4cf1f299c427f0148fb484e44b6cd5c1097153566ac2aa5",
+        "sha256": "9cd0998fe6b792b919d861a1b952d4670e82c7aa60ab087f5cdcb8284a1ee197",
         "shard_index": 4
       },
       {
-        "artifact": "teacher-case-shards/scheduled-haru-batch50-3a4f34230108-eec4ec197011/shard-005.json",
-        "byte_size": 26544,
+        "artifact": "teacher-case-shards/scheduled-haru-batch50-4ba5bb3d2388-2b6ee146bf0c/shard-005.json",
+        "byte_size": 20496,
         "case_ids": [
-          "teacher-review-yuya_history_backfill_YUYA-CH-017_c5bc83c1a5c91d66-unknown_queue",
-          "teacher-review-yuya_history_backfill_YUYA-CH-018_2995c316e977de15-unknown_queue",
-          "teacher-review-yuya_history_backfill_YUYA-CH-019_64d8e51bd29e458b-unknown_queue",
-          "teacher-review-yuya_history_backfill_YUYA-CH-020_5aee30308cc9cea9-unknown_queue",
-          "teacher-review-yuya_history_backfill_YUYA-CH-021_340b5e3e980ff3cf-unknown_queue"
+          "teacher-review-yuya_history_backfill_YUYA-CH-067_15ffe00db0e72445-unknown_queue",
+          "teacher-review-yuya_history_backfill_YUYA-CH-068_1655df2fac4f7d2a-unknown_queue",
+          "teacher-review-yuya_history_backfill_YUYA-CH-069_176f42185320a258-unknown_queue",
+          "teacher-review-yuya_history_backfill_YUYA-CH-070_19a50d03d9ca18e7-unknown_queue",
+          "teacher-review-yuya_history_backfill_YUYA-CH-071_1def1c4469cdd22c-unknown_queue"
         ],
-        "sha256": "f72e191234250fabd5925a5dba6f068ce85dcee24340e2f2dfbb449f7e52daf0",
+        "sha256": "619d7692b5fb185b6254d46ee1f22aff31a46ea9db95e4ef846a8a055c2dfbbe",
         "shard_index": 5
       },
       {
-        "artifact": "teacher-case-shards/scheduled-haru-batch50-3a4f34230108-eec4ec197011/shard-006.json",
-        "byte_size": 22272,
+        "artifact": "teacher-case-shards/scheduled-haru-batch50-4ba5bb3d2388-2b6ee146bf0c/shard-006.json",
+        "byte_size": 21626,
         "case_ids": [
-          "teacher-review-yuya_history_backfill_YUYA-CH-022_38855e854af9f85c-unknown_queue",
-          "teacher-review-yuya_history_backfill_YUYA-CH-023_0c35d7b0f17d8a85-unknown_queue",
-          "teacher-review-yuya_history_backfill_YUYA-CH-024_47157ff46a3b64ee-unknown_queue",
-          "teacher-review-yuya_history_backfill_YUYA-CH-025_21604ff7fe715c23-unknown_queue",
-          "teacher-review-yuya_history_backfill_YUYA-CH-026_06e1c77143f809d1-unknown_queue"
+          "teacher-review-yuya_history_backfill_YUYA-CH-072_1e7bd4daa76bf6fe-unknown_queue",
+          "teacher-review-yuya_history_backfill_YUYA-CH-073_1f41a35fb18166f4-unknown_queue",
+          "teacher-review-yuya_history_backfill_YUYA-CH-074_1fd4bdeffb779e7a-unknown_queue",
+          "teacher-review-yuya_history_backfill_YUYA-CH-075_20d9e1fe9b8e0640-unknown_queue",
+          "teacher-review-yuya_history_backfill_YUYA-CH-076_221dd545989c959e-unknown_queue"
         ],
-        "sha256": "b0c74cd84fc416737d765548dac2fd9660b1b9e7de9835c34010e6b4731ac311",
+        "sha256": "93d09c06594f479f0a4137c28188698973623e1d7c7f6e08358818ab1c7a3211",
         "shard_index": 6
       },
       {
-        "artifact": "teacher-case-shards/scheduled-haru-batch50-3a4f34230108-eec4ec197011/shard-007.json",
-        "byte_size": 20755,
+        "artifact": "teacher-case-shards/scheduled-haru-batch50-4ba5bb3d2388-2b6ee146bf0c/shard-007.json",
+        "byte_size": 21126,
         "case_ids": [
-          "teacher-review-yuya_history_backfill_YUYA-CH-027_1e544ebd3ed1580b-unknown_queue",
-          "teacher-review-yuya_history_backfill_YUYA-CH-028_230cf87881e8a9a0-unknown_queue",
-          "teacher-review-yuya_history_backfill_YUYA-CH-029_1fa53e987833012f-unknown_queue",
-          "teacher-review-yuya_history_backfill_YUYA-CH-030_4a1971baece5adc6-unknown_queue",
-          "teacher-review-yuya_history_backfill_YUYA-CH-031_288a5a6db7114339-unknown_queue"
+          "teacher-review-yuya_history_backfill_YUYA-CH-077_22b42fc12fe08068-unknown_queue",
+          "teacher-review-yuya_history_backfill_YUYA-CH-078_247c214aff477a19-unknown_queue",
+          "teacher-review-yuya_history_backfill_YUYA-CH-079_288363817dea4215-unknown_queue",
+          "teacher-review-yuya_history_backfill_YUYA-CH-080_2a7002f20e7979c9-unknown_queue",
+          "teacher-review-yuya_history_backfill_YUYA-CH-081_2d27825200ea93b0-unknown_queue"
         ],
-        "sha256": "8c642a793489e611b44d36fa8369145fcb6fd92644adfc54af774a5e02499e2f",
+        "sha256": "dbb893fb30ee298e13ebe272feec838ec10c8620e5c39b23826b117f18c18ca3",
         "shard_index": 7
       },
       {
-        "artifact": "teacher-case-shards/scheduled-haru-batch50-3a4f34230108-eec4ec197011/shard-008.json",
-        "byte_size": 27821,
+        "artifact": "teacher-case-shards/scheduled-haru-batch50-4ba5bb3d2388-2b6ee146bf0c/shard-008.json",
+        "byte_size": 23901,
         "case_ids": [
-          "teacher-review-yuya_history_backfill_YUYA-CH-032_0a67215dae0baacd-unknown_queue",
-          "teacher-review-yuya_history_backfill_YUYA-CH-033_1a050591a6be94a4-unknown_queue",
-          "teacher-review-yuya_history_backfill_YUYA-CH-034_03130486a0505810-unknown_queue",
-          "teacher-review-yuya_history_backfill_YUYA-CH-035_449a189a8fba22b6-unknown_queue",
-          "teacher-review-yuya_history_backfill_YUYA-CH-036_104e7fcc5214106f-unknown_queue"
+          "teacher-review-yuya_history_backfill_YUYA-CH-082_2f395a153c8f385e-unknown_queue",
+          "teacher-review-yuya_history_backfill_YUYA-CH-083_3031509d434c77ca-unknown_queue",
+          "teacher-review-yuya_history_backfill_YUYA-CH-084_31c117820e32b605-unknown_queue",
+          "teacher-review-yuya_history_backfill_YUYA-CH-085_344f604b514b83c8-unknown_queue",
+          "teacher-review-yuya_history_backfill_YUYA-CH-086_36a3e7a263effb0f-unknown_queue"
         ],
-        "sha256": "138bb2e2b771441ffc929d6e2158e12d1783557a0d208327f789e52f34beaea6",
+        "sha256": "4add13400b85550f7539566dad664f6407f0857a5a6cfa4c928ca9a61a454ef1",
         "shard_index": 8
       },
       {
-        "artifact": "teacher-case-shards/scheduled-haru-batch50-3a4f34230108-eec4ec197011/shard-009.json",
-        "byte_size": 28081,
+        "artifact": "teacher-case-shards/scheduled-haru-batch50-4ba5bb3d2388-2b6ee146bf0c/shard-009.json",
+        "byte_size": 24880,
         "case_ids": [
-          "teacher-review-yuya_history_backfill_YUYA-CH-037_1c0cba1177266610-unknown_queue",
-          "teacher-review-yuya_history_backfill_YUYA-CH-038_15305f7797cd9059-unknown_queue",
-          "teacher-review-yuya_history_backfill_YUYA-CH-039_05957dfc032cc9c7-unknown_queue",
-          "teacher-review-yuya_history_backfill_YUYA-CH-040_4a8905663a652a6d-unknown_queue",
-          "teacher-review-yuya_history_backfill_YUYA-CH-041_35857ea1b0543252-unknown_queue"
+          "teacher-review-yuya_history_backfill_YUYA-CH-087_373afccbab686204-unknown_queue",
+          "teacher-review-yuya_history_backfill_YUYA-CH-088_39098624409e0653-unknown_queue",
+          "teacher-review-yuya_history_backfill_YUYA-CH-089_3a5f0a06348bc59c-unknown_queue",
+          "teacher-review-yuya_history_backfill_YUYA-CH-090_3a9f34218a71f048-unknown_queue",
+          "teacher-review-yuya_history_backfill_YUYA-CH-091_3ef6fccd83b97eff-unknown_queue"
         ],
-        "sha256": "34bdb6d8694e048051c8ab74763b43b93cba444f2e2b9ebdd9a765eb34cda4f5",
+        "sha256": "051651d7ead8bfee487bbf429ee24561e196a6ac32e44a978fe5ff0982b83844",
         "shard_index": 9
       },
       {
-        "artifact": "teacher-case-shards/scheduled-haru-batch50-3a4f34230108-eec4ec197011/shard-010.json",
-        "byte_size": 22416,
+        "artifact": "teacher-case-shards/scheduled-haru-batch50-4ba5bb3d2388-2b6ee146bf0c/shard-010.json",
+        "byte_size": 19378,
         "case_ids": [
-          "teacher-review-yuya_history_backfill_YUYA-CH-042_0eb5df402d2ab5ff-unknown_queue",
-          "teacher-review-yuya_history_backfill_YUYA-CH-043_0194763cfebfa1fc-unknown_queue",
-          "teacher-review-yuya_history_backfill_YUYA-CH-044_07bbd6136b73dfdc-unknown_queue",
-          "teacher-review-yuya_history_backfill_YUYA-CH-045_061f002ad7e57991-unknown_queue",
-          "teacher-review-yuya_history_backfill_YUYA-CH-046_12ffd9bfffbc6e0c-unknown_queue"
+          "teacher-review-yuya_history_backfill_YUYA-CH-092_408018050e6a7af2-unknown_queue",
+          "teacher-review-yuya_history_backfill_YUYA-CH-093_41072758459c06dc-unknown_queue",
+          "teacher-review-yuya_history_backfill_YUYA-CH-094_42ce9edaf2ce8e28-unknown_queue",
+          "teacher-review-yuya_history_backfill_YUYA-CH-095_434947d065e76f8b-unknown_queue",
+          "teacher-review-yuya_history_backfill_YUYA-CH-096_4368aab3c0ec76d4-unknown_queue"
         ],
-        "sha256": "e8bf2d4c9e571684f435c27c171c2bcc9a7f6e34a8c7ee44a298238b7ddeec21",
+        "sha256": "5c0e5d985925d410883cb1bd502069df4e1554e814cf6549555cb3cfdf4ded96",
         "shard_index": 10
       }
     ],
-    "teacher_packet_id": "scheduled-haru-batch50-3a4f34230108-eec4ec197011",
+    "teacher_packet_id": "scheduled-haru-batch50-4ba5bb3d2388-2b6ee146bf0c",
     "verification_basis": {
       "live_publisher_requires_immutable_remote_readback": true,
       "manifest_case_ids_match_exact_assignment_order": true,
@@ -634,7 +644,7 @@
   },
   "recommended_source": {
     "selection_policy": "HaruSpace preselects exactly 50 real failure cases for the measured experiment and reserves distinct real evidence for hidden holdout when inventory permits. No filler is created.",
-    "type": "yuya_challenge_correction"
+    "type": "yuya_feedback_history_backfill"
   },
   "recoverable_partial_inbox": "logs/api_usage/derived/scheduled_haru_teacher_recoverable_partial_inbox",
   "recoverable_partial_sink": {
@@ -706,7 +716,7 @@
     "material_transport": "teacher_case_shards_only",
     "missing_original_assistant_text_may_be_invented": false,
     "public_material_sufficient": true,
-    "review_material_digest": "354bf388ec7a6b9e9d1fdceec2dabd313b16d161327743b324d79d77972e43d6",
+    "review_material_digest": "9279fd72a87a09d9d30aeea36b53304345d2eb89650edcbd8ac6d1e4d0ac6d7d",
     "schema_version": "osai_teacher_review_material_contract.v1"
   },
   "review_questions": [
@@ -749,7 +759,7 @@
     "cases_with_multiple_failure_taxonomies": 50,
     "correction_rule_audit_case_count": 50,
     "distinct_candidate_hash_count": 0,
-    "distinct_failure_taxonomy_count": 10,
+    "distinct_failure_taxonomy_count": 14,
     "distinct_review_material_hash_count": 50,
     "duplicate_candidate_hash_counts_as_difficulty": false,
     "formal_benchmark_credit_requires_official_harness": true,
@@ -758,7 +768,7 @@
     "schema_version": "scheduled_haru_gpt56_sol_difficulty.v1",
     "selection_policy": "Prefer evidence-ready real failures with more critical capability axes, more distinct failure taxonomies, lower prior score, larger verified candidate evidence, and higher operational priority."
   },
-  "source_assignment_revision": "3ae89318706c3603e8e15519689905a3c72963e98e2e6761b1fbe908d0010e64",
+  "source_assignment_revision": "3f86e3a3603aa00664a0bd50b05ad4e7e25c7eaa6ed17e85e57fa0d7f265a3e8",
   "status": "assignment_ready",
   "status_endpoint_template": "/scheduled-haru/teacher/v1/teacher-packets/{packet_id}/status",
   "supply_buffer": {
@@ -770,7 +780,7 @@
     "refill_required": true,
     "reviewable_complete_count": 0,
     "schema_version": "scheduled_haru_supply_buffer_status.v1",
-    "source_inventory_count": 134,
+    "source_inventory_count": 129,
     "source_policy": "real_failure_evidence_only_no_filler",
     "supply_state": "starved",
     "target_buffer_cases": 5000,
@@ -778,174 +788,174 @@
   },
   "teacher_case_shards": [
     {
-      "artifact": "teacher-case-shards/scheduled-haru-batch50-3a4f34230108-eec4ec197011/shard-001.json",
-      "byte_size": 24547,
+      "artifact": "teacher-case-shards/scheduled-haru-batch50-4ba5bb3d2388-2b6ee146bf0c/shard-001.json",
+      "byte_size": 24097,
       "case_count": 5,
       "case_ids": [
-        "teacher-review-yuya_correction_YUYA-CH-026_yuya-episode-18ac1f3f2ac521892b6d-yuya_challenge_training_yuya-episode-18ac1f",
-        "teacher-review-yuya_correction_YUYA-CH-027_yuya-episode-679ac4af3688ab47f76c-yuya_challenge_training_yuya-episode-679ac4",
-        "teacher-review-yuya_correction_YUYA-CH-027_yuya-episode-bb6f6901a96b25f2804a-yuya_challenge_training_yuya-episode-bb6f69",
-        "teacher-review-yuya_correction_YUYA-CH-026_yuya-episode-bcf2b7c4ed539184a7d6-yuya_challenge_training_yuya-episode-bcf2b7",
-        "teacher-review-yuya_correction_YUYA-CH-028_yuya-episode-47270b5ba39bbe64a758-unknown_queue"
+        "teacher-review-yuya_history_backfill_YUYA-CH-047_2a9f30cf650f70c0-unknown_queue",
+        "teacher-review-yuya_history_backfill_YUYA-CH-048_8236482fea7c0002-unknown_queue",
+        "teacher-review-yuya_history_backfill_YUYA-CH-049_85b0dec5b766a150-unknown_queue",
+        "teacher-review-yuya_history_backfill_YUYA-CH-050_1d775d75f0036559-unknown_queue",
+        "teacher-review-yuya_history_backfill_YUYA-CH-051_7be082be757da0dc-unknown_queue"
       ],
       "schema_version": "osai_teacher_case_shard_ref.v1",
-      "sha256": "2c88c3c1bc323b2ba85a464dd65fe2b46f37ffd8b59fcef6794c8b9e76f882d4",
+      "sha256": "6ecb89eb0b49e5b8107834841d1f0e2c76c658db99cf8315c2656949600f117b",
       "shard_count": 10,
       "shard_index": 1,
-      "url": "https://raw.githubusercontent.com/ryryss2-dev/osai-teacher-briefing/main/teacher-case-shards/scheduled-haru-batch50-3a4f34230108-eec4ec197011/shard-001.json"
+      "url": "https://raw.githubusercontent.com/ryryss2-dev/osai-teacher-briefing/main/teacher-case-shards/scheduled-haru-batch50-4ba5bb3d2388-2b6ee146bf0c/shard-001.json"
     },
     {
-      "artifact": "teacher-case-shards/scheduled-haru-batch50-3a4f34230108-eec4ec197011/shard-002.json",
-      "byte_size": 22970,
+      "artifact": "teacher-case-shards/scheduled-haru-batch50-4ba5bb3d2388-2b6ee146bf0c/shard-002.json",
+      "byte_size": 24791,
       "case_count": 5,
       "case_ids": [
-        "teacher-review-yuya_correction_YUYA-CH-027_yuya-episode-4407e6d10f56457175e3-yuya_challenge_training_yuya-episode-4407e6",
-        "teacher-review-yuya_history_backfill_YUYA-CH-002_3f3175c1a0216af8-unknown_queue",
-        "teacher-review-yuya_history_backfill_YUYA-CH-003_77bdee6ecd7f3910-unknown_queue",
-        "teacher-review-yuya_history_backfill_YUYA-CH-004_db48c28329569532-unknown_queue",
-        "teacher-review-yuya_history_backfill_YUYA-CH-005_038b01175cc30b56-unknown_queue"
+        "teacher-review-yuya_history_backfill_YUYA-CH-052_2a3152ad71ff9007-unknown_queue",
+        "teacher-review-yuya_history_backfill_YUYA-CH-053_696850c4b7bd3169-unknown_queue",
+        "teacher-review-yuya_history_backfill_YUYA-CH-054_021ea38384391c22-unknown_queue",
+        "teacher-review-yuya_history_backfill_YUYA-CH-055_03ddd9bb226e8dff-unknown_queue",
+        "teacher-review-yuya_history_backfill_YUYA-CH-056_049c7fecdc4ce9f9-unknown_queue"
       ],
       "schema_version": "osai_teacher_case_shard_ref.v1",
-      "sha256": "268c4ff2ed294979bff37a757d9c7397320291fb012649f3380555b8daf07aeb",
+      "sha256": "88125a8ad4f548a0627c8e1f7100c5b5cc8a3652eccc857b30cdc04b29ac6e61",
       "shard_count": 10,
       "shard_index": 2,
-      "url": "https://raw.githubusercontent.com/ryryss2-dev/osai-teacher-briefing/main/teacher-case-shards/scheduled-haru-batch50-3a4f34230108-eec4ec197011/shard-002.json"
+      "url": "https://raw.githubusercontent.com/ryryss2-dev/osai-teacher-briefing/main/teacher-case-shards/scheduled-haru-batch50-4ba5bb3d2388-2b6ee146bf0c/shard-002.json"
     },
     {
-      "artifact": "teacher-case-shards/scheduled-haru-batch50-3a4f34230108-eec4ec197011/shard-003.json",
-      "byte_size": 24388,
+      "artifact": "teacher-case-shards/scheduled-haru-batch50-4ba5bb3d2388-2b6ee146bf0c/shard-003.json",
+      "byte_size": 21856,
       "case_count": 5,
       "case_ids": [
-        "teacher-review-yuya_history_backfill_YUYA-CH-006_1ba915806ab27978-unknown_queue",
-        "teacher-review-yuya_history_backfill_YUYA-CH-007_af368bb467671800-unknown_queue",
-        "teacher-review-yuya_history_backfill_YUYA-CH-008_210d17a93183565b-unknown_queue",
-        "teacher-review-yuya_history_backfill_YUYA-CH-010_21b6a4de81aa221c-unknown_queue",
-        "teacher-review-yuya_history_backfill_YUYA-CH-011_17d2280c21c19cad-unknown_queue"
+        "teacher-review-yuya_history_backfill_YUYA-CH-057_0601323974630606-unknown_queue",
+        "teacher-review-yuya_history_backfill_YUYA-CH-058_0792b8e5ab612d3d-unknown_queue",
+        "teacher-review-yuya_history_backfill_YUYA-CH-059_07f0175acbc9eddc-unknown_queue",
+        "teacher-review-yuya_history_backfill_YUYA-CH-060_08dfe22c1fa6b48e-unknown_queue",
+        "teacher-review-yuya_history_backfill_YUYA-CH-061_0a8fee93d5729afb-unknown_queue"
       ],
       "schema_version": "osai_teacher_case_shard_ref.v1",
-      "sha256": "e454af6aa7471d7be5e2387528e367c1512d5d0d93ecd55f1f49cb3196ccd28c",
+      "sha256": "c224d5536ffccfa80e95a8234948e82201420da74b84f92c28327ef4a8d2b4a4",
       "shard_count": 10,
       "shard_index": 3,
-      "url": "https://raw.githubusercontent.com/ryryss2-dev/osai-teacher-briefing/main/teacher-case-shards/scheduled-haru-batch50-3a4f34230108-eec4ec197011/shard-003.json"
+      "url": "https://raw.githubusercontent.com/ryryss2-dev/osai-teacher-briefing/main/teacher-case-shards/scheduled-haru-batch50-4ba5bb3d2388-2b6ee146bf0c/shard-003.json"
     },
     {
-      "artifact": "teacher-case-shards/scheduled-haru-batch50-3a4f34230108-eec4ec197011/shard-004.json",
-      "byte_size": 26753,
+      "artifact": "teacher-case-shards/scheduled-haru-batch50-4ba5bb3d2388-2b6ee146bf0c/shard-004.json",
+      "byte_size": 22317,
       "case_count": 5,
       "case_ids": [
-        "teacher-review-yuya_history_backfill_YUYA-CH-012_0f97768e54849419-unknown_queue",
-        "teacher-review-yuya_history_backfill_YUYA-CH-013_87d7f478852cf5ce-unknown_queue",
-        "teacher-review-yuya_history_backfill_YUYA-CH-014_06ad1ff7dd591f75-unknown_queue",
-        "teacher-review-yuya_history_backfill_YUYA-CH-015_dab0cf48de4fc92c-unknown_queue",
-        "teacher-review-yuya_history_backfill_YUYA-CH-016_6b5bad183c933967-unknown_queue"
+        "teacher-review-yuya_history_backfill_YUYA-CH-062_0bd19574e7513d70-unknown_queue",
+        "teacher-review-yuya_history_backfill_YUYA-CH-063_0e5ba7b30ea62f6e-unknown_queue",
+        "teacher-review-yuya_history_backfill_YUYA-CH-064_0e879181a05b7bbd-unknown_queue",
+        "teacher-review-yuya_history_backfill_YUYA-CH-065_0f77002eb40f0967-unknown_queue",
+        "teacher-review-yuya_history_backfill_YUYA-CH-066_1366856a9b2d0af7-unknown_queue"
       ],
       "schema_version": "osai_teacher_case_shard_ref.v1",
-      "sha256": "791fb4d71871483ea4cf1f299c427f0148fb484e44b6cd5c1097153566ac2aa5",
+      "sha256": "9cd0998fe6b792b919d861a1b952d4670e82c7aa60ab087f5cdcb8284a1ee197",
       "shard_count": 10,
       "shard_index": 4,
-      "url": "https://raw.githubusercontent.com/ryryss2-dev/osai-teacher-briefing/main/teacher-case-shards/scheduled-haru-batch50-3a4f34230108-eec4ec197011/shard-004.json"
+      "url": "https://raw.githubusercontent.com/ryryss2-dev/osai-teacher-briefing/main/teacher-case-shards/scheduled-haru-batch50-4ba5bb3d2388-2b6ee146bf0c/shard-004.json"
     },
     {
-      "artifact": "teacher-case-shards/scheduled-haru-batch50-3a4f34230108-eec4ec197011/shard-005.json",
-      "byte_size": 26544,
+      "artifact": "teacher-case-shards/scheduled-haru-batch50-4ba5bb3d2388-2b6ee146bf0c/shard-005.json",
+      "byte_size": 20496,
       "case_count": 5,
       "case_ids": [
-        "teacher-review-yuya_history_backfill_YUYA-CH-017_c5bc83c1a5c91d66-unknown_queue",
-        "teacher-review-yuya_history_backfill_YUYA-CH-018_2995c316e977de15-unknown_queue",
-        "teacher-review-yuya_history_backfill_YUYA-CH-019_64d8e51bd29e458b-unknown_queue",
-        "teacher-review-yuya_history_backfill_YUYA-CH-020_5aee30308cc9cea9-unknown_queue",
-        "teacher-review-yuya_history_backfill_YUYA-CH-021_340b5e3e980ff3cf-unknown_queue"
+        "teacher-review-yuya_history_backfill_YUYA-CH-067_15ffe00db0e72445-unknown_queue",
+        "teacher-review-yuya_history_backfill_YUYA-CH-068_1655df2fac4f7d2a-unknown_queue",
+        "teacher-review-yuya_history_backfill_YUYA-CH-069_176f42185320a258-unknown_queue",
+        "teacher-review-yuya_history_backfill_YUYA-CH-070_19a50d03d9ca18e7-unknown_queue",
+        "teacher-review-yuya_history_backfill_YUYA-CH-071_1def1c4469cdd22c-unknown_queue"
       ],
       "schema_version": "osai_teacher_case_shard_ref.v1",
-      "sha256": "f72e191234250fabd5925a5dba6f068ce85dcee24340e2f2dfbb449f7e52daf0",
+      "sha256": "619d7692b5fb185b6254d46ee1f22aff31a46ea9db95e4ef846a8a055c2dfbbe",
       "shard_count": 10,
       "shard_index": 5,
-      "url": "https://raw.githubusercontent.com/ryryss2-dev/osai-teacher-briefing/main/teacher-case-shards/scheduled-haru-batch50-3a4f34230108-eec4ec197011/shard-005.json"
+      "url": "https://raw.githubusercontent.com/ryryss2-dev/osai-teacher-briefing/main/teacher-case-shards/scheduled-haru-batch50-4ba5bb3d2388-2b6ee146bf0c/shard-005.json"
     },
     {
-      "artifact": "teacher-case-shards/scheduled-haru-batch50-3a4f34230108-eec4ec197011/shard-006.json",
-      "byte_size": 22272,
+      "artifact": "teacher-case-shards/scheduled-haru-batch50-4ba5bb3d2388-2b6ee146bf0c/shard-006.json",
+      "byte_size": 21626,
       "case_count": 5,
       "case_ids": [
-        "teacher-review-yuya_history_backfill_YUYA-CH-022_38855e854af9f85c-unknown_queue",
-        "teacher-review-yuya_history_backfill_YUYA-CH-023_0c35d7b0f17d8a85-unknown_queue",
-        "teacher-review-yuya_history_backfill_YUYA-CH-024_47157ff46a3b64ee-unknown_queue",
-        "teacher-review-yuya_history_backfill_YUYA-CH-025_21604ff7fe715c23-unknown_queue",
-        "teacher-review-yuya_history_backfill_YUYA-CH-026_06e1c77143f809d1-unknown_queue"
+        "teacher-review-yuya_history_backfill_YUYA-CH-072_1e7bd4daa76bf6fe-unknown_queue",
+        "teacher-review-yuya_history_backfill_YUYA-CH-073_1f41a35fb18166f4-unknown_queue",
+        "teacher-review-yuya_history_backfill_YUYA-CH-074_1fd4bdeffb779e7a-unknown_queue",
+        "teacher-review-yuya_history_backfill_YUYA-CH-075_20d9e1fe9b8e0640-unknown_queue",
+        "teacher-review-yuya_history_backfill_YUYA-CH-076_221dd545989c959e-unknown_queue"
       ],
       "schema_version": "osai_teacher_case_shard_ref.v1",
-      "sha256": "b0c74cd84fc416737d765548dac2fd9660b1b9e7de9835c34010e6b4731ac311",
+      "sha256": "93d09c06594f479f0a4137c28188698973623e1d7c7f6e08358818ab1c7a3211",
       "shard_count": 10,
       "shard_index": 6,
-      "url": "https://raw.githubusercontent.com/ryryss2-dev/osai-teacher-briefing/main/teacher-case-shards/scheduled-haru-batch50-3a4f34230108-eec4ec197011/shard-006.json"
+      "url": "https://raw.githubusercontent.com/ryryss2-dev/osai-teacher-briefing/main/teacher-case-shards/scheduled-haru-batch50-4ba5bb3d2388-2b6ee146bf0c/shard-006.json"
     },
     {
-      "artifact": "teacher-case-shards/scheduled-haru-batch50-3a4f34230108-eec4ec197011/shard-007.json",
-      "byte_size": 20755,
+      "artifact": "teacher-case-shards/scheduled-haru-batch50-4ba5bb3d2388-2b6ee146bf0c/shard-007.json",
+      "byte_size": 21126,
       "case_count": 5,
       "case_ids": [
-        "teacher-review-yuya_history_backfill_YUYA-CH-027_1e544ebd3ed1580b-unknown_queue",
-        "teacher-review-yuya_history_backfill_YUYA-CH-028_230cf87881e8a9a0-unknown_queue",
-        "teacher-review-yuya_history_backfill_YUYA-CH-029_1fa53e987833012f-unknown_queue",
-        "teacher-review-yuya_history_backfill_YUYA-CH-030_4a1971baece5adc6-unknown_queue",
-        "teacher-review-yuya_history_backfill_YUYA-CH-031_288a5a6db7114339-unknown_queue"
+        "teacher-review-yuya_history_backfill_YUYA-CH-077_22b42fc12fe08068-unknown_queue",
+        "teacher-review-yuya_history_backfill_YUYA-CH-078_247c214aff477a19-unknown_queue",
+        "teacher-review-yuya_history_backfill_YUYA-CH-079_288363817dea4215-unknown_queue",
+        "teacher-review-yuya_history_backfill_YUYA-CH-080_2a7002f20e7979c9-unknown_queue",
+        "teacher-review-yuya_history_backfill_YUYA-CH-081_2d27825200ea93b0-unknown_queue"
       ],
       "schema_version": "osai_teacher_case_shard_ref.v1",
-      "sha256": "8c642a793489e611b44d36fa8369145fcb6fd92644adfc54af774a5e02499e2f",
+      "sha256": "dbb893fb30ee298e13ebe272feec838ec10c8620e5c39b23826b117f18c18ca3",
       "shard_count": 10,
       "shard_index": 7,
-      "url": "https://raw.githubusercontent.com/ryryss2-dev/osai-teacher-briefing/main/teacher-case-shards/scheduled-haru-batch50-3a4f34230108-eec4ec197011/shard-007.json"
+      "url": "https://raw.githubusercontent.com/ryryss2-dev/osai-teacher-briefing/main/teacher-case-shards/scheduled-haru-batch50-4ba5bb3d2388-2b6ee146bf0c/shard-007.json"
     },
     {
-      "artifact": "teacher-case-shards/scheduled-haru-batch50-3a4f34230108-eec4ec197011/shard-008.json",
-      "byte_size": 27821,
+      "artifact": "teacher-case-shards/scheduled-haru-batch50-4ba5bb3d2388-2b6ee146bf0c/shard-008.json",
+      "byte_size": 23901,
       "case_count": 5,
       "case_ids": [
-        "teacher-review-yuya_history_backfill_YUYA-CH-032_0a67215dae0baacd-unknown_queue",
-        "teacher-review-yuya_history_backfill_YUYA-CH-033_1a050591a6be94a4-unknown_queue",
-        "teacher-review-yuya_history_backfill_YUYA-CH-034_03130486a0505810-unknown_queue",
-        "teacher-review-yuya_history_backfill_YUYA-CH-035_449a189a8fba22b6-unknown_queue",
-        "teacher-review-yuya_history_backfill_YUYA-CH-036_104e7fcc5214106f-unknown_queue"
+        "teacher-review-yuya_history_backfill_YUYA-CH-082_2f395a153c8f385e-unknown_queue",
+        "teacher-review-yuya_history_backfill_YUYA-CH-083_3031509d434c77ca-unknown_queue",
+        "teacher-review-yuya_history_backfill_YUYA-CH-084_31c117820e32b605-unknown_queue",
+        "teacher-review-yuya_history_backfill_YUYA-CH-085_344f604b514b83c8-unknown_queue",
+        "teacher-review-yuya_history_backfill_YUYA-CH-086_36a3e7a263effb0f-unknown_queue"
       ],
       "schema_version": "osai_teacher_case_shard_ref.v1",
-      "sha256": "138bb2e2b771441ffc929d6e2158e12d1783557a0d208327f789e52f34beaea6",
+      "sha256": "4add13400b85550f7539566dad664f6407f0857a5a6cfa4c928ca9a61a454ef1",
       "shard_count": 10,
       "shard_index": 8,
-      "url": "https://raw.githubusercontent.com/ryryss2-dev/osai-teacher-briefing/main/teacher-case-shards/scheduled-haru-batch50-3a4f34230108-eec4ec197011/shard-008.json"
+      "url": "https://raw.githubusercontent.com/ryryss2-dev/osai-teacher-briefing/main/teacher-case-shards/scheduled-haru-batch50-4ba5bb3d2388-2b6ee146bf0c/shard-008.json"
     },
     {
-      "artifact": "teacher-case-shards/scheduled-haru-batch50-3a4f34230108-eec4ec197011/shard-009.json",
-      "byte_size": 28081,
+      "artifact": "teacher-case-shards/scheduled-haru-batch50-4ba5bb3d2388-2b6ee146bf0c/shard-009.json",
+      "byte_size": 24880,
       "case_count": 5,
       "case_ids": [
-        "teacher-review-yuya_history_backfill_YUYA-CH-037_1c0cba1177266610-unknown_queue",
-        "teacher-review-yuya_history_backfill_YUYA-CH-038_15305f7797cd9059-unknown_queue",
-        "teacher-review-yuya_history_backfill_YUYA-CH-039_05957dfc032cc9c7-unknown_queue",
-        "teacher-review-yuya_history_backfill_YUYA-CH-040_4a8905663a652a6d-unknown_queue",
-        "teacher-review-yuya_history_backfill_YUYA-CH-041_35857ea1b0543252-unknown_queue"
+        "teacher-review-yuya_history_backfill_YUYA-CH-087_373afccbab686204-unknown_queue",
+        "teacher-review-yuya_history_backfill_YUYA-CH-088_39098624409e0653-unknown_queue",
+        "teacher-review-yuya_history_backfill_YUYA-CH-089_3a5f0a06348bc59c-unknown_queue",
+        "teacher-review-yuya_history_backfill_YUYA-CH-090_3a9f34218a71f048-unknown_queue",
+        "teacher-review-yuya_history_backfill_YUYA-CH-091_3ef6fccd83b97eff-unknown_queue"
       ],
       "schema_version": "osai_teacher_case_shard_ref.v1",
-      "sha256": "34bdb6d8694e048051c8ab74763b43b93cba444f2e2b9ebdd9a765eb34cda4f5",
+      "sha256": "051651d7ead8bfee487bbf429ee24561e196a6ac32e44a978fe5ff0982b83844",
       "shard_count": 10,
       "shard_index": 9,
-      "url": "https://raw.githubusercontent.com/ryryss2-dev/osai-teacher-briefing/main/teacher-case-shards/scheduled-haru-batch50-3a4f34230108-eec4ec197011/shard-009.json"
+      "url": "https://raw.githubusercontent.com/ryryss2-dev/osai-teacher-briefing/main/teacher-case-shards/scheduled-haru-batch50-4ba5bb3d2388-2b6ee146bf0c/shard-009.json"
     },
     {
-      "artifact": "teacher-case-shards/scheduled-haru-batch50-3a4f34230108-eec4ec197011/shard-010.json",
-      "byte_size": 22416,
+      "artifact": "teacher-case-shards/scheduled-haru-batch50-4ba5bb3d2388-2b6ee146bf0c/shard-010.json",
+      "byte_size": 19378,
       "case_count": 5,
       "case_ids": [
-        "teacher-review-yuya_history_backfill_YUYA-CH-042_0eb5df402d2ab5ff-unknown_queue",
-        "teacher-review-yuya_history_backfill_YUYA-CH-043_0194763cfebfa1fc-unknown_queue",
-        "teacher-review-yuya_history_backfill_YUYA-CH-044_07bbd6136b73dfdc-unknown_queue",
-        "teacher-review-yuya_history_backfill_YUYA-CH-045_061f002ad7e57991-unknown_queue",
-        "teacher-review-yuya_history_backfill_YUYA-CH-046_12ffd9bfffbc6e0c-unknown_queue"
+        "teacher-review-yuya_history_backfill_YUYA-CH-092_408018050e6a7af2-unknown_queue",
+        "teacher-review-yuya_history_backfill_YUYA-CH-093_41072758459c06dc-unknown_queue",
+        "teacher-review-yuya_history_backfill_YUYA-CH-094_42ce9edaf2ce8e28-unknown_queue",
+        "teacher-review-yuya_history_backfill_YUYA-CH-095_434947d065e76f8b-unknown_queue",
+        "teacher-review-yuya_history_backfill_YUYA-CH-096_4368aab3c0ec76d4-unknown_queue"
       ],
       "schema_version": "osai_teacher_case_shard_ref.v1",
-      "sha256": "e8bf2d4c9e571684f435c27c171c2bcc9a7f6e34a8c7ee44a298238b7ddeec21",
+      "sha256": "5c0e5d985925d410883cb1bd502069df4e1554e814cf6549555cb3cfdf4ded96",
       "shard_count": 10,
       "shard_index": 10,
-      "url": "https://raw.githubusercontent.com/ryryss2-dev/osai-teacher-briefing/main/teacher-case-shards/scheduled-haru-batch50-3a4f34230108-eec4ec197011/shard-010.json"
+      "url": "https://raw.githubusercontent.com/ryryss2-dev/osai-teacher-briefing/main/teacher-case-shards/scheduled-haru-batch50-4ba5bb3d2388-2b6ee146bf0c/shard-010.json"
     }
   ],
   "teacher_quality_depth_contract": {
@@ -1012,7 +1022,7 @@
     "schema_version": "osai_teacher_transport_control_root.v1",
     "teacher_second_network_fetch_required_for_integrity": false
   },
-  "valid_until": "2026-08-12T12:24:57+09:00",
+  "valid_until": "2026-08-12T12:53:23+09:00",
   "work_budget_minutes": 55.0,
   "work_mode": "case_review"
 }

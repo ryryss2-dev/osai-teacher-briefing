@@ -6,13 +6,13 @@
     "teacher_packet_exposed": false
   },
   "current_assignment_digest": "",
-  "cycle_id": "scheduled-haru-cycle-3a4f34230108f935-eec4ec1970115550",
+  "cycle_id": "scheduled-haru-cycle-4ba5bb3d23884a0d-2b6ee146bf0c7327",
   "freshness": {
     "current_assignment_digest": "",
     "schema_version": "osai_examiner_feed_freshness.v1",
-    "valid_until": "2026-08-12T04:04:44.091751+00:00"
+    "valid_until": "2026-08-12T04:13:24.040658+00:00"
   },
-  "generated_at": "2026-08-12T02:34:44.091751+00:00",
+  "generated_at": "2026-08-12T02:43:24.040658+00:00",
   "judged_candidate_digests": [],
   "no_pending_exam_item": true,
   "schema_version": "osai_examiner_briefing.v1",
