@@ -1,0 +1,322 @@
+{
+  "assignment_revision": "70cea466207fb637bbb17f5aa4e08755928f62740d2dc4e9f7cf2e6eb5bd7e29",
+  "canonical_feed_role": "immutable_commit_bound_teacher_web_input",
+  "case_count": 50,
+  "case_set_digest": "2b6ee146bf0c7327881701248e12dbd173306bb8498af846a63bf90e832946d9",
+  "control": {
+    "artifact": "teacher-web-control/sha256-dd0026c23c1c415642a2d6909cc25f0137c210e1e08124efddbafc8e570ef628.json",
+    "byte_size": 12423,
+    "sha256": "dd0026c23c1c415642a2d6909cc25f0137c210e1e08124efddbafc8e570ef628"
+  },
+  "cycle_id": "scheduled-haru-cycle-70cea466207fb637-2b6ee146bf0c7327-repair2",
+  "generated_at": "2026-08-18T03:00:42+09:00",
+  "immutable_base_url": "https://raw.githubusercontent.com/ryryss2-dev/osai-teacher-briefing/7311fbc750e1873d71cad72bf17d2f8334027111",
+  "immutable_commit_sha": "7311fbc750e1873d71cad72bf17d2f8334027111",
+  "pack_count": 25,
+  "packs": [
+    {
+      "artifact": "teacher-web-packs/sha256-5443e911727b1586a1314c25555c1d442b04236c91507f1919d825f0fe25f9bc.json",
+      "byte_size": 9349,
+      "case_count": 2,
+      "case_ids": [
+        "teacher-review-yuya_history_backfill_YUYA-CH-047_2a9f30cf650f70c0-unknown_queue",
+        "teacher-review-yuya_history_backfill_YUYA-CH-048_8236482fea7c0002-unknown_queue"
+      ],
+      "pack_count": 25,
+      "pack_index": 1,
+      "sha256": "5443e911727b1586a1314c25555c1d442b04236c91507f1919d825f0fe25f9bc"
+    },
+    {
+      "artifact": "teacher-web-packs/sha256-8e4db003d872da62f69346d459b008535944f52b2045f1b75bbc086346e76180.json",
+      "byte_size": 12400,
+      "case_count": 2,
+      "case_ids": [
+        "teacher-review-yuya_history_backfill_YUYA-CH-049_85b0dec5b766a150-unknown_queue",
+        "teacher-review-yuya_history_backfill_YUYA-CH-050_1d775d75f0036559-unknown_queue"
+      ],
+      "pack_count": 25,
+      "pack_index": 2,
+      "sha256": "8e4db003d872da62f69346d459b008535944f52b2045f1b75bbc086346e76180"
+    },
+    {
+      "artifact": "teacher-web-packs/sha256-33bf6accb2b0d20e7bc79b382626a25d579eb8bb234eedcf03923d02e47b6201.json",
+      "byte_size": 12334,
+      "case_count": 2,
+      "case_ids": [
+        "teacher-review-yuya_history_backfill_YUYA-CH-051_7be082be757da0dc-unknown_queue",
+        "teacher-review-yuya_history_backfill_YUYA-CH-052_2a3152ad71ff9007-unknown_queue"
+      ],
+      "pack_count": 25,
+      "pack_index": 3,
+      "sha256": "33bf6accb2b0d20e7bc79b382626a25d579eb8bb234eedcf03923d02e47b6201"
+    },
+    {
+      "artifact": "teacher-web-packs/sha256-80827e446dc0b9e2f922ecfb73504c0f3c5d2e30d97e737d911e3627ad1075a4.json",
+      "byte_size": 11108,
+      "case_count": 2,
+      "case_ids": [
+        "teacher-review-yuya_history_backfill_YUYA-CH-053_696850c4b7bd3169-unknown_queue",
+        "teacher-review-yuya_history_backfill_YUYA-CH-054_021ea38384391c22-unknown_queue"
+      ],
+      "pack_count": 25,
+      "pack_index": 4,
+      "sha256": "80827e446dc0b9e2f922ecfb73504c0f3c5d2e30d97e737d911e3627ad1075a4"
+    },
+    {
+      "artifact": "teacher-web-packs/sha256-69b689ad645e7a5f0a1da70955b4d1bdcb1b5a4932f0e02a991cc241f832ca92.json",
+      "byte_size": 11314,
+      "case_count": 2,
+      "case_ids": [
+        "teacher-review-yuya_history_backfill_YUYA-CH-055_03ddd9bb226e8dff-unknown_queue",
+        "teacher-review-yuya_history_backfill_YUYA-CH-056_049c7fecdc4ce9f9-unknown_queue"
+      ],
+      "pack_count": 25,
+      "pack_index": 5,
+      "sha256": "69b689ad645e7a5f0a1da70955b4d1bdcb1b5a4932f0e02a991cc241f832ca92"
+    },
+    {
+      "artifact": "teacher-web-packs/sha256-0aa29a5cf59ea6d4b943dd1d582c42e3a938aae7c20ab4a6ec78fce274be2a0f.json",
+      "byte_size": 10290,
+      "case_count": 2,
+      "case_ids": [
+        "teacher-review-yuya_history_backfill_YUYA-CH-057_0601323974630606-unknown_queue",
+        "teacher-review-yuya_history_backfill_YUYA-CH-058_0792b8e5ab612d3d-unknown_queue"
+      ],
+      "pack_count": 25,
+      "pack_index": 6,
+      "sha256": "0aa29a5cf59ea6d4b943dd1d582c42e3a938aae7c20ab4a6ec78fce274be2a0f"
+    },
+    {
+      "artifact": "teacher-web-packs/sha256-370b1ee5063664733a7ee5d36a9c9b5c061154b8a37eba9f9e8d3e99a0c96fda.json",
+      "byte_size": 10846,
+      "case_count": 2,
+      "case_ids": [
+        "teacher-review-yuya_history_backfill_YUYA-CH-059_07f0175acbc9eddc-unknown_queue",
+        "teacher-review-yuya_history_backfill_YUYA-CH-060_08dfe22c1fa6b48e-unknown_queue"
+      ],
+      "pack_count": 25,
+      "pack_index": 7,
+      "sha256": "370b1ee5063664733a7ee5d36a9c9b5c061154b8a37eba9f9e8d3e99a0c96fda"
+    },
+    {
+      "artifact": "teacher-web-packs/sha256-9e1f7122d8b80ec6111e1be1a9f461a7c34be2322534a62b6ce7542422af9919.json",
+      "byte_size": 9876,
+      "case_count": 2,
+      "case_ids": [
+        "teacher-review-yuya_history_backfill_YUYA-CH-061_0a8fee93d5729afb-unknown_queue",
+        "teacher-review-yuya_history_backfill_YUYA-CH-062_0bd19574e7513d70-unknown_queue"
+      ],
+      "pack_count": 25,
+      "pack_index": 8,
+      "sha256": "9e1f7122d8b80ec6111e1be1a9f461a7c34be2322534a62b6ce7542422af9919"
+    },
+    {
+      "artifact": "teacher-web-packs/sha256-4737e9878eeaaf7fe239fe6e711b0f7702abbd54f5e861592429252cc783c579.json",
+      "byte_size": 10726,
+      "case_count": 2,
+      "case_ids": [
+        "teacher-review-yuya_history_backfill_YUYA-CH-063_0e5ba7b30ea62f6e-unknown_queue",
+        "teacher-review-yuya_history_backfill_YUYA-CH-064_0e879181a05b7bbd-unknown_queue"
+      ],
+      "pack_count": 25,
+      "pack_index": 9,
+      "sha256": "4737e9878eeaaf7fe239fe6e711b0f7702abbd54f5e861592429252cc783c579"
+    },
+    {
+      "artifact": "teacher-web-packs/sha256-c9bddb80de0a6a831e697f911e7af6a83d58b1aa76b8fcff59f13d0385c172d9.json",
+      "byte_size": 10053,
+      "case_count": 2,
+      "case_ids": [
+        "teacher-review-yuya_history_backfill_YUYA-CH-065_0f77002eb40f0967-unknown_queue",
+        "teacher-review-yuya_history_backfill_YUYA-CH-066_1366856a9b2d0af7-unknown_queue"
+      ],
+      "pack_count": 25,
+      "pack_index": 10,
+      "sha256": "c9bddb80de0a6a831e697f911e7af6a83d58b1aa76b8fcff59f13d0385c172d9"
+    },
+    {
+      "artifact": "teacher-web-packs/sha256-2fb187ae95b624ab2a2651f44f23a283ce2e21d4cbe9867647328c9ccfec28d8.json",
+      "byte_size": 9824,
+      "case_count": 2,
+      "case_ids": [
+        "teacher-review-yuya_history_backfill_YUYA-CH-067_15ffe00db0e72445-unknown_queue",
+        "teacher-review-yuya_history_backfill_YUYA-CH-068_1655df2fac4f7d2a-unknown_queue"
+      ],
+      "pack_count": 25,
+      "pack_index": 11,
+      "sha256": "2fb187ae95b624ab2a2651f44f23a283ce2e21d4cbe9867647328c9ccfec28d8"
+    },
+    {
+      "artifact": "teacher-web-packs/sha256-5e32c33b4b5c92824d0c701d8b7092777edec9fd1999a41014b80bac6322a130.json",
+      "byte_size": 9321,
+      "case_count": 2,
+      "case_ids": [
+        "teacher-review-yuya_history_backfill_YUYA-CH-069_176f42185320a258-unknown_queue",
+        "teacher-review-yuya_history_backfill_YUYA-CH-070_19a50d03d9ca18e7-unknown_queue"
+      ],
+      "pack_count": 25,
+      "pack_index": 12,
+      "sha256": "5e32c33b4b5c92824d0c701d8b7092777edec9fd1999a41014b80bac6322a130"
+    },
+    {
+      "artifact": "teacher-web-packs/sha256-b40b2c70529532e449a76dc6cd1dd1923be8549fd5279d53c796248e36c5a690.json",
+      "byte_size": 10270,
+      "case_count": 2,
+      "case_ids": [
+        "teacher-review-yuya_history_backfill_YUYA-CH-071_1def1c4469cdd22c-unknown_queue",
+        "teacher-review-yuya_history_backfill_YUYA-CH-072_1e7bd4daa76bf6fe-unknown_queue"
+      ],
+      "pack_count": 25,
+      "pack_index": 13,
+      "sha256": "b40b2c70529532e449a76dc6cd1dd1923be8549fd5279d53c796248e36c5a690"
+    },
+    {
+      "artifact": "teacher-web-packs/sha256-ac6be545b0be672c19c6b43c6a8656effff89217428e06a3864f2b2fc55f54e8.json",
+      "byte_size": 11799,
+      "case_count": 2,
+      "case_ids": [
+        "teacher-review-yuya_history_backfill_YUYA-CH-073_1f41a35fb18166f4-unknown_queue",
+        "teacher-review-yuya_history_backfill_YUYA-CH-074_1fd4bdeffb779e7a-unknown_queue"
+      ],
+      "pack_count": 25,
+      "pack_index": 14,
+      "sha256": "ac6be545b0be672c19c6b43c6a8656effff89217428e06a3864f2b2fc55f54e8"
+    },
+    {
+      "artifact": "teacher-web-packs/sha256-243bc03a8829a66d06b5907b8340601cae4774fe1e505ae1f8f436e1eff0d550.json",
+      "byte_size": 8530,
+      "case_count": 2,
+      "case_ids": [
+        "teacher-review-yuya_history_backfill_YUYA-CH-075_20d9e1fe9b8e0640-unknown_queue",
+        "teacher-review-yuya_history_backfill_YUYA-CH-076_221dd545989c959e-unknown_queue"
+      ],
+      "pack_count": 25,
+      "pack_index": 15,
+      "sha256": "243bc03a8829a66d06b5907b8340601cae4774fe1e505ae1f8f436e1eff0d550"
+    },
+    {
+      "artifact": "teacher-web-packs/sha256-d8dda5253af885d35f467901a53cd87bc2e4268dc7ddb643ccbba529f80fcd74.json",
+      "byte_size": 10129,
+      "case_count": 2,
+      "case_ids": [
+        "teacher-review-yuya_history_backfill_YUYA-CH-077_22b42fc12fe08068-unknown_queue",
+        "teacher-review-yuya_history_backfill_YUYA-CH-078_247c214aff477a19-unknown_queue"
+      ],
+      "pack_count": 25,
+      "pack_index": 16,
+      "sha256": "d8dda5253af885d35f467901a53cd87bc2e4268dc7ddb643ccbba529f80fcd74"
+    },
+    {
+      "artifact": "teacher-web-packs/sha256-c2fc6d699251d7c791c9e29bbbbdca708ab23b4285ba8dd94446e396cb67a039.json",
+      "byte_size": 10534,
+      "case_count": 2,
+      "case_ids": [
+        "teacher-review-yuya_history_backfill_YUYA-CH-079_288363817dea4215-unknown_queue",
+        "teacher-review-yuya_history_backfill_YUYA-CH-080_2a7002f20e7979c9-unknown_queue"
+      ],
+      "pack_count": 25,
+      "pack_index": 17,
+      "sha256": "c2fc6d699251d7c791c9e29bbbbdca708ab23b4285ba8dd94446e396cb67a039"
+    },
+    {
+      "artifact": "teacher-web-packs/sha256-c9b81d44ca2b32b9917c7d4eeb759edd945901fb47c0ad2b4b62ba8beb2d993d.json",
+      "byte_size": 9688,
+      "case_count": 2,
+      "case_ids": [
+        "teacher-review-yuya_history_backfill_YUYA-CH-081_2d27825200ea93b0-unknown_queue",
+        "teacher-review-yuya_history_backfill_YUYA-CH-082_2f395a153c8f385e-unknown_queue"
+      ],
+      "pack_count": 25,
+      "pack_index": 18,
+      "sha256": "c9b81d44ca2b32b9917c7d4eeb759edd945901fb47c0ad2b4b62ba8beb2d993d"
+    },
+    {
+      "artifact": "teacher-web-packs/sha256-130e85656d205bd033db6e658395526de224d5dafe8f8cb806a8a7d17910e988.json",
+      "byte_size": 11921,
+      "case_count": 2,
+      "case_ids": [
+        "teacher-review-yuya_history_backfill_YUYA-CH-083_3031509d434c77ca-unknown_queue",
+        "teacher-review-yuya_history_backfill_YUYA-CH-084_31c117820e32b605-unknown_queue"
+      ],
+      "pack_count": 25,
+      "pack_index": 19,
+      "sha256": "130e85656d205bd033db6e658395526de224d5dafe8f8cb806a8a7d17910e988"
+    },
+    {
+      "artifact": "teacher-web-packs/sha256-52228ce9e5c1a37275a99d8224b53a0ece4bff6a70fd67018447d797bef5aee7.json",
+      "byte_size": 10377,
+      "case_count": 2,
+      "case_ids": [
+        "teacher-review-yuya_history_backfill_YUYA-CH-085_344f604b514b83c8-unknown_queue",
+        "teacher-review-yuya_history_backfill_YUYA-CH-086_36a3e7a263effb0f-unknown_queue"
+      ],
+      "pack_count": 25,
+      "pack_index": 20,
+      "sha256": "52228ce9e5c1a37275a99d8224b53a0ece4bff6a70fd67018447d797bef5aee7"
+    },
+    {
+      "artifact": "teacher-web-packs/sha256-1b38a7fafc88907d034702b78a31ad59438c8d88361c1aeab63a270553a3a538.json",
+      "byte_size": 11796,
+      "case_count": 2,
+      "case_ids": [
+        "teacher-review-yuya_history_backfill_YUYA-CH-087_373afccbab686204-unknown_queue",
+        "teacher-review-yuya_history_backfill_YUYA-CH-088_39098624409e0653-unknown_queue"
+      ],
+      "pack_count": 25,
+      "pack_index": 21,
+      "sha256": "1b38a7fafc88907d034702b78a31ad59438c8d88361c1aeab63a270553a3a538"
+    },
+    {
+      "artifact": "teacher-web-packs/sha256-a304176f6b4bcf714110c73b7dfd2780eb61b57ea6d782a0a0f23669b10bdc97.json",
+      "byte_size": 10425,
+      "case_count": 2,
+      "case_ids": [
+        "teacher-review-yuya_history_backfill_YUYA-CH-089_3a5f0a06348bc59c-unknown_queue",
+        "teacher-review-yuya_history_backfill_YUYA-CH-090_3a9f34218a71f048-unknown_queue"
+      ],
+      "pack_count": 25,
+      "pack_index": 22,
+      "sha256": "a304176f6b4bcf714110c73b7dfd2780eb61b57ea6d782a0a0f23669b10bdc97"
+    },
+    {
+      "artifact": "teacher-web-packs/sha256-a754df218efa16db9209520061fb7726f8678faa6b07bc2ce65306c2d143d1a6.json",
+      "byte_size": 10769,
+      "case_count": 2,
+      "case_ids": [
+        "teacher-review-yuya_history_backfill_YUYA-CH-091_3ef6fccd83b97eff-unknown_queue",
+        "teacher-review-yuya_history_backfill_YUYA-CH-092_408018050e6a7af2-unknown_queue"
+      ],
+      "pack_count": 25,
+      "pack_index": 23,
+      "sha256": "a754df218efa16db9209520061fb7726f8678faa6b07bc2ce65306c2d143d1a6"
+    },
+    {
+      "artifact": "teacher-web-packs/sha256-979eed732704095ac74e1fde69745fe437da33bd495a9455cd128095a8abe1f3.json",
+      "byte_size": 10310,
+      "case_count": 2,
+      "case_ids": [
+        "teacher-review-yuya_history_backfill_YUYA-CH-093_41072758459c06dc-unknown_queue",
+        "teacher-review-yuya_history_backfill_YUYA-CH-094_42ce9edaf2ce8e28-unknown_queue"
+      ],
+      "pack_count": 25,
+      "pack_index": 24,
+      "sha256": "979eed732704095ac74e1fde69745fe437da33bd495a9455cd128095a8abe1f3"
+    },
+    {
+      "artifact": "teacher-web-packs/sha256-a953cb9b3e96df089d6c0ff5697b9a208503a914d8d0e21b054d84b6f8cccc25.json",
+      "byte_size": 8579,
+      "case_count": 2,
+      "case_ids": [
+        "teacher-review-yuya_history_backfill_YUYA-CH-095_434947d065e76f8b-unknown_queue",
+        "teacher-review-yuya_history_backfill_YUYA-CH-096_4368aab3c0ec76d4-unknown_queue"
+      ],
+      "pack_count": 25,
+      "pack_index": 25,
+      "sha256": "a953cb9b3e96df089d6c0ff5697b9a208503a914d8d0e21b054d84b6f8cccc25"
+    }
+  ],
+  "schema_version": "osai_teacher_task_discovery.v1",
+  "status": "assignment_ready",
+  "teacher_packet_id": "scheduled-haru-batch50-70cea466207f-2b6ee146bf0c-repair2",
+  "valid_until": "2026-08-18T04:10:42+09:00"
+}
