@@ -4,14 +4,14 @@
   "case_count": 50,
   "case_set_digest": "2b6ee146bf0c7327881701248e12dbd173306bb8498af846a63bf90e832946d9",
   "control": {
-    "artifact": "teacher-web-control/sha256-f837924a5cedc3697e71ac853f7070a2b74a39c644fb312a1507b702ae95d7d1.json",
+    "artifact": "teacher-web-control/sha256-eb0034c3258b1c992d025bf9a43a4cf4efbc64f42655764a87e3cba58c2d09d7.json",
     "byte_size": 12423,
-    "sha256": "f837924a5cedc3697e71ac853f7070a2b74a39c644fb312a1507b702ae95d7d1"
+    "sha256": "eb0034c3258b1c992d025bf9a43a4cf4efbc64f42655764a87e3cba58c2d09d7"
   },
   "cycle_id": "scheduled-haru-cycle-70cea466207fb637-2b6ee146bf0c7327-repair2",
-  "generated_at": "2026-08-18T07:05:02+09:00",
-  "immutable_base_url": "https://raw.githubusercontent.com/ryryss2-dev/osai-teacher-briefing/16bf169301f6b089f2ab3b3ff4a64e0df0454e57",
-  "immutable_commit_sha": "16bf169301f6b089f2ab3b3ff4a64e0df0454e57",
+  "generated_at": "2026-08-18T09:07:32+09:00",
+  "immutable_base_url": "https://raw.githubusercontent.com/ryryss2-dev/osai-teacher-briefing/1be0d49bb99aeb7fedca3139a4a7ed094a283ab3",
+  "immutable_commit_sha": "1be0d49bb99aeb7fedca3139a4a7ed094a283ab3",
   "pack_count": 25,
   "packs": [
     {
@@ -318,5 +318,5 @@
   "schema_version": "osai_teacher_task_discovery.v1",
   "status": "assignment_ready",
   "teacher_packet_id": "scheduled-haru-batch50-70cea466207f-2b6ee146bf0c-repair2",
-  "valid_until": "2026-08-18T08:15:02+09:00"
+  "valid_until": "2026-08-18T10:17:32+09:00"
 }
