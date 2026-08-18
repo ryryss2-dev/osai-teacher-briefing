@@ -1,28 +1,4 @@
 {
-  "aaa_immutable_snapshot_locator": {
-    "artifact": "teacher-root-snapshots/sha256-addb967ff72bd7092920c73f43ac5c3b33ed0c28c7401f29b0027cff4948d4ae.json",
-    "assignment_revision": "70cea466207fb637bbb17f5aa4e08755928f62740d2dc4e9f7cf2e6eb5bd7e29",
-    "byte_size": 63757,
-    "canonical_root_role": "content_addressed_immutable_snapshot",
-    "case_set_digest": "2b6ee146bf0c7327881701248e12dbd173306bb8498af846a63bf90e832946d9",
-    "entry_role": "mutable_discovery_mirror_only",
-    "fallback_urls": [
-      "https://haruspace.rayglint.com/scheduled-haru-publication/teacher-root-snapshots/sha256-addb967ff72bd7092920c73f43ac5c3b33ed0c28c7401f29b0027cff4948d4ae.json"
-    ],
-    "fetch_contract": {
-      "all_root_inspection_after_locator_from_snapshot_only": true,
-      "immutable_snapshot_fetch_count_max": 1,
-      "initial_main_fetch_count_max": 1,
-      "main_root_reopen_after_locator_forbidden": true,
-      "snapshot_path_write_once": true,
-      "snapshot_sha_and_identity_must_match_locator": true
-    },
-    "required_action": "Immediately fetch this immutable snapshot exactly once, then use only that snapshot for all root inspection, identity/integrity validation, shard selection, and analysis. Do not inspect or reopen the mutable main root again.",
-    "schema_version": "osai_teacher_immutable_snapshot_locator.v1",
-    "sha256": "addb967ff72bd7092920c73f43ac5c3b33ed0c28c7401f29b0027cff4948d4ae",
-    "teacher_packet_id": "scheduled-haru-batch50-70cea466207f-2b6ee146bf0c-repair2",
-    "url": "https://raw.githubusercontent.com/ryryss2-dev/osai-teacher-briefing/main/teacher-root-snapshots/sha256-addb967ff72bd7092920c73f43ac5c3b33ed0c28c7401f29b0027cff4948d4ae.json"
-  },
   "assignment": {
     "assignment_id": "scheduled-haru-batch50-70cea466207f-2b6ee146bf0c-repair2",
     "assignment_revision": "70cea466207fb637bbb17f5aa4e08755928f62740d2dc4e9f7cf2e6eb5bd7e29",
