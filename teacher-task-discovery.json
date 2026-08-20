@@ -10,8 +10,8 @@
   },
   "cycle_id": "scheduled-haru-cycle-70cea466207fb637-2b6ee146bf0c7327-repair2",
   "generated_at": "2026-08-19T15:45:45+09:00",
-  "immutable_base_url": "https://raw.githubusercontent.com/ryryss2-dev/osai-teacher-briefing/42a4bba308bff14457198e0d4f8659e68e4bf437",
-  "immutable_commit_sha": "42a4bba308bff14457198e0d4f8659e68e4bf437",
+  "immutable_base_url": "https://raw.githubusercontent.com/ryryss2-dev/osai-teacher-briefing/e7b26c30ebc05cd7fad899f356650032f2a9915f",
+  "immutable_commit_sha": "e7b26c30ebc05cd7fad899f356650032f2a9915f",
   "pack_count": 25,
   "packs": [
     {
