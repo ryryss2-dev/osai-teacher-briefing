@@ -1,0 +1,19 @@
+{
+  "boundary_flags": {
+    "attachment_required": false,
+    "browser_launch_required": false,
+    "gmail_used_as_input": false,
+    "manual_test_only": true,
+    "provider_send_required": false,
+    "repo_write_scope": "public_smoke_packet_only",
+    "scheduler_task_modification_required": false
+  },
+  "expected_teacher_result": "If this exact packet SHA matches the prompt-bound expected digest, send one Gmail-compatible Teacher result envelope; otherwise stop fail-closed.",
+  "mode": "MANUAL_TEST_ONLY",
+  "packet_id": "manual-osai-sha-smoke-packet-20260822-r2",
+  "problem": "Verify that a ChatGPT Task manual run can read an OSAI-specific public HTTPS packet, verify its SHA256 digest, and send a Gmail-compatible Teacher result only after digest match.",
+  "review_status": "NOT_INDEPENDENTLY_REVIEWED",
+  "schema_version": "osai_scheduled_haru_sha_smoke_packet.v2",
+  "source_purpose": "OSAI-specific small control source for Scheduled Haru URL/Gmail SHA-bound smoke testing.",
+  "test_generation": "20260822-r2"
+}
