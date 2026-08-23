@@ -1,14 +1,14 @@
 {
-  "artifact": "examiner-briefings/sha256-b1bec850e671d9f45d4e625f8039103977868df5f34560ad7f892fc6d8d453cd.json",
+  "artifact": "examiner-briefings/sha256-1984384a87a49f8c0794780543df8bf609a9363adeb8edbd1a427bf25a6f9321.json",
   "byte_size": 26630,
   "candidate_digest": "0813263dd94a32fdb5a5f1d266b0f34606d92d27fcab3eade01a009e004d98e5",
   "canonical_feed_role": "immutable_commit_bound_examiner_feed",
   "cycle_id": "scheduled-haru-cycle-3641175e8c2a3e66-eec4ec1970115550",
-  "generated_at": "2026-08-23T03:35:59.641975+00:00",
-  "immutable_commit_sha": "4222b7acfecab0c6189aaf94e77317310f4f02a8",
-  "immutable_url": "https://raw.githubusercontent.com/ryryss2-dev/osai-teacher-briefing/4222b7acfecab0c6189aaf94e77317310f4f02a8/examiner-briefings/sha256-b1bec850e671d9f45d4e625f8039103977868df5f34560ad7f892fc6d8d453cd.json",
+  "generated_at": "2026-08-23T04:36:36.081620+00:00",
+  "immutable_commit_sha": "8da081b0b705aaa6ebe0a9dfb7a7f70e0cc911e0",
+  "immutable_url": "https://raw.githubusercontent.com/ryryss2-dev/osai-teacher-briefing/8da081b0b705aaa6ebe0a9dfb7a7f70e0cc911e0/examiner-briefings/sha256-1984384a87a49f8c0794780543df8bf609a9363adeb8edbd1a427bf25a6f9321.json",
   "schema_version": "osai_examiner_discovery.v1",
-  "sha256": "b1bec850e671d9f45d4e625f8039103977868df5f34560ad7f892fc6d8d453cd",
+  "sha256": "1984384a87a49f8c0794780543df8bf609a9363adeb8edbd1a427bf25a6f9321",
   "status": "assignment_ready",
-  "valid_until": "2026-08-23T05:05:59.641975+00:00"
+  "valid_until": "2026-08-23T06:06:36.081620+00:00"
 }
